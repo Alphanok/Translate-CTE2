@@ -1,139 +1,20 @@
 ======================================================================
 ОТЧЁТ О СРАВНЕНИИ .snbt ФАЙЛОВ
-Старая версия: old
-Новая версия:  new
+Старая версия: E:\GitHub\-CTE2\Translate quest\old
+Новая версия:  E:\GitHub\-CTE2\Translate quest\new
 ======================================================================
 
-Всего файлов в старой версии: 21
-Всего файлов в новой версии:  21
-Без изменений: 15
-Изменено файлов: 6
+Всего файлов в старой версии: 49
+Всего файлов в новой версии:  49
+Без изменений: 49
+Изменено файлов: 0
 Новых файлов: 0
 Удалённых файлов: 0
 
 ######################################################################
 # ИЗМЕНЁННЫЕ ФАЙЛЫ
 ######################################################################
-
-----------------------------------------------------------------------
-ФАЙЛ: act_0.snbt
-----------------------------------------------------------------------
-
-ИЗМЕНЕНО:
-  было  (стр. 920):  				"&eYou can move the Skill hotbar&r via the &eExile GUI Settings&r (bottom of quick access wheel). "
-  стало (стр. 920):  				"&eYou can move the Skill hotbar&r via the &eExile GUI Settings&r (bottom of quick access wheel)."
-
-УДАЛЕНО (без замены):
-  - (стр. 921) 				""
-  - (стр. 922) 				"You can either assign keys to all 8 Skills, or you can toggle between the 4 (default: X)."
-
-
-----------------------------------------------------------------------
-ФАЙЛ: act_iii.snbt
-----------------------------------------------------------------------
-
-ИЗМЕНЕНО:
-  было  (стр. 96):  				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Mazes&r... It might be worth checking out. You can find these Ice Mazes on the &esurface near Deep Frozen Oceans&r. "
-  стало (стр. 96):  				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Maze biomes&r... It might be worth checking out. You can find these Ice Maze biomes on the &esurface near Deep Frozen Oceans&r. "
-
-ДОБАВЛЕНО (новые строки):
-  + (стр. 133) 				}
-  + (стр. 134) 				{
-  + (стр. 135) 					biome: "#aquamirae:ice_maze"
-  + (стр. 136) 					icon: "minecraft:blue_ice"
-  + (стр. 137) 					id: "2934F7FA5AB1C69F"
-  + (стр. 138) 					title: "Find an Ice Maze"
-  + (стр. 139) 					type: "biome"
-
-УДАЛЕНО (без замены):
-  - (стр. 130) 					icon: "minecraft:ice"
-  - (стр. 131) 					id: "7D9182428353834C"
-  - (стр. 132) 					structure: "aquamirae:ice_maze/common"
-  - (стр. 133) 					title: "Find an Ice Maze"
-  - (стр. 134) 					type: "structure"
-  - (стр. 135) 				}
-  - (стр. 136) 				{
-
-
-----------------------------------------------------------------------
-ФАЙЛ: act_v.snbt
-----------------------------------------------------------------------
-
-ИЗМЕНЕНО:
-  было  (стр. 1026):  				"You may have already noticed that &esneak + right-clicking (empty hand)&r your &eMap Device&r brings up a huge tree. This is the &cAtlas&r, a progression-based system designed to encourage you to run various types of Maps."
-  стало (стр. 1026):  				"You may have already noticed that &esneak + right-clicking (both hands need to be empty)&r your &eMap Device&r brings up a huge tree. This is the &cAtlas&r, a progression-based system designed to encourage you to run various types of Maps."
-
-
-----------------------------------------------------------------------
-ФАЙЛ: gem_shop.snbt
-----------------------------------------------------------------------
-
-ИЗМЕНЕНО:
-  было  (стр. 416):  					item: { Count: 5, id: "minecraft:phantom_membrane" }
-  стало (стр. 418):  					item: "minecraft:phantom_membrane"
-
-  было  (стр. 427):  					item: { Count: 2, id: "minecraft:feather" }
-  стало (стр. 431):  					item: "minecraft:feather"
-
-ДОБАВЛЕНО (новые строки):
-  + (стр. 409) 					consume_items: true
-  + (стр. 415) 					consume_items: true
-  + (стр. 422) 					consume_items: true
-  + (стр. 428) 					consume_items: true
-
-
-----------------------------------------------------------------------
-ФАЙЛ: magical_flora.snbt
-----------------------------------------------------------------------
-УДАЛЕНО (без замены):
-  - (стр. 1932) 			dependencies: ["0F4713A9935F369F"]
-  - (стр. 1933) 			description: ["After tinkering with energy of End, Elven Knowledge and Gaia spirits you manage to create seemingly infinite pocket space that can hold 1 type of item - &l&2Black Hole Talisman&r&r, and you can access it as long as you have mana."]
-  - (стр. 1934) 			id: "33EF4CC9FE5B1ED4"
-  - (стр. 1935) 			rewards: [{
-  - (стр. 1936) 				auto: "enabled"
-  - (стр. 1937) 				command: "/mine_and_slash give xp_times_lvl @p 100"
-  - (стр. 1938) 				elevate_perms: true
-  - (стр. 1939) 				icon: "ftb_ph:exp"
-  - (стр. 1940) 				id: "735D74249264D06E"
-  - (стр. 1941) 				silent: true
-  - (стр. 1942) 				title: "100 Experience x Lv."
-  - (стр. 1943) 				type: "command"
-  - (стр. 1944) 			}]
-  - (стр. 1945) 			subtitle: "Somewhere for all that cobble."
-  - (стр. 1946) 			tasks: [{
-  - (стр. 1947) 				id: "44A4E008202DFC62"
-  - (стр. 1948) 				item: "botania:black_hole_talisman"
-  - (стр. 1949) 				type: "item"
-  - (стр. 1950) 			}]
-  - (стр. 1951) 			x: 0.5d
-  - (стр. 1952) 			y: -16.0d
-  - (стр. 1953) 		}
-  - (стр. 1954) 		{
-
-
-----------------------------------------------------------------------
-ФАЙЛ: storage_solutions.snbt
-----------------------------------------------------------------------
-
-ИЗМЕНЕНО:
-  было  (стр. 15):  				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables. It requires &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
-  стало (стр. 15):  				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables."
-
-  было  (стр. 17):  				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined. "
-  стало (стр. 17):  				"A basic storage system (&eController, Disk Drive, External Storage, and any Grid&r) uses 0 energy to run!"
-
-ДОБАВЛЕНО (новые строки):
-  + (стр. 18) 				""
-  + (стр. 19) 				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined."
-  + (стр. 468) 				"More advanced features such as item manipulation require &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
-  + (стр. 469) 				""
-
-УДАЛЕНО (без замены):
-  - (стр. 305) 				""
-  - (стр. 306) 				"A basic storage system (&eController, Disk Drive and any Grid&r) uses 0 energy to run!"
-  - (стр. 477) 				""
-  - (стр. 478) 				"The &eMana Fluxfield&r converts Botania Mana into FE for Refined Storage item manipulation!"
-
+(нет изменённых файлов)
 
 ######################################################################
 # НОВЫЕ ФАЙЛЫ (появились в новой версии)

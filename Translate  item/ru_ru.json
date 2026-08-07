@@ -603,7 +603,7 @@
   "mmorpg.talent.burn_damage_big": "Major Burn Damage",
   "mmorpg.talent.burn_duration_big": "Major Burn Duration",
   "mmorpg.talent.cdr_big": "Major Cooldown Reduction",
-  "mmorpg.talent.chain_damage_big": "Значительный урон навыков с тегом 'Цепь'",
+  "mmorpg.talent.chain_damage_big": "Значительный урон цепных умений",
   "mmorpg.talent.champion_class": "Чемпион",
   "mmorpg.talent.champion_class_0": "Щит воина",
   "mmorpg.talent.champion_class_1": "Яростный натиск",
@@ -1642,7 +1642,7 @@
   "mmorpg.chat.cant_use_multiple_same_supports": "You can't use Multiples of those Support Gems.",
   "mmorpg.chat.cast_failed": "[Cast Fail]: ",
   "mmorpg.chat.caught_something": "You caught something!",
-  "mmorpg.chat.character_load_info": "Сохранения персонажа включают:\n- Ваш уровень и опыт\n- Ваши умения, характеристики, таланты, настройки панели быстрого доступа\n\nСнаряжение, камни, украшения и прочее не сохраняются.\n\nКаждый персонаж начинает с 1 уровня.",
+  "mmorpg.chat.character_load_info": "Сохранения персонажа включают:\n- Ваш уровень и опыт\n- Ваши заклинания, характеристики, таланты, настройку панели быстрого доступа\n- Надетую Броню, Оружие в левой руке, Кольца, Ожерелье и Кодекс\n\nНадетое снаряжение сохраняется вместе с персонажем и возвращается при его загрузке.\n\nОна не сохраняет ваш инвентарь, оружие, рюкзак, самоцветы или драгоценные камни.\n\nКаждый персонаж начинает с 1 уровня",
   "mmorpg.chat.command_block_unavaliable": "Командные блоки отключены, это помешает вам играть в подземелья Mine and Slash!",
   "mmorpg.chat.corrupt_cant_be_modified": "Осквернённые предметы нельзя изменять. Их можно только улучшать, вставляя в них камни и прочее.",
   "mmorpg.chat.craft_prof_mat_source": "Создано на станции профессии: %1$s",
@@ -4815,7 +4815,7 @@
   
   "mmorpg.stat.learn_vortex_skewer": "Уровень к пронзающему вихрю",
   "mmorpg.spell.vortex_skewer": "Пронзающий вихрь",
-  "spell.desc.vortex_skewer": "Бросьте вращающееся ледяное копье, пронзающее и притягивающее врагов на своем пути. Враги, пораженные копьем, получают [calc:vortex_skewer] урона \u00A7b\u2600 холодом\u00A77 и ненадолго получают замедление и эффект \u00A7bснежный след\u00A77.\n\n§aМожет активировать стихийный взрыв.§7",
+  "spell.desc.vortex_skewer": "Метните вращающееся ледяное копьё, пронзающее и притягивающее врагов на своём пути. В конце пути оно взрывается. При взрыве враги, пронзённые копьём, получают [calc:vortex_skewer] урона §b☀ холодом§7  и на короткое время получают замедление и статус §bснежный след§7.\n\n§aМожет активировать стихийный взрыв.§7",
   
   "mmorpg.stat.learn_avalanche_vault": "Уровень к лавинному прыжку",
   "mmorpg.spell.avalanche_vault": "Лавинный прыжок",
@@ -4839,7 +4839,7 @@
   
   "mmorpg.stat.learn_rime_reaver": "Уровень к жнецу мороза",
   "mmorpg.spell.rime_reaver": "Жнец мороза",
-  "spell.desc.rime_reaver": "Быстро вращайтесь, поднимая ледяную бурю, которая выпускает во все стороны пронзающие ледяные осколки. Осколки наносят [calc:rime_reaver] урона \u00A7b\u2600 холодом\u00A77 всем врагам на своём пути. По врагам с эффектом \u00A7bснежный след\u00A77 осколки вместо этого наносят [calc:rime_reaver_tracked] урона \u00A7b\u2600 холодом\u00A77 и накладывают замедление на 2 сек.\n\n§aМожет вызвать стихийный взрыв.§7",
+  "spell.desc.rime_reaver": "Быстро вращаетесь, поднимая ледяную бурю, и выпустите пронзающие ледяные снаряды во все стороны. Ближайшие враги получают [calc:rime_reaver_half] урона §b☀ холодом§7, а снаряды наносят [calc:rime_reaver] урона §b☀ холодом§7 всем врагам на своём пути. Против врагов, отмеченных §bснежным следом§7, снаряды вместо этого наносят [calc:rime_reaver_tracked] урона §b☀ холодом§7  и накладывают замедление на 2сек.\n\n§aМожет активировать стихийный взрыв.§7",
 
 "_comment123453": " [CATEGORY]: Sanguimancer - by Villain",
   
@@ -5420,12 +5420,12 @@
   "library_of_exile.item_requirement.has_nothing_socketed": "Не должно содержать вставленный камень или руну",
   "library_of_exile.item_requirement.is_aura_gem": "Должен быть камнем усиления",
   "library_of_exile.item_requirement.is_common_or_uncommon": "Должен быть обычного или необычного качества",
-  "library_of_exile.item_requirement.is_gear_slot_boots": "Должен соответствовать подходящему слоту экипировки",
-  "library_of_exile.item_requirement.is_gear_slot_chest": "Должен соответствовать подходящему слоту экипировки",
-  "library_of_exile.item_requirement.is_gear_slot_helmet": "Должен соответствовать подходящему слоту экипировки",
-  "library_of_exile.item_requirement.is_gear_slot_necklace": "Должен соответствовать подходящему слоту экипировки",
-  "library_of_exile.item_requirement.is_gear_slot_pants": "Должен соответствовать подходящему слоту экипировки",
-  "library_of_exile.item_requirement.is_gear_slot_ring": "Должен соответствовать подходящему слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_boots": "Должен соответствовать слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_chest": "Должен соответствовать слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_helmet": "Должен соответствовать слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_necklace": "Должен соответствовать слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_pants": "Должен соответствовать слоту экипировки",
+  "library_of_exile.item_requirement.is_gear_slot_ring": "Должен соответствовать слоту экипировки",
   "library_of_exile.item_requirement.is_gear_slot_weapon_family": "Должен соответствовать подходящему слоту экипировки",
   "library_of_exile.item_requirement.is_omen": "Должен быть кодексом",
   "library_of_exile.item_requirement.is_skill_gem_common_or_uncommon": "Должен быть обычного или необычного качества",
@@ -5450,6 +5450,10 @@
 
   "mmorpg.support_gem.targeted_hate": "Камень поддержки: yаправленная ненависть",
   "mmorpg.support_gem.proj_nova": "Камень поддержки: снаряды новы",
-  "mmorpg.support_gem.turbo_totems": "Камень поддержки: усиленные тотемы"
+  "mmorpg.support_gem.turbo_totems": "Камень поддержки: усиленные тотемы",
+  "library_of_exile.item_modification.increment_uses_codex_rarity_uses": "Увеличивает количество использований",
+  "library_of_exile.item_requirement.max_uses_codex_rarity_uses": "Максимум %1$s использований: %2$s",
+  "mmorpg.chat.character_gear_returned": "Возвращено %1$s предметов, которые были надеты на персонажа.",
+  "mmorpg.chat.character_switched_gear": "Сохранено %1$s надетых предметов, и надето %2$s предметов, принадлежащих этому персонажу."
   
 }

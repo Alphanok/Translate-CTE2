@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-"""
+r"""
 Сравнение .snbt файлов между двумя версиями (старая -> новая).
 
-Использование:
+Запуск: просто дважды кликните по этому файлу.
+
+Скрипт ожидает, что рядом с ним (в той же папке) лежат две подпапки:
+    old\   - старая версия
+    new\   - новая версия
+
+Если хотите другие имена папок - поменяйте значения OLD_DIR_NAME и
+NEW_DIR_NAME ниже, либо запустите из консоли с аргументами:
     python compare_snbt.py <папка_старая> <папка_новая> [-o отчёт.txt]
 
 Формат отчёта по каждому изменённому файлу:
@@ -19,8 +26,15 @@
 
 import argparse
 import difflib
+import os
 import sys
 from pathlib import Path
+
+# Имена папок по умолчанию (используются при запуске двойным кликом,
+# без аргументов командной строки). Папки должны лежать рядом со скриптом.
+OLD_DIR_NAME = "old"
+NEW_DIR_NAME = "new"
+DEFAULT_OUTPUT_NAME = "report.txt"
 
 
 def find_snbt_files(root: Path) -> dict[str, Path]:
@@ -77,22 +91,13 @@ def classify_changes(old_lines: list[str], new_lines: list[str]):
     return changed, added, removed
 
 
-def main():
-    parser = argparse.ArgumentParser(description="Сравнение .snbt файлов между версиями")
-    parser.add_argument("old_dir", help="Папка со старой версией")
-    parser.add_argument("new_dir", help="Папка с новой версией")
-    parser.add_argument("-o", "--output", default="report.txt", help="Файл отчёта (по умолчанию report.txt)")
-    args = parser.parse_args()
-
-    old_dir = Path(args.old_dir)
-    new_dir = Path(args.new_dir)
-
+def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
     if not old_dir.is_dir():
-        print(f"Ошибка: папка не найдена: {old_dir}", file=sys.stderr)
-        sys.exit(1)
+        print(f"Ошибка: папка не найдена: {old_dir}")
+        return False
     if not new_dir.is_dir():
-        print(f"Ошибка: папка не найдена: {new_dir}", file=sys.stderr)
-        sys.exit(1)
+        print(f"Ошибка: папка не найдена: {new_dir}")
+        return False
 
     old_files = find_snbt_files(old_dir)
     new_files = find_snbt_files(new_dir)
@@ -183,13 +188,56 @@ def main():
     for rel in removed_files:
         lines_out.append(f"- {rel}")
 
-    output_path = Path(args.output)
     with open(output_path, "w", encoding="utf-8") as f:
         f.write("\n".join(lines_out) + "\n")
 
     print(f"Готово. Отчёт сохранён в: {output_path.resolve()}")
     print(f"Изменено файлов: {len(per_file_results)}, новых файлов: {len(added_files)}, удалено: {len(removed_files)}")
+    return True
+
+
+def main():
+    base_dir = Path(os.path.dirname(os.path.abspath(__file__)))
+
+    # Если скрипт запущен с аргументами командной строки - используем их
+    # (это по-прежнему работает, если кому-то нужна консоль).
+    if len(sys.argv) > 1:
+        parser = argparse.ArgumentParser(description="Сравнение .snbt файлов между версиями")
+        parser.add_argument("old_dir", help="Папка со старой версией")
+        parser.add_argument("new_dir", help="Папка с новой версией")
+        parser.add_argument("-o", "--output", default=str(base_dir / DEFAULT_OUTPUT_NAME),
+                             help="Файл отчёта (по умолчанию report.txt рядом со скриптом)")
+        args = parser.parse_args()
+        old_dir = Path(args.old_dir)
+        new_dir = Path(args.new_dir)
+        output_path = Path(args.output)
+    else:
+        # Запуск двойным кликом: берём папки old/ и new/ рядом со скриптом
+        old_dir = base_dir / OLD_DIR_NAME
+        new_dir = base_dir / NEW_DIR_NAME
+        output_path = base_dir / DEFAULT_OUTPUT_NAME
+
+        if not old_dir.is_dir() or not new_dir.is_dir():
+            print("Не найдены папки для сравнения.")
+            print(f"Ожидались подпапки рядом со скриптом ({base_dir}):")
+            print(f"  - {OLD_DIR_NAME}\\   (старая версия)")
+            print(f"  - {NEW_DIR_NAME}\\   (новая версия)")
+            print()
+            print("Создайте эти папки и положите в них .snbt файлы,")
+            print("либо измените OLD_DIR_NAME / NEW_DIR_NAME в начале скрипта,")
+            print("либо запустите скрипт из консоли с аргументами:")
+            print("    python compare_snbt.py <папка_старая> <папка_новая>")
+            input("\nНажмите Enter, чтобы закрыть окно...")
+            sys.exit(1)
+
+    run_comparison(old_dir, new_dir, output_path)
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"Произошла ошибка: {e}")
+    finally:
+        if len(sys.argv) <= 1:
+            input("\nНажмите Enter, чтобы закрыть окно...")

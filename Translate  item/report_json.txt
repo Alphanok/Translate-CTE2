@@ -1,0 +1,46 @@
+======================================================================
+ОТЧЁТ О СРАВНЕНИИ .json ФАЙЛОВ
+Старая версия: E:\GitHub\-CTE2\Translate  item\old
+Новая версия:  E:\GitHub\-CTE2\Translate  item\new
+======================================================================
+
+Всего файлов в старой версии: 1
+Всего файлов в новой версии:  1
+Без изменений: 0
+Изменено файлов: 1
+Новых файлов: 0
+Удалённых файлов: 0
+
+######################################################################
+# ИЗМЕНЁННЫЕ ФАЙЛЫ
+######################################################################
+
+----------------------------------------------------------------------
+ФАЙЛ: en_us.json
+----------------------------------------------------------------------
+
+ИЗМЕНЕНО:
+  "library_of_exile.item_requirement.is_gear_slot_boots": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_chest": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_helmet": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_necklace": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_pants": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_ring": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "library_of_exile.item_requirement.is_gear_slot_weapon_family": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
+  "mmorpg.chat.character_load_info": "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n\nIt does not save your gear, gems jewels etc.\n\nEach Character starts from Level 1"  ->  "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n- Your equipped Armor, Offhand, Rings, Necklace and Omen\n\nEquipped gear is stored with the character and comes back when you load it.\n\nIt does not save your inventory, weapon, backpack, gems or jewels.\n\nEach Character starts from Level 1"
+
+ДОБАВЛЕНО (новые ключи):
+  + "library_of_exile.item_modification.increment_uses_codex_rarity_uses": "Increments Uses"
+  + "library_of_exile.item_requirement.max_uses_codex_rarity_uses": "Maximum %1$s uses of: %2$s"
+  + "mmorpg.chat.character_gear_returned": "Returned %1$s items that character had equipped."
+  + "mmorpg.chat.character_switched_gear": "Stored %1$s equipped items, and equipped %2$s items belonging to this character."
+
+######################################################################
+# НОВЫЕ ФАЙЛЫ (появились в новой версии)
+######################################################################
+(нет новых файлов)
+
+######################################################################
+# УДАЛЁННЫЕ ФАЙЛЫ (были в старой версии, отсутствуют в новой)
+######################################################################
+(нет удалённых файлов)
