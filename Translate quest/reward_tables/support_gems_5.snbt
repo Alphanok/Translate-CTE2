@@ -1,0 +1,48 @@
+{
+	id: "3C16724877D9438C"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_pene\",\"type\":\"SUPPORT\",\"perc\":28,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: пронизывающий огонь"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"water_pene\",\"type\":\"SUPPORT\",\"perc\":39,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: пронзаюший холод"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_pene\",\"type\":\"SUPPORT\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: пронизывающая молния"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_pene\",\"type\":\"SUPPORT\",\"perc\":27,\"rar\":\"uncommon\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: пронизывающий хаос"
+		}
+	]
+	title: "Support Gems 5"
+}

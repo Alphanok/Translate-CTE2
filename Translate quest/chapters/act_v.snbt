@@ -1,0 +1,1263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_v"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:ender_eye"
+	id: "13CF8F9062A19FA5"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"Вот оно! &eУбей Эндер-дракона&r и положи «конец» этому безумию!"
+				""
+				"&oПохоже, с крылом можно что-то сделать...&r"
+				""
+				"&cЭндер-дракон появляется минимум 50 уровня.&r"
+				""
+				"Эндер-дракон обладает:"
+				"&b+25% физического урона в урон молнией&r"
+				"&b+25% физического урона в урон хаосом&r"
+				"&b+25% сопротивления всем стихиям&r"
+				"&b+35% сопротивления хаосу&r"
+				"&a7.5% шанс выпадения Руны End&r"
+			]
+			icon: "minecraft:dragon_head"
+			id: "6F0D75895E507FFD"
+			rewards: [
+				{
+					id: "2912DA754B1FC7E8"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":55,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 55)"
+					type: "item"
+				}
+				{
+					id: "4CEB9753CEE68DF0"
+					item: {
+						Count: 1
+						id: "customizableelytra:elytra_wing"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "748848F226B0215D"
+					item: "stalwart_dungeons:chorundum"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "720DE9C64034C331"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "ftb_ph:ender_dragon"
+				id: "2877FD26AC97C50D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Драконий квест"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Ты получил &eинструкции&r от деревенского стражника, наспех нацарапанные на кусочке бамбука."
+				""
+				"&o1. Прибудь в Край.&r"
+				"&o2. Добудь кристаллы края на островах.&r"
+				"&o3. Установи кристаллы на —&r"
+				""
+				"Остальное было &eстерто&r в ходе твоих приключений."
+			]
+			id: "531BDC3DFCE88A6E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 17050"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6D064F971867F5AB"
+					silent: true
+					title: "17050 Experience"
+					type: "command"
+				}
+				{
+					id: "237C14AD78034F20"
+					item: "lightmanscurrency:coin_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Основное задание"
+			tasks: [{
+				advancement: "minecraft:end/respawn_dragon"
+				criterion: ""
+				id: "1B0D7898F4168083"
+				type: "advancement"
+			}]
+			title: "Ритуал призыва"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["Ты убил дракона, но кажется, что в Крае гораздо больше, чем ты думал. Сейчас самое время использовать твою новую &eЭлитру&r и &eисследовать внешние острова&r."]
+			id: "7EA6A0131C5FF143"
+			rewards: [
+				{
+					id: "3EC5E98649245554"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "022C5AE3B9A81349"
+					item: "mmorpg:currency/sharpening_stone_2"
+					title: "Empyrean Sharpening Stones"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3763B6E506B98B16"
+					silent: true
+					title: "18250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Последний поход"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "04D2837E3F91A62E"
+				type: "advancement"
+			}]
+			title: "Вне"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Ты узнал, что именно Эндер-дракон не был причиной разломов. Как бы отвратителен ни был этот зверь, он был всего лишь — отвратительным зверем."
+				""
+				"Похоже, в Крае гораздо больше, чем ты думал... Говорят, что в Пустоте скрывается ещё одна опасность, а другие утверждают, что бросок &eТаинственного червя&r привлекает её."
+				""
+				"Ты можешь получить &eТаинственного червя&r, убив &eЭндер-дракона&r."
+			]
+			id: "56A3604D9BAD661C"
+			rewards: [
+				{
+					count: 16
+					id: "1B2A6B57387B7711"
+					item: {
+						Count: 1
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Worms"
+					type: "item"
+				}
+				{
+					id: "561F1DE4EB9C5CE9"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 15750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3799D574CFAF86F6"
+					silent: true
+					title: "15750 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				id: "1FD4027C3E5A4B93"
+				item: "alexsmobs:mysterious_worm"
+				title: "Obtain a Mysterious Worm"
+				type: "item"
+			}]
+			title: "Генетическая модификация"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56A3604D9BAD661C"]
+			description: [
+				"Будь готов — у этого ужасного существа много частей тела. Кроме того, оно стреляет самонаводящимися кристаллами по ближайшим игрокам. Если подойдёшь слишком близко, тебя откинет назад. Будь осторожен, чтобы не упасть с острова!"
+				""
+				"&cПустотный червь появляется минимум 55 уровня.&r"
+				""
+				"Пустотный червь обладает:"
+				"&b+25% сопротивления всем стихиям&r"
+				"&a5% шанс выпадения Руны End&r"
+			]
+			icon: "alexsmobs:void_worm_eye"
+			id: "3944DD7AC4667137"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 27500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "45B406CDBD1F2A26"
+					silent: true
+					title: "27500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "71B0768A7BF842A5"
+					title: "2 Talent Points"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "alexsmobs:void_worm"
+				icon: "ftb_ph:void_worm"
+				id: "4CDAF67DC07C1B5A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Червь из Пустоты"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: ["Появились сообщения о подземном существе, наводящем ужас на подземных торговцев. Некоторые называют его &eХранитель&r. Говорят, его можно найти в &eДревнем городе&r, глубоко под землёй."]
+			id: "0424E768816CB314"
+			rewards: [
+				{
+					id: "6FEA654635C8F438"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/epic_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"epic\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Epic Gear Loot Chest (Lv. 60)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "69E5D302B19DFCB4"
+					silent: true
+					title: "20500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основной сюжет"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_city"
+				criterion: ""
+				id: "73ECBABFC177A3AF"
+				type: "advancement"
+			}]
+			title: "Назад домой"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: [
+				"&eХранитель&r полностью слеп и полагается на вибрации, обоняние и осязание, чтобы обнаружить игроков. Ты можешь избежать его, крадясь или отвлекая его, например, стрелами. У него мощная атака в ближнем бою, а также разрушительный самонаводящийся звуковой удар."
+				""
+				"&cХранитель появляется минимум 60 уровня.&r"
+				""
+				"Хранитель имеет:"
+				"&b+50% физического урона в урон хаосом&r"
+				"&b+50% брони&r"
+				"&b+35% сопротивления всем стихиям&r"
+				"&b+35% сопротивления хаосу&r"
+				"&a10% шанс выпадения Руны Sid&r"
+			]
+			icon: {
+				Count: 1
+				id: "deeperdarker:warden_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6B5AFF6897A7AE6D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 30000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "32BBAFAF37E1995B"
+					silent: true
+					title: "30000 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "3E70206312D555CB"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "31CEEC8EB6246EED"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Основной сюжет"
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "ftb_ph:warden"
+				id: "7C4B9B0973E6EA67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Хранитель измерений"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B5AFF6897A7AE6D"]
+			description: ["Вот это да, кто бы мог подумать? Похоже, &eХранитель&r охранял проход в новое, &eнеизведанное измерение&r. Что же находится &eпо ту сторону&r?"]
+			id: "707C5CDB48B487F8"
+			rewards: [
+				{
+					id: "5E5119647591EC7F"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 24750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3201ACAD0D312816"
+					silent: true
+					title: "24750 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00AA3A8290A71518"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основной сюжет"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "deeperdarker:warden_carapace"
+				id: "1ACA80128E406BE5"
+				title: "Посетите Другую сторону"
+				type: "dimension"
+			}]
+			title: "Другая сторона"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["66226AD37A8822F0"]
+			description: [
+				"Продолжай &eисследовать,&r и погружайся в &eтьму...&r Ты никогда не знаешь, какие &eсокровища&r тебя ждут."
+				""
+				"&b&oПоздравляем с завершением основной Кампании! Продолжай в Эпилоге для полного прохождения или переходи к изучению других миров. Не забудь заглянуть в Побочные квесты! Продолжай прокачивать и настраивать своего персонажа, и пытайся преодолеть самые сложные испытания в Картах!&r&r"
+			]
+			id: "6149D163ABF06A15"
+			rewards: [
+				{
+					id: "42E63F9488C11281"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/legendary_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"legendary\",\"lvl\":60,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Legendary Gear Loot Chest (Lv. 60)"
+					type: "item"
+				}
+				{
+					id: "360850EC6B27579B"
+					item: "lightmanscurrency:coin_netherite"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "3422F45908DFFA9A"
+					item: "simplehats:paperbag"
+					title: "Paper Bag"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 35000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1E6490E881BC5AA2"
+					silent: true
+					title: "35000 Experience"
+					type: "command"
+				}
+				{
+					id: "2113E9C1A471A8B9"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/darkness"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основной сюжет"
+			tasks: [{
+				advancement: "deeperdarker:main/find_ancient_temple"
+				criterion: ""
+				icon: "deeperdarker:smooth_sculk_stone_stairs"
+				id: "779882C7510983D8"
+				type: "advancement"
+			}]
+			title: "Незавершённые дела"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: [
+				"Хотя ты &eубил дракона&r, остатки зверя всё ещё можно найти. Уничтожь его &eспавн&r, чтобы предотвратить дальнейшее разрушение."
+				""
+				"Обрати внимание, что ты можешь &eвызвать&r Эндер-дракона снова, используя &eкристаллы края&r! Метод такой же, как в &eВаниле.&r"
+				""
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
+			]
+			id: "61FF2CADDF0013F6"
+			rewards: [
+				{
+					id: "07F863054E4C3F13"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":50,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Gem Loot Chest (Lv. 50)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 19000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "568A68D30118ED12"
+					silent: true
+					title: "19000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Последний поход"
+			tasks: [{
+				entity: "realmrpg_wyrms:ender_wyrm"
+				icon: "simplehats:dragonskullender"
+				id: "18796A37D4AFC777"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Драконье порождение"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: [
+				"Ходят слухи, что &eПрозиратель&r — это пророческие существа, происходящие из Пустоты."
+				""
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
+			]
+			icon: "alexsmobs:farseer_arm"
+			id: "69FD852AE0306BD2"
+			rewards: [
+				{
+					id: "13410512A1AB33A9"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Warp Stone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 20500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7E4B99CDF9BF72C0"
+					silent: true
+					title: "20500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "4EFEDC6802D42BF3"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "7D71C44B4C0FD103"
+					title: "Merciless Ascendancy"
+					type: "custom"
+				}
+			]
+			subtitle: "Последний поход"
+			tasks: [{
+				entity: "alexsmobs:farseer"
+				icon: "ftb_ph:farseer"
+				id: "4917CEEBC063FE78"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Они знали, что ты придешь"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"531BDC3DFCE88A6E"
+				"61FF2CADDF0013F6"
+				"0424E768816CB314"
+				"69FD852AE0306BD2"
+				"6B5AFF6897A7AE6D"
+				"6F0D75895E507FFD"
+				"7EA6A0131C5FF143"
+				"707C5CDB48B487F8"
+				"56A3604D9BAD661C"
+				"3944DD7AC4667137"
+				"6149D163ABF06A15"
+				"081AD91A178C3A3F"
+				"6DEBCC2B2DAE67AD"
+				"0C894EBBB7C6F380"
+				"010FF3BF22DA9AED"
+				"5596C3E03B25B9C8"
+				"30FA1CCB6BBA7125"
+				"594A647C82F46BD8"
+				"68ADEBE337D75CA7"
+				"373410F7773044D4"
+				"600F5339B6C0975C"
+				"201E621A52FFCE65"
+				"7544F7A13E989534"
+				"66226AD37A8822F0"
+				"7DB451E643FAB7BE"
+			]
+			description: ["&eЗаверши&r все &eквесты&r в Акте V, чтобы получить это достижение. Затем похвастайся им с новой шляпой!"]
+			hide_dependency_lines: true
+			icon: "simplehats:rgbsunglasses"
+			id: "4ABF5C9676202847"
+			rewards: [
+				{
+					id: "32163DBB344176A5"
+					item: "simplehats:rgbsunglasses"
+					type: "item"
+				}
+				{
+					id: "132CB6623C41E78B"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Достижение"
+			tasks: [{
+				id: "3F2676327EA7C4ED"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Завершите все задания Акта V!"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3944DD7AC4667137"]
+			description: [
+				"Прежде чем снова отправляться в другие измерения, вам стоит лучше ознакомиться с &eМашиной картооходца&r."
+				""
+				"Возможно, вы уже заметили, что если &eзажать Shift и нажать ПКМ (обе руки должны быть свободными)&r по &eМашине картооходца&r, откроется большое древо. Это &cАтлас&r — система прогрессии, созданная для того, чтобы мотивировать вас проходить различные виды карт."
+				""
+				"Набор карт, которые могут вам выпасть, ограничен открытыми узлами Карт. Проходя их, вы открываете новые варианты, а &eначиная с карт 20+ уровня&r также получаете &c1 очко пассивных навыков Атласа&r."
+				""
+				"Доступ к древу пассивных навыков Атласа можно получить, нажав кнопку в левом верхнем углу Атласа. Здесь вы можете распределять очки, чтобы &eизменять поведение ваших Карт&r."
+			]
+			id: "201E621A52FFCE65"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "43413049B841CA66"
+				silent: true
+				title: "17500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				icon: "mmorpg:map_creator"
+				id: "0F67BA1BD5611BA9"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 10
+			}]
+			title: "Путешествие между измерениями"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: ["Убивая монстров и исследуя карту, вы заметите, как увеличиваются проценты убийств и добычи. Эти два показателя формируют вашу общую &eредкость исследования&r. Чем выше уровень исследования, тем лучше будет награда за победу над &eбоссом карты&r. По мере дальнейшего исследования редкость исследования будет повышаться, начиная с &aнеобычной&r как первого этапа."]
+			icon: "minecraft:paper"
+			id: "4983FE0DE8A1377F"
+			rewards: [{
+				id: "72DE3FED05338CB6"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "743D361CB7F4E030"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Исследование карты"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"Исследуя &eТу сторону&r, возможно, будет разумно вернуться к картам, чтобы стать сильнее. К счастью, во время своих путешествий вы узнали об усиленных измерениях."
+				""
+				"Начиная с &e50 уровня&r, на картах могут появляться различные события &e\"Лиг\"&r, которые делают прохождение подземелий разнообразнее. Выполняйте эти события, чтобы получать особые награды."
+				""
+				"Ниже приведён краткий обзор 6 событий, которые можно встретить на картах. С &eЖатвой&r и &eДревними обелисками&r вы уже должны быть знакомы!"
+				""
+				"1. &2Жатва&r — отбивайтесь от волн врагов, чтобы получить ценные материалы."
+				"2. &cДревние обелиски&r — переживите натиск, чтобы заработать валюту."
+				"3. &dПророчество&r — убивайте врагов на карте, чтобы получать монеты для особого магазина."
+				"4. &bЗаточённые монстры&r — освободите могущественного монстра и победите его ради ценных наград."
+				"5. &7Ларцы&r — уничтожьте стражей сундука, чтобы получить тематические награды."
+				"6. &eСвятилища&r — воспользуйтесь святилищем, чтобы получить мощные усиления."
+				""
+				"Более подробную информацию о каждой механике можно найти на соответствующих &bПотерянных страницах&r."
+			]
+			id: "7544F7A13E989534"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B0CC44126435994"
+				silent: true
+				title: "20000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				icon: "dungeon_realm:fixed_dungeon_map_item"
+				id: "71F106101EBB87E1"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 25
+			}]
+			title: "У этого есть уровни..."
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"В картах Mine and Slash могут появляться дополнительные события. На каждой карте &eможет быть активна только одна механика&r, если только у вас нет особых модификаторов, позволяющих иметь больше. Две из них вы уже могли встретить — они начинают появляться с 50-го уровня."
+				""
+				"&2Жатва&r (&bУр. 50+&r): находите порталы на картах, которые перенесут вас в новую комнату Жатвы. Убивайте монстров в этих комнатах, чтобы получать &eХаотические самоцветы&r, используемые для создания особых валют!"
+				""
+				"&cДревний обелиск&r (&bУр. 50+&r): подобно Жатве, находите порталы, ведущие на арену. Преодолевайте волны врагов, чтобы находить улучшения, которые можно использовать для &eОбелисков&r! Также у вас будет возможность получать особую валюту, улучшающую &eСамоцветы поддержки и аур&r."
+				""
+				"&eСвятилища&r (&3Ур. 60+&r): находите святилища по всей карте, с которыми можно взаимодействовать, чтобы наложить усиление на себя и ближайших союзников. Этот эффект длится 60 секунд и способен сделать прохождение карты практически лёгким!"
+			]
+			icon: "minecraft:paper"
+			id: "062656B385EA3960"
+			rewards: [{
+				id: "2F17F8F6DEB6F82D"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "2266C44EDE1AE423"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "События лиги"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"Другие события начнут появляться с 60-го уровня. У каждого из них также есть уникальная система наград!"
+				""
+				"&dПророчество&r (&3Ур. 60+&r): взаимодействуйте с алтарём, чтобы начать &dПророчество&r. Алтарь позволяет выбрать Проклятия, которые можно наложить на себя. Пока на вас действует Проклятие, монстры будут сбрасывать &eМонеты пророчества&r. Чем больше Проклятий на вас наложено, тем больше &eМонет пророчества&r вы сможете заработать. Используйте эти монеты для покупки наград в Хабе. Учтите, что награды &6легендарного&r и &5мифического&r качества начинают появляться только на Картах 20-го и 40-го тира соответственно."
+				""
+				"&7Ларцы&r (&3Ур. 60+&r): находите &7Ларцы&r по всей карте. Взаимодействие с ними призовёт &7стражей ларца&r. Победите их и получите особые награды. Награды будут состоять из набора предметов одного типа (например, большое количество &eвалюты&r или множество &eрун&r)."
+				""
+				"&bЗаключённые монстры&r (&3Ур. 60+&r): иногда на карте вам будут встречаться клетки с запертым монстром. Взаимодействие с ней освободит монстра, который после победы может оставить особую &eвалюту&r, способную &eвосстанавливать потенциал снаряжения&r! Однако будьте осторожны — эти противники не для слабых духом."
+			]
+			icon: "minecraft:paper"
+			id: "747F8352825A124A"
+			rewards: [{
+				id: "64C505B09051A4A8"
+				item: "mmorpg:map_creator"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "17104BCDCBE1AF5F"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "События лиги II"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DEBCC2B2DAE67AD"]
+			description: [
+				"Хотите испытать себя ещё сильнее? Помимо &cпассивных навыков Атласа&r, вы можете изменять свои карты с помощью &eРеликвий&r. К этому моменту у вас уже должно быть немало &eРеликвий&r, полученных из сундуков и за убийство &eбоссов&r. Используйте &eКлюч реликвии&r на &eМашине картоходца&r (или блоке Жатвы/Обелиска), чтобы открыть его &e\"Инвентарь реликвий\"&r."
+				""
+				"В этом инвентаре вы можете размещать &eРеликвии&r, чтобы усиливать подземелье. Учтите, что &cкаждая Реликвия имеет 3 использования, после чего исчезает&r, а также существует ограничение на количество Реликвий, которые можно разместить на одной карте."
+			]
+			icon: "mmorpg:relic"
+			id: "66226AD37A8822F0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B80ACDB0F87AF12"
+				silent: true
+				title: "20000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				id: "1487955558F49FBC"
+				item: "dungeon_realm:relic_key"
+				type: "item"
+			}]
+			title: "Реликвии прошлого"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F0D75895E507FFD"]
+			description: ["&eЭндериофаги&r можно встретить там, где растёт &eплод хоруса&r. Эти существа распространяют &eболезнь&r и их нужно как можно скорее уничтожить! Эндериофаги создаются, если поставить &eстержень энда с капсидом сверху и поместить внутрь око эндера&r."]
+			id: "30FA1CCB6BBA7125"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "09276F91256B5A16"
+				silent: true
+				title: "16500 Experience"
+				type: "command"
+			}]
+			subtitle: "Последний поход"
+			tasks: [{
+				entity: "alexsmobs:enderiophage"
+				icon: "alexsmobs:enderiophage_rocket"
+				id: "25D5719253570957"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Вирусная катастрофа"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: ["&eЧервь-крикун&r — ужасающие существа, обитающие в &eТой Стороне&r. Если ты &eнаступишь на заражённый скаулк&r, тебя ждёт неприятный сюрприз."]
+			id: "081AD91A178C3A3F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4C937CC2C36181EE"
+				silent: true
+				title: "25500 Experience"
+				type: "command"
+			}]
+			subtitle: "Глубже и темнее"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0BAB29DF028FA3B2"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Смертельные ловушки"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"081AD91A178C3A3F"
+				"0C894EBBB7C6F380"
+			]
+			description: [
+				"&eПодражатели&r — зловещие и могущественные сущности, которых можно встретить на &eТой Стороне&r. Их привлекают резкие звуки, так что если хочешь найти одного — может, стоит &eпобить пару кувшинов&r?"
+				""
+				"Если удача не на твоей стороне, обрати внимание на &eВрата Тьмы (Gateway of Darkness)&r."
+				""
+				"&eТребуется выполнить ВСЕ зависимости.&r"
+			]
+			icon: "alexsmobs:froststalker_horn"
+			id: "6DEBCC2B2DAE67AD"
+			rewards: [
+				{
+					id: "45F0FAFA0E031718"
+					item: "lightmanscurrency:coin_emerald"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 26750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "23D7F4B1237A1E14"
+					silent: true
+					title: "26750 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "7D8679A30B65CDA7"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Глубже и темнее"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "alexsmobs:froststalker_horn"
+				id: "0E11112090553BD8"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Странное присутствие"
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: ["В &eОтзвучивающих лесах (Echoing Forests)&r ты встретишь существ, потерявших свои души. Когда-то считавшиеся людьми, теперь они лишь оболочка самих себя."]
+			id: "0C894EBBB7C6F380"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 25500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2902961DDA1F44C2"
+				silent: true
+				title: "25500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Глубже и темнее"
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: {
+					Count: 1
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "25B6045192B3F552"
+				type: "kill"
+				value: 32L
+			}]
+			title: "Безнадежный"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: false
+			dependencies: ["30FA1CCB6BBA7125"]
+			description: ["Подхвати эффект Эндер-гриппа. Вылечись, съев много &eплодов хоруса&r или &eвыпив молоко&r. Время идёт..."]
+			id: "010FF3BF22DA9AED"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 18000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5AA6257209EEFA31"
+					silent: true
+					title: "18000 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "40C03DB4E7F7BAE8"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+			]
+			subtitle: "Последний поход"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "6EA193412C2E12A0"
+				type: "advancement"
+			}]
+			title: "Гонка на время"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0424E768816CB314"]
+			description: ["Несмотря на дорогие ингредиенты, &eСтол снятия чар&r позволяет снять все чары с предмета за счёт &eпрочности&r."]
+			id: "5596C3E03B25B9C8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7EC6BA5FD16D04E9"
+					silent: true
+					title: "22750 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2053355660EE0346"
+					table_id: 7157812384472883171L
+					type: "loot"
+				}
+			]
+			subtitle: "Утилиты"
+			tasks: [{
+				id: "613E6DBC63B51865"
+				item: "disenchanting:disenchanter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: [
+				"В Крае можно найти две новые структуры: &eбашня края и катакомбы&r. В этих строениях тебя ждёт интересный новый лут, а также &eПурпурные големы&r!"
+				""
+				"Пурпурный голем обладает:"
+				"&b+30% брони&r"
+				"&b+25% сопротивления хаосу&r"
+			]
+			id: "68ADEBE337D75CA7"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "03B6539402A8BCD3"
+					silent: true
+					title: "22000 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "220EAAFECD7CE693"
+					table_id: 5361966167457701780L
+					type: "choice"
+				}
+			]
+			subtitle: "Край бездны"
+			tasks: [{
+				entity: "outer_end:purpur_golem"
+				icon: "stalwart_dungeons:purpur_bricks_wall"
+				id: "34A5EB2CC3DF0793"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Недосягаемые сооружения"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EA6A0131C5FF143"]
+			description: ["Ты найдёшь &eсталкеров, погребённых&r и многих других свирепых существ Пустоты в новых биомах Края. Исследуй &eЛазурный лес (Azure Forest), Хрустальный утёс (Crystal Crag) и Первозданные пруды (Primordial Pool)&r!"]
+			icon: "outer_end:cooked_stalker_meat"
+			id: "594A647C82F46BD8"
+			rewards: [
+				{
+					count: 16
+					id: "1D9BB7AD9EAF4F79"
+					item: "minecraft:purple_dye"
+					type: "item"
+				}
+				{
+					id: "4567579F8FBA9072"
+					item: "mmorpg:runes/oru"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 21500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7FAF80D19C2F9781"
+					silent: true
+					title: "21500 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Край бездны"
+			tasks: [
+				{
+					entity: "outer_end:stalker"
+					icon: "outer_end:cooked_stalker_meat"
+					id: "6317E691F5CE9B74"
+					type: "kill"
+					value: 8L
+				}
+				{
+					entity: "outer_end:entombed"
+					icon: "chipped:simple_purpur_block_pillar"
+					id: "7E34EBD5D2D398F9"
+					type: "kill"
+					value: 8L
+				}
+			]
+			title: "Жители пустоты"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68ADEBE337D75CA7"]
+			description: [
+				"Shelterer — интересное существо, которое можно найти в &eПодземелье Края&r. Освободив его с помощью &eЗвезды незера&r на его &eАлтаре&r, оно сможет запереться в энергетическом шалкере."
+				""
+				"Shelterer обладает:"
+				"&b+100% здоровья&r"
+				"&b+25% шанс подавления урона&r"
+				"&a15% шанс выпадения Руны End&r"
+			]
+			id: "373410F7773044D4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6EE60480A254A4A7"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "579E9E1A7706290A"
+					item: "mmorpg:material/mining/2"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Последний поход"
+			tasks: [{
+				entity: "stalwart_dungeons:shelterer_without_armor"
+				icon: "stalwart_dungeons:shelterer_altar"
+				id: "62D0B75824CE2C88"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Заключенный в коробку"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"775A13E1924D6C9A"
+				"68ADEBE337D75CA7"
+			]
+			description: [
+				"После того как ты победил &eФантомных криперов&r в &eНезере&r, ты снова встретился с ними лицом к лицу в &eКрае&r!"
+				""
+				"&eФантомные криперы&r появляются в &eИскажённых лесах&r и в &eКрае&r. Они разделяются при контакте, так что с ними нужно быть очень осторожным!"
+				""
+				"Фантомный крипер обладает:"
+				"&b+25% шанс уклонения&r"
+			]
+			id: "600F5339B6C0975C"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 22500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "375D153441230272"
+					silent: true
+					title: "22500 Experience"
+					type: "command"
+				}
+				{
+					count: 5
+					id: "6400D613013852A6"
+					item: "mmorpg:material/meat/1"
+					type: "item"
+				}
+			]
+			subtitle: "Последний поход"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "born_in_chaos_v1:phantom_bomb"
+				id: "6F04C7381C916B26"
+				type: "kill"
+				value: 50L
+			}]
+			title: "Потусторонние существа IV"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Вы слышите шёпот о могущественной силе, скрывающейся в глубинах Пустоты... Продолжайте исследовать &cАтлас&r и проходить самые сложные карты, чтобы узнать больше..."
+				""
+				"&cУбер-карты&r — это чрезвычайно сложные, но очень ценные карты. Обычную &5карту 80+ уровня&r можно улучшить до &cУбер-карты&r с помощью предмета &eУлучшение карты приключений: Убер&r. Его можно создать из &eУбер-фрагментов&r, которые выпадают с боссов карт."
+				""
+				"&cУбер-карты&r содержат &cУбер-боссов&r, с которых выпадают &eочень мощные самоцветы&r."
+				""
+				"Завершив прохождение &cАтласа&r, что требует прохождения &cУбер-карт&r, вы получите &oправо&r бросить вызов &4Верховному боссу&r. Как и в случае с &cУбер&r, вы можете создать предмет &eУлучшение карты приключений: Верховный&r, чтобы изменить свою карту."
+				""
+				"&4Верховные боссы&r — невероятно сложные противники, но награда за победу над ними столь же велика. Но &oхватит ли вам сил узнать, какая именно?&r"
+			]
+			id: "7DB451E643FAB7BE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 25000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "663FFA9E8A799B7B"
+					silent: true
+					title: "25000 Experience"
+					type: "command"
+				}
+				{
+					id: "59857039C42096B0"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				icon: "dungeon_realm:uber_upgrade"
+				id: "610DC03B1C7DF1D1"
+				stat: "mmorpg:uber_dungeons_completed"
+				type: "stat"
+				value: 5
+			}]
+			title: "Верховные"
+			x: 15.0d
+			y: 0.0d
+		}
+	]
+	subtitle: [
+		"Lv. 50-65"
+		"Lv. 60-75"
+	]
+	title: "Акт V"
+}

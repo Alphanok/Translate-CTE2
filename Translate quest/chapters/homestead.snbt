@@ -1,0 +1,1052 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "homestead"
+	group: "5F2CCE8075FCC994"
+	icon: "handcrafted:bamboo_fancy_bed"
+	id: "08A3CE628804D7D6"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Каждый &eКолокольчик&r издаёт уникальные атмосферные звуки в зависимости от материала. Также они отпугивают фантомов в радиусе 25 блоков."
+				""
+				"На &eСтеклянный ветряной колокольчик&r можно наносить красители, создавая индивидуальный дизайн. Чтобы смыть рисунок, щёлкните ПКМ по источнику воды."
+				""
+				"Вы можете &eсвязывать/развязывать&r колокольчик, удерживая приседание и щёлкая ПКМ по блоку колокольчика с пустой рукой — это отключает эффект отпугивания фантомов."
+			]
+			id: "0E7863B918B4B195"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "05957DDC02A24CC9"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Chimes"
+			tasks: [{
+				id: "3355405161F752F4"
+				item: "chimes:glass_bells"
+				type: "item"
+			}]
+			title: "Ветер дует"
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			description: ["&eNight Lights&r добавляет декоративные источники света, которые можно включать и выключать."]
+			id: "31C042465B27EC87"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "28E649D855379875"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Night Lights"
+			tasks: [
+				{
+					id: "77BD1CD948CBC5A5"
+					item: "nightlights:hanging_lights_default"
+					type: "item"
+				}
+				{
+					id: "1A360D0080ACEB31"
+					item: "nightlights:fairy_lights_default"
+					type: "item"
+				}
+			]
+			title: "Освещение со стилем"
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			description: ["&eSupplementaries&r и &eSupplementaries Squared&r добавляют множество &eдекоративных и функциональных&r блоков, которые достаточно просто создать и использовать."]
+			id: "74E14D9A9F4799D4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "12CDA68D5F398808"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Supplementaries"
+			tasks: [
+				{
+					id: "3D5A39806227B36B"
+					item: "supplementaries:flag_white"
+					type: "item"
+				}
+				{
+					id: "2417CC783542CB88"
+					item: "supplementaries:candle_holder"
+					type: "item"
+				}
+				{
+					id: "46B341261AC67D12"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "2552629E3C335847"
+					item: "supplementaries:wind_vane"
+					type: "item"
+				}
+				{
+					id: "0F14FADDFB78FF74"
+					item: "supplementaries:sconce"
+					type: "item"
+				}
+			]
+			title: "Дизайнер интерьеров"
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: [
+				"&eHandcrafted&r добавляет мебель, такую как &eизысканные кровати, прилавки и стулья&r. Всё это можно настраивать с помощью &eпростыней&r и &eподушек&r разных цветов."
+				""
+				"&eМолот&r позволяет менять внешний вид блоков, например, менять тип лестницы без необходимости её переставлять."
+			]
+			id: "6A465BF497661001"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "45138A03C0BDB5AC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Handcrafted"
+			tasks: [
+				{
+					id: "7C737EF24A0DD366"
+					item: "handcrafted:white_cushion"
+					type: "item"
+				}
+				{
+					id: "31FE8C4D49C42EA5"
+					item: "handcrafted:white_sheet"
+					type: "item"
+				}
+				{
+					id: "4A94BB46A7D9D52C"
+					item: "handcrafted:hammer"
+					type: "item"
+				}
+			]
+			title: "Специализированная мебель"
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eДвери Macaw's&r добавляет множество вариантов и стилей дверей для крафта."
+				""
+				"&eМосты Macaw's&r добавляет мосты и их вариации."
+				""
+				"&eСвет и лампы Macaw's&r добавляет множество типов ламп и источников света."
+			]
+			id: "3C9F2AB674921503"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F7E8E123A70AC50"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Декорации Macaw's"
+			tasks: [
+				{
+					id: "6B06D8650053E266"
+					item: "mcwdoors:oak_barn_door"
+					type: "item"
+				}
+				{
+					id: "3BEA773995483823"
+					item: "mcwbridges:pliers"
+					type: "item"
+				}
+				{
+					id: "3C698BB503A1FAEC"
+					item: "mcwlights:lava_lamp"
+					type: "item"
+				}
+			]
+			title: "Улучшенная конструкция"
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			description: ["&eFloral Enchantment&r добавляет цветущие кусты, с которых можно получить &eлианы&r соответствующего цветка. Цветочные лианы добываются с &eкустов.&r Также вы можете получить &eзамшелый булыжник&r для украшения в стиле каждого цветка. Мод также добавляет другую цветочную &eэкипировку&r и декоративные элементы."]
+			id: "32823645E2FE4F43"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4BD548221E47022A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Floral Enchantment"
+			tasks: [{
+				id: "4F4158D32907A7C0"
+				item: "floralench:floral_basket"
+				type: "item"
+			}]
+			title: "Садовник+"
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5E71DC1D9E7A83BB"]
+			description: [
+				"Chipped добавляет верстаки, которые позволяют создавать вариации блоков. &eChipped совместим с FramedBlocks!&r"
+				""
+				"&eАлхимическая лаборатория&r позволяет создавать вариации обсидиана, светокамня, морских фонарей и песка душ."
+				""
+				"&eВерстак ьотаника&r позволяет создавать вариации растительных блоков."
+				""
+				"&eСтол плотника&r позволяет создавать вариации досок и факелов."
+				""
+				"&eСтеклодув&r позволяет создавать вариации стеклянных блоков и панелей."
+				""
+				"&eТкацкий станок&r позволяет создавать вариации шерсти и ковров."
+				""
+				"&eКамнетёсный стол&r позволяет создавать вариации каменных блоков."
+				""
+				"&eСтол мастера&r позволяет создавать вариации редстоун-ламп, факелов и фонарей."
+			]
+			id: "3A66909746F7E06D"
+			rewards: [
+				{
+					id: "349B4A117F7BD340"
+					item: "simplehats:tinkerhat"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7BF0D4BE713CE528"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+			]
+			size: 1.25d
+			subtitle: "Chipped"
+			tasks: [
+				{
+					id: "4D48B532F654158B"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "5FD900BDF5AFACED"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "01B19695667C65A6"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "7B6D1A3CA7E94CF5"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "1B8FF702B10E8DA9"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "7E39A28EC72BC4C8"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "50DE9684F0DB3A91"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped с опциями"
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"&eMCA: Reborn&r предлагает захватывающий игровой опыт. Некоторые из его особенностей перечислены ниже:"
+				""
+				"Больше никаких человекообразных кальмаров — теперь это люди, с которыми можно взаимодействовать!"
+				""
+				"Множество вариантов взаимодействия с жителями: дарите подарки, болтайте и многое другое!"
+				""
+				"Вы можете выстраивать отношения с жителями, у каждого из них своя личность и настроение."
+				""
+				"Когда вы получите достаточно сердечек, сможете на них жениться!"
+				""
+				"После свадьбы у вас могут появиться дети, которые будут помогать вам — заниматься фермерством, рубить деревья и не только!"
+				""
+				"Ваши дети со временем вырастут и начнут жить своей жизнью."
+				""
+				"Вы можете жениться на других игроках в локальной сети или на SMP-сервере."
+				""
+				"Помогайте развивать деревню и повышайте свой ранг — в итоге вы сможете стать королём!"
+			]
+			id: "5DEC625AAF61ADAE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3BE249E997A6481F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Minecraft Comes Alive!"
+			tasks: [{
+				id: "7DF2002BF8966859"
+				item: "mca:book_romance"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: ["Мечтали стать королём? Вы можете управлять своей деревней и делать её процветающей! Прочитайте книгу для получения дополнительной информации."]
+			id: "57B5209F6744960D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5238432C6F96151E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "1B52B998DACA2A94"
+				item: "mca:book_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: [
+				"В MCA вы можете выбрать свою внешность, запустив &eСудьбу.&r"
+				""
+				"Ваша &eСудьба&r позволит настроить внешний вид персонажа — &cно учтите, что это можно сделать ТОЛЬКО ОДИН РАЗ на мир!&r"
+				""
+				"Команда: /mca destiny"
+				""
+				"&b&oОбратите внимание, что для создания зелий требуется определённое мастерство в профессии Алхимии.&r&r"
+			]
+			id: "405A63031F2B3DD4"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "38CE3E0A09909566"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					command: "/mca destiny"
+					elevate_perms: true
+					icon: "mca:villager_editor"
+					id: "52498BF9583E22B2"
+					silent: true
+					title: "&eLaunch Character Destiny Customizer&r &c(ONE TIME USE)&r"
+					type: "command"
+				}
+			]
+			subtitle: "Судьба"
+			tasks: [
+				{
+					id: "18B7CA6CFEC6E3A0"
+					item: "mca:potion_of_feminity"
+					type: "item"
+				}
+				{
+					id: "3D44930F8FDA61E0"
+					item: "mca:potion_of_masculinity"
+					type: "item"
+				}
+			]
+			title: "Уход за собой"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: ["&eРозовое Золото&r используется для создания предметов, связанных с отношениями. Прочитайте книгу, чтобы узнать больше!"]
+			id: "6B0990886F0D079E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4923C57810A678C4"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Отношения"
+			tasks: [{
+				id: "5E26B808ED87038B"
+				item: "mca:book_rose_gold"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: ["Научитесь управлять своей семьёй с этим новым изданием!"]
+			id: "17AF31897E44E881"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A9495733A04F89B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Отношения"
+			tasks: [{
+				id: "73C366ABDCFD9554"
+				item: "mca:book_family"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6B0990886F0D079E"]
+			description: ["Вы можете создать &eРозовое золото&r, используя &eрудное золото&r и &eрудную медь&r."]
+			id: "5610D44E742948CC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "269A6DF9AC9FD22D"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Отношения"
+			tasks: [{
+				id: "156DCFFEED6DD7D6"
+				item: "mca:rose_gold_dust"
+				type: "item"
+			}]
+			title: "Дорогие материалы"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			id: "7581AE7038A4357A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1D4D510D6BD7D1BF"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Отношения"
+			tasks: [{
+				id: "7E892780F9050184"
+				item: "mca:bouquet"
+				type: "item"
+			}]
+			title: "Подарок"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: ["С помощью этой книги вы можете просмотреть историю деревни!"]
+			id: "3366932C88556127"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E70154BB9F7355A"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "2D10ACB81E6A6877"
+				item: "mca:civil_registry"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: ["Используйте &eЧертёж&r в деревне для управления ею."]
+			id: "6E074D0EF3EC5B70"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1A10F71B3BA1F601"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "0C15C2D4DB69840D"
+				item: "mca:blueprint"
+				type: "item"
+			}]
+			title: "План прогресса"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["57B5209F6744960D"]
+			description: ["В редких случаях жители могут заразиться — что может привести к их смерти. Изучите болезни и способы их лечения, чтобы этого избежать!"]
+			id: "6AEF98877F6AF6CA"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "24CC02F15B2D516B"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "037FB8A8F0CBF9EB"
+					item: "simplehats:doctorhat"
+					type: "item"
+				}
+			]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "1A7691EF79F81ED9"
+				item: "mca:book_infection"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6AEF98877F6AF6CA"]
+			description: ["Иногда наши жители умирают (случайно или намеренно...). Но с MCA вы можете вернуть их к жизни! Эта книга расскажет, как это сделать. Но будьте готовы — для этого вам придётся сразиться со смертью лично."]
+			id: "009437C8BB7D9892"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "77C26525CBA1DE0C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "07B0F92FC4E41DE3"
+				item: "mca:book_death"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5610D44E742948CC"]
+			description: [
+				"В MCA вы можете жениться как на жителях деревни, так и на других игроках. Чтобы жениться на жителе, сначала нужно сделать ему предложение. Надеемся, что ваш уровень отношений достаточно высок, и он согласится!"
+				""
+				"Чтобы жениться на игроках, используйте команду '/mca propose'."
+			]
+			id: "03DAE0F3497FF661"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0B8FCD61D3E2F9DE"
+					silent: true
+					title: "250 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "0230537D62321FCF"
+					item: "simplehats:milady_doll"
+					type: "item"
+				}
+			]
+			subtitle: "Отношения"
+			tasks: [{
+				id: "2FE89D39632D7B42"
+				item: "mca:engagement_ring_rg"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["009437C8BB7D9892"]
+			description: [
+				"Победите &eЖнеца&r, чтобы вернуть своих павших жителей!"
+				""
+				"Для призыва &eЖнеца&r вы должны построить &eАлтарь&r."
+				"&eАлтарь&r состоит из 3 &bстолбов обсидиана&r высотой не менее &e2 блоков&r."
+				"В &eцентре&r столбов нужно поставить &eизумрудный блок&r."
+				"&eЗажгите&r &eверхушки&r всех 3 столбов с помощью кремня и огнива,"
+				"а затем зажгите &aизумрудный блок&r, чтобы призвать &eЖнеца&r."
+				""
+				"{image:cte2:textures/mca_grimreaper.png width:160 height:140 align:center}"
+				""
+				"&eЖнец&r &4может быть призван только ночью&r."
+				""
+				"&cЖнец появляется при минимальном уровне 30.&r"
+				""
+				"Жнец имеет:"
+				"&b+1% к вампиризму&r"
+				"&a10% шанс выпадения Руны Owd&r"
+			]
+			id: "564F958C07802B5B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6D63A4B38E0C681C"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "1B2624ED552C3789"
+					item: "simplehats:bigbrain"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Управление деревней"
+			tasks: [{
+				entity: "mca:grim_reaper"
+				icon: {
+					Count: 1
+					id: "mca:scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "3C838778447C9753"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Давай и бери"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["564F958C07802B5B"]
+			description: ["Вы можете использовать &eПосох жизни&r, чтобы вернуть мёртвых жителей к жизни!"]
+			id: "171F2819791E3C2F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "33C5158A421806ED"
+				silent: true
+				title: "250 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Управление деревней"
+			tasks: [{
+				id: "7194C831C004317D"
+				item: {
+					Count: 1
+					id: "mca:staff_of_life"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Воскрешение"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"С помощью Строительного жезла вы можете размещать сразу несколько блоков, расширяя постройку в направлении, куда вы смотрите. И если этого недостаточно — вы можете улучшить жезл, добавив дополнительные ядра. Это позволит, например, размещать блоки позади того, на который вы смотрите, или даже вызывать блоки прямо в воздухе."
+				""
+				"Каждый жезл оснащён &eСтроительным ядром&r. Вы можете улучшить жезл, добавив в него новые ядра — просто совместите жезл и ядро в верстаке. Чтобы переключаться между установленными ядрами, зажмите OPTKEY (CTRL) и щёлкните ЛКМ по пустому месту с жезлом в руке."
+				"&cКаменные жезлы не поддаются улучшению.&r"
+				""
+				"&eСтроительное Ядро&r"
+				""
+				"Расширяет постройку с той стороны, куда вы смотрите. Максимальное количество размещаемых блоков зависит от уровня жезла. Удерживайте OPTKEY (CTRL) и прокручивайте колесо мыши, чтобы сменить режим размещения (Горизонтальный, Вертикальный, Север/Юг, Восток/Запад, Без фиксации)."
+			]
+			id: "130759BFC47D58DE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1BE7D312966DC021"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Construction Wands"
+			tasks: [{
+				id: "6BD0E93EAF4C4C9E"
+				item: {
+					Count: 1
+					id: "constructionwand:stone_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["130759BFC47D58DE"]
+			description: ["Существуют базовые жезлы, сделанные из камня, железа и алмаза. Жезлы более высоких уровней обладают большей мощностью и сроком службы."]
+			id: "7DDC60601812FEA6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "300917AC34F03D82"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Construction Wands"
+			tasks: [{
+				id: "50DEC00FF30F8074"
+				item: {
+					Count: 1
+					id: "constructionwand:iron_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eАнгельское Ядро&r"
+				""
+				"Размещает блок с противоположной стороны от блока (или ряда блоков), на который вы смотрите. Максимальная дистанция зависит от уровня жезла. Щёлкните ПКМ по пустому месту, чтобы поставить блок в воздухе (похоже на ангельские блоки, отсюда и название). Для этого блок, который вы хотите поставить, должен находиться в вашей второй руке."
+				"Нельзя ставить блоки в воздухе, если вы упали глубже 10 блоков (то есть нет лёгкого способа спастись при падении в бездну)."
+			]
+			id: "13B7B1C35F13C86D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1B26FC45F4717F75"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Construction Wands"
+			tasks: [{
+				id: "72C3C6230D81D4E4"
+				item: "constructionwand:core_angel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7DDC60601812FEA6"]
+			description: [
+				"&eОграничение&r: если ограничение включено, жезл будет ставить блоки только в одной строке или колонке (можно выбрать между Север/Юг, Восток/Запад на горизонтальной плоскости и Горизонтальный, Вертикальный на вертикальной плоскости). Если блокировка направления выключена, жезл расширит всю поверхность здания, на которую вы смотрите. Эта опция не действует в Ангельском режиме."
+				""
+				"&eНаправление&r: если установлено значение «Игрок», жезл ставит блоки в том же направлении, как если бы вы ставили их сами. Режим «Цель» размещает блоки в том же направлении, что и поддерживающий их блок."
+				""
+				"&eЗамена&r: включает или отключает замену заменяемых блоков (жидкости, снег, высокая трава)."
+				""
+				"&eСоответствие&r: выбирает, какие блоки будут расширяться жезлом. При значении «ТОЧНО» расширяются только блоки, точно совпадающие с выбранным."
+				"«ПОХОЖИЕ» считает похожие блоки одинаковыми (например, расширяет и грязь, и траву)."
+				"«ЛЮБЫЕ» расширяет любые блоки на поверхности здания, на которую вы смотрите."
+				""
+				"&eСлучайный&r: если включён случайный режим, жезл ставит случайные блоки из вашей горячей панели."
+			]
+			id: "619A04B3428907F1"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2CD67EABBBECB4C4"
+				silent: true
+				title: "500 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Construction Wands"
+			tasks: [{
+				id: "52E3A18F1E4BE3F5"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eFramedBlocks&r добавляет блоки разных форм, которые можно сделать похожими практически на любой другой блок в игре. Для начала создайте базовый &eКаркасный блок&r."
+				""
+				"Создайте &eКаркасную пилу&r — она работает как камнерез, но для каркасных ьлоков. С её помощью вы можете легко выбирать нужную форму каркасного блока."
+			]
+			id: "03D703094F2DC94A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0370DBFA598A59EC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "48E8FEFCED620C0A"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			title: "Начинаем работу с Framed!"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03D703094F2DC94A"]
+			description: ["С помощью &eкаркасной пилы&r создайте &eкаркасный склон&r."]
+			id: "7D4D72D4B936240C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6548E28FCD6DB0A3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "62E342C0A2DED1C9"
+				item: "framedblocks:framed_slope"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: [
+				"&eКаркасный гаечный ключ&r позволяет поворачивать каркасные блоки. В большинстве случаев направление поворота зависит от грани, по которой вы кликнули."
+				""
+				"&eКаркасный молот&r позволяет извлечь блок из каркаса и вернуть его в исходное состояние."
+				""
+				"&eКаркасная отвёртка&r позволяет переключать различные состояния замаскированного блока."
+				""
+				"&eКаркасный ключ&r позволяет зафиксировать некоторые каркасные блоки в текущей форме, подавляя обновления от соседних блоков. Это позволяет размещать блоки в конфигурациях, которые были бы невозможны при наличии определённых соседей (например, установить каркасные лестницы в угловой форме без необходимости сохранять соседние блоки для этой формы)."
+				""
+				"Существуют и другие инструменты для FramedBlocks — ознакомьтесь с ними в &eJEI&r!"
+			]
+			id: "5E71DC1D9E7A83BB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "337D19FEE194795C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [
+				{
+					id: "2CD93E35DB4888B6"
+					item: "framedblocks:framed_wrench"
+					type: "item"
+				}
+				{
+					id: "26B02CB43C3D8E5E"
+					item: "framedblocks:framed_hammer"
+					type: "item"
+				}
+				{
+					id: "346E0C173E6BEB68"
+					item: "framedblocks:framed_screwdriver"
+					type: "item"
+				}
+				{
+					id: "72ECCC291DE1738D"
+					item: "framedblocks:framed_key"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D4D72D4B936240C"]
+			description: ["&eКаркасные усиления&r позволяют придать любому каркасному ьлоку, в который вы их вставите, прочность и свойства &eобсидиана&r!"]
+			id: "49ED3E0B2E317DF6"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7D808B6752D831FC"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "FramedBlocks"
+			tasks: [{
+				id: "63B204F32F396EF5"
+				item: "framedblocks:framed_reinforcement"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DEC625AAF61ADAE"]
+			description: ["Если вы наткнулись на пустую деревню или просто хотите заселить свою деревню с помощью силы монет, вы можете получить доступ к &eТорговому терминалу&r, чтобы купить яйца жителей!"]
+			id: "20AB86BF7E21FD3B"
+			rewards: [
+				{
+					count: 5
+					id: "4159A4D6D2EE46E3"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give xp_times_lvl @p 100"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2A2C8679E7193891"
+					silent: true
+					title: "100 Experience x Lv."
+					type: "command"
+				}
+			]
+			subtitle: "Торговый терминал"
+			tasks: [
+				{
+					id: "7590F368349C7E55"
+					item: "mca:male_villager_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0C9856B277D7C90B"
+					item: "mca:female_villager_spawn_egg"
+					type: "item"
+				}
+			]
+			title: "Город-призрак"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: ["&eМегаФакел&r — мечта любого строителя базы, ведь он предотвращает спавн всех враждебных мобов в радиусе &964 блока&r! Щёлкните ПКМ с пустой рукой, чтобы отобразить точную зону действия, или Shift + ПКМ, чтобы скрыть её."]
+			id: "25A4EFCBB5F8AC31"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6327B1498874B28B"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "No more nasty surprises."
+			tasks: [{
+				id: "34E000AEDA4852D2"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Освети мир"
+			x: 3.0d
+			y: -6.0d
+		}
+	]
+	title: "Поместье"
+}

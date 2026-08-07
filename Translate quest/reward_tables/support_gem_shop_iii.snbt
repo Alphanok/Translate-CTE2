@@ -1,0 +1,198 @@
+{
+	id: "47F5343CBE906758"
+	loot_size: 1
+	order_index: 33
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"ailment_damage_less_hit_dmg\",\"type\":\"SUPPORT\",\"perc\":15,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон состояний"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"aoe_dmg\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: фокусировка области"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"chaos_damage\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон хаосом"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"cold_damage\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон холодом"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fire_damage\",\"type\":\"SUPPORT\",\"perc\":12,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон огнём"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"inc_heal\",\"type\":\"SUPPORT\",\"perc\":20,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: увеличенное исцеление"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"lightning_damage\",\"type\":\"SUPPORT\",\"perc\":13,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон молнией"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"physical_damage\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: физический укрон"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"ranged_damage\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: урон в дальнем бою"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"phys_to_fire\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: физический урон в урон от огня"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"phys_to_cold\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: физический урон в урон от холода"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"phys_to_lightning\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: физический урон в урон от молний"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"aggressive_minions\",\"type\":\"SUPPORT\",\"perc\":14,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: агрессивные миньоны"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"defensive_minions\",\"type\":\"SUPPORT\",\"perc\":22,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: неуловимые миньоны"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"power_on_crit\",\"type\":\"SUPPORT\",\"perc\":24,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: заряд энергии при крите"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"fortify\",\"type\":\"SUPPORT\",\"perc\":16,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Камень поддержки: укрепление"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/str"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"endurance_on_hit\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Камень поддержки: заряд выносливрсти при крите"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"focused_shot\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1}"
+				}
+			}
+			title: "Камень поддержки: сфокусированный выстрел"
+		}
+		{
+			item: {
+				Count: 1
+				id: "mmorpg:skill_gems/support/dex"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"disarray\",\"type\":\"SUPPORT\",\"perc\":23,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: замешательство"
+		}
+	]
+	title: "Support Gem Shop III"
+}

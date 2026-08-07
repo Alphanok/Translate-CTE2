@@ -1,0 +1,932 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "jolly_cooperation"
+	group: "5C56FC6157E20EBE"
+	icon: "minecraft:rose_bush"
+	id: "05E0BC63F8DC87E2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&eLightman's Currency&r вводит монеты как валюту, различные торговые точки, аукционный дом и многое другое."
+				""
+				"Любой &eLightman's Trader&r, которого вы разместите, может изменяться только вами или вашей &eкомандой Lightman's.&r Аккаунты команд создаются нажатием на маленький значок Стива в правом верхнем углу вашего инвентаря. Также есть кнопка &eуведомления&r для событий торговцев и аккаунтов команд. Аккаунты команд используются для совместного распределения прибыли и затрат между игроками."
+				""
+				"&eВалюта&r добывается путём &eубийства&r мобов, &eдобычи&r и &eвыполнения заданий.&r"
+				""
+				"Используйте &e/lctrade&r для торговли с другими игроками поблизости."
+			]
+			id: "06B577BB603F2F0A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "374773DC08579C0F"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте один торговый автомат"
+			tasks: [{
+				id: "3A6E6453C16F4C89"
+				item: "lightmanscurrency:vending_machine"
+				type: "item"
+			}]
+			title: "Lightman's Currency"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06B577BB603F2F0A"]
+			description: [
+				"Большинство блоков Торговцев предметами могут торговать любыми предметами, но некоторые типы предметов, такие как &eкниги&r или &eброня&r, требуют специальных &eТорговцев.&r"
+				""
+				"Используйте &eкассовый аппарат&r, чтобы &eсвязать&r любых размещённых торговцев — кликните правой кнопкой по кассе, чтобы &eпривязать&r её к &eрегистру.&r После установки регистра все доступные сделки торговцев &eотобразятся&r в интерфейсе &eкассового аппарата&r."
+			]
+			id: "64C7494796410D04"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4A6C9A71A022A0C1"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте один кассовый аппарат"
+			tasks: [{
+				id: "2DCBF62C3EC5F4FE"
+				item: "lightmanscurrency:cash_register"
+				type: "item"
+			}]
+			title: "Торговые точки"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64C7494796410D04"]
+			description: [
+				"&eБанкоматы&r могут &eхранить ваши деньги&r, &eпереводить деньги&r между аккаунтами и командными аккаунтами, а также &eобменивать монеты&r между номиналами."
+				""
+				"&eКопилки&r позволяют хранить монеты — кликните правой кнопкой по копилке с монетой в руках. Чтобы забрать деньги, придётся &eразбить&r её."
+				""
+				"&eДенежный сундук&r — это альтернатива банкомату, но он &eможет только хранить&r деньги. Если вы не &eдоверяете&r банкомату, храните монеты в Сундуке с деньгами."
+				""
+				"Используйте &e/lcbaltop&r, чтобы увидеть, у кого &eбольше всего денег&r на банковском счёте."
+			]
+			id: "6C57A4CBA635B27E"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "086A687857069566"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого."
+			tasks: [
+				{
+					id: "0D6098AA97808306"
+					item: "lightmanscurrency:atm"
+					type: "item"
+				}
+				{
+					id: "37A73CBAF5EED880"
+					item: "lightmanscurrency:piggy_bank"
+					type: "item"
+				}
+				{
+					id: "70503A6E08BBB908"
+					item: "lightmanscurrency:coin_chest"
+					type: "item"
+				}
+			]
+			title: "Хранилище денег"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C57A4CBA635B27E"]
+			description: [
+				"&eТорговые терминалы&r позволяют торговать с любыми другими торговцами в &eглобальной сети&r. Также вы можете получить доступ к &eАукционному дому&r сервера, который недоступен обычным игрокам."
+				""
+				"&eСетевлй торговец, предметами&r имеют &e4&r уровня и к ним можно получить доступ только через Торговые терминалы."
+				""
+				"Вы можете &eулучшить&r любого обычного торговца, чтобы к нему можно было получить доступ через сеть, а также лично, поместив &eСетевое улучшение&r в один из его &eслотов для улучшений&r."
+				""
+				"&eАукционные стенды&r позволяют игрокам &eделать ставку&r на предметы в течение &eотведённого времени&r до окончания аукциона."
+			]
+			id: "2BB4B6FE41F4CC58"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2BD9D6EA6E99502E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [
+				{
+					id: "5BE8EC6FBAEA12B4"
+					item: "lightmanscurrency:item_trader_server_sml"
+					type: "item"
+				}
+				{
+					id: "414707595643EEB0"
+					item: "lightmanscurrency:network_upgrade"
+					type: "item"
+				}
+				{
+					id: "01FE70F053D60BE3"
+					item: "lightmanscurrency:auction_stand_oak"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BB4B6FE41F4CC58"]
+			description: [
+				"&eСистема билетов&r — хороший способ разрешить вход только &eплатным клиентам&r в определённую зону или &eактивировать редстоун-механизм&r. Не давайте никому &eМастер-билеты&r, которые вы создаёте."
+				""
+				"&eИгровой автомат&r позволяет создавать собственные &eвесы выплат и возможные награды&r для платных клиентов."
+			]
+			id: "322F44860B462AEF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "112776A78DA44E79"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [
+				{
+					id: "36CBBF5574C67135"
+					item: "lightmanscurrency:ticket_kiosk"
+					type: "item"
+				}
+				{
+					id: "76481E26B68A5DC5"
+					item: "lightmanscurrency:paygate"
+					type: "item"
+				}
+				{
+					id: "656E0AEF24D841CB"
+					item: "lightmanscurrency:ticket_machine"
+					type: "item"
+				}
+				{
+					id: "08328D273151AA2A"
+					item: "lightmanscurrency:slot_machine"
+					type: "item"
+				}
+			]
+			title: "Билеты и игровые автоматы"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["322F44860B462AEF"]
+			id: "652C2A6786830558"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "76F366A39BE3CBF5"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "7421D41C27D9A612"
+					item: "simplehats:halo"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Испытание"
+			tasks: [
+				{
+					count: 4L
+					id: "60D301B383B7C824"
+					item: "lightmanscurrency:coinpile_copper"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2F2002492C9614D8"
+					item: "lightmanscurrency:coinpile_iron"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "409E4DE17EB4AD7F"
+					item: "lightmanscurrency:coinpile_gold"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0C83A084CC749C05"
+					item: "lightmanscurrency:coinpile_emerald"
+					type: "item"
+				}
+				{
+					id: "0FB71A19BB5F835D"
+					item: "lightmanscurrency:coinpile_diamond"
+					type: "item"
+				}
+			]
+			title: "Важный игрок"
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"&eJoy of Painting&r позволяет создавать произведения искусства, устанавливая холсты любого размера на &eмольберт.&r Добавляйте красители в свою &eпалитру&r и смешивайте их, чтобы создавать уникальные цвета. &eПалитру&r можно приобрести на &eТорговом терминале&r. Не забудьте &eсохранить&r вашу картину после завершения."
+				""
+				"Чтобы создать &eПалитру&r, вам понадобятся 3 доски и как минимум 1 краситель. Это динамический рецепт, поэтому он не отображается в JEI."
+			]
+			id: "792587BFEA5FB382"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0E94772DB7822516"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [
+				{
+					id: "5D1C69FA31081C44"
+					item: "xercapaint:item_easel"
+					type: "item"
+				}
+				{
+					id: "7924B42762A8EFFC"
+					item: "xercapaint:item_palette"
+					type: "item"
+				}
+				{
+					id: "39A4B0FB7967A97B"
+					item: "xercapaint:item_canvas"
+					type: "item"
+				}
+			]
+			title: "Joy of Painting"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&eMusical Instrument Minecraft Interface&r позволяет &eвоспроизводить MIDI-файлы&r с помощью &eподключённого MIDI-устройства&r к вашему компьютеру, из &eфайлов,&r или по &eпрямым ссылкам онлайн&r."
+				""
+				"Полные инструкции по моду &eдоступны в руководстве по моду.&r Некоторые функции, такие как &eигра на инструментах в мультиплеере,&r здесь не описаны."
+				""
+				"Для начала &eскачайте&r MIDI-песню из интернета и поместите её в &eспециальную папку.&r"
+				""
+				"&eПередатчик&r используется для передачи нот из MIDI-файла на инструменты в MIMI."
+				""
+				"Чтобы использовать &eПередатчик&r, создайте его, держите в основной или дополнительной руке и кликните правой кнопкой мыши, чтобы открыть экран Передатчика (описан ниже). Передатчик работает похожим образом на Эндер-сундук: у каждого игрока только один, и каждый Передатчик для этого игрока одинаков."
+				""
+				"Вы можете использовать команду \"&b/mimi config&r\" для настройки звука и прочего."
+			]
+			id: "4EB78B5D6F8061E9"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "554EE015F2507D1C"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [
+				{
+					id: "4F23B706CC2324EB"
+					item: "mimi:guide"
+					type: "item"
+				}
+				{
+					id: "43B80F923FC3A2CB"
+					item: "mimi:transmitter"
+					type: "item"
+				}
+				{
+					id: "2ED6A543049B0B62"
+					item: "mimi:piano"
+					type: "item"
+				}
+			]
+			title: "Создатель музыки"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["309792D482119CAD"]
+			id: "659BC549DBEF88F7"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 525"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3889F09AFDC21CA0"
+					silent: true
+					title: "525 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "6D212FA3A888DEE3"
+					item: "simplehats:discoball"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Испытание"
+			tasks: [
+				{
+					id: "47AD9E90B03F4DB1"
+					item: "mimi:banjo"
+					type: "item"
+				}
+				{
+					id: "7E41E58B5E74D3B0"
+					item: "mimi:acguitar"
+					type: "item"
+				}
+				{
+					id: "56D43392BB56F7BA"
+					item: "mimi:elecguitar"
+					type: "item"
+				}
+				{
+					id: "785F904C8061C3A3"
+					item: "mimi:bassguitar"
+					type: "item"
+				}
+				{
+					id: "467709160C457369"
+					item: "mimi:violin"
+					type: "item"
+				}
+				{
+					id: "28A00BDFBE87255A"
+					item: "mimi:microphone"
+					type: "item"
+				}
+				{
+					id: "1FB2835B5D6A93BE"
+					item: "mimi:trumpet"
+					type: "item"
+				}
+				{
+					id: "38934E313D24B898"
+					item: "mimi:frenchhorn"
+					type: "item"
+				}
+				{
+					id: "7B4D310CB1E27CFB"
+					item: "mimi:saxophone"
+					type: "item"
+				}
+				{
+					id: "7F0657D7E9DFD8ED"
+					item: "mimi:clarinet"
+					type: "item"
+				}
+				{
+					id: "2BB1616BA365C884"
+					item: "mimi:flute"
+					type: "item"
+				}
+				{
+					id: "2739476A8CEBB15B"
+					item: "mimi:ocarina"
+					type: "item"
+				}
+				{
+					id: "0567DAB0D990E3B6"
+					item: "mimi:synlead"
+					type: "item"
+				}
+				{
+					id: "4D884F1E82BA36FA"
+					item: "mimi:kalimba"
+					type: "item"
+				}
+				{
+					id: "12BE5EA3BE95256F"
+					item: "mimi:bagpipe"
+					type: "item"
+				}
+				{
+					id: "1051698400C45193"
+					item: "mimi:oboe"
+					type: "item"
+				}
+				{
+					id: "2472D4AAC36C0DC2"
+					item: "mimi:accordion"
+					type: "item"
+				}
+				{
+					id: "0C1314DCB6C97BB6"
+					item: "mimi:harmonica"
+					type: "item"
+				}
+				{
+					id: "4936A5A89E23BD80"
+					item: "mimi:handbell"
+					type: "item"
+				}
+				{
+					id: "2C472301BC4C42EE"
+					item: "mimi:glockenspiel"
+					type: "item"
+				}
+				{
+					id: "5CCBD8322359627D"
+					item: "mimi:musicbox"
+					type: "item"
+				}
+				{
+					id: "2BBD7855C228EF2F"
+					item: "mimi:bassoon"
+					type: "item"
+				}
+				{
+					id: "21DA66CBB72A6853"
+					item: "mimi:woodblock"
+					type: "item"
+				}
+				{
+					id: "0D1DF75F16A2F3CF"
+					item: "mimi:bottle"
+					type: "item"
+				}
+				{
+					id: "54B0B2BB73B656CA"
+					item: "mimi:panflute"
+					type: "item"
+				}
+				{
+					id: "4683423FD1BEFEBE"
+					item: "mimi:recorder"
+					type: "item"
+				}
+				{
+					id: "42755B39EF617F8E"
+					item: "mimi:piano"
+					type: "item"
+				}
+				{
+					id: "632BE4A56AB6F421"
+					item: "mimi:drums"
+					type: "item"
+				}
+				{
+					id: "595D576DA1CEB23D"
+					item: "mimi:organ"
+					type: "item"
+				}
+				{
+					id: "30A1D51D610F9BD7"
+					item: "mimi:steeldrum"
+					type: "item"
+				}
+				{
+					id: "28E5DF11B2BAA23A"
+					item: "mimi:xylophone"
+					type: "item"
+				}
+				{
+					id: "32AAD54A012E17CE"
+					item: "mimi:vibraphone"
+					type: "item"
+				}
+				{
+					id: "1B31B9552DC755C0"
+					item: "mimi:marimba"
+					type: "item"
+				}
+				{
+					id: "046909048DB7BF5F"
+					item: "mimi:celesta"
+					type: "item"
+				}
+				{
+					id: "104DE9FDAB590DC7"
+					item: "mimi:tubularbells"
+					type: "item"
+				}
+				{
+					id: "39CF393D39899A9E"
+					item: "mimi:harpsichord"
+					type: "item"
+				}
+				{
+					id: "68DEAB1EDFC98630"
+					item: "mimi:keyboard"
+					type: "item"
+				}
+				{
+					id: "225D7169B6A6FC97"
+					item: "mimi:edrums"
+					type: "item"
+				}
+			]
+			title: "Большой оркестровый проигрыватель"
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			description: ["&eLootr&r — это мод, который превращает каждый сгенерированный в мире сундук, бочку и вагонетку с сундуком в особую версию с &eуникальным лутом для каждого игрока&r."]
+			id: "6E3023586AC43198"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "59AE27F4FBAA9B83"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Откройте ваш первый контейнер Lootr"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "106E39AB117654B4"
+				type: "advancement"
+			}]
+			title: "Lootr"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E3023586AC43198"]
+			id: "193B377248414AFF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6700E56A6207ED42"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Откройте 10 контейнеров Lootr"
+			tasks: [{
+				advancement: "lootr:10loot"
+				criterion: ""
+				id: "1AA46A7D8EE1171F"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["193B377248414AFF"]
+			id: "39CC9458268DAF56"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "32D00F66966D0979"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Откройте 25 контейнеров Lootr"
+			tasks: [{
+				advancement: "lootr:25loot"
+				criterion: ""
+				id: "75727D55D4BE0E34"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["082038507F4E98DF"]
+			id: "070790DD12F2C9A6"
+			rewards: [
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25E5D3BD5CFDDE5C"
+					silent: true
+					title: "500 Experience x Lv."
+					type: "command"
+				}
+				{
+					id: "59D0D1FDEF0E7795"
+					item: "simplehats:doubletake"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Испытание"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				id: "2486E63A4C408549"
+				type: "advancement"
+			}]
+			title: "Бандит"
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Создайте &eТелепасс&r, чтобы связать его с собой. Другой игрок сможет использовать этот телепасс, чтобы &eмоментально телепортироваться&r к вам."
+				""
+				"&eЗолотые Телепассы&r — одноразовые, а &eАлмазные Телепассы&r имеют &eпрочность&r. Оба типа можно &eзачаровывать.&r"
+			]
+			id: "0152DC99C57C0731"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0C7EFE6485B640A3"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Создайте один Diamond Telepass"
+			tasks: [{
+				id: "13F379B253EDA98D"
+				item: {
+					Count: 1
+					id: "telepass:diamond_telepass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["39CC9458268DAF56"]
+			id: "082038507F4E98DF"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "23A0D529C076FB7E"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Откройте 50 контейнеров Lootr"
+			tasks: [{
+				advancement: "lootr:50loot"
+				criterion: ""
+				id: "4B724240CC7B8D95"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"070790DD12F2C9A6"
+				"652C2A6786830558"
+				"659BC549DBEF88F7"
+			]
+			icon: "alexsmobs:soul_heart"
+			id: "70DA25C53FFEB49F"
+			rewards: [
+				{
+					command: "/tellraw @a {\"text\":\"\",\"color\":\"blue\",\"extra\":[{\"selector\":\"@p\"},{\"text\":\" has achieved Team Player\"}]}"
+					elevate_perms: true
+					icon: "minecraft:cookie"
+					id: "3B58A7BF33FCBB9E"
+					title: "Click here to brag"
+					type: "command"
+				}
+				{
+					command: "/mine_and_slash give xp_times_lvl @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "07421521F3C1CB44"
+					silent: true
+					title: "750 Experience x Lv."
+					type: "command"
+				}
+				{
+					count: 6
+					id: "0279EAA6BA4B9D19"
+					item: "lightmanscurrency:coin_diamond"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "2E2C8624A41D58EF"
+					item: "simplehats:floatinghearts"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Достижение"
+			tasks: [{
+				id: "1C2D9D8441D68E4C"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Командный игрок"
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			description: [
+				"&eFLAN&r используется для создания привата территории. Кликните правой кнопкой мыши по земле с &eЗолотой мотыгой&r, чтобы начать приват территории."
+				""
+				"Вы можете кликнуть правой кнопкой мыши в любом месте с &eпалкой&r, чтобы увидеть, кому что принадлежит и где границы."
+				""
+				"Используйте &e/flan menu&r для редактирования вашего привата. Используйте &e/flan delete&r, чтобы удалить приват, на котором вы находитесь. Используйте &e/flan switchMode&r для создания субприватов."
+				""
+				"&eГлобальные права&r — это права, выданные всем, кто &eне&r состоит в группе с правами."
+				""
+				"&eКликайте правой кнопкой&r по группам прав для настройки их индивидуальных разрешений."
+				""
+				"&4&lВаш приват территории будет удалён после 90 дней бездействия владельца в мультиплеере.&r&n&r"
+				""
+				"&eНачальные блоки привата&r 2000"
+				"&e+1&r блок каждые &e10 секунд&r"
+				"&eМаксимум блоков привата:&r 25600"
+				"&eВремя для максимума:&r 66 часов"
+				"&eНачальная глубина привата территории:&r 20 блоков"
+				"&eМаксимум приват территорий:&r 5"
+				""
+				"Глубина привата территории будет &eавтоматически&r увеличиваться вниз, если вы &eстроите&r под своим приватом территории."
+			]
+			id: "447144432E16E12F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "75FDF97DC42DDF10"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			size: 1.5d
+			subtitle: "Создать по одному предмету каждого типа"
+			tasks: [{
+				id: "118E2836C81016A3"
+				item: {
+					Count: 1
+					id: "minecraft:golden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Притязание на землю"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4EB78B5D6F8061E9"]
+			description: ["Инструменты можно &eнастраивать&r, чтобы изменить их звук и работу. Создайте &eНастройочный стол&r и перейдите к соответствующей главе в &eруководстве по моду&r, чтобы увидеть &eполный список&r инструментов, которые можно настроить, и нужные для этого предметы."]
+			id: "34D93634E3BD0A59"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "373E7EA816B5F7E0"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Создайте один Настройочный стол"
+			tasks: [{
+				id: "568DA92753424F60"
+				item: "mimi:tuningtable"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34D93634E3BD0A59"]
+			description: [
+				"&eМеханический Маэстро&r будет &eсамостоятельно воспроизводить музыку&r, если дать ему &eинструмент&r и &eПульт управления.&r Для работы ему нужен &eсигнал редстоуна&r."
+				""
+				"Блоки &eСлушатель&r и &eПриёмник&r реагируют на &eноты, сыгранные рядом&r, и выдают &eсигнал редстоуна&r, если они соответствуют установленному фильтру."
+			]
+			id: "13BFD3FE012DE2AE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "160744DEF54A6086"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [
+				{
+					id: "0608E7A2EAE0494D"
+					item: "mimi:mechanicalmaestro"
+					type: "item"
+				}
+				{
+					id: "19DFD7EE72173C45"
+					item: "mimi:listener"
+					type: "item"
+				}
+				{
+					id: "3FDBE267EACCBA27"
+					item: "mimi:receiver"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13BFD3FE012DE2AE"]
+			description: [
+				"&eСерверный передатчик&r — это блочный вариант Передатчика, который не нужно держать игроку для воспроизведения MIDI-файлов. Однако он может проигрывать только те песни, которые предоставлены сервером. MIDI-файлы можно добавить в Серверный передатчик, поместив их в папку server_midi_files внутри папки конфигурации MIMI (работает и в одиночной игре, и у хоста в локальной сети), а затем нажав кнопку перезагрузки."
+				""
+				"В отличие от переносного Передатчика, где настройки сохраняются один раз для каждого игрока, настройки &eСерверного передатчика&r сохраняются отдельно для каждого блока. Во время воспроизведения песни блок Серверного передатчика будет излучать сигнал редстоуна."
+			]
+			id: "309792D482119CAD"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "251B7685E57F4467"
+				silent: true
+				title: "100 Experience x Lvl."
+				type: "command"
+			}]
+			subtitle: "Создайте по одному каждого"
+			tasks: [{
+				id: "60B81DC36D3F79DE"
+				item: "mimi:transmitterblock"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			description: [""Вы можете просматривать свой урон с помощью панели DPS. Откройте её сочетанием клавиш &eShift + ]&r, перемещайте с помощью &eShift + [&r, а сбросить положение окна можно клавишей &e*&r!"]
+			icon: "born_in_chaos_v1:evilometer"
+			id: "41B73C0882D4CAA4"
+			rewards: [{
+				id: "7F0E7DA137959919"
+				item: "lightmanscurrency:coin_iron"
+				type: "item"
+			}]
+			subtitle: "Проверка DPS!"
+			tasks: [{
+				id: "54512F768D4A938F"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Счетчик урона"
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Веселое сотрудничество"
+}

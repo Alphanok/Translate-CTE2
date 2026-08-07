@@ -1,0 +1,1308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_ii"
+	group: "1E3C4B5FFAE48A39"
+	icon: "minecraft:nether_star"
+	id: "5381722ABA7D14DD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"18E09A4B9FC1B43F"
+				"29CADE48F14D6436"
+			]
+			description: ["Ну, эти &eЛемурийцы&r определённо здесь выглядят как чужаки..."]
+			id: "52DAC9E8213D2624"
+			rewards: [
+				{
+					id: "545891FC6956AAC5"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":15,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 15)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0D1D6AA7D64C4EE8"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Риск дождя"
+			tasks: [{
+				entity: "riskofrain_mobs:lemurian_entity"
+				icon: "nightlights:octopus_purple"
+				id: "13BF61F2B380DC9E"
+				type: "kill"
+				value: 24L
+			}]
+			title: "Потусторонние существа II"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"Комары в Верхнем мире уже достаточно надоедливы... Но эти — огромные, цепляются прямо за лицо и в целом очень сложные для убийства!"
+				""
+				"Эти отвратительные мутантские летающие насекомые обитают в &eлесах незера&r."
+			]
+			icon: "alexsmobs:mosquito_proboscis"
+			id: "322725A82ADAA810"
+			rewards: [
+				{
+					count: 8
+					id: "6846F506D4DBBC18"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Rare Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "124DB96872E3BE33"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Багровые леса"
+			tasks: [{
+				entity: "alexsmobs:crimson_mosquito"
+				icon: "ftb_ph:crimson_mosquito"
+				id: "3EADF779EE3B6C1A"
+				type: "kill"
+				value: 4L
+			}]
+			title: "Кровавые вредители"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["Похоже, твоя интуиция не подвела. Крепости незера кишат странными врагами. &eВизер-скелет&r, похоже, сбрасывают фрагменты своих черепов, излучающие особую энергию."]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "63F4CAF1CA065949"
+			rewards: [
+				{
+					id: "33816632385BF1A6"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":25,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 25)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6F4E216D74BB3692"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: "ftb_ph:wither_skeleton"
+				id: "672F0F6E02A6D254"
+				type: "kill"
+				value: 12L
+			}]
+			title: "Коллекционеры черепов"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18E09A4B9FC1B43F"]
+			description: [
+				"Похоже, не все существа здесь изначально враждебны. Но нам нужно показать им, что мы настроены серьёзно."
+				""
+				"Пора разобраться с &eПиглинами&r и &eХоглинами&r. Их чаще всего можно встретить в &eПустошах (Nether Wastes)&r и &eБагровые леса (Crimson Forests)&r."
+			]
+			icon: "minecraft:piglin_head"
+			id: "29CADE48F14D6436"
+			rewards: [
+				{
+					id: "27D034D602B200EA"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "69DCE5D67CC781CF"
+					item: "mmorpg:stone/2"
+					title: "Rare Stone"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "01CC496042A47CC6"
+					silent: true
+					title: "1250 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [
+				{
+					entity: "minecraft:piglin"
+					icon: "ftb_ph:piglin"
+					id: "0709550781191C90"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:hoglin"
+					icon: "ftb_ph:hoglin"
+					id: "6ACD5F7F9447DCCB"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Потусторонние существа"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"В Незере вы можете встретить агрессивных огнедышащих существ. Хотя &eВирм&r и &eВсполох&r кажутся мощными, почти наверняка в глубинах и просторах Незера обитают ещё более сильные магматические твари."
+				""
+				"Лучше подготовиться к сопротивлению огню. Попробуйте найти и победить этих мобов, чтобы проверить свои силы."
+				""
+				"&o&7Завершение откроет повторяемый квест в главе Повторяемые!&r&r"
+			]
+			icon: "minecraft:blaze_powder"
+			id: "1D01AD334C7C70F1"
+			rewards: [
+				{
+					count: 5
+					id: "1E1B2C1F4FA4CF20"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3544639BC2E3A192"
+					silent: true
+					title: "1750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Огненное приключение"
+			tasks: [
+				{
+					entity: "minecraft:blaze"
+					icon: "ftb_ph:blaze"
+					id: "0B92DB0E2C3ACA8E"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "realmrpg_wyrms:red_wyrm"
+					icon: "minecraft:blaze_powder"
+					id: "123E1ECFC39D0945"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Огненные враги"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"Ты, должно быть, уже сталкивался с этими летающими тварями... Что-то подсказывает тебе, что сотни таких скрываются за каждым углом."
+				""
+				"Они ведь откуда-то появляются..."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "alexsmobs:lava_vision"
+				}
+			}
+			id: "1EA8FC97142B16A7"
+			rewards: [
+				{
+					count: 3
+					id: "5486B8641330278A"
+					item: "mmorpg:soul_extractor/rare"
+					title: "Rare Gear Soul Extractors"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2604E2CD0966E3DD"
+					silent: true
+					title: "2250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Огненное приключение"
+			tasks: [{
+				entity: "monsterplus:lava_squid"
+				icon: "ftb_ph:lava_squid"
+				id: "6EC7ADFF37CD9E71"
+				type: "kill"
+				value: 18L
+			}]
+			title: "Изрыгатели пламени"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"Вот оно — &eто самое.&r"
+				""
+				"Матерь лавового кальмара обладает:"
+				"&b+50% физического урона в огненный урон&r"
+				"&a5% шанс выпадения Руны Net&r"
+			]
+			icon: "simplehats:burning_m_bison"
+			id: "05AD0B9A77F0325F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "535DAF2AABB78097"
+					table_id: 1687722018226746788L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "79DBFB1E7228F818"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3669A04AB95A4666"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Огненное приключение"
+			tasks: [{
+				entity: "monsterplus:mother_lava_squid"
+				icon: "ftb_ph:lava_squid"
+				id: "01A75F2295A67935"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Мать"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75447684ADAD02D8"]
+			description: [
+				"Поместите &eпесок душ&r в форме буквы T и установите сверху &e3 Черепа визер-скелета&r, чтобы призвать &eИссушителя.&r"
+				""
+				"Этот босс очень сложен: для первой фазы вам понадобится метательное оружие или заклинание. Во второй фазе будьте готовы к тому, что Иссушитель приблизится и станет очень опасен в ближнем бою..."
+				""
+				"&o&eСовет:&r &oЕсли вам сложно победить Иссушителя, знайте, что чем выше уровень моба по сравнению с вашим, тем меньше урона он получает и больше наносит. Этот эффект начинает проявляться при разнице в 3 уровня.&r"
+				""
+				"&cИссушитель появляется минимум 30 уровня.&r"
+				""
+				"Иссушитель обладает:"
+				"&b+50% Физического урона в огненый урон&r"
+				"&b+20% сопротивление всем стихиям&r"
+				"&a10% шанс выпадения &eРуны Net&r"
+				""
+				"&6Завершение этого квеста открывает новые покупки в \"Магазин кампании\".&r"
+			]
+			icon: "minecraft:wither_rose"
+			id: "114D74DF8284ACC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77CCFAF579DA3451"
+					table_id: 2150601229175429082L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 7500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2D5BE1067A169265"
+					silent: true
+					title: "7500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "351D370BEAFABF0E"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "ftb_ph:wither"
+				id: "17530C3BC3EA0BB2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Тёмный ритуал"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["277A8C4C5D50ED00"]
+			description: [
+				"Ну вот, один из тех больших злодеев, которых тебе предстоит устранить. &eИнферно&r — мощный враг, к которому нужно тщательно подготовиться."
+				""
+				"Пластинки, вращающиеся вокруг &eИнферно&r, нужно сбить, прежде чем он сможет получить урон."
+				""
+				"&bИнферно&r можно найти в &eЦитадели&r. Также можно использовать &eВрата адкой крепости&r."
+				""
+				"Инферно обладает:"
+				"&b+50% физического урона в огненный урон&r"
+				"&b+25% шанс ожога&r"
+				"&a5% шанс выпадения Руны Net&r"
+			]
+			icon: {
+				Count: 1
+				id: "friendsandfoes:wildfire_crown"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "42A954877474A58F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74422C75EF7AACE2"
+					table_id: 4329773747337249676L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "777824462105E261"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6E3B5E2EB562F8D7"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Огненное приключение"
+			tasks: [{
+				entity: "friendsandfoes:wildfire"
+				icon: "ftb_ph:wildfire"
+				id: "6541A85B5313AC4F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Правитель пламени"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"Вы доложили о своих достижениях стражникам деревни и получили награды. Теперь пора отправляться в следующее измерение — &eUndergarden&r. Это влажное, липкое и относительно обитаемое измерение с любопытными существами... Они могут не быть мутантами, но всё равно стоит исследовать."
+				""
+				"Создайте &eКатализатор&r, используя свою &eзвезду незера&r, и войдите в Undergarden, построив портал из &eкаменных кирпичей&r в той же форме, что и портал в Незер. Активируйте портал с помощью катализатора."
+				""
+				"{image:cte2:textures/undergarden.png width:160 height:140 align:center}"
+			]
+			icon: "undergarden:catalyst"
+			id: "18D44E8B9226FB02"
+			rewards: [
+				{
+					count: 3
+					id: "281851AAA2C7DC0E"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 4500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4E1BE362EAFA93B2"
+					silent: true
+					title: "4500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [
+				{
+					id: "4F61CA02549D0BF8"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+				{
+					dimension: "undergarden:undergarden"
+					icon: "undergarden:depthrock"
+					id: "21C702BD4DC49479"
+					title: "Visit The Undergarden"
+					type: "dimension"
+				}
+			]
+			title: "Катализатор путешествий"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"63F4CAF1CA065949"
+				"1D01AD334C7C70F1"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Вы видели в крепостях Незера надписи с подсказками о другой структуре. Название &eЦитадель (Citadel)&r выгравировано на стенах крепости в разных местах. Возможно, стоит найти &eцитадель&r и провести расследование."
+				""
+				"&eТребуется выполнение 1 зависимости.&r"
+			]
+			id: "277A8C4C5D50ED00"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					id: "08F3F886C4A30C65"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/blaze"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6FEAA0D1FF245EA5"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Огненное приключение"
+			tasks: [{
+				advancement: "friendsandfoes:nether/find_citadel"
+				criterion: ""
+				id: "6E38DD14F2F2B52D"
+				type: "advancement"
+			}]
+			title: "Замок в темноте"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: ["Если вы часто умираете, можно скрафтить &eЯкорь возрождения&r. Для его создания сначала нужно найти &eПлачущий обсидиан&r!"]
+			id: "0A37821899EAE5B4"
+			rewards: [
+				{
+					count: 5
+					id: "297CFA167CCC5830"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "46A8D34E894763CE"
+					silent: true
+					title: "1750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Багровые леса"
+			tasks: [{
+				advancement: "minecraft:nether/obtain_crying_obsidian"
+				criterion: ""
+				id: "79B01E4A345318F7"
+				type: "advancement"
+			}]
+			title: "Высохшие слезы"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"Время от времени в нижнем мире можно заметить огромные, величественные строения. Как это возможно? Неужели здесь есть цивилизация?"
+				""
+				"Возможно, исследование одного из таких сооружений поможет тебе найти подсказки о местонахождении могущественных существ."
+			]
+			id: "45535AECCE43183A"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F6B3CF23487B7AE"
+				silent: true
+				title: "1500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "110553725D320A0F"
+				type: "advancement"
+			}]
+			title: "Адская крепость"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29CD881773D976E5"]
+			description: [
+				"Если &eИскажённые комар&r выпьет кровь у &eМангуса&r, покрытого &eWarped Fungus&r, то комар станет синим и начнёт расти в размерах — в итоге превратится в &eИскажёного комара&r."
+				""
+				"Альтернативно, можно накормить &eБагрового комара&r искажённой смесью&r. Не знаете, где её взять? Вы можете &eкупить её на Торговом терминале/Доске обмена&r!"
+				""
+				"Звучит как очень мутагенный процесс..."
+				""
+				"Искажёный комар обладает:"
+				"&b+40% брони&r"
+				"&a10% шансом выпадения руны Net&r"
+			]
+			icon: "alexsmobs:warped_muscle"
+			id: "37167129D6D6A280"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B1573668D8133F2"
+					table_id: 2180584499743187208L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "55F31513DD96482E"
+					silent: true
+					title: "2000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "6AF21C1384426C0B"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Багровые леса"
+			tasks: [{
+				entity: "alexsmobs:warped_mosco"
+				icon: "ftb_ph:warped_mosco"
+				id: "3A77AF5EDDC8EE67"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Лесной гигачад"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: [
+				"&eИзвелекатель душ экипировки&r можно использовать на экипировке. Ты получишь «характеристики» предмета в виде души, при этом сам предмет будет уничтожен. Затем эту душу можно применить к другому предмету!"
+				""
+				"Для обратного действия есть &eОчиститель душ снаряжения&r — он удаляет характеристики предмета, сохраняя саму основу."
+				""
+				"&eИзвлеатель самоцветов&r используются для извлечения &eСамоцветов&r из экипировки с гнёздами. Штрафа за это нет, но сам извлекатель будет израсходован. Также существует &eИзвлеатель рун&r, но его использование стоит &e1 потенциал экипировки&r."
+			]
+			icon: "minecraft:paper"
+			id: "60D44B70BB06539B"
+			rewards: [
+				{
+					count: 5
+					id: "06397D5030906CA7"
+					item: "mmorpg:soul_extractor/uncommon"
+					title: "Uncommon Gear Soul Extractors"
+					type: "item"
+				}
+				{
+					id: "019842FB37A2A722"
+					item: "mmorpg:currency/extract_gem"
+					type: "item"
+				}
+				{
+					id: "14ADF13CF85D2BDC"
+					item: "mmorpg:soul_cleaner"
+					title: "Gear Soul Cleaner"
+					type: "item"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "5222FCC05296547A"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Извлеатель душ"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4343A66299F26319"]
+			description: [
+				"&eNether Keeper&r — мощный противник, обитающий в &eKeeping Castle&r нижнего мира. Замки Keeping Castle можно найти под землей в &eпустошах и багровых лесах&r. Для его призыва положите &eЗвезду Нижнего мира на алтарь&r."
+				""
+				"&cОбратите внимание, что эти структуры нельзя обнаружить с помощью компаса исследователя обычным способом. Их нужно искать вручную.&r"
+				""
+				"{image:cte2:textures/nether_keeper.png width:192 height:108 align:center}"
+				""
+				"Nether Keeper имеет:"
+				"&b+50% Физический урон в огненые урон&r"
+				"&b+40% Броню&r"
+				"&a15% шанс выпадения &eРуны Net&r"
+			]
+			id: "4B57F45BE30AA5F2"
+			rewards: [
+				{
+					id: "6D6B60B2B13A812C"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":30,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 30)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "603037141A03BB23"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+				{
+					id: "2B90EDAC5DA53732"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:hellish_fortress"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "40EEEAB2C09C5FCA"
+					title: "3 Talent Points"
+					type: "custom"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "0B062AF006F72FED"
+					title: "Novice Ascendancy"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Большие злодеи"
+			tasks: [{
+				id: "3D45F31ADFFF1165"
+				item: {
+					Count: 1
+					id: "stalwart_dungeons:ancient_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Защитники нижнего мира II"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4B57F45BE30AA5F2"
+				"42A954877474A58F"
+				"05AD0B9A77F0325F"
+				"37167129D6D6A280"
+				"3F61325EA08B6DAA"
+			]
+			description: ["Победи всех мини-боссов Акта II, чтобы завершить это достижение. А потом похвастайся своим новым стильным головным убором!"]
+			hide_dependency_lines: true
+			icon: "simplehats:fakefire"
+			id: "389CFAF34A692969"
+			rewards: [
+				{
+					id: "42E82408B8908750"
+					item: "simplehats:fakefire"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0C37E20EAA887073"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Достижение"
+			tasks: [{
+				id: "5285A75C058C5073"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Победите всех мини-боссов акта II!"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: ["Магниты невероятно полезны в подземельях и исследованиях, поскольку они притягивают к вам все выпавшие предметы. Держите магнит в руке и нажмите Shift + ПКМ, чтобы настроить его радиус и фильтры. Можно даже улучшить для значительного увеличения радиуса действия!"]
+			id: "25F1A1475A6E6F1D"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "35B0C955A02DD55F"
+				silent: true
+				title: "1000 Experience"
+				type: "command"
+			}]
+			subtitle: "Магниты"
+			tasks: [{
+				id: "2A9C784EEF5930E4"
+				item: {
+					Count: 1
+					id: "simplemagnets:basicmagnet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Как они работают?"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["322725A82ADAA810"]
+			description: [
+				"&eLightman's Currency&r — это мод, добавляющий монеты, которые вы получаете за убийство мобов. Эти монеты можно использовать для торговли с жителями, покупки камней поддержки и аур в конце каждого Акта, а также для создания торговых точек и обмена с другими игроками."
+				""
+				"Даже в одиночной игре вы можете покупать предметы у торговца. В Craft to Exile 2 есть набор базовых товаров, доступных для покупки вне зависимости от мира. Создайте &eТорговый Терминал/Доску Обмена&r, чтобы ознакомиться с ассортиментом!"
+				""
+				"Примеры покупаемых вещей:"
+				""
+				"Материалы профессий Mine and Slash"
+				""
+				"Палитра для рисования и нотный лист"
+				""
+				"Редкие ресурсы"
+				""
+				"Обычные блоки (земля, камень и др.)"
+				""
+				"Если вы играете в мультиплеере, то можете покупать &eблоки захвата FLAN&r через опцию покупки FLAN."
+				""
+				"&oДля дополнительной информации смотрите задание \"&eLightman's Currency&r\" в главе &eВеселое сотрудничество&r!&r"
+			]
+			id: "29CD881773D976E5"
+			rewards: [{
+				id: "2ECADA7B5FE7D7E1"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Валюта"
+			tasks: [{
+				id: "165EE02B3146E124"
+				item: "lightmanscurrency:terminal"
+				type: "item"
+			}]
+			title: "Покупка счастья"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: ["Создайте &eтренеровачный манекен&r и поставьте его. Вы можете бить его, чтобы увидеть свой урон в секунду! Также можно включить опцию &5Лог урона&r во вкладке &eФункции&r в &eMNS Hub&r, чтобы видеть &eточные разбивки значений урона&r."]
+			id: "12B20146ED616389"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "1E68A513E06D4438"
+				silent: true
+				title: "1000 Experience"
+				type: "command"
+			}]
+			subtitle: "DPS-метр"
+			tasks: [{
+				id: "201D6D22A54727D4"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1D01AD334C7C70F1"]
+			description: [
+				"&eВалюты&r — это различные предметы, которые можно использовать напрямую на снаряжении. Они модифицируют и усиливают его."
+				""
+				"Каждое снаряжение имеет определённое количество &eПотенциала&r. Использование валюты уменьшает &eПотенциал&r предмета. Когда Потенциал достигнет 0, нельзя применять валюту с требованием Потенциала. Однако не вся валюта его расходует — такую можно использовать в любое время."
+				""
+				"Некоторые валюты, например &eСфера Хаоса,&r могут наложить очень мощные эффекты, но при этом вызвать и негативные."
+				"&cСфера Хаоса есть 25% шанс, что предмет превратится в уголь&r."
+			]
+			icon: "minecraft:paper"
+			id: "68EB4F5B367C3C47"
+			rewards: [
+				{
+					id: "63FF5032A26E8ACD"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67548D99572EA451"
+					table_id: 2792550926235851709L
+					type: "choice"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "5B5346C72F51EAD5"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Подробнее о валютах"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: [
+				"Вы, наверное, заметили, что некоторые монстры из &eНезера&r наносят больше &cогненного урона.&r Мобы, обитающие в определённом измерении, обычно имеют склонность к определённым стихиям. Например, в Незере некоторые мобы наносят сочетание огненного и физического урона."
+				""
+				"&oОбратите внимание, что это не означает, что они получают меньше урона от стихий, к которому имеют склонность.&r"
+				""
+				"&nСтихийные склонности&r"
+				""
+				"&lОбычный мир:&r &7нет&r"
+				"&lНезер:&r &cОгонь&r"
+				"&lПодземный сад:&r &5Хаос&r"
+				"&lAquamirae:&r &bХолод&r"
+				"&lЭвербрайт:&r &bХолод&r + &eМолния&r"
+				"&lЭвердан:&r &cОгонь&r + &5Хаос&r"
+				"&lКрай:&r &cОгонь&r + &eМолния&r + &5Хаос&r"
+				"&lТа Сторона:&r &5Хаос&r"
+				"&lСумречный лес:&r &7нет&r"
+			]
+			icon: "minecraft:paper"
+			id: "3F61325EA08B6DAA"
+			rewards: [
+				{
+					count: 2
+					id: "486CB77D39ED6397"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "56C4CFD439EAE625"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:endless/blaze"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "5CE8B1EB861233D7"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Стихийные склонности"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["29CADE48F14D6436"]
+			description: [
+				"Профессии в Mine and Slash порой прокачиваются довольно медленно... Знаете ли вы, что опыт, получаемый в бою, даёт &eДополнительный опыт от боя&r? Этот опыт накапливается и расходуется при выполнении профессий, увеличивая получаемый опыт."
+				""
+				"Аналогично, выполнение действий в профессиях даёт &eДополнительный опыт от профессии&r!"
+				""
+				"Вы можете увидеть, сколько у вас Дополнительного опыта, наведя курсор на иконку профессии в Mine and Slash Hub."
+			]
+			icon: "minecraft:paper"
+			id: "256EB6DAF1808F35"
+			rewards: [{
+				id: "6313F964AAACAA08"
+				item: "mmorpg:currency/enchant_reroll"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "41373A88D8FE08D7"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Минутная передышка"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["114D74DF8284ACC3"]
+			description: [
+				"&eВосхождения&r — это способ дальнейшего развития вашего персонажа через выполнение сложных заданий. Чтобы начать, нужно &eзавершить задание \"Защитники нижнего мира\"&r, что разблокирует &eглаву Восхождение&r."
+				""
+				"Первое выполненное задание даст вам 1 очко Восхождения — достаточно, чтобы выбрать специализацию. За каждое последующее выполненное испытание вы будете получать дополнительные очки!"
+				""
+				"Максимум очков — 7, и их можно распределять подобно очкам талантов в вкладке Восхождения в &eMine and Slash ХАБ&r."
+				""
+				"Вы можете активировать только одно дерево Восхождения одновременно. Чтобы выбрать другое, нужно сначала сбросить очки текущего дерева и вернуть их."
+			]
+			icon: "minecraft:paper"
+			id: "3C2D7F2998CC495F"
+			rewards: [
+				{
+					id: "7048624200E724FF"
+					item: "mmorpg:potions/reset_points_ascendancy"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "3EC017DEA512E603"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "24A37C91BE150CC6"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Восхождение"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["45535AECCE43183A"]
+			description: ["Приготовьте сытное блюдо, чтобы поддержать себя в живых! Приём пищи даёт временные бонусы к характеристикам на определённый период."]
+			id: "75349B31576A3930"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "031D6995F7F53586"
+				silent: true
+				title: "1250 Experience"
+				type: "command"
+			}]
+			subtitle: "M\\&S Профессии"
+			tasks: [{
+				id: "08BE1394EA5B782D"
+				item: {
+					Count: 1
+					id: "mmorpg:food/uncommon_life"
+					tag: {
+						tier: 1
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Пища для размышлений"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EA8FC97142B16A7"]
+			description: ["Попробуй создать собственное оружие, чтобы помочь себе в приключении!"]
+			id: "575DEFDB9962966C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 2000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "49B99CB75F267628"
+				silent: true
+				title: "2000 Experience"
+				type: "command"
+			}]
+			subtitle: "M\\&S Профессии"
+			tasks: [{
+				id: "21E5841575537E9D"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/weapon/rare"
+					tag: {
+						tier: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Самый острый"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["52DAC9E8213D2624"]
+			description: [
+				"&eФантомные криперы&r появляются в &eИскажённом лесу&r и &eКраю&r. При контакте они раскалываются на несколько частей, так что с ними нужно быть осторожным!"
+				""
+				"Фантомный крипер обладает:"
+				"&b+25% шансу уклонения&r"
+			]
+			icon: "born_in_chaos_v1:phantom_bomb"
+			id: "3B1B7EC7FF90C8E4"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "266DF2422C836890"
+				silent: true
+				title: "1500 Experience"
+				type: "command"
+			}]
+			subtitle: "Взрывные, невидимые бомбы"
+			tasks: [{
+				entity: "born_in_chaos_v1:phantom_creeper_copy"
+				icon: "ftb_ph:phantom_creeper"
+				id: "549C3B917A1ABE21"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Потусторонние существа III"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"730BE78211A1573B"
+				"75447684ADAD02D8"
+			]
+			description: [
+				"&cДля выполнения этого задания необходимо завершить:&r"
+				""
+				"{ \"text\": \"Chococrafts and Mounts\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
+				""
+				"В Чокопедии упоминается порода, которая обитает в Нижнем мире и умеет летать..."
+			]
+			id: "6A023A63B5FEE4A0"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 1500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "4746DD37A746BEE2"
+					silent: true
+					title: "1500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ACE0F8EB8A95A72"
+					table_id: 2792550926235851709L
+					type: "choice"
+				}
+			]
+			subtitle: "Дикие чокобо"
+			tasks: [
+				{
+					id: "14037C63F43DB96D"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "52D1CE65EA3CECD6"
+					item: { Count: 32, id: "chococraft:gysahl_green" }
+					type: "item"
+				}
+				{
+					id: "4959FE52F1E77C4D"
+					item: "chococraft:chocobo_saddle"
+					type: "item"
+				}
+			]
+			title: "Воздушная разведка"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3C2D7F2998CC495F"]
+			description: [
+				"&eAwful Ghast&r можно встретить в &eAwful Dungeons&r нижнего мира. Эти подземелья расположены в &eДолинах песка душ и искажённых лесах&r, где они выглядят как плавающие круглые структуры. Чтобы призвать его, положите &eЗвезду незера на алтарь&r."
+				""
+				"&cОбратите внимание, что эти структуры нельзя найти с помощью компаса исследователя обычным способом. Их нужно искать вручную.&r"
+				""
+				"{image:cte2:textures/awful_ghast.png width:192 height:108 align:center}"
+				""
+				"Awful Ghast обладает:"
+				"&b+50% физический урон в огненый урон&r"
+				"&b+30% сопротивление всем стихиям&r"
+				"&a15% шанс выпадения &eРуны Net&r"
+			]
+			id: "4343A66299F26319"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 5000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7E7FC3B9C75BC6F8"
+				silent: true
+				title: "5000 Experience"
+				type: "command"
+			}]
+			shape: "diamond"
+			subtitle: "Большие злодеи"
+			tasks: [{
+				id: "02751A7FE39DD1D0"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
+			title: "Защитники нижнего мира"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["63F4CAF1CA065949"]
+			description: [
+				"Кузнечные шаблоны — это предметы, используемые в &eКузнечных столах&r для улучшения инструментов и брони. Они расходуются при использовании, но могут быть продублированы с помощью уже имеющегося шаблона, соответствующего материала и алмазов."
+				""
+				"Кузнечные шаблоны для улучшения до незерита необходимы, чтобы улучшить алмазное снаряжение с помощью &eслитка незерита&r. Их можно найти только в &eОстатках бастиона (Bastion Remnants)&r, причем гарантированно — только в сокровищницах."
+			]
+			id: "75447684ADAD02D8"
+			rewards: [
+				{
+					count: 4
+					id: "1388E7CF795CFEF5"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+				{
+					id: "789F010B43E38AEB"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7CB1E8320DED257E"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				id: "02B914E0382A57F7"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "Подготовка"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Lv. 10-30"]
+	title: "Акт II"
+}

@@ -1,0 +1,2382 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "act_i"
+	group: "1E3C4B5FFAE48A39"
+	icon: {
+		Count: 1
+		id: "minecraft:iron_sword"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6F8D9CB650A8A0C6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0CDFB8E5BB59B981"]
+			description: [
+				"Отчёты разведки показывают рост активности разбойников. Были даже сообщения о повышенной активности некромантов!"
+				""
+				"Осмотрите территорию на наличие нежити и &eуничтожьте её&r."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:wooden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "313921A7833269CF"
+			rewards: [
+				{
+					id: "523A80564F5B3B6A"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/zombie"
+						}
+					}
+					title: "Zombie Gateway"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 125"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "72B420BFEB4D2F50"
+					silent: true
+					title: "125 Experience"
+					type: "command"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "ftb_ph:zombie"
+					id: "1CF03CBB118CB4BD"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "minecraft:skeleton"
+					icon: "ftb_ph:skeleton"
+					id: "6912869AEEF02CF4"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Этап тренировок"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"Вы нашли &eврата зомби&r после последней битвы с существами. Странно, но вы чувствуете исходящую от них неприятную энергию."
+				""
+				"Может быть, это причина роста количества нежити? Стоит проверить. Попробуйте использовать жемчужину подальше от деревни. Похоже, что при использовании она открывает портал..."
+			]
+			icon: {
+				Count: 1
+				id: "gateways:gate_pearl"
+				tag: {
+					gateway: "gateways:basic/zombie"
+				}
+			}
+			id: "4956C0B5633CE91E"
+			rewards: [
+				{
+					id: "1397C9FF3BAFD9BD"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/witch"
+						}
+					}
+					title: "Witch Gateway"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "602249117C6F72CE"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "34AE80E5F42D3E80"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Способы повышения уровня"
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					icon: "ftb_ph:zombie"
+					id: "3A09F9D7E19A7E9E"
+					type: "kill"
+					value: 20L
+				}
+				{
+					entity: "minecraft:husk"
+					icon: "ftb_ph:husk"
+					id: "0081A1F923E703C9"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Нарушения в воздухе"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			dependencies: ["60D950E97EA8E2B7"]
+			description: [
+				"Разведчики вернулись с новым докладом! В Верхнем мире были замечены &eнеобычно огромные&r зомби, скелеты и криперы."
+				""
+				"Это может быть только делом &eведьм&r. Тебе нужно &eотыскать ведьму, допросить её и изъять любые подозрительные предметы&r."
+			]
+			icon: "minecraft:cauldron"
+			id: "0388547EAFE52B5F"
+			rewards: [
+				{
+					count: 4
+					id: "5E5370AF7FBC8339"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					title: "Splash Potions of Chemical X"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 150"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "44AC5FC2AAB8AE3B"
+					silent: true
+					title: "150 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40C763D5F39FDA94"
+					table_id: 3790783906717981347L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "minecraft:witch"
+				icon: "ftb_ph:witch"
+				id: "02C46D668A930502"
+				type: "kill"
+				value: 3L
+			}]
+			title: "Зельевая угроза"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+				"Похоже, ведьма варила подозрительное зелье. На нём написано &e«Chemical X»&r. Возможно, стоит проверить, что оно делает — это может быть причиной появления &eогромных существ&r."
+				""
+				"Попробуй бросить его на &eобычного скелета&r и посмотри, что произойдёт. Или, если не повезёт, ты сам наткнёшься на &eМутировавшего скелета&r."
+				""
+				"&eУчти, что если ты встретишь Мутировавшего зомби, он может возродиться до 4 раз, если только не погибнет в огне!&r"
+			]
+			icon: {
+				Count: 1
+				id: "mutantmonsters:mutant_skeleton_skull"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5FCA8577C7DB792D"
+			rewards: [
+				{
+					id: "004160CB2EF9E66B"
+					item: "mmorpg:currency/level_up_orb"
+					title: "Orb of Infinity"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2E30BFE015E9A7C4"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "53538166A40324CB"
+					table_id: 8277515430762442209L
+					type: "choice"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "mutantmonsters:mutant_skeleton"
+				icon: {
+					Count: 1
+					id: "mutantmonsters:mutant_skeleton_skull"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1D20D3BF3B9BD554"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Эксперимент пошел не так"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Ты подтвердил, что ведьмы действительно варили зелья Chemical X, чтобы использовать их на существах Верхнего мира, превращая тех в ужасных монстров."
+				""
+				"Однако должна быть причина, по которой все они вдруг начали варить Chemical X... Похоже, пора заняться разведкой самому. Твоё чутьё указывает на коварных &eразбойников.&r"
+				""
+				"Может, удастся выяснить, что они замышляют. Известно, что ранее они поручали варку зелий ведьмам. Ты можешь найти &eразбойников&r в &eстандартных аванпостах разбойников&r, которые часто встречаются в Верхнем мире."
+				""
+				"&o&7Завершение открывает Повторяемое задание в главе «Повторяемые»!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "goblintraders:absorption"
+				}
+			}
+			id: "783CA457464E8E3D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "55703D37D362DFBB"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+				{
+					id: "39BEDAFB0052494D"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					icon: "ftb_ph:pillager"
+					id: "14618CB75F8DA2F8"
+					type: "kill"
+					value: 12L
+				}
+				{
+					entity: "minecraft:vindicator"
+					icon: "ftb_ph:vindicator"
+					id: "7BD8E97358F51C77"
+					type: "kill"
+					value: 6L
+				}
+			]
+			title: "Расследование"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+				"Эти &eразбойнки&r замышляют нехорошее. Они грабят деревни и часто встречаются в &eструктурах Верхнего мира&r."
+				""
+				"Теперь, когда вы знаете, кто стоит за ростом враждебных существ, пришло время &eперенести бой&r к ним."
+			]
+			icon: "simplehats:hockeymask"
+			id: "56FF2D399F956629"
+			rewards: [
+				{
+					id: "354515A8CAD6A367"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":5,\"id\":\"gear\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 5)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2DA88FAF6ABE615D"
+					silent: true
+					title: "500 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Сюжетная линия разбойников"
+			tasks: [
+				{
+					entity: "illagerinvasion:basher"
+					icon: "ftb_ph:basher"
+					id: "111624BAC6AD7E0E"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "illagerinvasion:marauder"
+					icon: "ftb_ph:savager"
+					id: "416E99E238B786D4"
+					type: "kill"
+					value: 4L
+				}
+				{
+					entity: "illagerinvasion:provoker"
+					icon: "ftb_ph:provoker"
+					id: "40CF23F638C07E93"
+					type: "kill"
+					value: 4L
+				}
+			]
+			title: "Предотвращение распространения"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: ["Этих разбойников легко найти только через принудительный призыв &eврат рейдеров&r (Gateway of the Raiders)."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "67D7938E14CD96D4"
+			rewards: [
+				{
+					id: "322956878C8086DC"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/currency"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"currency\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Currency Loot Chest (Lv. 5)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "332F58B90C64735B"
+					silent: true
+					title: "500 Experience"
+					type: "command"
+				}
+				{
+					id: "6F15877F9B2450C1"
+					item: "lightmanscurrency:coin_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Сюжетная линия разбойников"
+			tasks: [
+				{
+					entity: "illagerinvasion:archivist"
+					icon: "ftb_ph:archivist"
+					id: "48EB8067150A2569"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "illagerinvasion:sorcerer"
+					icon: "ftb_ph:sorcerer"
+					id: "3466BA58F158032F"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Рейдовая группа"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Похоже, твои подозрения подтвердились. В ходе допроса ты узнал, что &eВызыватель&r — настоящий кукловод за всеми этими злыми замыслами."
+				""
+				"Отследи Призывателя и положи конец его планам. Говорят, его можно найти в &eлесных особняках&r. Также его можно вызвать через &eврата налётчиков (Gateway of the Raiders)&r."
+				""
+				"&cПризыватель появляется минимум 15 уровня.&r"
+				""
+				"Призывателя обладает:"
+				"&b+20% сопротивление стихиям&r"
+				"&a10% шанс выпадения Руны OWD&r"
+			]
+			icon: "simplehats:crown"
+			id: "3E1EC6A042CC9310"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 2500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "61C78A9757B59F10"
+					silent: true
+					title: "2500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "708A11185AA6E12C"
+					table_id: 847184936680359530L
+					type: "choice"
+				}
+				{
+					id: "4DE8F79CE150A66E"
+					item: "simplehats:crown"
+					title: "Crown"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3AE054E2C8C68607"
+					title: "2 Talent Points"
+					type: "custom"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Основное задание"
+			tasks: [{
+				entity: "illagerinvasion:invoker"
+				icon: "ftb_ph:invoker"
+				id: "25E3A4A8CE375525"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Вдохновитель"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: ["&eИллюзор&r — это коварный и хитрый противник. Неудивительно, что он — правая рука Вызывателя среди разбойников. Их можно встретить в &eБашнях разбойников (Illusioner Towers)&r. Также они могут появляться через принудительные призыв &eврата рейдеров&r (Gateway of the Raiders)."]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35796166DD6A69CE"
+			rewards: [
+				{
+					id: "6AFB125691B58647"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/common_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"common\",\"lvl\":5,\"id\":\"rune\",\"key\":\"\"}"
+						}
+					}
+					title: "Common Rune Loot Chest (Lv. 5)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "5D215F1369125AE0"
+					silent: true
+					title: "750 Experience"
+					type: "command"
+				}
+				{
+					id: "0BD1A1A9272CE58B"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/enderman"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Сюжетная линия разбойников"
+			tasks: [{
+				entity: "minecraft:illusioner"
+				icon: "ftb_ph:illusioner"
+				id: "2BE997397056C5BC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Советник разбойников II"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["783CA457464E8E3D"]
+			description: [
+				"&eИнквизитор&r — правая рука Призывателя. Уничтожение одного из них нанесёт серьёзный удар силам Призывателя."
+				""
+				"Вы можете найти Инквизитора в &eКрепости&r. Их также можно встретить через принудительный &eврата захватчиков&r (Gateway of the Raiders)."
+			]
+			icon: {
+				Count: 1
+				id: "mmorpg:weapon/staff/wood"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "664D834AA6B16719"
+			rewards: [
+				{
+					id: "2043E25FA87E8E56"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 10)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "78A0C5335BFD302F"
+					silent: true
+					title: "750 Experience"
+					type: "command"
+				}
+				{
+					id: "73D187CA3C9EC9E3"
+					item: {
+						Count: 1
+						id: "gateways:gate_pearl"
+						tag: {
+							gateway: "gateways:basic/slime"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Сюжетная линия разбойников"
+			tasks: [{
+				entity: "illagerinvasion:inquisitor"
+				icon: "ftb_ph:inquisitor"
+				id: "2CB01FCE39A1B730"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Советник разбойников I"
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Ты победил Вызывателя… Но Верхний мир всё ещё не в безопасности."
+				""
+				"Из-за действий Илладжеров в Верхнем мире открылись разломы в другие измерения. Тебе предстоит отправиться в каждое из них и стабилизировать межпространственное соединение. В противном случае Верхний мир может быть захвачен инопланетными созданиями!"
+				""
+				"Пора отправиться в &eНезер&r — адский ландшафт, полный огня."
+				"&eТы можешь попасть туда, создав портал из обсидиана. Активируй его при помощи кремня и железа — и ты сможешь войти в Незер.&r"
+				""
+				"{image:cte2:textures/nether_portal.png width:160 height:128 align:1}"
+			]
+			icon: "minecraft:nether_star"
+			id: "18E09A4B9FC1B43F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 1000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "28B6646CDD4EB2CA"
+				silent: true
+				title: "1000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Основное задание"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:nether_star"
+				id: "1E9044A8D48D9197"
+				title: "Visit The Nether"
+				type: "dimension"
+			}]
+			title: "Неизведанное царство"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E1EC6A042CC9310"]
+			description: [
+				"Квестовая линия кампании в CTE2 разбита на несколько актов, где каждый акт связан с отдельным измерением. Ему предшествует Пролог (с которым ты уже знаком)."
+				""
+				"По мере прохождения основных заданий будут открываться дополнительные побочные квесты. Как только ты завершишь основную линейку заданий (обычно от 5 до 7 квестов), откроется задание на переход в следующий акт/измерение."
+				""
+				"С каждым новым измерением монстры будут становиться сильнее, а качество добычи — выше. Хотя мобы масштабируются под уровень игрока, в каждом измерении есть свой максимум уровня мобов. Это позволяет \"перерасти\" текущее измерение, если ты испытываешь трудности в нём."
+				""
+				"&6Этот квест открывает новые магазины в разделе Магазин компании.&r"
+			]
+			icon: "minecraft:paper"
+			id: "727ADA9C4F420BDC"
+			rewards: [
+				{
+					count: 50
+					id: "0416D44C116837AA"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					id: "09AB98FCA60D923A"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "28DCAFAF13E5B4B4"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "322B2479DC5B0063"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "4109830D72D5DC3B"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "6FA3A47AFDD25C96"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Акты"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15C2A55BAFCA5084"]
+			description: [
+				"Светящиеся существа скрываются под землёй, чтобы привлечь внимание. Найдите &eСветящихся скелетов&r, убейте их и продолжайте исследовать глубины."
+				""
+				"&o&7Завершение открывает повторяемое задание в главе «Повторяемые»!&r&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:skeleton_skull_candle"
+				tag: {
+					BlockEntityTag: {
+						CandleAmount: 1
+						CandleColor: 0
+					}
+				}
+			}
+			id: "0D9B68F2990B8E94"
+			rewards: [
+				{
+					count: 5
+					id: "1A0A49388DA210A9"
+					item: "lightmanscurrency:coin_iron"
+					title: "Money"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 150"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7C2C1418BEA78297"
+					silent: true
+					title: "150 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Подземелье"
+			tasks: [{
+				entity: "monsterplus:glow_skeleton"
+				icon: "ftb_ph:glow_skeleton"
+				id: "60852F7DA78E9C10"
+				type: "kill"
+				value: 8L
+			}]
+			title: "Проблемы со светом в темноте"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["051DB401E3A08D89"]
+			description: [
+				"Почему же скелеты светятся изначально? Ведь существа, из которых появляются скелеты, не светились в темноте..."
+				""
+				"Чтобы исследовать эту возможную остеомутацию, найдите &eОтшельника Бездны (Hermit Abysswalker)&r. Говорят, что его можно встретить через &eВрата ночей верхнего мира (Gateway of Overworldian Nights)&r."
+				""
+				"Будьте осторожны, он умеет кастовать разные заклинания и призывать помощников в бой."
+				""
+				"Отшельник Бездны обладает:"
+				"&b+30% брони&r"
+				"&a5% шанс выпадения руны Owd&r"
+			]
+			icon: {
+				Count: 1
+				id: "monsterplus:darkstar"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "152D52A88F776A70"
+			rewards: [
+				{
+					id: "0579BD5D35950F36"
+					item: {
+						Count: 1
+						id: "mmorpg:chest/rare_gear"
+						tag: {
+							mmorpg_loot_chest: "{\"num\":5,\"rar\":\"rare\",\"lvl\":10,\"id\":\"gem\",\"key\":\"\"}"
+						}
+					}
+					title: "Rare Gear Loot Chest (Lv. 10)"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "2B3FC6937853FEFE"
+					silent: true
+					title: "750 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "71705EA50FC99C7F"
+					table_id: 6943149240522624098L
+					type: "choice"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "63D9C567E093E023"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Подземелье"
+			tasks: [{
+				entity: "monsterplus:abyssologer"
+				icon: {
+					Count: 1
+					id: "monsterplus:darkstar"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "60D90D429BE94FBC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Мутагенный источник"
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: ["Вы слышали множество историй об подземных &eГоблинах&r и &eКобольдах&r. Одни говорят, что эти существа агрессивны и с ними лучше не связываться. Другие же утверждают, что Кобольды и Гоблины — самые дружелюбные жители подземелий... Если только вы &eпринесёте им немного монет&r."]
+			icon: "mmorpg:loot_table_chest"
+			id: "6FF06A68E8DA88F2"
+			rewards: [{
+				id: "0266EEA438D94B03"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Подземелье"
+			tasks: [{
+				id: "749BBB5B3A9895C3"
+				item: "lightmanscurrency:coin_emerald"
+				type: "item"
+			}]
+			title: "Скрытые торговцы"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["15C2A55BAFCA5084"]
+			description: [
+				"&eБлоки опыта&r — это блоки, которые можно создать и поставить. Они позволяют хранить &eобычный (ванильный) опыт&r внутри блока."
+				""
+				"Использование:"
+				""
+				"При приседании + правый клик пустой рукой вы добавляете весь свой текущий опыт в блок."
+				""
+				"Просто правый клик — снимает один уровень опыта из блока и добавляет его к вашей полосе опыта."
+				""
+				"&cОбратите внимание, что в вашей второй руке должно быть пусто!&r"
+			]
+			id: "6286EB870319776D"
+			rewards: [
+				{
+					id: "397DC27BBDC43B1B"
+					item: "minecraft:emerald"
+					title: "Emerald"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 125"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "25DDEDBC06834D92"
+					silent: true
+					title: "125 опыта"
+					type: "command"
+				}
+			]
+			subtitle: "Дополнительно"
+			tasks: [{
+				id: "36690510781ADE4D"
+				item: "globalxp:xp_block"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: [
+				"В CTE2 существует несколько типов оружия. Ниже приведён список всех типов оружия, при этом кастомные выделены &eжёлтым&r."
+				""
+				"Меч, Топор, Лук, Арбалет, &eПосох, Кинжал, Копьё, Молот, Большой Меч, Коса, Когти&r."
+				""
+				"Имейте в виду, что для создания такого оружия нужны Душа характеристик снаряжения, чтобы наделить его характеристиками Mine and Slash."
+				""
+				"В CTE2 можно также экипировать &eдвуручное оружие&r. В данный момент &eкопья, двуручные мечи и косы&r — двуручные."
+				""
+				"Также можно &eбрать в две руки любое одноручное оружие&r! Оружие в левой руке даёт &e25%&r от своих характеристик."
+			]
+			icon: "minecraft:paper"
+			id: "1367285A94791954"
+			rewards: [
+				{
+					id: "4DA65E4DA5733C27"
+					item: {
+						Count: 1
+						id: "roe_weapons:hammer_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":68},\"imp\":{\"p\":22,\"imp\":\"cleric_staff\"},\"affixes\":{\"suf\":[{\"p\":28,\"id\":\"of_vampirism\",\"rar\":\"common\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":37,\"id\":\"heal_crit_prefix\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"hammer\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3EAFA2F1B038FF69"
+					item: {
+						Count: 1
+						id: "roe_weapons:spear_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":23},\"imp\":{\"p\":69,\"imp\":\"war_spear\"},\"affixes\":{\"suf\":[{\"p\":38,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":16,\"id\":\"catalyzing\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"spear\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A5D7C2FB9AF7997"
+					item: {
+						Count: 1
+						id: "roe_weapons:dagger_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":93},\"imp\":{\"p\":91,\"imp\":\"imp_dagger\"},\"affixes\":{\"suf\":[{\"p\":27,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":33,\"id\":\"wep_item_flat\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"dagger\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C9C6B58399AD149"
+					item: {
+						Count: 1
+						id: "roe_weapons:gauntlet_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":54},\"imp\":{\"p\":22,\"imp\":\"ceremonial_gauntlet\"},\"affixes\":{\"suf\":[{\"p\":20,\"id\":\"of_vampirism\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":25,\"id\":\"warlords\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":2,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"gauntlet\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "171773CCFD2DABA4"
+					item: {
+						Count: 1
+						id: "roe_weapons:scythe_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":60},\"imp\":{\"p\":3,\"imp\":\"rusted_scythe\"},\"affixes\":{\"suf\":[{\"p\":36,\"id\":\"of_devastation\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":19,\"id\":\"wep_item_perc\",\"rar\":\"common\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":1,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"scythe\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DED2F461AED8A69"
+					item: {
+						Count: 1
+						id: "roe_weapons:greatsword_1"
+						tag: {
+							Damage: 0
+							mmorpg_gear: "{\"baseStats\":{\"p\":64},\"imp\":{\"p\":81,\"imp\":\"broad_greatsword\"},\"affixes\":{\"suf\":[{\"p\":30,\"id\":\"of_sweeping\",\"rar\":\"uncommon\",\"ty\":\"suffix\"}],\"pre\":[{\"p\":29,\"id\":\"physical_wep_dmg\",\"rar\":\"uncommon\",\"ty\":\"prefix\"}],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"rar\":\"uncommon\",\"lvl\":5,\"gtype\":\"greatsword\"}"
+							mmorpg_potential: "{\"potential\":10}"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "3C66E63FF35763F6"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Другие типы оружия, двуручное оружие, парное"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+				"В цепочке заданий &eКампания&r разные задания имеют разные формы фона, которые показывают их тип:"
+				""
+				"&aКвадрат с закруглёнными углами: Главное задание&r"
+				"&eКруг: Побочное задание&r"
+				"&3Шестерёнка: Повторяемое задание&r"
+				"&4Ромб: Мини-босс&r"
+				"&dВосьмиугольник: Магазин&r"
+				"&bШестиугольник: Достижение&r"
+				""
+				"Кроме того, встречаются &e«Потерянные страницы» с иконкой бумаги&r — это простые задания с нажатием для завершения, которые дают дополнительную информацию."
+			]
+			icon: "minecraft:paper"
+			id: "051DB401E3A08D89"
+			rewards: [{
+				id: "123F37A228E151D5"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "14B3CF645A1BD777"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Виды заданий"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"В ходе вашего путешествия вы будете искать более мощное снаряжение. Мощность снаряжения можно оценивать тремя основными способами:"
+				""
+				"1.&eУровень&r снаряжения, который определяет силу его характеристик. Уровень снаряжения обычно зависит от уровня убитого моба."
+				""
+				"2.&eРедкость&r снаряжения, которая определяет, сколько и каких характеристик может выпадать, а также сколько у него может быть слотов. Существует 7 выпадающих уровней редкости: &7Обычное&r, &aНеобычное&r, &9Редкое&r, &dЭпическое&r, &4Легендарное&r, &5Мифическое&r и &cУникальное&r. Уникальное снаряжение особенное тем, что его характеристики заранее определены. Оно мощное и иногда позволяет использовать уникальные стили игры."
+				""
+				"3.&eКачество&r снаряжения, которое дополнительно немного увеличивает его силу."
+				""
+				"Некоторые из этих параметров можно изменить с помощью валют из Mine and Slash, например, Сферы Бесконечности (Orb of Infinity), которая может повысить уровень снаряжения. Кроме того, некоторые валюты можно создать через систему профессий Mine and Slash для дальнейшего улучшения снаряжения."
+			]
+			icon: "minecraft:paper"
+			id: "6A8C03172A7F61C3"
+			rewards: [
+				{
+					id: "12EB15177FBCDD7B"
+					item: "mmorpg:currency/level_up_orb"
+					title: "Orb of Infinity"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1BEC2669FFDBCD9F"
+					item: "mmorpg:currency/sharpening_stone_0"
+					type: "item"
+				}
+				{
+					id: "402AFECF820302A3"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								SelectedSlot: 0
+								Size: 6
+							}
+						}
+						id: "supplementaries:quiver"
+					}
+					title: "Quiver"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "0E7658B0923F7FFA"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Улучшение снаряжения"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"Система «Благосклонность» (Favor) награждает игроков просто за жизнь в игре. Каждую минуту ты получаешь небольшое количество Благосклонности. &eМаксимальный «мягкий» предел Благосклонности — 1000&r, но можно превысить этот лимит, открывая сундуки."
+				""
+				"{image:cte2:textures/favor.png width:140 height:100 align:1}"
+				""
+				"При достижении 250+ Благосклонности ты получаешь бонус +2% к дропу. Чем выше Благосклонность — тем больше бонус к дропу."
+				""
+				"При &eмаксимуме в 2500&r у тебя будет +25% к опыту и дропу!"
+				""
+				"Обрати внимание, что для появления предметов определённых редкостей есть требования по уровню:"
+				""
+				"&dЭпические&r: 10+"
+				"&4Легендарные&r: 25+"
+				"&5Мифические&r: 50+"
+				""
+				"Но будь осторожен — &cсмерть отнимет у тебя 500 Благосклонности!&r"
+			]
+			icon: "minecraft:paper"
+			id: "0B7C635945E7F3AA"
+			rewards: [{
+				id: "4A985BD8BB918BA2"
+				item: "mmorpg:currency/level_up_orb"
+				title: "Orb of Infinity"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "562B84F769A52A5D"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Благосклонность"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"1367285A94791954"
+				"051DB401E3A08D89"
+				"6A8C03172A7F61C3"
+				"727ADA9C4F420BDC"
+				"0B7C635945E7F3AA"
+				"2C9B55C8C05E20E2"
+				"5DA2E0EE110431E0"
+				"4AF5F24C4B770EA5"
+				"2FC973866E3F8A8A"
+			]
+			description: ["Прочитайте все &eПотерянные Страницы&r Акта I, чтобы выполнить это достижение. Затем похвастайтесь своим новым головным убором!"]
+			hide_dependency_lines: true
+			icon: "simplehats:rabbitears"
+			id: "245FE9BAB6F6F545"
+			rewards: [
+				{
+					id: "64F19AB06C8D2784"
+					item: "simplehats:rabbitears"
+					title: "Bunny Ears"
+					type: "item"
+				}
+				{
+					id: "662036FEEC802916"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Достижение"
+			tasks: [{
+				id: "1FEDB2A08602B52A"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Прочитайте все потерянные страницы акта I!"
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: ["&eComforts&r добавляет &eспальные мешки&r, которые можно использовать в путешествиях. Вместо того чтобы таскать с собой громоздкую кровать, просто разложи спальный мешок и &eотдыхай!&r"]
+			id: "76483BF6DF35C463"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 750"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "66A431F69E17BCEF"
+				silent: true
+				title: "750 Experience"
+				type: "command"
+			}]
+			subtitle: "Комфорт"
+			tasks: [{
+				id: "43A73897ACED59B9"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"Удерживай &e`&r, чтобы активировать &eUltiminer&r — продвинутую версию &eveinmining&r (добычи целыми жилками). Появится контур, показывающий блоки, которые будут добыты. Удерживай shift + ` чтобы выбрать &eпаттерн&r, например Mining Tunnel — шахтный тоннель с лестницей. Только &eБесформенный режим&r добывает блоки произвольно, остальные следуют выбранному шаблону."
+				""
+				"Использование Ultiminer тратит &eдополнительную прочность инструмента и голод&r, а также требует подходящего инструмента."
+			]
+			id: "15C2A55BAFCA5084"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "598543904735A2F9"
+				silent: true
+				title: "100 Experience"
+				type: "command"
+			}]
+			subtitle: "Эффективность"
+			tasks: [{
+				id: "4DB46C0682811F67"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "FTB Ultimine"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: ["&eКомпас исследователя&r помогает находить &eструктуры&r, а &eКомпас природы&r — искать &eопределённые биомы&r. Возможно, вам потребуется изменить местоположение, чтобы найти то, что вы ищете."]
+			id: "472D5441B6FCD6EC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "76647498F1F2AB21"
+				silent: true
+				title: "250 Experience"
+				type: "command"
+			}]
+			subtitle: "Дополнительно"
+			tasks: [
+				{
+					id: "5AC3D8ABA379DF8D"
+					item: {
+						Count: 1
+						id: "explorerscompass:explorerscompass"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "72F9B32EEF288BE1"
+					item: {
+						Count: 1
+						id: "naturescompass:naturescompass"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"&eБамбуковые шипы&r причиняют урон всем, кто на них наступит. На них также можно нанести &eэффекты зелий&r."
+				""
+				"&eФлейта&r используется для привлечения &eприручённых мобов&r, которые могли потеряться. Щёлкните правой кнопкой мыши по мобу, чтобы связать флейту с этим питомцем."
+				""
+				"&eКлетка&r служит для &eпоимки&r мобов, особенно приручённых, чтобы их можно было транспортировать."
+				""
+				"&eИнформационная доска&r могут отображать текст из написанных книг."
+				""
+				"&eДополнительные банки&r могут хранить 4 ведра или &e12&r бутылок любых ванильных жидкостей (мёд, молоко, лава, зелья, супы, дыхание дракона или опыт), а также светлячков. В банки также можно помещать мелких мобов, таких как слайды и пчёлы. Чтобы &eпоймать&r везексов и эндермитов, нужны тонированные банки. &eShift + клик правой кнопкой&r ставит банку с мобом, не выпуская его."
+			]
+			id: "44B1B924A5A4D16F"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 250"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "20F3E066F9F557B2"
+				silent: true
+				title: "250 Experience"
+				type: "command"
+			}]
+			subtitle: "Дополнительно"
+			tasks: [
+				{
+					id: "2111C6DB7FD6A0F3"
+					item: "supplementaries:bamboo_spikes"
+					type: "item"
+				}
+				{
+					id: "508D00FB1DD255C8"
+					item: {
+						Count: 1
+						id: "supplementaries:flute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD689A99314A241"
+					item: "supplementaries:jar"
+					type: "item"
+				}
+				{
+					id: "7DC6717C3A2C5AB8"
+					item: "supplementaries:notice_board"
+					type: "item"
+				}
+				{
+					id: "07731E16BE8F3E4E"
+					item: "supplementaries:cage"
+					type: "item"
+				}
+			]
+			title: "Supplementaries' инструмены"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: ["Похоже, это &e«Chemical X»&r вызывает бурные эволюционные мутации. &eСвинки&r — простые и слабые животные, их можно считать лёгкой и &eбезопасной&r целью для тестов. Покорми Свинку &eФерментированным паучьим глазом&r и брось на неё &eChemical X&r. Этот процесс может не сработать, но больше &eChemical X&r можно приобрести на &eТорговом Терминале/Бирже&r."]
+			id: "65D73BD10CCCD984"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 350"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "033A0EE9F9202F38"
+					silent: true
+					title: "350 Experience"
+					type: "command"
+				}
+				{
+					count: 3
+					id: "1C1C2E212F58C7DA"
+					item: "lightmanscurrency:coin_gold"
+					title: "Money"
+					type: "item"
+				}
+			]
+			subtitle: "Ваша собственная лаборатория"
+			tasks: [{
+				entity: "mutantmonsters:spider_pig"
+				icon: { Count: 2, id: "simplehats:pighead" }
+				id: "13735D779752C9AC"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Насколько все может быть плохо?"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Всё эта беготня, должно быть, утомляет... Может, пора обзавестись &eездовым животным&r. Скрафтите &eChocopedia&r, чтобы узнать о &eразведении&r и &eприручении&r чокобо. Вы даже можете разводить особых чокобо, которые умеют &eлетать!&r"
+				""
+				"&eТранспортируйте&r ездовых животных и питомцев любого типа через &eПутевые обелиски&r, помещая их в &eКлетки&r или держа на &eПоводке&r. Даже без клетки или поводка они смогут телепортироваться вместе с вами через Путевые обелиски!"
+			]
+			id: "730BE78211A1573B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "400C5F606A015EFD"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "7A7B4EE2BBE28627"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			subtitle: "Дикие чокобо"
+			tasks: [{
+				id: "7280DA5550AACF38"
+				item: "chococraft:chocopedia"
+				type: "item"
+			}]
+			title: "Chococraft and Mounts"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+				"Зелья из профессии Алхимия могут давать полезные эффекты, такие как лечение и баффы. Подробности о том, как их варить, можно найти в главе «&aM\\&S Профессии&r». Если профессии не для вас, &eэти зелья также можно купить&r у различных торговцев (жителей, гоблинских торговцев)."
+				""
+				"&l&eДля быстрого использования зелий нажмите Y!&r&r"
+				""
+				"Для приготовления &aНеобычного зелья лечения&r используйте:"
+				""
+				"3x &7Духовное мясо&r"
+				"1x &7Обычный камень&r"
+				"1x Вареная курица"
+				"1x Помидор"
+				"5x Медных монет"
+			]
+			id: "044F1A64E4751E01"
+			rewards: [
+				{
+					count: 8
+					id: "309303AF9483B825"
+					item: {
+						Count: 1
+						id: "mmorpg:potion/health/2"
+						tag: {
+							level: 1
+							tier: 0
+						}
+					}
+					title: "Rare Restoration Potions"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "0860A55C77EDCD28"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "M\\&S Профессии"
+			tasks: [{
+				count: 4L
+				id: "7FEE130B9F995355"
+				item: {
+					Count: 1
+					id: "mmorpg:potion/health/1"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Приступая к работе"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["472D5441B6FCD6EC"]
+			description: [
+				"&eПутеводный обелиск&r позволяют телепортироваться к любому разблокированному вами камню пути и обратно. Глобальные камни пути работают через измерения."
+				""
+				"&eКамень перемещения&r позволяет телепортироваться к любому разблокированному вами камню пути, но имеет время восстановления."
+				""
+				"Также существуют &eразличные свитки&r, которые можно создать — они действуют как &eодноразовые камни перемещения&r или позволяют телепортироваться к &eконкретному путеводному обелиску&r."
+			]
+			id: "749948B3A454617E"
+			rewards: [
+				{
+					count: 4
+					id: "28EFCAAD2342E7CA"
+					item: "waystones:warp_scroll"
+					title: "Warp Scrolls"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "608D719FC25BE82F"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Дополнительно"
+			tasks: [{
+				id: "65C065AB07D8CE15"
+				item: {
+					Count: 1
+					id: "waystones:warp_stone"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Телепортация по миру"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["152D52A88F776A70"]
+			description: [
+				"В Craft to Exile 2 вы можете найти &eруны, специфичные для измерений&r, которые можно вставлять в экипировку или использовать для создания мощных рунослов."
+				""
+				"Всего существует &e7 таких рун&r, и они выпадают только с боссов измерений, таких как Вызыватель или Эндер Дракон."
+				""
+				"&c------------------------------&r"
+				""
+				"&eРуна Owd&r — выпадает с Отшельника Бездны (&b5%&r), Вызывателя (&b10%&r), Морозного Льда (Frostmaw) (&b15%&r), Жнец (&b10%&r)"
+				""
+				"&eРуна Net&r — Искажёный комар (&b10%&r), Инферно (&b5%&r), Мать-лавовый кальмар (&b5%&r), Иссушитель (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
+				""
+				"&eРуна Und&r — Железнокованный (&b10%&r), Людопепелка (&b10%&r), Тонгби, скульптор (&b10%&r), Забытый страж (&b10%&r), Угорь (&b15%&r), Матерь лабиринта (&b50%&r), Призрак капитана Корнелии (&b10%&r)"
+				""
+				"&eРуна Bri&r — Заклинатель (&b10%&r), Крушитель Стралит (&b25%&r)"
+				""
+				"&eРуна Daw&r — Алхимик (&b10%&r), Арахна (&b25%&r)"
+				""
+				"&eРуна End&r — Дракон Края (&b7.5%&r), Червь пустоты (&b5%&r), Shelterer (&b15%&r)"
+				""
+				"&eРуна Sid&r — Хранитель (&b10%&r), Ночной лич (&b15%&r), Перчатка незера (&b15%&r), Цветок пустоты (&b15%&r), Обсидилит (&b15%&r)"
+			]
+			icon: "minecraft:paper"
+			id: "2C9B55C8C05E20E2"
+			rewards: [
+				{
+					id: "0B08CCCE242A1619"
+					item: "mmorpg:runes/owd"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D11A9399E68F7CA"
+					table_id: 385353338452370382L
+					type: "choice"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "78F79A58FE29C912"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Руны измерений"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+				"&eПарапланы&r можно использовать для лёгкого перемещения на большие расстояния — при условии, что вы начинаете с достаточно высокой точки."
+				""
+				"Вы можете использовать источник огня, чтобы создавать восходящие потоки воздуха, позволяющие вам плавно подниматься вверх."
+			]
+			id: "4A46491D07C3EED0"
+			rewards: [
+				{
+					id: "50A326F655E21EFF"
+					item: "paraglider:heart_container"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 75"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "50EBE487632EBE6A"
+					silent: true
+					title: "75 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Исследование пространства"
+			tasks: [{
+				id: "540B918DC067979F"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			title: "Парапланеризм"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["051DB401E3A08D89"]
+			description: [
+				"&eСтолы трансмогрификации&r можно создать и использовать для изменения внешнего вида ваших предметов."
+				""
+				"Поместите стол в мире и кликните по нему правой кнопкой мыши. Слева направо слоты следующие:"
+				""
+				"&eСлот для топлива&r — заправляется Аметистовыми Осколками."
+				""
+				"&eСлот цели&r — сюда кладётся предмет, внешний вид которого нужно изменить."
+				""
+				"&eСлот внешнего вида&r — сюда кладётся предмет, внешний вид которого будет скопирован на цель. Предмет из этого слота НЕ будет потрачен при трансмогрификации!"
+				""
+				"Кроме того, можно положить &eФрагменты Пустоты&r в слот внешнего вида, чтобы сделать предмет скрытым!"
+			]
+			id: "5883B9DEF98B079F"
+			rewards: [
+				{
+					count: 3
+					id: "1AB0EB102E137C29"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 750"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1606255B78C8641A"
+					silent: true
+					title: "750 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Дополнительно"
+			tasks: [{
+				id: "06F088656E20DBC2"
+				item: "transmog:transmogrification_table"
+				type: "item"
+			}]
+			title: "Выглядит круче"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5FCA8577C7DB792D"]
+			description: [
+				"Вы играете за &5Чернокнижника&r, &2Охотника&r или &9Элементалиста&r? Знаете ли вы, что у этих классов есть доступ к призывам?"
+				""
+				"Вы можете настроить &eповедение призываемых существ&r во вкладке &eФункции&r в Mine and Slash Hub (внизу слева). Вы можете сделать их агрессивными или пассивными. Если выбрать пассивный режим, призывы будут атаковать только тех, кого атаковали вы."
+				""
+				"Кроме того, вы можете &eотозвать&r своих призывов в любое время с помощью клавиши для отзыва (по умолчанию: &eDelete&r)!"
+			]
+			icon: "minecraft:paper"
+			id: "5DA2E0EE110431E0"
+			rewards: [{
+				count: 8
+				id: "429A832BAB3604F6"
+				item: {
+					Count: 1
+					id: "mmorpg:potion/health/0"
+					tag: {
+						level: 1
+						tier: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "13B1D70D3301273C"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Классы призыва"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0388547EAFE52B5F"]
+			description: [
+				"Трудно выживать?"
+				""
+				"&eSpice of Life: Onion Edition&r добавляет каждому виду пищи фактор &e«разнообразия»&r. Употребление разнообразной еды даёт &eпреимущества,&r а если есть одно и то же — не даст. &eПроверьте вашу Книгу Еды в MineMenu (по умолчанию: H)&r, чтобы узнать уровень разнообразия и текущие бонусы. &eПродолжайте есть разную пищу, чтобы повысить здоровье, дальность, скорость движения и многое другое!&r"
+				""
+				"&eLunchbag&r может быть создана и улучшена, чтобы &eхранить всю вашу еду&r одновременно. Используйте &eShift + ПКМ&r, держа её в руке, чтобы открыть, и ПКМ, чтобы поесть из неё."
+			]
+			icon: "minecraft:paper"
+			id: "4AF5F24C4B770EA5"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 50"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "1EDD4D6B60F3D507"
+					silent: true
+					title: "50 Experience"
+					type: "command"
+				}
+				{
+					id: "238CA135B4FDF78D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 5
+							}
+						}
+						id: "solonion:lunchbag"
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "109366712B105500"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Spice of Life: Onion Edition"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eНеупокоеные духи&r — это гневные духи, которые появляются ночью. Их можно встретить в любом месте."
+				""
+				"Неупокоеный дух обладает:"
+				"&b+30% шансом уклонения&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "1DEC808C04130184"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "786CEB796300A021"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Кладбище"
+			tasks: [{
+				entity: "born_in_chaos_v1:restless_spirit"
+				icon: "ftb_ph:restless_spirit"
+				id: "630C5043103095CC"
+				type: "kill"
+				value: 15L
+			}]
+			title: "Бестиарий II"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eДуховного проводник&r можно встретить в &eсухих и жарких биомах&r. Они не горят на солнце благодаря своей шляпе. В бою они призывают союзников на помощь."
+				""
+				"&cДуховный проводник появляется минимум 10-го уровня.&r"
+				""
+				"Духовный проводник обладает:"
+				"&b+10% шанс подавления урона&r"
+				"&b+40% сопротивление всем стихиям&r"
+			]
+			hide_dependency_lines: true
+			hide_text_until_complete: false
+			icon: "mca:book_supporters"
+			id: "39A431C3F5565DCC"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "659249CB38D17C7E"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Ур. 10 — Духовное руководство"
+			tasks: [{
+				entity: "born_in_chaos_v1:spirit_guide"
+				icon: "ftb_ph:spirit_guide"
+				id: "21E70282049DD20C"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Бестиарий III"
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eДверной рыцарь&r и &eСкелет-крушитель&r — это защитные неживые существа. Они могут появляться в любом месте. Чтобы выполнить эти задания, вам нужно найти диких таких мобов."
+				""
+				"Дверной рыцарь обладает:"
+				"&b+40% брони&r"
+				""
+				"Скелет-крушителя обладает::"
+				"&b+100% брони&r"
+				"&b+25% сопротивление всем стихиям&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "761BC90863C35627"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "0A9CB394B575F1E7"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Мёртвые защитники"
+			tasks: [
+				{
+					entity: "born_in_chaos_v1:door_knight"
+					icon: "ftb_ph:door_knight"
+					id: "7900CC0A0431834E"
+					type: "kill"
+					value: 15L
+				}
+				{
+					entity: "born_in_chaos_v1:skeleton_thrasher"
+					icon: "ftb_ph:skeleton_thrasher"
+					id: "2C3E695872E63BE2"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Бестиарий IV"
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eМиссионер&r — обманчиво мощное неживое существо. Может появляться в любом месте. При вступлении в бой начинает призывать нежить для помощи."
+				""
+				"Миссионер обладает:"
+				"&b+100% физического урона в ледяной урон&r"
+				"&b+25% шанс заморозки&r"
+				"&b+50% сопротивление всем стихиям&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "58995DE0C6EBA1AB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "4FB3264B31FDBA13"
+				silent: true
+				title: "200 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Миссия пять"
+			tasks: [{
+				entity: "born_in_chaos_v1:missioner"
+				icon: "ftb_ph:missioner"
+				id: "4C85300D7B4ECA09"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Бестиарий V"
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["75454F0A3C4C3596"]
+			description: [
+				"&e&oТребуется завершение задания Конец в Акте IV.&r&r"
+				""
+				"&eЛедочрев&r — древнее существо, обитающее в снежных биомах. Их огромные размеры, впечатляющая скорость и мощное ледяное дыхание делают их почти непобедимыми противниками."
+				""
+				"&cЛедочрев появляется с минимальным уровнем 50.&r"
+				""
+				"Ледочрев обладает:"
+				"&b+20% здоровья&r"
+				"&b+100% физического урона в ледяной урон&r"
+				"&b+33% шанс заморозки&r"
+				"&b+50% сопротивление всем стихиям&r"
+				"&b+30% сопротивление хаосу&r"
+				"&a15% шанс выпадегия руны Owd&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "0CE7FFFDD4066916"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "428905CD2D70AC2E"
+				silent: true
+				title: "16000 Experience"
+				type: "command"
+			}]
+			subtitle: "Ур. 50 — Холодные пустоши"
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				icon: "ftb_ph:frostmaw"
+				id: "3C5F14EBFB344FB5"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Бестиарий VII"
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&bМатерь пауков&r — это большой хищный паук, обитающий в &eПещерах&r. Она может призывать мелких пауков для помощи в бою."
+				""
+				"Матерь пауков обладает:"
+				"&b+100% физического урона в хаос урон&r"
+				"&b+33% шанс отравления&r"
+				""
+				"&e&oКниги бестиария будут открываться по мере прохождения Актов.&r&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "7032850A1F1FFF32"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 100"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "6FF4F59F68177438"
+				silent: true
+				title: "100 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Гнилая земля"
+			tasks: [{
+				entity: "born_in_chaos_v1:mother_spider"
+				icon: "ftb_ph:mother_spider"
+				id: "20AB098D30A443A3"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Бестиарий I"
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4956C0B5633CE91E"]
+			description: ["Вы можете создавать снаряжение, чтобы подготовиться к приключениям. Подробнее смотрите в главе профессий M\\&S!"]
+			id: "4C68E7AC4C59F2EB"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 350"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "50ED13731B6C4940"
+				silent: true
+				title: "350 Experience"
+				type: "command"
+			}]
+			subtitle: "M\\&S Professions"
+			tasks: [{
+				id: "5F2746C9F73F6032"
+				item: {
+					Count: 1
+					id: "mmorpg:stat_soul/family/armor/uncommon"
+					tag: {
+						tier: 0
+					}
+				}
+				match_nbt: true
+				type: "item"
+			}]
+			title: "Экипируйся II"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eНабор для ремонта&r автоматически восстанавливают экипированное снаряжение и инструменты каждые 10 секунд. Количество восстанавливаемого зависит от уровня набора."
+				""
+				"У них ограниченное количество использований, обозначенное зарядом. Вы можете пополнить набор, используя &eКамни Mine and Slash&r!"
+			]
+			icon: {
+				Count: 1
+				id: "auto_repair_kit:leather_kit"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60D950E97EA8E2B7"
+			rewards: [
+				{
+					id: "7E70520E2DA233F8"
+					item: {
+						Count: 1
+						id: "auto_repair_kit:leather_kit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 250"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "6745F9E1DFB1E3DF"
+					silent: true
+					title: "250 Experience"
+					type: "command"
+				}
+			]
+			subtitle: "Сохранение cнаряжения"
+			tasks: [{
+				count: 8L
+				id: "7773BDB87F5C4B52"
+				item: { Count: 8, id: "minecraft:leather" }
+				type: "item"
+			}]
+			title: "Автоматический ремонт"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["313921A7833269CF"]
+			description: [
+				"&eСэр Безголовый&r — загадочный дух, встречающийся в октябре... Но его также можно призвать, уничтожив &eособую тыкву&r, окружённую свечами, которые можно найти в мире."
+				""
+				"Сэр Безголовый обладает:"
+				"&b+30% брони&r"
+				"&b+30% сопротивление всем стихиям&r"
+				"&b+30% сопротивление хаосу&r"
+			]
+			hide_dependency_lines: true
+			icon: "mca:book_supporters"
+			id: "0D04908025368D7B"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 200"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "13D41258E79CCB8D"
+				silent: true
+				title: "200 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Тыквенный король"
+			tasks: [{
+				entity: "born_in_chaos_v1:sir_the_headless"
+				icon: "ftb_ph:lord_of_pumpkin"
+				id: "55A5454CCB82C6A1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Бестиарий VI"
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D04908025368D7B"]
+			description: [
+				"&eЛорд Безголовый&r — более сильная и финальная версия &eСэр Безолового&r. Вы можете сразиться с ним, призвав его. Кликните правой кнопкой мыши по &eЗлобная тыква скверны&r (созданной или найденной) с помощью &eТрансмутирующего элексира&r."
+				""
+				"Обратите внимание, что один из компонентов для &eТрансмутирующий элексир&r — &eкомпонент хаоса&r, который можно сделать, заварив &eсемя хаоса&r в &eбаночке с водой&r, используя &eзельеварку&r."
+				""
+				"&cЛорд Безголовый появляется минимум 60 лвл и мифическим уровнем редкости.&r"
+				""
+				"Лорд Безголовый обладает::"
+				"&b+50% брони&r"
+				"&b+50% сопротивление всем стихиям&r"
+				"&b+50% сопротивление хаосу&r"
+			]
+			icon: "mca:book_supporters"
+			id: "32228E2B053EF761"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 16000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7591A16B2A0D894F"
+				silent: true
+				title: "16000 Experience"
+				type: "command"
+			}]
+			subtitle: "Ур. 60 - Тыквенный король II"
+			tasks: [{
+				entity: "born_in_chaos_v1:lord_the_headless"
+				icon: "ftb_ph:lord_of_pumpkin"
+				id: "45B7B9E1EFF6B3F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Бестиарий VIb"
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DEC808C04130184"]
+			description: [
+				"&eЗомби клоуны&r — медленные и крепкие враги. Они накладывают эффект &e«Опьяняющее зелье»&r при атаке. Их можно встретить в &eКлоунских Караванах&r."
+				""
+				"Зомби клоун обладает:"
+				"&b+25% физического урона в хаос урон&r"
+				"&b+75% сопротивление хаосу&r"
+			]
+			icon: "mca:book_supporters"
+			id: "4E589D39C44CAAD2"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 120"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "04E41165D049095A"
+				silent: true
+				title: "120 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Шутка над тобой!"
+			tasks: [{
+				entity: "born_in_chaos_v1:zombie_clown"
+				icon: "ftb_ph:zombie_clown"
+				id: "0229F6B999DF46D0"
+				type: "kill"
+				value: 30L
+			}]
+			title: "Бестиарий IIb"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["749948B3A454617E"]
+			description: ["Вы можете создать или найти собственный &eПутеводный обелиск&r для телепортации к нему. Они будут относительно дорогими, но определённо того стоят!"]
+			id: "4BA92370D0D0DC32"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 500"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "597C6F3B17BA40CF"
+					silent: true
+					title: "500 Experience"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D408A43E66CF473"
+					table_id: 385353338452370382L
+					type: "choice"
+				}
+			]
+			subtitle: "Дополнительно"
+			tasks: [{
+				id: "4A411B6E171AC9B2"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+						]
+					}
+				}
+				title: "Waystone"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7032850A1F1FFF32"]
+			description: [
+				"&bВожак ужасных гончих&r — это крупный пёс, который бродит по разным биомам &bНочью&r. Он может призывать мелких ужасных гончих для помощи в бою."
+				""
+				"Вожак ужасных гончих обладает:"
+				"&b+30% шанс уклонения&r"
+				"&b+60% шанс кровотечения&r"
+			]
+			icon: "mca:book_supporters"
+			id: "6F1CBC071DD2414C"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 120"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "3F5DE85074BA9ED5"
+				silent: true
+				title: "120 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Воющие псы"
+			tasks: [{
+				entity: "born_in_chaos_v1:dire_hound_leader"
+				icon: "ftb_ph:direhound_leader"
+				id: "377631AE3921C331"
+				type: "kill"
+				value: 6L
+			}]
+			title: "Бестиарий Ib"
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["761BC90863C35627"]
+			description: [
+				"&eПадший рыцарь хаоса&r — гордый рыцарь, который пал под влиянием хаоса. Может появляться &bночью&r."
+				""
+				"Падшей рыцарь хаоса обладает:"
+				"&b+50% брони&r"
+				"&b+100% физического урона в хаос урон&r"
+			]
+			icon: "mca:book_supporters"
+			id: "16739950F16AB006"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give xp_times_lvl @p 150"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "2FE4336CA3038867"
+				silent: true
+				title: "150 Experience x Lv."
+				type: "command"
+			}]
+			subtitle: "Падший рыцарь"
+			tasks: [{
+				entity: "born_in_chaos_v1:fallen_chaos_knight"
+				icon: "ftb_ph:fallen_chaos_knight"
+				id: "029D495A65716B1F"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Бестиарий IVb"
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0D9B68F2990B8E94"]
+			description: [
+				"Во время путешествий вы можете находить &eкарты обелиска&r в сундуках. Их можно использовать на &eОбелисках&r, чтобы активировать волновые боевые испытания в отдельной зоне!"
+				""
+				"Появляющиеся мобы будут подвержены модификаторам самой Карты. Эти модификаторы усложняют сражение, но увеличивают награды."
+				""
+				"Обелиски дают особые материалы, которые можно использовать для &eулучшения ваших камней поддержки и аур&r!"
+				""
+				"Появляющиеся в обелисковых испытаниях мобы масштабируются под ваш уровень."
+			]
+			id: "7BE77FBF663D995C"
+			rewards: [{
+				id: "45AB4D5BADF27EBE"
+				item: "ancient_obelisks:obelisk_map"
+				type: "item"
+			}]
+			subtitle: "Экземпляры на основе волн"
+			tasks: [{
+				id: "2E5E647AF53CF519"
+				item: "ancient_obelisks:obelisk"
+				type: "item"
+			}]
+			title: "Древние обелиски"
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["044F1A64E4751E01"]
+			description: [
+				"&eАвантюрист&r — это профессия Mine and Slash, которая повышается по уровню по мере выполнения заданий с наградами. Выполняйте задания, чтобы зарабатывать опыт авантюризма и &eнаградные талоны&r!"
+				""
+				"&eДоска обьявлений&r генерируют для вас &eслучайные задания&r. Выберите &eзапрос&r в интерфейсе доски и выполните его в установленное &eвремя&r, чтобы получить указанные награды!"
+				""
+				"Вы можете либо создать Доски с заданиями самостоятельно, либо найти их случайно в мире — обычно в деревнях!"
+				""
+				"Для дополнительной информации обратитесь к:"
+				"{ \"text\": \"Охота за наградами\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
+			]
+			id: "0726C033448D45CE"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "10A31C7272F8C27A"
+				silent: true
+				title: "500 Experience"
+				type: "command"
+			}]
+			subtitle: "M\\&S Профессии"
+			tasks: [
+				{
+					id: "164D7BC468D2116C"
+					item: "bountiful:bountyboard"
+					type: "item"
+				}
+				{
+					id: "264FCC3C7B7531D6"
+					item: {
+						Count: 1
+						id: "bountiful:decree"
+						tag: {
+							"bountiful:decree_data": "{}"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Щедрые награды"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6FF06A68E8DA88F2"]
+			description: [
+				"Тримы дают модификаторы, если они нанесены на вашу броню. Существует несколько видов тримов, и каждый из них предоставляет разные бонусы. Чтобы нанести трим, вам потребуется &eКузнечный стол&r."
+				""
+				"&eКузнечный шаблон кобольдов&r, например, могут дать следующие бонусы броне:"
+				""
+				"&e#Шлем&r: больше обычного опыта за убийство мобов."
+				"&e#Нагрудник&r: быстрее ломаются блоки при использовании неправильного инструмента или вообще без него."
+				"&e#Поножи&r: медленнее тратится голод при выполнении действий."
+				"&e#Ботинки&r: вспаханная земля больше не утаптывается."
+				""
+				"Находите другие тримы и настраивайте своё снаряжение!"
+			]
+			id: "40803605D59A3AE1"
+			rewards: [
+				{
+					count: 4
+					id: "7DEF1F37A42B4449"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "60D76996779B5FEE"
+					item: "minecraft:wayfinder_armor_trim_smithing_template"
+					type: "item"
+				}
+			]
+			subtitle: "The Underground"
+			tasks: [{
+				id: "3002A87574C474C4"
+				item: "kobolds:kobold_template"
+				type: "item"
+			}]
+			title: "Бесплатная подгонка"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["727ADA9C4F420BDC"]
+			description: [
+				"Мобы в Craft to Exile обладают характеристиками, и некоторые мобы всегда появляются с определёнными характеристиками в дополнение к случайно сгенерированным. В некоторых заданиях может упоминаться, с какими характеристиками появится связанный моб. Например, вы заметите во втором акте, что у большинства мобов, упомянутых в заданиях, есть какое-либо свойство, связанное с &cогнём&r."
+				""
+				"Вы также можете просмотреть точные характеристики моба, на которого смотрите, нажав клавишу \"&e=&r\"."
+			]
+			icon: "minecraft:paper"
+			id: "2FC973866E3F8A8A"
+			rewards: [{
+				id: "428CC4A744D4C7B9"
+				item: "mmorpg:currency/gear_rarity_random"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "2D89449C24CD6554"
+				title: "Нажмите, чтобы прочитать"
+				type: "checkmark"
+			}]
+			title: "Характеристики монстров"
+			x: 12.0d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Lv. 1-15"]
+	title: "Акт I"
+}

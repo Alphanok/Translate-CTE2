@@ -1,0 +1,34 @@
+{
+	id: "721416DD62F11455"
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"elytra\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":100},\"imp\":{\"p\":11,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[63,13,87,84,0,89,97,52,82,69]},\"rar\":\"unique\",\"lvl\":50,\"gtype\":\"elytra\"}"
+					mmorpg_potential: "{\"potential\":50}"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "alexsmobs:tarantula_hawk_elytra"
+				tag: {
+					Damage: 0
+					free_souled: 1b
+					mmorpg_custom_data: "{\"data\":{\"map\":{\"sl\":\"true\",\"uq\":\"elytra\"}}}"
+					mmorpg_gear: "{\"baseStats\":{\"p\":96},\"imp\":{\"p\":69,\"imp\":\"\"},\"affixes\":{\"suf\":[],\"pre\":[],\"cor\":[]},\"sockets\":{\"so\":[],\"sl\":0,\"rw\":\"\",\"rp\":0},\"uniqueStats\":{\"perc\":[73,45,10,54,53,10,25,17,24,89]},\"rar\":\"unique\",\"lvl\":50,\"gtype\":\"elytra\"}"
+					mmorpg_potential: "{\"potential\":50}"
+				}
+			}
+		}
+	]
+	title: "Elytra"
+}

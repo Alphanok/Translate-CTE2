@@ -1,0 +1,1746 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "epilogue"
+	group: "1E3C4B5FFAE48A39"
+	icon: "bosses_of_mass_destruction:blazing_eye"
+	id: "5A7D6B87115D3B91"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6149D163ABF06A15"]
+			description: [
+				"Наконец-то... твои заметки из различных приключений привели тебя в &eТу Сторону&r."
+				""
+				"От скромного начала в &eВерхнем мире&r, опасного путешествия через &eНезер&r и &eПодземье&r, встреч в &eЭвербрайт и Эвердрое мирах&r и рискованных стычек в &eКраю&r — ты теперь стоишь у, как ты веришь, самого источника зла."
+				""
+				"Как же называл это тот исследователь из деревни? «Ссора» между &bИзначальными титанами&r? По словам исследователя, достаточно уничтожить четырёх элементальных существ, обитающих в &eКраю&r и &eТой Стороне (Otherside)&r."
+				""
+				"Приготовься к своему финальному заданию! Нет уж, после их смерти они точно не вернутся... правда?"
+			]
+			icon: "minecraft:paper"
+			id: "749D138B0222E744"
+			rewards: [{
+				id: "6222458583FAAFB2"
+				item: "lightmanscurrency:coin_copper"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Финальная потерянная страница"
+			tasks: [{
+				id: "67B1853D30A8EE31"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Первичное зло"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eНочной лич&r обитает в &eБашне лича&r, расположенной в &eКристальных утёсах (Crystal Crags)&r в измерении &eКрай&r. Чтобы найти эту структуру, вы можете создать &eЗвёзды душ&r. При использовании &eзвезда душ&r будет израсходована и укажет направление к ближайшей &eБашне лича&r!"
+				""
+				"&cНочной лич появляется минимум 90 уровня и имеет мифическую редкость.&r"
+				""
+				"Ночного лича обладает:"
+				"&b+50% физического урона в ледяной урон&r"
+				"&b+50% шанс заморозки&r"
+				"&b+25% шанс раскола&r"
+				"&b+50% сопротивление всем стихиям&r"
+				"&a15% шанс выпадения Руны Sid&r"
+			]
+			id: "07EBFDA1B8808DAF"
+			rewards: [
+				{
+					id: "21701E1566499449"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "591C192B05D51076"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Холод"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: "bosses_of_mass_destruction:ancient_anima"
+				id: "0A39027CB9F70D32"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Замороженная башня"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eПерчатка незера&r встречается на аренах &eПерчатки&r, расположенных в биоме &eЦветущие пещеры (Blooming Caverns)&r измерения &eТа Сторона(Otherside)&r."
+				""
+				"&cПерчатка незера появляется минимум 90 уровня и имеет мифическую редкость.&r"
+				""
+				"Перчатка незера обладает:"
+				"&b+50% физического урона в огненный урон&r"
+				"&b+75% шанс ожога&r"
+				"&b+40% шанс уклонения&r"
+				"&b+75% сопротивление огню&r"
+				"&a15% шанс выпадения Руны Sid&r"
+			]
+			id: "005E75571665043C"
+			rewards: [
+				{
+					id: "100B3BFFAADCD105"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "656169856B5F549C"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.255d
+			subtitle: "Огонь"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: "bosses_of_mass_destruction:blazing_eye"
+				id: "67B908871A5282C2"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Пламенные глубины"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Вы можете найти &eЦветок пустоты&r в &eОтзвучивающих лесах (Echoing Forests)&r &eТой Стороны&r. Используйте &eЛилию пустоты&r, чтобы указать направление к этим &eЦветокам пустоты&r."
+				""
+				"&cЦветок пустоты появляется минимум 90 уровня и имеет мифическую редкость.&r"
+				""
+				"Цветок пустоты обладает:"
+				"&b+100% физического урона в хаос урон&r"
+				"&b+33% шанс наложить отравление&r"
+				"&b+1% восстановление здоровья в секунду&r"
+				"&b+75% сопротивление хаосу&r"
+				"&c-25% сопротивление огню&r"
+				"&a15% шанс выпадения Руны Sid&r"
+			]
+			id: "56B2B51011037E61"
+			rewards: [
+				{
+					id: "15F97D81BF787C79"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "78E77C83F56373C6"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Хаос"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: "bosses_of_mass_destruction:void_lily"
+				id: "507D5A8FDD10ECE3"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Разросшиеся лозы"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"&eОбсидилит&r обитает на арене &eОбсидилита&r, которую можно найти в локации &eПервобытные воды (Primordial Pools)&r измерения &eКрай&r."
+				""
+				"&cОбсидилит появляется минимум 90 уровня и имеет мифическую редкость.&r"
+				""
+				"Обсидилита обладает:"
+				"&b+100% физического урона в виде урона от молнии&r"
+				"&b+50% шанс электрифицировать&r"
+				"&b+25% шанс  шока&r"
+				"&b+100% брони&r"
+				"&b+50% сопротивление молнии&r"
+				"&a15% шанс выпадения Руны Sid&r"
+			]
+			id: "6B2C722AC00A07C0"
+			rewards: [
+				{
+					id: "631C758E74857E09"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:ascend"
+					id: "4253CD136D9F9A5E"
+					title: "Ascendant (1/4)"
+					type: "custom"
+				}
+			]
+			size: 1.25d
+			subtitle: "Молния"
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: "bosses_of_mass_destruction:obsidian_heart"
+				id: "32DF2007C57A60F9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Гальваническая крепость"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: ["Кто-то уже зачистил структуру до вашего прибытия? Вы можете использовать &eСерный нектар&r на любой из &bструктур Первородных Титанов&r, чтобы сбросить её и начать заново!"]
+			id: "71F71326D81053D9"
+			rewards: [{
+				id: "1E5C69E4282912F2"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			subtitle: "Сброс структур боссов"
+			tasks: [{
+				id: "6BA69F80620210D3"
+				item: "bosses_of_mass_destruction:brimstone_nectar"
+				type: "item"
+			}]
+			title: "Они вернулись!"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["749D138B0222E744"]
+			description: [
+				"Пробираясь сквозь карту за картой, ты начинаешь слышать отголоски другого &eЛича&r... Того, что обитает в &eСумеречном лесу&r. Появляется новый портал, и ты входишь в него, чтобы оказаться в совершенно новом измерении."
+				""
+				"Чтобы попасть в Сумеречный лес, необходимо создать мелкий бассейн 2x2 из воды в травянистой местности в &eТой Стороне (Otherside)&r. Его нужно окружить растениями и/или листвой. Возможно, тебе придётся принести траву с собой. Затем брось в воду алмаз — и наблюдай за формированием портала."
+				""
+				"&l&cМобы из Сумеречного леса появляются с минимального уровня 90!&r&r"
+			]
+			id: "77E6AE329E337151"
+			rewards: [
+				{
+					count: 3
+					id: "0D4BA9A55B97BA9E"
+					item: "mmorpg:currency/affix_common_reroll"
+					type: "item"
+				}
+				{
+					id: "1488B29B5798BA1F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "51F52DF9B052A4B9"
+				title: "Посетите Сумеречный лес"
+				type: "dimension"
+			}]
+			title: "Неизвестное за пределами"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Уютно устроившись на небольших полянах по всему &eСумеречному лесу&r, &eЖивые лабиринты&r представляют собой любопытное зрелище для новых исследователей этого измерения. Подобно разрушенным каменным кругам, памятникам и другим загадочным ориентирам, разбросанным по местности, существует множество догадок о цели этих лабиринтов — но до сих пор ни одна из них не получила подтверждения."
+				""
+				"Стены лабиринтов построены из живой изгороди — густой, колючей листвы, которая не даёт просто прорубить путь сквозь извилистые коридоры. В лабиринте часто встречаются светлячки и Светильники Джека, создавая заметный контраст с приглушённым светом окружающего леса. Иногда в лабиринтах можно встретить Навесные деревья, вырастающие прямо из стен, словно высокие столбы."
+				""
+				"Ещё одной отличительной чертой живых лабиринтов являются небольшие открытые «комнаты» внутри. Обычно в каждой из них находится магический спавнер, 1–2 сундука и дополнительные Светильники Джека. Чаще всего такие спавнеры призывают &eвраждебных волков, паучьи рой или паучков лабиринта&r, причём в отличие от обычных, эти спавнеры не отключаются даже при ярком освещении."
+			]
+			id: "54B478D596CE17D6"
+			rewards: [
+				{
+					count: 2
+					id: "2D561080DD23BA36"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "3C2A412FD724071E"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "twilightforest:hedge"
+				id: "01A930C680639445"
+				structure: "twilightforest:hedge_maze"
+				title: "Find a Hedge Maze"
+				type: "structure"
+			}]
+			title: "Естественные лабиринты"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&eВраждебные волки&r — это необычные волки, которых можно встретить только в &eживом лабиринте&r. Легенда гласит, что эти волки ненавидят людей, потому что те постоянно крадут их сокровища. К сожалению, этих волков нельзя приручить."]
+			icon: "doggytalents:dog_plushie_toy_item"
+			id: "2BE20402219A9B78"
+			rewards: [
+				{
+					count: 3
+					id: "5B3AB3D09BD7747A"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2D1C81F8C6BAB0D7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:hostile_wolf"
+				icon: "ftb_ph:hostile_wolf"
+				id: "4C5ACBBF6C6B901D"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Необузданная агрессия"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: ["&eИзгородный паук&r почти не отличаются от обычных пауков Верхнего мира, кроме их ярко-зелёного цвета. Единственное отличие этой разновидности — они могут появляться даже при ярком освещении в &eживых лабиринтах&r. По легенде, эти пауки достаточно храбры, чтобы защищать свои сокровища от исследователей."]
+			icon: "chipped:stringy_cobweb"
+			id: "039BE2259D553B13"
+			rewards: [
+				{
+					count: 3
+					id: "22076FAC6370473E"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D037E40BE697582"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:hedge_spider"
+				icon: "ftb_ph:hedge_spider"
+				id: "793117DC4193D9C8"
+				type: "kill"
+				value: 10L
+			}]
+			title: "В ловушке"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"Возвышаясь над в остальном ровной местностью &eСумеречного леса&r, &eПолые холмы&r — это заметные насыпи земли, скрывающие внутри обширные пещеры, усеянные сталактитами и сталагмитами. Некоторые из них состоят из ценных руд и минералов. Исследователи обнаружили, что эти куполообразные холмы бывают трёх различных размеров — достаточно больших, чтобы их можно было заметить и отметить на &eВолшебной карте&r, с соответствующим значком, указывающим размер. Иногда в холмы врезаются другие пещеры и расщелины, так что путешественники, прокладывающие себе путь под землёй, могут случайно попасть в один из таких холмов."
+				""
+				"Маленькие холмы имеют диаметр примерно 30 метров и обычно содержат основные ресурсы, такие как уголь и железо, реже — редстоун и светопыль. Внутри можно найти пару сундуков с простыми инструментами и предметами, такими как еда, стрелы, лестницы и факелы. Но если повезёт, можно найти &eМагнит для руды&r, алмаз и &eстальнолист&r. В этих холмах обитают &eПаучьи рои, Гоблины-красношапки и Кобольды&r, а также другие существа, привычные для Верхнего Мира."
+			]
+			id: "75103126CFA64857"
+			rewards: [
+				{
+					count: 2
+					id: "1C323A27F2B1118B"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					id: "111D5F6783D074B7"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				icon: "twilightforest:hollow_twilight_oak_log"
+				id: "54592C0A736AE877"
+				structure: "twilightforest:small_hollow_hill"
+				title: "Find a Small Hollow Hill"
+				type: "structure"
+			}]
+			title: "Небольшой курган"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["54B478D596CE17D6"]
+			description: [
+				"&eВнутренний двор наги&r — это большое огороженное строение, построенное из различных видов камня и нагакамня. Внутри двора растут изгороди из листьев сумеречного дуба, стоят колонны из отполированного андезита и гравированного нагакамня, а также есть дополнительные декоративные элементы. В центре строения расположен спавнер босса, где обитает &eНага&r."
+				""
+				"Убийство Наги откроет доступ к следующей структуре в прогрессии — &eБашне Лича&r, сняв защиту двора."
+				""
+				"&cНага появляется с мифической редкостью.&r"
+				""
+				"Нага обладает:"
+				"&b+100% физического урона в виде урона от хаоса&r"
+				"&b+40% шанс отравления&r"
+				"&b+30% пробития сопротивления хаосу&r"
+				"&b+50% сопротивления холоду&r"
+				"&b+50% сопротивления хаосу&r"
+			]
+			id: "09AFF8CC33BD244B"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "23AD45244978A5A3"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "37776D6144DBDA7D"
+					item: "mmorpg:potions/full_reset_talent"
+					type: "item"
+				}
+				{
+					id: "529776CB2E015F07"
+					item: "mmorpg:potions/full_reset_spell"
+					type: "item"
+				}
+				{
+					id: "1F4F10A8BE8F9410"
+					item: "mmorpg:potions/full_reset_passive"
+					type: "item"
+				}
+				{
+					id: "59E013EF3A97101E"
+					item: "mmorpg:potions/full_reset_ascendancy"
+					type: "item"
+				}
+				{
+					id: "3CEAB295D78E83AA"
+					item: "mmorpg:potions/full_reset_stat"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5D51EB762212D5EC"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "5408016296E2B4E9"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
+			title: "Исключительно Снакулар"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"&eБашня лича&r состоит из одного центрального шпиля, от которого хаотично отходят множество меньших башен и комнат, соединённых между собой либо напрямую, либо с помощью мостов."
+				""
+				"В Башне лича обычно появляются различные враждебные мобы, как естественным образом, так и через спавнеры. Там можно встретить привычных ванильных мобов. Также именно в Башне лича спавнится &eТом смерти&r — единственное место, где можно встретить этого моба."
+				""
+				"Для открытия Башни лича необходимо победить &eНагу&r."
+				""
+				"Башня лича также является ключом к разблокировке трёх других биомов и структур:"
+				""
+				"Изгнание роя комаров вокруг &eСумеречного болота&r, что позволит исследовать &eЛабиринт&r."
+				""
+				"Рассеивая тьму, покрывающей &eТёмный лес&r, открывающей путь к &eКрепости рыцарей гоблинов&r."
+				""
+				"Рассеивая метели над &eСнежным лесом&r, позволяющий войти в &eПещеру йети&r."
+			]
+			id: "05E813C595DBC7AB"
+			rewards: [
+				{
+					count: 5
+					id: "550F848D0AFF9FDF"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7AC5E8E78128C2BA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "twilightforest:lich_tower_miniature_structure"
+				id: "41B2B655D8ABB2AF"
+				structure: "twilightforest:lich_tower"
+				title: "Find a Lich Tower"
+				type: "structure"
+			}]
+			title: "Башня силы"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&eТомы смерти&r — опасные летающие книги, которые можно встретить на лестницах и в библиотеках Башни лича. Они стреляют снарядами, которые на короткое время замедляют поражённое существо. При ударах по Тому смерти он иногда теряет страницы."
+				""
+				"При смерти Тома смерти могут выпасть &eФокус магической карты&r."
+				""
+				"Том смерти обладает:"
+				"&b+50% физического урона в виде урона от молнии&r"
+				"&b+50% физического урона в виде урона от хаоса&r"
+			]
+			icon: "mca:book_death"
+			id: "7CEF2BA760AB0B2E"
+			rewards: [
+				{
+					count: 2
+					id: "14CD63892C5E3F41"
+					item: "mmorpg:currency/socket_adder"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3E5F010430704713"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5CB516DD49306C90"
+					item: "mmorpg:currency/enchant_reroll"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "792CBFC517AE25A6"
+					item: "mmorpg:currency/unique_reroll"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "30AE5F37C62C7EB7"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:death_tome"
+				icon: "ftb_ph:death_tome"
+				id: "154CA20889C9EDB5"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Зачарованная библиотека"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["05E813C595DBC7AB"]
+			description: [
+				"&eСумеречный лич&r, также просто &eлич&r, обитает на вершине &eБашни лича&r. Он предстает в виде высокого скелета-гуманоида в пурпурном плаще и большой золотой короне. Вокруг него окружность из щитов, которые защищают его от урона, но, возможно, эти щиты можно разрушить."
+				""
+				"Путешественники сообщают, что снаряды лича можно отразить своевремённым взмахом оружия. Каждый раз, когда игрок отражает снаряд обратно в лича, у него исчезает один щит."
+				""
+				"&cЛич появляется с мифической редкостью.&r"
+				""
+				"Лич обладает:"
+				"&b+100% физического урона в виде урона от молнии&r"
+				"&b+50% шанс электрифицировать&r"
+				"&b+25% шанс шока&r"
+				"&b+25% пробития сопротивления молнии&r"
+				"&b+75% сопротивления всем стихиям&r"
+				"&b+50% сопротивления хаосу&r"
+				""
+				"&6Завершение этого квеста открывает новые покупки в \"Магазин кампании\"&r"
+			]
+			id: "1F3C2718AE550D5C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "78E598DDB8CEEE03"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "15E955610563E40C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "41295C50FCBC7A5D"
+					item: "mmorpg:gems/topaz/6"
+					type: "item"
+				}
+				{
+					id: "44C98A1EC1B45829"
+					item: "simplehats:toy_story_alien"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "5156617EB99C3B38"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
+			title: "Главный вдохновитель"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eПолые холмы&r — отличный источник руд для добычи и сокровищ для разграбления. Чем больше холм, тем ценнее награда внутри. Однако сокровища охраняются множеством опасных существ, скрывающихся во тьме, и они легко могут стать причиной гибели невнимательного исследователя. К сожалению, чем больше холм, тем больше и смертоноснее живущие в нём твари. Путешественникам следует помнить базовые правила исследования пещер: никогда не копайте прямо вниз в полый холм. Вместо этого лучше заходить с боковой стороны и брать с собой много источников света, ведь спавнеры подстерегают буквально за каждым углом."
+				""
+				"Средние холмы имеют около 60 метров в диаметре и более 25 метров в высоту в центре. Внутри становится значительно просторнее, но это также привлекло туда более опасных врагов. Здесь можно найти золото и лазурит, а также, хоть и редко, алмазы и изумруды. С ростом ценности руд увеличивается и качество награды — обычно в среднем холме можно найти до 6 сундуков с &eслитками железного дерева&r и &eпорошком преображения&r, а также уникальными артефактами, такими как &eКоролева лунных червей&r и &eВеер из перьев павлина&r. В средних холмах обитают &eлгненные жуки&r и &eсапёры-красношапки&r, помимо существ, встречающихся в малых холмах."
+			]
+			id: "2820ABD72802B6F2"
+			rewards: [
+				{
+					count: 4
+					id: "4B00DACD9470CF87"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4A53AC07D15CF95F"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				icon: "twilightforest:hollow_time_log"
+				id: "583B2BF97EA1E832"
+				structure: "twilightforest:medium_hollow_hill"
+				type: "structure"
+			}]
+			title: "Средний холм"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eЛабиринт&r — это ключевая структура, связанная с прогрессом. На поверхности он выглядит как неприметный холм в &eсумеречных болотах&r, но внутри скрыт вход в подземный комплекс с разветвлёнными коридорами и запутанными проходами."
+				""
+				"На нижних уровнях Лабиринта находится ограждённая комната с спавнером Босса, в котором обитает &eГриботавр&r."
+			]
+			id: "1C58F38B9890D6BA"
+			rewards: [
+				{
+					count: 2
+					id: "68678804DB1B0A4A"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "6B43C3B5A633A10F"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "twilightforest:maze_map"
+				id: "3E00882F2A14F4C6"
+				structure: "twilightforest:labyrinth"
+				title: "Find a Labyrinth"
+				type: "structure"
+			}]
+			title: "Волшебный лабиринт"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&eГриботавр&r — это мини-босс, обитающий в своей тюремной камере на нижнем уровне &eЛабиринта&r. Он представляет собой странный гибрид грибной коровы и минотавра."
+				""
+				"Гриботавр обладает:"
+				"&b+10 пробивания брони (масштабируется)&r"
+				"&b+50% точности&r"
+				"&b+30% физическое сопротивление&r"
+				"&b+20% регенерации здоровья&r"
+			]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "78EB450B57F9B7E7"
+			rewards: [
+				{
+					count: 3
+					id: "19BA04335CBBAEF0"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					id: "4D369FC4FA80DC2F"
+					item: "mmorpg:currency/upgrade_common_affix"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "02C4B1A5FC2F4BF9"
+					item: "mmorpg:currency/level_up_orb"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "5BBA7A672D914F6C"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
+			title: "Муууууууу"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C58F38B9890D6BA"]
+			description: [
+				"&eЛабиринтовые слизни&r — это вариант слизней из сумеречного леса, отличающийся серым цветом. Они появляются в &eЛабиринтах&r."
+				""
+				"Лабиринтовый слизень обладает:"
+				"&b+25% к броне&r"
+				"&b+25% к сопротивлению физическому урону&r"
+				"&b+50% к сопротивлению молнии&r"
+			]
+			id: "26D545606AA14974"
+			rewards: [
+				{
+					id: "3C9B5B2C5838A9E2"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1D7B27AF6930907B"
+					item: "mmorpg:currency/orb_of_quality"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:maze_slime"
+				icon: "twilightforest:mazestone"
+				id: "5F809DB4B920DBD2"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Бетон... Слизь?"
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: ["Логово Гидры, напоминающее большой &eполый холм&r, возвышается над плоскими болотами – естественное логово многоголовой Гидры в самом сердце &eогненного болота&r. Гидра, похоже, сама выдолбила себе холм, снабдив его укрытием и вынуждая любого, кто осмелится бросить ей вызов, приближаться к ней лицом к лицу. Местность, обращенная к Гидре, также лишена растительности и укрытий, так что спрятаться негде."]
+			id: "1A2A1F3575A8159B"
+			rewards: [
+				{
+					count: 2
+					id: "4E1C822C955889FC"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "1829DFB6A35F0F6B"
+					item: "mmorpg:gems/topaz/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "twilightforest:hydra_chop"
+				id: "10F427A4198C5961"
+				structure: "twilightforest:hydra_lair"
+				title: "Find a Hydra Lair"
+				type: "structure"
+			}]
+			title: "Логово"
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A2A1F3575A8159B"]
+			description: [
+				"&eГидра&r обитает в уникальном, потрескавшемся &eлогове гидры&r, расположенном в &eогненном болоте&r. Это массивное существо с двумя короткими ногами, поддерживающими широкое, покрытое чешуёй тело. Из туловища выходят несколько змееподобных шеек, заканчивающихся головами, отдалённо напоминающими голову Дракона Края. Всё тело покрыто сине-зелёной и тёмно-синей чешуёй."
+				""
+				"&cГидра появляется с мифической редкостью.&r"
+				""
+				"Гидра обладает:"
+				"&b+100% физического урона в виде урона от огня&r"
+				"&b+60% шанс поджога&r"
+				"&b+40% пробития сопротивления огню&r"
+				"&b+25% снижение получаемого урона&r"
+				"&b+35% сопротивление молнии&r"
+			]
+			id: "18C4B8D73A50CFAC"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "43D1F2E8681A6250"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "06CDDFAA60B2313C"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "442655A6C145A711"
+					item: "mmorpg:gems/emerald/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "1A83F081741ED7A4"
+				item: "twilightforest:hydra_trophy"
+				type: "item"
+			}]
+			title: "Многоголовый зверь"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78EB450B57F9B7E7"]
+			description: [
+				"&eСуп из минотавра&r — это сытное и мощное блюдо, дающее любому путешественнику энергию для исследования даже самых жарких биомов после всего одной тарелки."
+				""
+				"После употребления &eсупа из минотавра&r игрок получает доступ к &eогненному болоту&r и &eгидре&r."
+			]
+			id: "7187E491F0DB8671"
+			rewards: [
+				{
+					count: 2
+					id: "5C46D448EFC87623"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4E328E95911DAEA1"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					id: "58D2C2F14A786F55"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					id: "7275AB1F3B39A5DF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				id: "3D81F5F7AA614C5D"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			title: "Сытная еда"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eТёмный лес&r — густой биом с плотной кроной деревьев, которая почти полностью закрывает свет на уровне лесной подстилки. В этом биоме чаще всего растут деревья тёмного дерева, а также встречается низкая растительность — высокая трава и цветы. Иногда здесь растут Грибные светлячки (Mushglooms), которые дают слабое освещение."
+				""
+				"Несмотря на темноту, на поверхности здесь не появляются такие монстры, как зомби и скелеты. Зато в &eтёмном лесу&r можно встретить &eтуманных волков&r и &eкоролей пауков&r, что делает путешествия по этому биому более опасными."
+			]
+			id: "7E14A7756FB4B78B"
+			rewards: [
+				{
+					id: "7B40532F3F039222"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "666D99C820AFA04B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "53505C138F5F5996"
+					item: "mmorpg:gems/tourmaline/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Epilogue"
+			tasks: [{
+				biome: "twilightforest:dark_forest"
+				icon: "twilightforest:canopy_sapling"
+				id: "3B00F80F4C4025E2"
+				title: "Visit a Dark Forest"
+				type: "biome"
+			}]
+			title: "Ослепленные тьмой"
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eТуманные волки&r — таинственные монстры, обитающие в &eтёмном лесу&r. Эти существа поджидают жертву в глубокой темноте, становясь прозрачными в тенистых местах и принимая плотную форму лишь при ярком освещении. Если они атакуют игрока в темноте, их удары могут ослепить жертву, но этот эффект не проявляется вблизи источников света."
+				""
+				"Туманный волк обладает:"
+				"&b+50% физического урона в виде урона от хаоса&r"
+				"&b+30% шанс уклонения&r"
+				"&b+30% уклонения от заклинаний&r"
+				"&b+25% сопротивления всем стихиям&r"
+			]
+			icon: "outer_end:ender_roots"
+			id: "700E3C92E9C27B04"
+			rewards: [
+				{
+					count: 2
+					id: "63E33F53FF3193C1"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "58F31A094952CF4B"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:mist_wolf"
+				icon: "ftb_ph:mist_wolf"
+				id: "493B46FB942D8A16"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Скрытый в тумане"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: [
+				"&eКороли пауков&r встречаются только в &eтёмном лесу&r, и первое, что выдаёт их присутствие — это красные глаза, светящиеся в темноте. Они вдвое больше, быстрее и крепче обычных пауков, а на их спине ездит &eСкелет-друид&r, что делает их особенно опасными противниками."
+				""
+				"Король пауков обладает:"
+				"&b+100% физического урона в виде урона от хаосом&r"
+				"&b+30% пробития сопротивления хаосу&r"
+			]
+			icon: "born_in_chaos_v1:spider_mandible"
+			id: "67CCD11ABBB75DF3"
+			rewards: [
+				{
+					id: "2404378E98FDF0DD"
+					item: "mmorpg:gems/emerald/5"
+					type: "item"
+				}
+				{
+					id: "499095977A582D7B"
+					item: "mmorpg:gems/garnet/5"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "547FDEA4C9F24547"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:king_spider"
+				icon: "ftb_ph:king_spider"
+				id: "315594F7D6D8B953"
+				type: "kill"
+				value: 5L
+			}]
+			title: "Пауки, вызывающие страх"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7E14A7756FB4B78B"]
+			description: ["Древние и заброшенные, &eКрепости рыцарей гоблинов&r покоятся среди необычно густой кроны деревьев &eтёмного леса&r. Их трудно заметить в темноте, ведь над землёй почти ничего не осталось, кроме разрушенных стен и треснувшей кладки. Однако под поверхностью простирается огромный комплекс из комнат, коридоров и гробниц."]
+			id: "11768894E8B672B5"
+			rewards: [
+				{
+					count: 2
+					id: "5F891BF39E8515BC"
+					item: "mmorpg:material/mining/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A8290CD9BB7C782"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4972BFCA3275C5DA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "twilightforest:stronghold_shield"
+				id: "54FDAF28D194B2C1"
+				structure: "twilightforest:knight_stronghold"
+				title: "Find a Goblin Knight Stronhold"
+				type: "structure"
+			}]
+			title: "Гоблины-узурпаторы"
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["11768894E8B672B5"]
+			description: [
+				"&eФантомы рыцарей&r обитают в комнате с кирпичными стенами внутри &eКрепости рыцарей гоблинов&r. Они выглядят как призрачные доспехи фантомов и имеют зловещий, призрачный облик во время атаки."
+				""
+				"Победа над &e6 Фантомным рыцарем&r продвинет фазу тёмного леса, сняв защиту с &eЦентра тёмного леса&r и открыв доступ к &eУр-Гасту&r и его &eТёмной башне&r."
+				""
+				"Фантомный рыцарь обладает:"
+				"&b+100% физического урона в виде урона от молнии&r"
+				"&b+25% критического удара&r"
+				"&b+50% шанс уклонения&r"
+				"&b+50% уклонения от заклинаний&r"
+			]
+			id: "42922690F74AC7FE"
+			rewards: [
+				{
+					count: 3
+					id: "5D5B35924A7177B3"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5E60295E386C4F31"
+					item: "mmorpg:currency/affix_tier_up_down"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "501346F0CBF0B449"
+					item: "mmorpg:gems/opal/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "70290AE8EF83F6A1"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
+			title: "Проклятые рыцари"
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["42922690F74AC7FE"]
+			description: [
+				"Возвышаясь грозно над &eтёмным лесом&r, стоят впечатляющие &eТёмные башни&r. Такие высокие, что кажется, будто они пронзают само небо, эти огромные сооружения содержат множество уникальных комнат, препятствий, сокровищ и монстров, с которыми предстоит сразиться в эпическом путешествии на вершину. Обычно их можно найти в самом сердце тёмного леса, где густая, удушающая листва приобретает странный осенний оттенок — возможно, из-за зловещего влияния башни."
+				""
+				"&eСущества Карминита&r в основном наносят &eурон огнём&r."
+			]
+			id: "0E85C58F1DA0564C"
+			rewards: [
+				{
+					count: 2
+					id: "411163FE27556CEA"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "0DA6290C80A32C41"
+					item: "mmorpg:gems/ruby/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "born_in_chaos_v1:spawn_structures_dark_tower"
+				id: "03F883F2D01DF89A"
+				structure: "twilightforest:dark_tower"
+				title: "Find a Dark Tower"
+				type: "structure"
+			}]
+			title: "Темные шпили"
+			x: 9.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0E85C58F1DA0564C"]
+			description: [
+				"&eУр-Гаст&r обитает, паря на вершине гигантской &eтёмной башни&r. Это большое сверхъестественное существо с множеством больших колышущихся щупалец. Оно покрыто тем, что искатели приключений боятся принять за кровь, но, возможно, это &eКарминит&r. Это существо напоминает Карминитового Гастгарда, благодаря способности выслеживать игроков, а также гастов из Незера, но намного больше и гораздо опаснее."
+				""
+				"&cУр-Гаст появляется с мифической редкостью.&r"
+				""
+				"Ур-Гаста обладает:"
+				"&b+100% физического урона в виде урона от огня&r"
+				"&b+25% шанс ожога&r"
+				"&b+100% урона от ожога&r"
+				"&b+5% максимального сопротивления огню&r"
+				"&b+100% сопротивления огню&r"
+			]
+			id: "5BB55F41502BE69C"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "26A037B5BB43D730"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "70D77D8F4DC32B5F"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "4AC6E089CE9FA0A2"
+					item: "mmorpg:gems/ruby/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "1484F0626CF00EDA"
+				item: "twilightforest:ur_ghast_trophy"
+				type: "item"
+			}]
+			title: "Кровь или карминит?"
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"&eЗаснеженный лес&r — это неестественно холодный биом, разительно отличающийся от большинства других областей сумеречного леса. Путешественники отмечают множество сходств с снежной тайгой Верхнего мира: снег покрывает землю между высокими елями, заменяющими обычные навесные деревья, и некоторые из них вырастают столь же огромными. Почему в этом в основном влажном и умеренном измерении существует такой ледяной климат — остаётся загадкой, хотя некоторые подозревают, что дело в большом &eЛеднике&r, укрывшемся среди пихт."
+				""
+				"Нужно проявлять осторожность при путешествии по этим землям: здесь бродят &eзимние волки&r и опасные &eйети&r. Этих существ следует избегать или подходить к ним крайне осторожно, особенно при спуске в &eпещеру йети&r, где можно встретить их десятки. &eАльфа-йети&r, правящие своими сородичами, вряд ли обрадуются незваным гостям — будь то любопытные или просто глупцы."
+			]
+			id: "15B1E394B4FBB981"
+			rewards: [
+				{
+					id: "0B1583B14CE6405B"
+					item: "mmorpg:material/farming/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0CAE6DB8E7EDB259"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "00866B8B5706A607"
+					item: "mmorpg:gems/azurite/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "blue_skies:snowbloom"
+				id: "7ED21F382B9E41B3"
+				title: "Посетите заснеженный лес"
+				type: "biome"
+			}]
+			title: "Занесенный снегом"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eЗимние волки&r — крупные голубовато-белые хищники, обитающие в &eзаснеженос лесу&r. Эти существа напоминают своих собратьев из &eтёмного леса&r, но имеют белую шерсть. Они преследуют и атакуют игроков на своей территории, нанося урон как укусами, так и ледяным дыханием, которое замедляет жертву."
+				""
+				"Зимний волк обладает:"
+				"&b+100% физического урона в виде урона от холода&r"
+				"&b+30% пробития сопротивления холода&r"
+				"&b+30% сопротивления холоду&r"
+			]
+			icon: "born_in_chaos_v1:fangofthe_hound_leader"
+			id: "38BFA9B6AC5CBD12"
+			rewards: [
+				{
+					id: "477E6F483D6AABCD"
+					item: "mmorpg:currency/sharpening_stone_3"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6C66DC9E98CDE941"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:winter_wolf"
+				icon: "ftb_ph:winter_wolf"
+				id: "4BF835E79D59F65E"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Леденящий душу звук"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eЙети&r — крупные, белые, блоковидные существа, обитающие в &eзаснеженом лесу&r и &eрещере йети&r. Они в основном полупасивны: интерес проявляют только к игрокам, которые приблизятся к ним примерно на 4 блока. Прямых атак, наносящих урон, у них нет. Вместо этого они хватают цель и бросают её в случайном направлении. Игроки напрямую от йети не пострадают, однако урон от падения будет ощутим. При нападении на йети он становится агрессивным и начинает преследовать врага."
+				""
+				"Йети обладает:"
+				"&b+0.5% восстановления здоровья в секунду&r"
+				"&b+30% сопротивления холоду&r"
+			]
+			icon: {
+				Count: 1
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:protection"
+						lvl: 2s
+					}]
+				}
+			}
+			id: "10B572A9358F338B"
+			rewards: [
+				{
+					count: 5
+					id: "021419E747103F83"
+					item: "mmorpg:stone/3"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7661B1B922262EAF"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "20201B9A398A123F"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			subtitle: "Сумеречный лес"
+			tasks: [{
+				entity: "twilightforest:yeti"
+				icon: "ftb_ph:yetitwilight"
+				id: "0C5B0388632D3E64"
+				type: "kill"
+				value: 10L
+			}]
+			title: "Йети"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4B93763BFB5F5E0D"]
+			description: [
+				"Грозный &eАльфа йети&r значительно крупнее остальных йети в своем стае. У него шесть больших синих рогов, и он постоянно агрессивен по отношению к игрокам."
+				""
+				"Победа над &eАльфа йети&r снимет защиту с &eЛедника&r, открывая доступ к &eСнежной королеве&r и ее &eДворцу авроры&r."
+				""
+				"Альфа Йети обладает:"
+				"&b+50% физического урона в виде урона от холода&r"
+				"&b+8 пробития брони (масштабируемое)&r"
+				"&b+30% пробития сопротивления холоду&r"
+				"&b+25% физического сопротивления&r"
+				"&b+50% сопротивления холоду&r"
+			]
+			id: "44B4EC276B4CD776"
+			rewards: [
+				{
+					count: 3
+					id: "2BA208A9FDAC9C96"
+					item: "mmorpg:stone/4"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "79ACA445473BD88D"
+					item: "mmorpg:material/meat/4"
+					type: "item"
+				}
+				{
+					id: "26B9B73CD18DC085"
+					item: "mmorpg:gems/amethyst/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "04298BD3152A19E7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "Альфа йети"
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44B4EC276B4CD776"]
+			description: [
+				"Нависающий над пустынными &eледниками&r, &eдворец авроры&r — это поразительное и красивое зрелище для искателей приключений в сумеречном лесу. Его стены постоянно переливаются множеством цветов и тянутся ввысь. К сожалению, красота лишь внешняя — внутри дворца скрываются опасности, которые не колеблясь защитят свой магический дом."
+				""
+				"Победив &eАльфа йети&r, приключенцы обнаружат, что достаточно лишь &eприкоснуться к его мягкой шерсти&r, чтобы перенять часть его магической силы, рассеять ветры и открыть дворец для исследования."
+			]
+			icon: "twilightforest:blue_castle_door"
+			id: "2FDCA05F4CD502C8"
+			rewards: [
+				{
+					count: 2
+					id: "591FB17C2BAA0199"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+				{
+					id: "2F9DB93942234A2C"
+					item: "mmorpg:gems/sapphire/5"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [
+				{
+					icon: "twilightforest:aurora_pillar"
+					id: "3E8D88BC87345DAC"
+					structure: "twilightforest:aurora_palace"
+					title: "Find an Aurora Palace"
+					type: "structure"
+				}
+				{
+					id: "3F7D90DB38D24943"
+					item: "twilightforest:alpha_yeti_fur"
+					type: "item"
+				}
+			]
+			title: "Дворец красоты"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2FDCA05F4CD502C8"]
+			description: [
+				"&eСнежная королева&r находится в покрытой льдом комнате недалеко от вершины &eдворца авроры&r. Она, пожалуй, самое человекоподобное существо, встречаемое в сумеречном лесу — напоминает женщину с большими фиолетовыми глазами и бледно-голубой кожей. Она мгновенно становится враждебной к любым незваным гостям, быстро переходя к одному из трёх основных типов атак."
+				""
+				"Снежная королева летает на санях из магического льда в форме тарелки. Эти сани служат мощной защитой — они поднимают Королеву высоко, выводя её из зоны ближнего боя, и &eблокируют все дальние атаки, направленные снизу&r. Чтобы успешно её атаковать, нужно предугадывать её движения и &eатаковать только тогда, когда она подлетает достаточно близко, чтобы можно было обойти ледяные сани&r."
+				""
+				"&cСнежная королева появляется с мифической редкостью.&r"
+				""
+				"Снежная королева обладает:"
+				"&b+100% физического урона в виде урона от холода&r"
+				"&b+80% шанса заморозки&r"
+				"&b+25% шанса разрушения (shatter)&r"
+				"&b+30% пробития сопротивления холоду&r"
+				"&b+30% снижения получаемого урона&r"
+			]
+			id: "1E2D94E70E2A1134"
+			rewards: [
+				{
+					auto: "enabled"
+					icon: {
+						Count: 1
+						id: "minecraft:written_book"
+						tag: {
+							author: "Unknown"
+							generation: 3
+							pages: [
+								"{\"text\":\"Entry #12\n\nLast afternoon, Captain Cornelia went to the seabed in search of any additional resources. There are rumors among the crew that the real subject of her expedition is something else.\"}"
+								"{\"text\":\"More than a day has passed since the captain's dive. She was wearing the only diving suit we had, so we couldn't help her in any way. Worst of all, she had the master key with her. As our hopes of rescue dwindle, the threat of rebellion grows.\"}"
+							]
+							resolved: 1b
+							title: "Pillagers Ship Logbook"
+						}
+					}
+					id: "7EF3ECDA9B97A8F7"
+					title: "2 Skill Points"
+					type: "custom"
+				}
+				{
+					id: "1DC1DDFC5481AC98"
+					item: "dungeon_realm:uber_fragment"
+					type: "item"
+				}
+				{
+					id: "13F0A36E7B35C9D3"
+					item: "mmorpg:gems/sapphire/6"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "Эпилог"
+			tasks: [{
+				consume_items: true
+				id: "30915EF9976C000F"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			title: "Королева льда"
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["09AFF8CC33BD244B"]
+			description: [
+				"После убийства &eНаги&r появится &eМонумент воскрешения&r. Чтобы активировать его и возродить босса, размести вокруг монумента &eблоки железного дерева&r по кругу, как показано:"
+				""
+				"{image:cte2:textures/Naga-Respawn.png width:160 height:140 align:center}"
+				""
+				"Затем на самом монументе помести &eЧереп визер-скелета&r, направленный на &eСевер&r. &cОн ОБЯЗАТЕЛЬНО должен быть повернут на Север!&r"
+			]
+			id: "249CFC4219E590E5"
+			rewards: [{
+				count: 5
+				id: "1F089CDD411E7807"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Возрождение"
+			tasks: [{
+				advancement: "dimasic_server:nagaresp"
+				criterion: ""
+				id: "4443B8B332438AA1"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C2718AE550D5C"]
+			description: [
+				"После убийства &eЛича&r появится &eпамятник возрождения&r. Вы можете активировать его, чтобы возродить босса, разместив вокруг памятника &eблоки золота&r по кругу, как показано ниже:"
+				""
+				"{image:cte2:textures/Lich_respawn.png width:160 height:140 align:center}"
+				""
+				"Затем на сам памятник установите &eЧереп визер-скелета&r, смотрящий строго на &eСевер&r."
+				"&cОН ОБЯЗАТЕЛЬНО ДОЛЖЕН СМОТРЕТЬ НА СЕВЕР!&r"
+			]
+			id: "478246DF0A50447C"
+			rewards: [{
+				count: 5
+				id: "53945B5AF1249FE5"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Возрождение"
+			tasks: [{
+				advancement: "dimasic_server:lichresp"
+				criterion: ""
+				id: "46647FC4FDDBF7CE"
+				type: "advancement"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5BB55F41502BE69C"]
+			description: [
+				"После убийства &eУр-Гаста&r появится &eпамятник возрождения&r. Вы можете активировать его, чтобы возродить босса, поместив &eплачущий обсидиан&r по кругу вокруг памятника, как показано ниже:"
+				""
+				"{image:cte2:textures/Ur-Ghast_Respawn.png width:160 height:140 align:center}"
+				""
+				"Затем на сам памятник установите &eЧереп визер-скелета&r, смотрящий строго на &eСевер&r."
+				"&cОН ОБЯЗАТЕЛЬНО ДОЛЖЕН СМОТРЕТЬ НА СЕВЕР!&r"
+			]
+			id: "52FABBC48E005524"
+			rewards: [{
+				count: 5
+				id: "1FED6032BF28DDCD"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Возрождение"
+			tasks: [{
+				advancement: "dimasic_server:urghastresp"
+				criterion: ""
+				id: "16328367B255603E"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1E2D94E70E2A1134"]
+			description: [
+				"После убийства &eСнежной королевы&r появится &eмонумент возрождения&r. Чтобы активировать его и возродить босса, разместите вокруг монумента &eблоки лазурита&r по кругу, как на изображении:"
+				""
+				"{image:cte2:textures/Snow-Queen_Respawn.png width:160 height:140 align:center}"
+				""
+				"Затем на самом монументе поместите &eЧереп визер-скелета&r так, чтобы он был обращён на &eСевер&r. &cОчень важно, чтобы он был направлен именно на Север!&r"
+			]
+			id: "15CD2A688D39C87D"
+			rewards: [{
+				count: 5
+				id: "3467E2DEDB8FA565"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Возрождение"
+			tasks: [{
+				advancement: "dimasic_server:snawqueenresp"
+				criterion: ""
+				id: "4F68D5C6E346A550"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18C4B8D73A50CFAC"]
+			description: [
+				"После убийства &eГидры&r появится &eпамятник возрождения&r. Вы можете активировать этот блок, чтобы возродить босса, разместив &eдревние обломки&r по кругу вокруг памятника, как показано на изображении:"
+				""
+				"{image:cte2:textures/Hydra_Respawn.png width:160 height:140 align:center}"
+				""
+				"Затем на сам памятник нужно установить &eЧереп визер-скелета&r, направленный строго на &eСевер&r."
+				"&cОн ОБЯЗАТЕЛЬНО должен смотреть на Север!&r"
+			]
+			id: "1DD47026109BE225"
+			rewards: [{
+				count: 5
+				id: "6A599A8C876376B3"
+				item: "lightmanscurrency:coin_gold"
+				type: "item"
+			}]
+			subtitle: "Возрождение"
+			tasks: [{
+				advancement: "dimasic_server:hydraresp"
+				criterion: ""
+				id: "5757A2AFA61E5A7F"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5BB55F41502BE69C"
+				"1E2D94E70E2A1134"
+				"18C4B8D73A50CFAC"
+				"1F3C2718AE550D5C"
+				"09AFF8CC33BD244B"
+			]
+			description: ["Победите всех боссов &eСумеречного леса&r в Эпилоге, чтобы получить это достижение. Затем похвастайтесь им с вашей новой шляпой!"]
+			hide_dependency_lines: true
+			icon: "simplehats:pog"
+			id: "481C3C4D8D5AF5B8"
+			rewards: [
+				{
+					id: "6350309B873FAF80"
+					item: "simplehats:pog"
+					type: "item"
+				}
+				{
+					id: "675B5B35C383CF3D"
+					item: "lightmanscurrency:coin_netherite"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:passive"
+					id: "3C311586BF920909"
+					title: "4 Passive Points"
+					type: "custom"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Достижение"
+			tasks: [{
+				id: "4405B159442E256A"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Победите всех боссов Сумеречного леса!"
+			x: 13.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["15B1E394B4FBB981"]
+			description: [
+				"&eПещера йети&r, расположенная среди холмов и елей &eзаснеженого леса&r, представляет собой характерный квадратный холм с четырьмя входами внутрь. Внутри — холодная среда, покрытая льдом и уплотнённым льдом, с сосульками, свисающими с потолка, и ледяным полом под ногами. В этой ледяной обители обитают многочисленные свирепые &eйети&r, которые яростно охраняют свою территорию. Во главе их иерархии стоит мощный &eАльфа йети&r, который правит этой ледяной твердыней своей силой и властью."
+				""
+				"Исследователям, отправляющимся сюда, следует хорошо подготовиться к холоду и опасным существам, обитающим внутри."
+			]
+			id: "4B93763BFB5F5E0D"
+			rewards: [
+				{
+					count: 3
+					id: "1F78FFBE5A9A85B2"
+					item: "mmorpg:material/fishing/4"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "56F92CFDECE8EB68"
+					item: "lightmanscurrency:coin_gold"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Эпилог"
+			tasks: [{
+				icon: "blue_skies:snowcap_mushroom_block"
+				id: "0A566E2109FCE4C5"
+				structure: "twilightforest:yeti_cave"
+				title: "Find a Yeti Cave"
+				type: "structure"
+			}]
+			title: "Холодное, скромное жилище"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77E6AE329E337151"]
+			description: [
+				"&oНайти какие-то строения и победить боссов? Звучит просто...&r Ты достаёшь свой компас исследователя и — что? Он не работает?"
+				""
+				"В &eСумеречном лесу&r тебе придётся полагаться на собственные навыки ориентирования. Чтобы находить нужные места, тебе понадобится &eПустая магическая карта&r!"
+			]
+			icon: "twilightforest:magic_map"
+			id: "5081032C6E395EA9"
+			rewards: [{
+				id: "0AE3865B01EA1ACD"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			subtitle: "Эпилог"
+			tasks: [{
+				id: "2BF7F6856AC56540"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Кочевые путешествия"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	subtitle: ["Lv. 90"]
+	title: "Эпилог"
+}
