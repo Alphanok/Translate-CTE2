@@ -1,17 +1,4 @@
-#!/usr/bin/env python3
-r"""
-Сравнение .json файлов между двумя версиями (старая -> новая), по ключам.
 
-Запуск: просто дважды кликните по этому файлу.
-
-Скрипт ожидает, что рядом с ним (в той же папке) лежат две подпапки:
-    old\   - старая версия
-    new\   - новая версия
-
-Если хотите другие имена папок - поменяйте значения OLD_DIR_NAME и
-NEW_DIR_NAME ниже, либо запустите из консоли с аргументами:
-    python diff_item.py <папка_старая> <папка_новая> -o отчёт.txt
-"""
 
 import argparse
 import json
@@ -19,8 +6,7 @@ import os
 import sys
 from pathlib import Path
 
-# Имена папок по умолчанию (используются при запуске двойным кликом,
-# без аргументов командной строки). Папки должны лежать рядом со скриптом.
+
 OLD_DIR_NAME = "old"
 NEW_DIR_NAME = "new"
 DEFAULT_OUTPUT_NAME = "report_json.txt"
@@ -41,7 +27,7 @@ def load_json(path: Path):
 
 
 def flatten(obj, prefix: str = "") -> dict:
-    """Разворачивает вложенные словари в плоский dict с ключами через точку."""
+
     flat = {}
     if isinstance(obj, dict):
         for k, v in obj.items():
@@ -53,12 +39,7 @@ def flatten(obj, prefix: str = "") -> dict:
 
 
 def compare_files(old_path: Path, new_path: Path):
-    """
-    Возвращает (changed, added, removed).
-    changed: [(key, old_value, new_value), ...]
-    added:   [(key, new_value), ...]
-    removed: [(key, old_value), ...]
-    """
+
     old_data = load_json(old_path)
     new_data = load_json(new_path)
 
@@ -163,7 +144,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
             for key, v in removed:
                 lines_out.append(f'  - "{key}": {format_value(v)}')
 
-    # 2. Новые файлы
+
     lines_out.append("")
     lines_out.append("#" * 70)
     lines_out.append("# НОВЫЕ ФАЙЛЫ (появились в новой версии)")
@@ -173,7 +154,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
     for rel in added_files:
         lines_out.append(f"+ {rel}")
 
-    # 3. Удалённые файлы
+
     lines_out.append("")
     lines_out.append("#" * 70)
     lines_out.append("# УДАЛЁННЫЕ ФАЙЛЫ (были в старой версии, отсутствуют в новой)")
@@ -183,7 +164,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
     for rel in removed_files:
         lines_out.append(f"- {rel}")
 
-    # 4. Ошибки парсинга (если есть)
+
     if parse_errors:
         lines_out.append("")
         lines_out.append("#" * 70)
@@ -203,8 +184,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
 def main():
     base_dir = Path(os.path.dirname(os.path.abspath(__file__)))
 
-    # Если скрипт запущен с аргументами командной строки - используем их
-    # (это по-прежнему работает, если кому-то нужна консоль).
+
     if len(sys.argv) > 1:
         parser = argparse.ArgumentParser(description="Сравнение .json файлов между версиями (по ключам)")
         parser.add_argument("old_dir", help="Папка со старой версией")
@@ -216,7 +196,7 @@ def main():
         new_dir = Path(args.new_dir)
         output_path = Path(args.output)
     else:
-        # Запуск двойным кликом: берём папки old/ и new/ рядом со скриптом
+
         old_dir = base_dir / OLD_DIR_NAME
         new_dir = base_dir / NEW_DIR_NAME
         output_path = base_dir / DEFAULT_OUTPUT_NAME

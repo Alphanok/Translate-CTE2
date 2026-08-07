@@ -1,28 +1,4 @@
-#!/usr/bin/env python3
-r"""
-Сравнение .snbt файлов между двумя версиями (старая -> новая).
 
-Запуск: просто дважды кликните по этому файлу.
-
-Скрипт ожидает, что рядом с ним (в той же папке) лежат две подпапки:
-    old\   - старая версия
-    new\   - новая версия
-
-Если хотите другие имена папок - поменяйте значения OLD_DIR_NAME и
-NEW_DIR_NAME ниже, либо запустите из консоли с аргументами:
-    python compare_snbt.py <папка_старая> <папка_новая> [-o отчёт.txt]
-
-Формат отчёта по каждому изменённому файлу:
-    ИЗМЕНЕНО:
-        было:  ...
-        стало: ...
-    ДОБАВЛЕНО (новые строки):
-        + ...
-    (если что-то удалили без замены, тоже покажет отдельно)
-
-А в конце - список файлов, которых не было в старой версии (новые файлы),
-и файлов, которые пропали (удалённые файлы).
-"""
 
 import argparse
 import difflib
@@ -30,8 +6,7 @@ import os
 import sys
 from pathlib import Path
 
-# Имена папок по умолчанию (используются при запуске двойным кликом,
-# без аргументов командной строки). Папки должны лежать рядом со скриптом.
+
 OLD_DIR_NAME = "old"
 NEW_DIR_NAME = "new"
 DEFAULT_OUTPUT_NAME = "report.txt"
@@ -52,14 +27,7 @@ def read_lines(path: Path) -> list[str]:
 
 
 def classify_changes(old_lines: list[str], new_lines: list[str]):
-    """
-    Возвращает три списка:
-      changed: [(номер_строки_в_старом, старая_строка, номер_строки_в_новом, новая_строка), ...]
-      added:   [(номер_строки_в_новом, новая_строка), ...]      - строки, которых не было вообще
-      removed: [(номер_строки_в_старом, старая_строка), ...]    - строки, которые убрали без замены
 
-    Номера строк - 1-based (как в текстовом редакторе).
-    """
     sm = difflib.SequenceMatcher(a=old_lines, b=new_lines, autojunk=False)
     changed = []
     added = []
@@ -136,7 +104,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
     lines_out.append(f"Удалённых файлов: {len(removed_files)}")
     lines_out.append("")
 
-    # 1. Изменённые файлы - по каждому: сначала ИЗМЕНЕНО, потом ДОБАВЛЕНО, потом УДАЛЕНО
+
     lines_out.append("#" * 70)
     lines_out.append("# ИЗМЕНЁННЫЕ ФАЙЛЫ")
     lines_out.append("#" * 70)
@@ -199,8 +167,7 @@ def run_comparison(old_dir: Path, new_dir: Path, output_path: Path):
 def main():
     base_dir = Path(os.path.dirname(os.path.abspath(__file__)))
 
-    # Если скрипт запущен с аргументами командной строки - используем их
-    # (это по-прежнему работает, если кому-то нужна консоль).
+
     if len(sys.argv) > 1:
         parser = argparse.ArgumentParser(description="Сравнение .snbt файлов между версиями")
         parser.add_argument("old_dir", help="Папка со старой версией")
@@ -212,7 +179,7 @@ def main():
         new_dir = Path(args.new_dir)
         output_path = Path(args.output)
     else:
-        # Запуск двойным кликом: берём папки old/ и new/ рядом со скриптом
+
         old_dir = base_dir / OLD_DIR_NAME
         new_dir = base_dir / NEW_DIR_NAME
         output_path = base_dir / DEFAULT_OUTPUT_NAME
