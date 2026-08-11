@@ -11,16 +11,16 @@
 		}
 	}
 	id: "71D37C6090473F25"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Завершите задание, указанное ниже, чтобы разблокировать это повторяемое задание!"
 				""
-				"{ \"text\": \"Captain Cornelia's Locker\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
+				"{ \"text\": \"Сундук капитана Корнелии\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"55F9F418C4CA3B3A\" } }"
 			]
 			hide_until_deps_complete: true
 			id: "5DC9C433EE6B8CAE"
@@ -40,7 +40,7 @@
 				item: "aquamirae:frozen_key"
 				type: "item"
 			}]
-			title: "Frozen Key Exchange"
+			title: "Обмен Замороженного ключа"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -48,9 +48,9 @@
 			can_repeat: true
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Glow in the Dark Issues\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
+				"{ \"text\": \"Проблемы со светом в темноте\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"0D9B68F2990B8E94\" } }"
 			]
 			icon: {
 				Count: 1
@@ -88,9 +88,9 @@
 			can_repeat: true
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Fiery Foes\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
+				"{ \"text\": \"Огненные враги\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1D01AD334C7C70F1\" } }"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "2EB52DD9E2CA42B7"
@@ -128,9 +128,9 @@
 			can_repeat: true
 			dependencies: ["60A18C940B623CDA"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"The Restless Dead\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60A18C940B623CDA\" } }"
+				"{ \"text\": \"Беспокойные мертвецы\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"60A18C940B623CDA\" } }"
 			]
 			id: "7EE43CEBE5EBB100"
 			rewards: [{
@@ -164,9 +164,9 @@
 			can_repeat: true
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Frozen in Time\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
+				"{ \"text\": \"Застывшие во времени\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FABF4C4DB118C8\" } }"
 			]
 			id: "04DE011FEEFE6147"
 			rewards: [{
@@ -200,9 +200,9 @@
 			can_repeat: true
 			dependencies: ["61FABF4C4DB118C8"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Creepy Crawlies\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
+				"{ \"text\": \"Жуткие ползучие твари\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1B6034E8571F3AFA\" } }"
 			]
 			id: "42CC9D6AB01A1B7C"
 			rewards: [{
@@ -230,9 +230,9 @@
 			can_repeat: true
 			dependencies: ["61FF2CADDF0013F6"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Dragonspawn\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
+				"{ \"text\": \"Драконье порождение\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"61FF2CADDF0013F6\" } }"
 			]
 			id: "729ECF1D11EDF573"
 			rewards: [{
@@ -260,9 +260,9 @@
 			can_repeat: true
 			dependencies: ["69FD852AE0306BD2"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
+				"{ \"text\": \"Они знали, что ты придешь\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
 			]
 			id: "5C5DEBCACA7C5721"
 			rewards: [{
@@ -290,9 +290,9 @@
 			can_repeat: true
 			dependencies: ["783CA457464E8E3D"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Investigation\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
+				"{ \"text\": \"Расследование\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"783CA457464E8E3D\" } }"
 			]
 			icon: {
 				Count: 1
@@ -336,9 +336,9 @@
 			can_repeat: true
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"Complete the quest mentioned below to unlock this repeatable quest!"
+				"Выполните задание, указанное ниже, чтобы открыть это повторяющееся задание!"
 				""
-				"{ \"text\": \"Civilization from the Past\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
+				"{ \"text\": \"Цивилизация из прошлого\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"775A13E1924D6C9A\" } }"
 			]
 			icon: {
 				Count: 1
@@ -376,5 +376,5 @@
 			y: -1.0d
 		}
 	]
-	title: "Repeatables"
+	title: "Повторяемые"
 }

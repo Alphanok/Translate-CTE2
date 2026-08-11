@@ -11,13 +11,13 @@
 		{
 			dependencies: ["4B57F45BE30AA5F2"]
 			description: [
-				"Complete the &eAct II&r quest mentioned in the task to automatically earn the Ascendancy Point(s)!"
+				"Завершите квест &eАкт II&r, указанный в задании, чтобы автоматически получить Очко(а) Возвышения!"
 				""
-				"{ \"text\": \"Defenders of the Nether II\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B57F45BE30AA5F2\" } } "
+				"{ \"text\": \"Защитники Нижнего Мира II\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4B57F45BE30AA5F2\" } }"
 				""
-				"&eThese Ascendancy Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&eЭти Очки Возвышения являются общими для всех ваших персонажей (см. меню Персонажа в Хабе).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" in Rewards (unlocked in Act IV), these quests will remain completed.&r"
+				"&cЕсли квесты будут сброшены с помощью «Сброса Основной Кампании» в Наградах (доступен с Акта IV), эти квесты останутся выполненными.&r"
 			]
 			id: "17F9635AF7CDEA18"
 			rewards: [{
@@ -30,13 +30,13 @@
 				title: "3 Ascendancy Points"
 				type: "command"
 			}]
-			subtitle: "Novice Ascendancy"
+			subtitle: "Восхождение новичка"
 			tasks: [{
 				disable_toast: true
 				icon: "minecraft:book"
 				id: "1A4E5F840A029C7F"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Defenders of the Nether II"
+				title: "Завершите: Защитники нижнего мира II"
 				type: "stat"
 				value: 1
 			}]
@@ -49,13 +49,13 @@
 				"46DB9530C236A4AD"
 			]
 			description: [
-				"Complete the &eAct III&r quest mentioned in the task to automatically earn the Ascendancy Point(s)!"
+				"Завершите квест &eАкт III&r, указанный в задании, чтобы автоматически получить очко восхождения!"
 				""
-				"{ \"text\": \"Slippery Swimmer\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46DB9530C236A4AD\" } } "
+				"{ \"text\": \"Скользкий пловец\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"46DB9530C236A4AD\" } }"
 				""
-				"&eThese Ascendancy Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&eЭти очки восхождения являются общими для всех ваших персонажей (см. меню Персонажа в Хабе).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" in Rewards (unlocked in Act IV), these quests will remain completed.&r"
+				"&cЕсли квесты будут сброшены с помощью «Сброса основной кампании» в разделе Наград (доступен с Акта IV), эти квесты останутся выполненными.&r"
 			]
 			id: "7E712A56BE4C40B7"
 			rewards: [{
@@ -68,7 +68,7 @@
 				title: "2 Ascendancy Points"
 				type: "command"
 			}]
-			subtitle: "Cruel Ascendancy"
+			subtitle: "Жестокое восхождение"
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -87,7 +87,7 @@
 				}
 				id: "5042FB25C4207F1B"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Slippery Swimmer"
+				title: "Завершите: Скользкий пловец"
 				type: "stat"
 				value: 1
 			}]
@@ -100,13 +100,13 @@
 				"69FD852AE0306BD2"
 			]
 			description: [
-				"Complete the &eAct V&r quest mentioned in the task to automatically earn the Ascendancy Point(s)!"
+				"Завершите квест &eАкт V&r, указанный в задании, чтобы автоматически получить очко восхождения!"
 				""
-				"{ \"text\": \"They Knew You Were Coming\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } } "
+				"{ \"text\": \"Они знали, что ты придёшь\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"69FD852AE0306BD2\" } }"
 				""
-				"&eThese Ascendancy Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&eЭти очки восхождения являются общими для всех ваших персонажей (см. меню Персонажа в Хабе).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" in Rewards (unlocked in Act IV), these quests will remain completed.&r"
+				"&cЕсли квесты будут сброшены с помощью «Сброса основной кампании» в разделе Наград (доступен с Акта IV), эти квесты останутся выполненными.&r"
 			]
 			id: "05F71CA8CB6A9B71"
 			rewards: [{
@@ -119,7 +119,7 @@
 				title: "2 Ascendancy Points"
 				type: "command"
 			}]
-			subtitle: "Merciless Ascendancy"
+			subtitle: "Бесжалостное восхождение"
 			tasks: [{
 				disable_toast: true
 				icon: {
@@ -134,7 +134,7 @@
 				}
 				id: "59D4B5D606051069"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: They Knew You Were Coming"
+				title: "Завершите: Они знали, что ты придёшь"
 				type: "stat"
 				value: 1
 			}]
@@ -150,19 +150,19 @@
 				"05F71CA8CB6A9B71"
 			]
 			description: [
-				"Complete the &e4 Epilogue Quests&r mentioned below to automatically earn the Ascendancy Point(s)!"
+				"Завершите следующие &e4 Эпилоговых квеста&r, чтобы автоматически получить очко возхождения:"
 				""
-				"{ \"text\": \"The Frozen Tower\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07EBFDA1B8808DAF\" } } "
+				"{ \"text\": \"Замёрзшая башня\", \"color\": \"aqua\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"07EBFDA1B8808DAF\" } }"
 				""
-				"{ \"text\": \"The Ardent Depths\", \"color\": \"red\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"005E75571665043C\" } } "
+				"{ \"text\": \"Пылающие глубины\", \"color\": \"red\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"005E75571665043C\" } }"
 				""
-				"{ \"text\": \"The Sprawling Vinelands\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"56B2B51011037E61\" } } "
+				"{ \"text\": \"Разросшиеся лозы\", \"color\": \"green\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"56B2B51011037E61\" } }"
 				""
-				"{ \"text\": \"The Galvanic Stronghold\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } } "
+				"{ \"text\": \"Гальваническая цитадель\", \"color\": \"dark_purple\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"6B2C722AC00A07C0\" } }"
 				""
-				"&eThese Ascendancy Points are shared amongst your characters (see Character menu in the Hub).&r"
+				"&eЭти очко возхождения являются общими для всех ваших персонажей (см. меню Персонажа в Хабе).&r"
 				""
-				"&cIf quests are reset via \"Main Campaign Quest Reset\" in Rewards (unlocked in Act IV), these quests will remain completed.&r"
+				"&cЕсли квесты будут сброшены с помощью «Сброса основной кампании» в разделе Наград (доступен с Акта IV), эти квесты останутся выполненными.&r"
 			]
 			id: "087DA043F088CC11"
 			rewards: [{
@@ -181,7 +181,7 @@
 				icon: "handcrafted:stackable_book"
 				id: "1BE3C1B048BD304B"
 				stat: "minecraft:walk_one_cm"
-				title: "Complete: Epilogue Elemental Bosses"
+				title: "Завершите: Стихийные боссы эпилога"
 				type: "stat"
 				value: 1
 			}]
@@ -189,5 +189,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Ascendancy"
+	title: "Восхождение"
 }

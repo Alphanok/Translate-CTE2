@@ -17,9 +17,9 @@
 		{
 			dependencies: ["0CDFB8E5BB59B981"]
 			description: [
-				"Scouting reports indicate a rise in Illager activity. There have even been reports of increased necromantic activities!"
+				"Отчёты разведки показывают рост активности разбойников. Были даже сообщения о повышенной активности некромантов!"
 				""
-				"Check the area for any undead creatures, and &ekill them&r."
+				"Осмотрите территорию на наличие нежити и &eуничтожьте её&r."
 			]
 			icon: {
 				Count: 1
@@ -54,7 +54,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -71,16 +71,16 @@
 					value: 5L
 				}
 			]
-			title: "Training Arc"
+			title: "Этап тренировок"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"You've found a &eZombie Gateway&r from the last creatures you fought. Oddly, you sense an uncomfortable energy emanating from it."
+				"Вы нашли &eврата зомби&r после последней битвы с существами. Странно, но вы чувствуете исходящую от них неприятную энергию."
 				""
-				"Could it be the cause for the uprise in undead creatures? It's worth taking a look. Try using the pearl away from a village. It seems like it might open a portal upon use..."
+				"Может быть, это причина роста количества нежити? Стоит проверить. Попробуйте использовать жемчужину подальше от деревни. Похоже, что при использовании она открывает портал..."
 			]
 			icon: {
 				Count: 1
@@ -121,7 +121,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Level Methods"
+			subtitle: "Способы повышения уровня"
 			tasks: [
 				{
 					entity: "minecraft:zombie"
@@ -138,7 +138,7 @@
 					value: 4L
 				}
 			]
-			title: "Disturbances in the Air"
+			title: "Нарушения в воздухе"
 			x: 1.5d
 			y: -1.5d
 		}
@@ -146,9 +146,9 @@
 			can_repeat: false
 			dependencies: ["60D950E97EA8E2B7"]
 			description: [
-				"The scouts have come back with another report! Obscenely large Zombies, Skeletons, and Creepers have been sighted around the Overworld."
+				"Разведчики вернулись с новым докладом! В Верхнем мире были замечены &eнеобычно огромные&r зомби, скелеты и криперы."
 				""
-				"This can only be the work of the &eWitches&r. You'll need to find a Witch, interrogate her, and take any suspicious items."
+				"Это может быть только делом &eведьм&r. Тебе нужно &eотыскать ведьму, допросить её и изъять любые подозрительные предметы&r."
 			]
 			icon: "minecraft:cauldron"
 			id: "0388547EAFE52B5F"
@@ -184,7 +184,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "minecraft:witch"
 				icon: "ftb_ph:witch"
@@ -192,18 +192,18 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "A Brewsome Problem"
+			title: "Зельевая угроза"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
 			description: [
-				"It seems like the Witch was brewing up a suspicious potion. It's labelled &e\"Chemical X\"&r. Maybe you should see what it does, it might be responsible for the large creatures."
+				"Похоже, ведьма варила подозрительное зелье. На нём написано &e«Chemical X»&r. Возможно, стоит проверить, что оно делает — это может быть причиной появления &eогромных существ&r."
 				""
-				"Try tossing this onto a &eregular skeleton&r and seeing what happens. Or if I'm unlucky enough, I'll run into a &eMutant Skeleton&r on my own."
+				"Попробуй бросить его на &eобычного скелета&r и посмотри, что произойдёт. Или, если не повезёт, ты сам наткнёшься на &eМутировавшего скелета&r."
 				""
-				"&eNote that if you encounter a Mutant Zombie, it will revive up to 4 times unless it dies while burning!&r"
+				"&eУчти, что если ты встретишь Мутировавшего зомби, он может возродиться до 4 раз, если только не погибнет в огне!&r"
 			]
 			icon: {
 				Count: 1
@@ -238,7 +238,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "mutantmonsters:mutant_skeleton"
 				icon: {
@@ -252,7 +252,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "An Experiment Gone Wrong"
+			title: "Эксперимент пошел не так"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -260,13 +260,13 @@
 			dependencies: ["5FCA8577C7DB792D"]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've confirmed that the Witches were brewing potions of Chemical X to be used on Overworld creatures, turning them into hideous monstrosities."
+				"Ты подтвердил, что ведьмы действительно варили зелья Chemical X, чтобы использовать их на существах Верхнего мира, превращая тех в ужасных монстров."
 				""
-				"However, there must be some reason they've all collectively started brewing Chemical X... Perhaps it's time to do the scouting yourself. Your intuition points towards the dastardly &eIllagers.&r"
+				"Однако должна быть причина, по которой все они вдруг начали варить Chemical X... Похоже, пора заняться разведкой самому. Твоё чутьё указывает на коварных &eразбойников.&r"
 				""
-				"Maybe you can scout out what the Illagers are up to. They've been known to outsource their potion-creation to Witches in the past. You can find &ePillagers&r in &eVanilla Pillager Outposts&r which spawn frequently in the Overworld."
+				"Может, удастся выяснить, что они замышляют. Известно, что ранее они поручали варку зелий ведьмам. Ты можешь найти &eразбойников&r в &eстандартных аванпостах разбойников&r, которые часто встречаются в Верхнем мире."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение открывает Повторяемое задание в главе «Повторяемые»!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -294,7 +294,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					entity: "minecraft:pillager"
@@ -311,16 +311,16 @@
 					value: 6L
 				}
 			]
-			title: "Investigation"
+			title: "Расследование"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
 			description: [
-				"These &eIllagers&r have been up to no good. They've been raiding villages and are found commonly in &eOverworld structures&r."
+				"Эти &eразбойнки&r замышляют нехорошее. Они грабят деревни и часто встречаются в &eструктурах Верхнего мира&r."
 				""
-				"Now that you know who's behind the rise in hostile creatures, it's time to &ebring the fight&r to them."
+				"Теперь, когда вы знаете, кто стоит за ростом враждебных существ, пришло время &eперенести бой&r к ним."
 			]
 			icon: "simplehats:hockeymask"
 			id: "56FF2D399F956629"
@@ -348,7 +348,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Illager Arc"
+			subtitle: "Сюжетная линия разбойников"
 			tasks: [
 				{
 					entity: "illagerinvasion:basher"
@@ -372,13 +372,13 @@
 					value: 4L
 				}
 			]
-			title: "Spread Prevention"
+			title: "Предотвращение распространения"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			description: ["These Illagers can only be easily found through forced &eGateway of the Raiders&r."]
+			description: ["Этих разбойников легко найти только через принудительный призыв &eврат рейдеров&r (Gateway of the Raiders)."]
 			icon: {
 				Count: 1
 				id: "minecraft:iron_axe"
@@ -416,7 +416,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Illager Arc"
+			subtitle: "Сюжетная линия разбойников"
 			tasks: [
 				{
 					entity: "illagerinvasion:archivist"
@@ -433,7 +433,7 @@
 					value: 1L
 				}
 			]
-			title: "Raiding Party"
+			title: "Рейдовая группа"
 			x: 7.5d
 			y: 1.5d
 		}
@@ -441,15 +441,15 @@
 			dependencies: ["783CA457464E8E3D"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Looks like your suspicions were warranted. Through interrogation, you've learnt that the Illager &eInvoker&r is the mastermind behind these evil schemes."
+				"Похоже, твои подозрения подтвердились. В ходе допроса ты узнал, что &eВызыватель&r — настоящий кукловод за всеми этими злыми замыслами."
 				""
-				"Track down the Invoker and put an end to his evil plans. You've been told they can be found in &eWoodland Mansions&r... They can also apparently be encountered through forced &eGateway of the Raiders&r."
+				"Отследи Призывателя и положи конец его планам. Говорят, его можно найти в &eлесных особняках&r. Также его можно вызвать через &eврата налётчиков (Gateway of the Raiders)&r."
 				""
-				"&cThe Invoker spawns at minimum level 15.&r"
+				"&cПризыватель появляется минимум 15 уровня.&r"
 				""
-				"The Invoker Has:"
-				"&b+20% Elemental Resistance&r"
-				"&a10% Chance of Dropping Owd Rune&r"
+				"Призывателя обладает:"
+				"&b+20% сопротивление стихиям&r"
+				"&a10% шанс выпадения Руны OWD&r"
 			]
 			icon: "simplehats:crown"
 			id: "3E1EC6A042CC9310"
@@ -486,7 +486,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "illagerinvasion:invoker"
 				icon: "ftb_ph:invoker"
@@ -494,13 +494,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Mastermind"
+			title: "Вдохновитель"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
-			description: ["The &eIllusioner&r is deceptive and cunning. It's no surprise that they're the Invoker's left-hand Illager. You can find them in &eIllusioner Towers&r. They can also be encountered through forced &eGateway of the Raiders&r."]
+			description: ["&eИллюзор&r — это коварный и хитрый противник. Неудивительно, что он — правая рука Вызывателя среди разбойников. Их можно встретить в &eБашнях разбойников (Illusioner Towers)&r. Также они могут появляться через принудительные призыв &eврата рейдеров&r (Gateway of the Raiders)."]
 			icon: {
 				Count: 1
 				id: "mmorpg:weapon/staff/iron"
@@ -544,7 +544,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Illager Arc"
+			subtitle: "Сюжетная линия разбойников"
 			tasks: [{
 				entity: "minecraft:illusioner"
 				icon: "ftb_ph:illusioner"
@@ -552,16 +552,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Illager Advisor II"
+			title: "Советник разбойников II"
 			x: 9.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["783CA457464E8E3D"]
 			description: [
-				"The &eInquisitor&r is the right-hand Illager of the Invoker. Taking one out will deal a heavy blow to the Invoker's forces."
+				"&eИнквизитор&r — правая рука Призывателя. Уничтожение одного из них нанесёт серьёзный удар силам Призывателя."
 				""
-				"You can find the Inquisitor in the &eIllager Fortress&r. They can also be encountered through forced &eGateway of the Raiders&r."
+				"Вы можете найти Инквизитора в &eКрепости&r. Их также можно встретить через принудительный &eврата захватчиков&r (Gateway of the Raiders)."
 			]
 			icon: {
 				Count: 1
@@ -606,7 +606,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Illager Arc"
+			subtitle: "Сюжетная линия разбойников"
 			tasks: [{
 				entity: "illagerinvasion:inquisitor"
 				icon: "ftb_ph:inquisitor"
@@ -614,18 +614,19 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Illager Advisor I"
+			title: "Советник разбойников I"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"You've defeated the Illager Invoker... But the Overworld is not safe yet."
+				"Ты победил Вызывателя… Но Верхний мир всё ещё не в безопасности."
 				""
-				"Due to the activities of the Illagers, rifts to other dimensions have opened in the Overworld. You'll need to go into each dimension and stabilize the inter-dimensional connection. Otherwise, the Overworld may eventually be overrun with other-worldly creatures!"
+				"Из-за действий Илладжеров в Верхнем мире открылись разломы в другие измерения. Тебе предстоит отправиться в каждое из них и стабилизировать межпространственное соединение. В противном случае Верхний мир может быть захвачен инопланетными созданиями!"
 				""
-				"It's time to go to the &eNether&r - a hellish landscape of flame. &eYou can get there by setting up an Obsidian portal. Activate the portal using Flint and Steel, and you'll be able to enter the Nether.&r"
+				"Пора отправиться в &eНезер&r — адский ландшафт, полный огня."
+				"&eТы можешь попасть туда, создав портал из обсидиана. Активируй его при помощи кремня и железа — и ты сможешь войти в Незер.&r"
 				""
 				"{image:cte2:textures/nether_portal.png width:160 height:128 align:1}"
 			]
@@ -642,7 +643,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				icon: "minecraft:nether_star"
@@ -650,20 +651,20 @@
 				title: "Visit The Nether"
 				type: "dimension"
 			}]
-			title: "Realm Unexplored"
+			title: "Неизведанное царство"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E1EC6A042CC9310"]
 			description: [
-				"CTE2's Campaign quest line is split into multiple acts, where each act is associated with a different dimension, preceded by a Prologue quest line (which you're already familiar with)."
+				"Квестовая линия кампании в CTE2 разбита на несколько актов, где каждый акт связан с отдельным измерением. Ему предшествует Пролог (с которым ты уже знаком)."
 				""
-				"As you complete the main quests, more side quests will unravel. And once you've completed the line of main quests (typically 5-7 quests in length), you will receive the quest to move on to the next act/dimension."
+				"По мере прохождения основных заданий будут открываться дополнительные побочные квесты. Как только ты завершишь основную линейку заданий (обычно от 5 до 7 квестов), откроется задание на переход в следующий акт/измерение."
 				""
-				"As you move from one dimension to the next, the mobs will become stronger, and the loot quality will improve. Although mobs scale to player level, they cap out in each dimension, making it possible to \"overlevel\" for a dimension if you're struggling with it."
+				"С каждым новым измерением монстры будут становиться сильнее, а качество добычи — выше. Хотя мобы масштабируются под уровень игрока, в каждом измерении есть свой максимум уровня мобов. Это позволяет \"перерасти\" текущее измерение, если ты испытываешь трудности в нём."
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
+				"&6Этот квест открывает новые магазины в разделе Магазин компании.&r"
 			]
 			icon: "minecraft:paper"
 			id: "727ADA9C4F420BDC"
@@ -697,22 +698,22 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "6FA3A47AFDD25C96"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Acts"
+			title: "Акты"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["15C2A55BAFCA5084"]
 			description: [
-				"Luminescent creatures lurk in the underground to attract attention. Find some &eGlow Skeletons&r, kill them, and continue to explore the depths."
+				"Светящиеся существа скрываются под землёй, чтобы привлечь внимание. Найдите &eСветящихся скелетов&r, убейте их и продолжайте исследовать глубины."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение открывает повторяемое задание в главе «Повторяемые»!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -744,7 +745,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "The Underground"
+			subtitle: "Подземелье"
 			tasks: [{
 				entity: "monsterplus:glow_skeleton"
 				icon: "ftb_ph:glow_skeleton"
@@ -752,22 +753,22 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Glow in the Dark Issues"
+			title: "Проблемы со светом в темноте"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["051DB401E3A08D89"]
 			description: [
-				"Why are the skeletons glowing in the first place? The creatures from which skeletons arise from weren't glowing in the dark..."
+				"Почему же скелеты светятся изначально? Ведь существа, из которых появляются скелеты, не светились в темноте..."
 				""
-				"To investigate this potential osteo-mutation, find a &eHermit Abysswalker&r. You hear they can be found in through &eGateway of Overworldian Nights&r."
+				"Чтобы исследовать эту возможную остеомутацию, найдите &eОтшельника Бездны (Hermit Abysswalker)&r. Говорят, что его можно встретить через &eВрата ночей верхнего мира (Gateway of Overworldian Nights)&r."
 				""
-				"Be careful, it can cast various spells and summon minions to aid it in combat."
+				"Будьте осторожны, он умеет кастовать разные заклинания и призывать помощников в бой."
 				""
-				"The Hermit Abysswalker Has:"
-				"&b+30% Armor&r"
-				"&a5% Chance of Dropping Owd Rune&r"
+				"Отшельник Бездны обладает:"
+				"&b+30% брони&r"
+				"&a5% шанс выпадения руны Owd&r"
 			]
 			icon: {
 				Count: 1
@@ -815,7 +816,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "The Underground"
+			subtitle: "Подземелье"
 			tasks: [{
 				entity: "monsterplus:abyssologer"
 				icon: {
@@ -829,13 +830,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mutagenic Source"
+			title: "Мутагенный источник"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
-			description: ["You've heard numerous tales of underground &eGoblins&r and &eKobolds.&r Some tales say these creatures are aggressive, and not to be trifled with. But others say Kobolds and Goblins are the friendliest underground creatures... Provided you &ebring a bit of coin&r."]
+			description: ["Вы слышали множество историй об подземных &eГоблинах&r и &eКобольдах&r. Одни говорят, что эти существа агрессивны и с ними лучше не связываться. Другие же утверждают, что Кобольды и Гоблины — самые дружелюбные жители подземелий... Если только вы &eпринесёте им немного монет&r."]
 			icon: "mmorpg:loot_table_chest"
 			id: "6FF06A68E8DA88F2"
 			rewards: [{
@@ -843,26 +844,28 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "The Underground"
+			subtitle: "Подземелье"
 			tasks: [{
 				id: "749BBB5B3A9895C3"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Hidden Traders"
+			title: "Скрытые торговцы"
 			x: 3.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["15C2A55BAFCA5084"]
 			description: [
-				"&eXP Blocks&r are blocks that can be crafted and placed. They let you store any &evanilla experience&r into the block."
+				"&eБлоки опыта&r — это блоки, которые можно создать и поставить. Они позволяют хранить &eобычный (ванильный) опыт&r внутри блока."
 				""
-				"Usage:"
-				"- Sneak + right-click with an empty hand to add all your current experience to the block."
-				"- Right-click to remove one level from the block and add it to your experience bar."
+				"Использование:"
 				""
-				"&cNote that your offhand must be empty!&r"
+				"При приседании + правый клик пустой рукой вы добавляете весь свой текущий опыт в блок."
+				""
+				"Просто правый клик — снимает один уровень опыта из блока и добавляет его к вашей полосе опыта."
+				""
+				"&cОбратите внимание, что в вашей второй руке должно быть пусто!&r"
 			]
 			id: "6286EB870319776D"
 			rewards: [
@@ -879,11 +882,11 @@
 					icon: "ftb_ph:exp"
 					id: "25DDEDBC06834D92"
 					silent: true
-					title: "125 Experience"
+					title: "125 опыта"
 					type: "command"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "Дополнительно"
 			tasks: [{
 				id: "36690510781ADE4D"
 				item: "globalxp:xp_block"
@@ -895,15 +898,15 @@
 		{
 			dependencies: ["4956C0B5633CE91E"]
 			description: [
-				"In CTE2, there are various custom weapon types. Below is a list of all the weapon types, with the custom ones highlighted in &eyellow&r."
+				"В CTE2 существует несколько типов оружия. Ниже приведён список всех типов оружия, при этом кастомные выделены &eжёлтым&r."
 				""
-				"Sword, Axe, Bow, Crossbow, &eStaff, Dagger, Spear, Hammer, Greatsword, Scythe, Gauntlet&r."
+				"Меч, Топор, Лук, Арбалет, &eПосох, Кинжал, Копьё, Молот, Большой Меч, Коса, Когти&r."
 				""
-				"Keep in mind you will need Gear Stat Souls when crafting these to give them Mine and Slash stats."
+				"Имейте в виду, что для создания такого оружия нужны Душа характеристик снаряжения, чтобы наделить его характеристиками Mine and Slash."
 				""
-				"In CTE2 you can also equip &etwo-handed weapons&r. At the moment, &eSpears, Greatswords, and Scythes&r are two-handed."
+				"В CTE2 можно также экипировать &eдвуручное оружие&r. В данный момент &eкопья, двуручные мечи и косы&r — двуручные."
 				""
-				"You can also &edual-wield any one-handed weapons&r! Weapons in the off-hand provide &e25%&r of their stats."
+				"Также можно &eбрать в две руки любое одноручное оружие&r! Оружие в левой руке даёт &e25%&r от своих характеристик."
 			]
 			icon: "minecraft:paper"
 			id: "1367285A94791954"
@@ -987,29 +990,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "3C66E63FF35763F6"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Other Weapon Types, Two-Handers, Dual-Wielding"
+			title: "Другие типы оружия, двуручное оружие, парное"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0D9B68F2990B8E94"]
 			description: [
-				"In the &eCampaign&r quest line, various quests will have a different background shape which can indicate what type of quest it is."
+				"В цепочке заданий &eКампания&r разные задания имеют разные формы фона, которые показывают их тип:"
 				""
-				"&aRounded Corner Square: Main Quest&r"
-				"&eCircle: Side Quest&r"
-				"&3Gear: Repeatable Quest&r"
-				"&4Diamond: Mini-Boss&r"
-				"&dOctagon: Shop&r"
-				"&bHexagon: Achievement&r"
+				"&aКвадрат с закруглёнными углами: Главное задание&r"
+				"&eКруг: Побочное задание&r"
+				"&3Шестерёнка: Повторяемое задание&r"
+				"&4Ромб: Мини-босс&r"
+				"&dВосьмиугольник: Магазин&r"
+				"&bШестиугольник: Достижение&r"
 				""
-				"Additionally, you will find &e\"Lost Pages\" which have the paper icon&r. These are simple click to complete quests that provide additional information."
+				"Кроме того, встречаются &e«Потерянные страницы» с иконкой бумаги&r — это простые задания с нажатием для завершения, которые дают дополнительную информацию."
 			]
 			icon: "minecraft:paper"
 			id: "051DB401E3A08D89"
@@ -1018,28 +1021,28 @@
 				item: "farmersdelight:cake_slice"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "14B3CF645A1BD777"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Quest Shapes"
+			title: "Виды заданий"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Throughout your journey, you will find yourself looking for more powerful gear. Gear power can be assessed in 3 main ways:"
+				"В ходе вашего путешествия вы будете искать более мощное снаряжение. Мощность снаряжения можно оценивать тремя основными способами:"
 				""
-				"1. The &elevel&r of the gear, which determines the power of the gear's stats. Gear level is typically determined by the level of the mob that is killed."
+				"1.&eУровень&r снаряжения, который определяет силу его характеристик. Уровень снаряжения обычно зависит от уровня убитого моба."
 				""
-				"2. The &erarity&r of the gear, which determines how many and how high the stat can roll, and how many sockets it can have. There are 7 droppable rarities: &7Common&r, &aUncommon&r, &9Rare&r, &dEpic&r, &4Legendary&r, &5Mythic&r, and &cUnique&r. Unique gear is special because the stats rolled on them are predetermined. They are powerful and can sometimes enable special styles of play."
+				"2.&eРедкость&r снаряжения, которая определяет, сколько и каких характеристик может выпадать, а также сколько у него может быть слотов. Существует 7 выпадающих уровней редкости: &7Обычное&r, &aНеобычное&r, &9Редкое&r, &dЭпическое&r, &4Легендарное&r, &5Мифическое&r и &cУникальное&r. Уникальное снаряжение особенное тем, что его характеристики заранее определены. Оно мощное и иногда позволяет использовать уникальные стили игры."
 				""
-				"3. The &equality&r of the gear, which further improves the power slightly."
+				"3.&eКачество&r снаряжения, которое дополнительно немного увеличивает его силу."
 				""
-				"Some of these attributes can be changed via Mine and Slash &ecurrencies&r, such as the Orb of Infinity which can increase a gear's level. Additionally, some currencies can be crafted through the Mine and Slash profession system to further enhance your gear."
+				"Некоторые из этих параметров можно изменить с помощью валют из Mine and Slash, например, Сферы Бесконечности (Orb of Infinity), которая может повысить уровень снаряжения. Кроме того, некоторые валюты можно создать через систему профессий Mine and Slash для дальнейшего улучшения снаряжения."
 			]
 			icon: "minecraft:paper"
 			id: "6A8C03172A7F61C3"
@@ -1074,34 +1077,34 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "0E7658B0923F7FFA"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Gear Improvement"
+			title: "Улучшение снаряжения"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Favor is a system that rewards players for living. Every minute, you generate a small amount of Favor. &eFavor soft-caps at 1000&r. However, you can go beyond this Favor limit by opening chests."
+				"Система «Благосклонность» (Favor) награждает игроков просто за жизнь в игре. Каждую минуту ты получаешь небольшое количество Благосклонности. &eМаксимальный «мягкий» предел Благосклонности — 1000&r, но можно превысить этот лимит, открывая сундуки."
 				""
 				"{image:cte2:textures/favor.png width:140 height:100 align:1}"
 				""
-				"At 250+ Favor, you will have a 2% bonus to loot drops. As you go up in Favor, your bonus to loot drops will increase."
+				"При достижении 250+ Благосклонности ты получаешь бонус +2% к дропу. Чем выше Благосклонность — тем больше бонус к дропу."
 				""
-				"At the &ecap of 2500&r you have a 25% increase to loot and experience!"
+				"При &eмаксимуме в 2500&r у тебя будет +25% к опыту и дропу!"
 				""
-				"Note that there are level requirements for certain rarities to start appearing:"
+				"Обрати внимание, что для появления предметов определённых редкостей есть требования по уровню:"
 				""
-				"&dEpic&r: 10+"
-				"&4Legendary&r: 25+"
-				"&5Mythic&r: 50+"
+				"&dЭпические&r: 10+"
+				"&4Легендарные&r: 25+"
+				"&5Мифические&r: 50+"
 				""
-				"Be careful though, &cdying will cause you to lose 500 Favor!&r"
+				"Но будь осторожен — &cсмерть отнимет у тебя 500 Благосклонности!&r"
 			]
 			icon: "minecraft:paper"
 			id: "0B7C635945E7F3AA"
@@ -1112,13 +1115,13 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "562B84F769A52A5D"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Favor"
+			title: "Благосклонность"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -1134,7 +1137,7 @@
 				"4AF5F24C4B770EA5"
 				"2FC973866E3F8A8A"
 			]
-			description: ["Read all of the &eLost Pages&r of Act I to complete this achievement. Then show it off with your new hat!"]
+			description: ["Прочитайте все &eПотерянные Страницы&r Акта I, чтобы выполнить это достижение. Затем похвастайтесь своим новым головным убором!"]
 			hide_dependency_lines: true
 			icon: "simplehats:rabbitears"
 			id: "245FE9BAB6F6F545"
@@ -1153,19 +1156,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "1FEDB2A08602B52A"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Read All Act I Lost Pages!"
+			title: "Прочитайте все потерянные страницы акта I!"
 			x: 12.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
-			description: ["&eComforts&r adds &esleepings bags&r that can be used while adventuring. Instead of bringing a bulky bed with you, just plop the sleeping bag down and &erest!&r"]
+			description: ["&eComforts&r добавляет &eспальные мешки&r, которые можно использовать в путешествиях. Вместо того чтобы таскать с собой громоздкую кровать, просто разложи спальный мешок и &eотдыхай!&r"]
 			id: "76483BF6DF35C463"
 			rewards: [{
 				auto: "enabled"
@@ -1177,7 +1180,7 @@
 				title: "750 Experience"
 				type: "command"
 			}]
-			subtitle: "Comforts"
+			subtitle: "Комфорт"
 			tasks: [{
 				id: "43A73897ACED59B9"
 				item: "comforts:sleeping_bag_white"
@@ -1189,9 +1192,9 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"Hold down &e`&r to activate &eUltiminer,&r which is an advanced form of &eveinmining.&r An outline will appear showing the blocks that will be mined. Hold down shift + ` to select a &epattern,&r such as Mining Tunnel which mines a staircase. Only the &eShapeless pattern will veinmine&r, the rest adhere to their pattern. "
+				"Удерживай &e`&r, чтобы активировать &eUltiminer&r — продвинутую версию &eveinmining&r (добычи целыми жилками). Появится контур, показывающий блоки, которые будут добыты. Удерживай shift + ` чтобы выбрать &eпаттерн&r, например Mining Tunnel — шахтный тоннель с лестницей. Только &eБесформенный режим&r добывает блоки произвольно, остальные следуют выбранному шаблону."
 				""
-				"Using Ultiminer will take &eextra durability and hunger&r and also requires the appropriate tool."
+				"Использование Ultiminer тратит &eдополнительную прочность инструмента и голод&r, а также требует подходящего инструмента."
 			]
 			id: "15C2A55BAFCA5084"
 			rewards: [{
@@ -1204,7 +1207,7 @@
 				title: "100 Experience"
 				type: "command"
 			}]
-			subtitle: "Efficiency"
+			subtitle: "Эффективность"
 			tasks: [{
 				id: "4DB46C0682811F67"
 				item: {
@@ -1222,7 +1225,7 @@
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
-			description: ["The &eExplorer's Compass&r allows you to locate &estructures&r while the &eNature's Compass&r allows you to find &especific biomes&r. You may need to change location to find what you're looking for."]
+			description: ["&eКомпас исследователя&r помогает находить &eструктуры&r, а &eКомпас природы&r — искать &eопределённые биомы&r. Возможно, вам потребуется изменить местоположение, чтобы найти то, что вы ищете."]
 			id: "472D5441B6FCD6EC"
 			rewards: [{
 				auto: "enabled"
@@ -1234,7 +1237,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "The Extras"
+			subtitle: "Дополнительно"
 			tasks: [
 				{
 					id: "5AC3D8ABA379DF8D"
@@ -1261,28 +1264,28 @@
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"&eBamboo Spikes&r will hurt anything that steps on it. You can also apply &epotion effects&r to them."
+				"&eБамбуковые шипы&r причиняют урон всем, кто на них наступит. На них также можно нанести &eэффекты зелий&r."
 				""
-				"The &eFlute&r can be played to attract any &etamed mobs&r that may be lost. Right click a mob with it to link the flute with that pet."
+				"&eФлейта&r используется для привлечения &eприручённых мобов&r, которые могли потеряться. Щёлкните правой кнопкой мыши по мобу, чтобы связать флейту с этим питомцем."
 				""
-				"Use the &eCage&r to &egrab&r mobs, particularly tamed mobs, to transport them."
+				"&eКлетка&r служит для &eпоимки&r мобов, особенно приручённых, чтобы их можно было транспортировать."
 				""
-				"&eNotice Boards&r can display written books' text."
+				"&eИнформационная доска&r могут отображать текст из написанных книг."
 				""
-				"&eSupplementary Jars&r can store 4 buckets or &e12&r bottles of any vanilla liquids (like honey, milk, lava, potions, soups, dragon breath or xp) as well as and fireflies. Jars can also store small mobs like slimes and bees. To &ecatch&r vexes and endermites you'll have to use tinted ones. &eShift right click&r to place a mob jar instead of releasing its mob."
+				"&eДополнительные банки&r могут хранить 4 ведра или &e12&r бутылок любых ванильных жидкостей (мёд, молоко, лава, зелья, супы, дыхание дракона или опыт), а также светлячков. В банки также можно помещать мелких мобов, таких как слайды и пчёлы. Чтобы &eпоймать&r везексов и эндермитов, нужны тонированные банки. &eShift + клик правой кнопкой&r ставит банку с мобом, не выпуская его."
 			]
 			id: "44B1B924A5A4D16F"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 250"
+				command: "/mine_and_slash give exp @p 750"
 				elevate_perms: true
 				icon: "ftb_ph:exp"
 				id: "20F3E066F9F557B2"
 				silent: true
-				title: "250 Experience"
+				title: "750 Experience"
 				type: "command"
 			}]
-			subtitle: "The Extras"
+			subtitle: "Дополнительно"
 			tasks: [
 				{
 					id: "2111C6DB7FD6A0F3"
@@ -1316,13 +1319,13 @@
 					type: "item"
 				}
 			]
-			title: "Supplementaries' Utilities"
+			title: "Supplementaries' инструмены"
 			x: 12.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
-			description: ["Seems this &e\"Chemical X\"&r drives evolutionary mutations wild. &ePigs&r are simple and weak, they must be an easy and &esafe&r animal to test this stuff on. Feed a Pig a &eFermented Spider Eye&r and throw &eChemical X&r at it. This process has a chance to fail, more &eChemical X&r may be purchased on the &eTrading Terminal/Barter Board&r."]
+			description: ["Похоже, это &e«Chemical X»&r вызывает бурные эволюционные мутации. &eСвинки&r — простые и слабые животные, их можно считать лёгкой и &eбезопасной&r целью для тестов. Покорми Свинку &eФерментированным паучьим глазом&r и брось на неё &eChemical X&r. Этот процесс может не сработать, но больше &eChemical X&r можно приобрести на &eТорговом Терминале/Бирже&r."]
 			id: "65D73BD10CCCD984"
 			rewards: [
 				{
@@ -1343,7 +1346,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Your Own Lab"
+			subtitle: "Ваша собственная лаборатория"
 			tasks: [{
 				entity: "mutantmonsters:spider_pig"
 				icon: { Count: 2, id: "simplehats:pighead" }
@@ -1351,16 +1354,16 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "How Bad Could It Be?"
+			title: "Насколько все может быть плохо?"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"All this running around has to be tiring... Maybe it's time for a &emount.&r Craft the &eChocopedia&r to learn about Chocobo &ebreeding&r and &etaming.&r You can even breed special Chocobos that have the ability to &efly!&r"
+				"Всё эта беготня, должно быть, утомляет... Может, пора обзавестись &eездовым животным&r. Скрафтите &eChocopedia&r, чтобы узнать о &eразведении&r и &eприручении&r чокобо. Вы даже можете разводить особых чокобо, которые умеют &eлетать!&r"
 				""
-				"&eTransport&r mounts and pets of any kind through &eWaystones&r by putting them into &eCages&r or by having them on a &eLead.&r Even without a Cage or Lead, they can teleport with you through the Waystone!"
+				"&eТранспортируйте&r ездовых животных и питомцев любого типа через &eПутевые обелиски&r, помещая их в &eКлетки&r или держа на &eПоводке&r. Даже без клетки или поводка они смогут телепортироваться вместе с вами через Путевые обелиски!"
 			]
 			id: "730BE78211A1573B"
 			rewards: [
@@ -1382,7 +1385,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Wild Chocobos"
+			subtitle: "Дикие чокобо"
 			tasks: [{
 				id: "7280DA5550AACF38"
 				item: "chococraft:chocopedia"
@@ -1395,17 +1398,17 @@
 		{
 			dependencies: ["5FCA8577C7DB792D"]
 			description: [
-				"Potions from the Alchemy Profession can provide useful benefits such as healing and buffs. You can see how to craft these potions in more detail in the \"&aM\\&S Professions&r\" chapter. Alternatively, if you're not into Professions, &eyou can also buy these potions&r from various traders (Villagers, Goblin Traders)."
+				"Зелья из профессии Алхимия могут давать полезные эффекты, такие как лечение и баффы. Подробности о том, как их варить, можно найти в главе «&aM\\&S Профессии&r». Если профессии не для вас, &eэти зелья также можно купить&r у различных торговцев (жителей, гоблинских торговцев)."
 				""
-				"&l&eTo quick-use potions, you can press Y!&r&r"
+				"&l&eДля быстрого использования зелий нажмите Y!&r&r"
 				""
-				"Brew the &aUncommon Health Potions&r with the following:"
+				"Для приготовления &aНеобычного зелья лечения&r используйте:"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken"
-				"1x Tomato"
-				"5x Copper Coin"
+				"3x &7Духовное мясо&r"
+				"1x &7Обычный камень&r"
+				"1x Вареная курица"
+				"1x Помидор"
+				"5x Медных монет"
 			]
 			id: "044F1A64E4751E01"
 			rewards: [
@@ -1434,7 +1437,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				count: 4L
 				id: "7FEE130B9F995355"
@@ -1448,26 +1451,32 @@
 				}
 				type: "item"
 			}]
-			title: "Taking On Work"
+			title: "Приступая к работе"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["152D52A88F776A70"]
 			description: [
-				"In Craft to Exile 2, you can find &eDimension-specific Runes&r that can be used to slot into your gear, or craft powerful Runewords."
+				"В Craft to Exile 2 вы можете найти &eруны, специфичные для измерений&r, которые можно вставлять в экипировку или использовать для создания мощных рунослов."
 				""
-				"There are &e7 of these Runes&r in total, and they can only be obtained from Dimension Bosses such as the Invoker or End Dragon."
+				"Всего существует &e7 таких рун&r, и они выпадают только с боссов измерений, таких как Вызыватель или Эндер Дракон."
 				""
 				"&c------------------------------&r"
 				""
-				"&eOwd Rune&r - Hermit Abysswalker (&b5%&r), Invoker (&b10%&r), Frostmaw (&b15%&r), Grim Reaper (&b10%&r)"
-				"&eNet Rune&r - Warped Mosco (&b10%&r), Wildfire (&b5%&r), Mother Lava Squid (&b5%&r), Wither (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
-				"&eUnd Rune&r - Ferrous Wroughtnaut (&b10%&r), Umvuthi (&b10%&r), Tongbi, the Sculptor (&b10%&r), Forgotten Guardian (&b10%&r), Eel (&b15%&r), Mother of the Maze (&b50%&r), Ghost of Captain Cornelia (&b10%&r)"
-				"&eBri Rune&r - Summoner (&b10%&r), Starlit Crusher (&b25%&r)"
-				"&eDaw Rune&r - Alchemist (&b10%&r), Arachnarch (&b25%&r)"
-				"&eEnd Rune&r - Ender Dragon (&b7.5%&r), Void Worm (&b5%&r), Shelterer (&b15%&r)"
-				"&eSid Rune&r - Warden (&b10%&r), Night Lich (&b15%&r), Nether Gauntlet (&b15%&r), Void Blossom (&b15%&r), Obsidilith (&b15%&r)"
+				"&eРуна Owd&r — выпадает с Отшельника Бездны (&b5%&r), Вызывателя (&b10%&r), Морозного Льда (Frostmaw) (&b15%&r), Жнец (&b10%&r)"
+				""
+				"&eРуна Net&r — Искажёный комар (&b10%&r), Инферно (&b5%&r), Мать-лавовый кальмар (&b5%&r), Иссушитель (&b10%&r), Awful Ghast (&b15%&r), Nether Keeper (&b15%&r)"
+				""
+				"&eРуна Und&r — Железнокованный (&b10%&r), Людопепелка (&b10%&r), Тонгби, скульптор (&b10%&r), Забытый страж (&b10%&r), Угорь (&b15%&r), Матерь лабиринта (&b50%&r), Призрак капитана Корнелии (&b10%&r)"
+				""
+				"&eРуна Bri&r — Заклинатель (&b10%&r), Крушитель Стралит (&b25%&r)"
+				""
+				"&eРуна Daw&r — Алхимик (&b10%&r), Арахна (&b25%&r)"
+				""
+				"&eРуна End&r — Дракон Края (&b7.5%&r), Червь пустоты (&b5%&r), Shelterer (&b15%&r)"
+				""
+				"&eРуна Sid&r — Хранитель (&b10%&r), Ночной лич (&b15%&r), Перчатка незера (&b15%&r), Цветок пустоты (&b15%&r), Обсидилит (&b15%&r)"
 			]
 			icon: "minecraft:paper"
 			id: "2C9B55C8C05E20E2"
@@ -1484,19 +1493,23 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "78F79A58FE29C912"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Dimension Runes"
+			title: "Руны измерений"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
-			description: ["&eParagliders&r can be used to easily traverse large open distances - assuming you start from a high enough starting point. You can use source of fire to create ascending winds, allowing you to float upwards."]
+			description: [
+				"&eПарапланы&r можно использовать для лёгкого перемещения на большие расстояния — при условии, что вы начинаете с достаточно высокой точки."
+				""
+				"Вы можете использовать источник огня, чтобы создавать восходящие потоки воздуха, позволяющие вам плавно подниматься вверх."
+			]
 			id: "4A46491D07C3EED0"
 			rewards: [
 				{
@@ -1515,27 +1528,30 @@
 					type: "command"
 				}
 			]
-			subtitle: "Traversing Space"
+			subtitle: "Исследование пространства"
 			tasks: [{
 				id: "540B918DC067979F"
 				item: "paraglider:paraglider"
 				type: "item"
 			}]
-			title: "Paragliding"
+			title: "Парапланеризм"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["051DB401E3A08D89"]
 			description: [
-				"&eTransmogrification Tables&r can be crafted and used to change the appearance of your items."
+				"&eСтолы трансмогрификации&r можно создать и использовать для изменения внешнего вида ваших предметов."
 				""
-				"Place the table in the world and right-click it. From left to right, the slots are:"
-				"1. &eThe Fuel Slot&r - fueled by Amethyst Shards."
-				"2. &eThe Target Slot&r - the item you place here will have its appearance changed."
-				"3. &eThe Appearance Slot&r - the item you place here will have its appearance copied onto the target. The item here will NOT be consumed upon transmogrification!"
+				"Поместите стол в мире и кликните по нему правой кнопкой мыши. Слева направо слоты следующие:"
 				""
-				"Additionally, you can place &eVoid Fragments&r into the Appearance Slot to make the item hidden!"
+				"&eСлот для топлива&r — заправляется Аметистовыми Осколками."
+				""
+				"&eСлот цели&r — сюда кладётся предмет, внешний вид которого нужно изменить."
+				""
+				"&eСлот внешнего вида&r — сюда кладётся предмет, внешний вид которого будет скопирован на цель. Предмет из этого слота НЕ будет потрачен при трансмогрификации!"
+				""
+				"Кроме того, можно положить &eФрагменты Пустоты&r в слот внешнего вида, чтобы сделать предмет скрытым!"
 			]
 			id: "5883B9DEF98B079F"
 			rewards: [
@@ -1556,24 +1572,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "Дополнительно"
 			tasks: [{
 				id: "06F088656E20DBC2"
 				item: "transmog:transmogrification_table"
 				type: "item"
 			}]
-			title: "Looking Cooler"
+			title: "Выглядит круче"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5FCA8577C7DB792D"]
 			description: [
-				"Are you playing as a &5Warlock&r, &2Hunter&r, or &9Elementalist&r? Did you know these classes have access to summons?"
+				"Вы играете за &5Чернокнижника&r, &2Охотника&r или &9Элементалиста&r? Знаете ли вы, что у этих классов есть доступ к призывам?"
 				""
-				"You can configure your &esummon behaviour&r in the &eFeatures&r tab of the Mine and Slash Hub (bottom left). You can make them aggressive, or passive. If set to passive, the summons will only attack what you've attacked."
+				"Вы можете настроить &eповедение призываемых существ&r во вкладке &eФункции&r в Mine and Slash Hub (внизу слева). Вы можете сделать их агрессивными или пассивными. Если выбрать пассивный режим, призывы будут атаковать только тех, кого атаковали вы."
 				""
-				"Additionally, you can &eunsummon&r your summons at any time using the unsummon keybind (Default: &eDelete&r)!"
+				"Кроме того, вы можете &eотозвать&r своих призывов в любое время с помощью клавиши для отзыва (по умолчанию: &eDelete&r)!"
 			]
 			icon: "minecraft:paper"
 			id: "5DA2E0EE110431E0"
@@ -1590,24 +1606,24 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "13B1D70D3301273C"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Summoning Classes"
+			title: "Классы призыва"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["0388547EAFE52B5F"]
 			description: [
-				"Finding it difficult to survive?"
+				"Трудно выживать?"
 				""
-				"&eSpice of Life: Onion Edition &rgives every food a &e\"diversity\"&r factor. Eating diverse foods gives &ebenefits,&r while sticking to a few foods won't. &eCheck your Food Book in your MineMenu (default: H)&r to check your diversity and current benefits. &eKeep eating different foods and increase your Health, Block Reach, Movement Speed, and more!&r"
+				"&eSpice of Life: Onion Edition&r добавляет каждому виду пищи фактор &e«разнообразия»&r. Употребление разнообразной еды даёт &eпреимущества,&r а если есть одно и то же — не даст. &eПроверьте вашу Книгу Еды в MineMenu (по умолчанию: H)&r, чтобы узнать уровень разнообразия и текущие бонусы. &eПродолжайте есть разную пищу, чтобы повысить здоровье, дальность, скорость движения и многое другое!&r"
 				""
-				"The &eLunchbag&r can be crafted and upgraded to &ehold all your food&r at once by &ecrouch + right-clicking&r with it in hand and right clicking to eat with it."
+				"&eLunchbag&r может быть создана и улучшена, чтобы &eхранить всю вашу еду&r одновременно. Используйте &eShift + ПКМ&r, держа её в руке, чтобы открыть, и ПКМ, чтобы поесть из неё."
 			]
 			icon: "minecraft:paper"
 			id: "4AF5F24C4B770EA5"
@@ -1637,10 +1653,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "109366712B105500"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
 			title: "Spice of Life: Onion Edition"
@@ -1650,10 +1666,10 @@
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&eRestless Spirits&r are wrathful spirits that spawn at night. They can be found anywhere."
+				"&eНеупокоеные духи&r — это гневные духи, которые появляются ночью. Их можно встретить в любом месте."
 				""
-				"The Restless Spirit Has:"
-				"&b+30% Dodge Rating&r"
+				"Неупокоеный дух обладает:"
+				"&b+30% шансом уклонения&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1668,7 +1684,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "The Graveyard"
+			subtitle: "Кладбище"
 			tasks: [{
 				entity: "born_in_chaos_v1:restless_spirit"
 				icon: "ftb_ph:restless_spirit"
@@ -1676,20 +1692,20 @@
 				type: "kill"
 				value: 15L
 			}]
-			title: "Bestiary II"
+			title: "Бестиарий II"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eSpirit Guides&r can be found in &edry and hot biomes&r. They don't burn in the sun due to their hat. During battle, it will call on allies to assist."
+				"&eДуховного проводник&r можно встретить в &eсухих и жарких биомах&r. Они не горят на солнце благодаря своей шляпе. В бою они призывают союзников на помощь."
 				""
-				"&cThe Spirit Guide spawns at minimum level 10.&r"
+				"&cДуховный проводник появляется минимум 10-го уровня.&r"
 				""
-				"The Spirit Guide Has:"
-				"&b+10% Damage Suppression Chance&r"
-				"&b+40% Elemental Resistance&r"
+				"Духовный проводник обладает:"
+				"&b+10% шанс подавления урона&r"
+				"&b+40% сопротивление всем стихиям&r"
 			]
 			hide_dependency_lines: true
 			hide_text_until_complete: false
@@ -1705,7 +1721,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Lv. 10 - Spiritual Guidance"
+			subtitle: "Ур. 10 — Духовное руководство"
 			tasks: [{
 				entity: "born_in_chaos_v1:spirit_guide"
 				icon: "ftb_ph:spirit_guide"
@@ -1713,21 +1729,21 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Bestiary III"
+			title: "Бестиарий III"
 			x: 4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eDoor Knight&r and &eSkeleton Thrasher&r are defensive undead mobs. They can spawn anywhere. To gain completion for these tasks, you must find wild ones."
+				"&eДверной рыцарь&r и &eСкелет-крушитель&r — это защитные неживые существа. Они могут появляться в любом месте. Чтобы выполнить эти задания, вам нужно найти диких таких мобов."
 				""
-				"The Door Knight Has:"
-				"&b+40% Armor&r"
+				"Дверной рыцарь обладает:"
+				"&b+40% брони&r"
 				""
-				"The Skeleton Thrasher Has:"
-				"&b+100% Armor&r"
-				"&b+25% Elemental Resistance&r"
+				"Скелет-крушителя обладает::"
+				"&b+100% брони&r"
+				"&b+25% сопротивление всем стихиям&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1742,7 +1758,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Undead Guardians"
+			subtitle: "Мёртвые защитники"
 			tasks: [
 				{
 					entity: "born_in_chaos_v1:door_knight"
@@ -1759,19 +1775,19 @@
 					value: 5L
 				}
 			]
-			title: "Bestiary IV"
+			title: "Бестиарий IV"
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eMissionary&r is a deceptively powerful undead creature. You can find them anywhere. If engaged, it will start spawning undead creatures to assist it."
+				"&eМиссионер&r — обманчиво мощное неживое существо. Может появляться в любом месте. При вступлении в бой начинает призывать нежить для помощи."
 				""
-				"The Missionary Has:"
-				"&b+100% Physical to Cold Damage&r"
-				"&b+25% Freeze Chance&r"
-				"&b+50% Elemental Resistance&r"
+				"Миссионер обладает:"
+				"&b+100% физического урона в ледяной урон&r"
+				"&b+25% шанс заморозки&r"
+				"&b+50% сопротивление всем стихиям&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1786,7 +1802,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Mission Five"
+			subtitle: "Миссия пять"
 			tasks: [{
 				entity: "born_in_chaos_v1:missioner"
 				icon: "ftb_ph:missioner"
@@ -1794,26 +1810,26 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary V"
+			title: "Бестиарий V"
 			x: 7.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"&e&oRequires the completion of The End in Act IV.&r&r"
+				"&e&oТребуется завершение задания Конец в Акте IV.&r&r"
 				""
-				"The &eFrostmaw&r is an ancient creature found in snowy biomes. Their massive size, impressive speed, and powerful ice breath make them near-impossible opponents."
+				"&eЛедочрев&r — древнее существо, обитающее в снежных биомах. Их огромные размеры, впечатляющая скорость и мощное ледяное дыхание делают их почти непобедимыми противниками."
 				""
-				"&cThe Frostmaw spawns at minimum level 50.&r"
+				"&cЛедочрев появляется с минимальным уровнем 50.&r"
 				""
-				"The Frostmaw Has:"
-				"&b+20% Health&r"
-				"&b+100% Physical to Cold Damage&r"
-				"&b+33% Freeze Chance&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+30% Chaos Resistance&r"
-				"&a15% Chance of Dropping Owd Rune&r"
+				"Ледочрев обладает:"
+				"&b+20% здоровья&r"
+				"&b+100% физического урона в ледяной урон&r"
+				"&b+33% шанс заморозки&r"
+				"&b+50% сопротивление всем стихиям&r"
+				"&b+30% сопротивление хаосу&r"
+				"&a15% шанс выпадегия руны Owd&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1828,7 +1844,7 @@
 				title: "16000 Experience"
 				type: "command"
 			}]
-			subtitle: "Lv. 50 - Frigid Wastelands"
+			subtitle: "Ур. 50 — Холодные пустоши"
 			tasks: [{
 				entity: "mowziesmobs:frostmaw"
 				icon: "ftb_ph:frostmaw"
@@ -1836,20 +1852,20 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Bestiary VII"
+			title: "Бестиарий VII"
 			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"The &eSpiders Mother&r is a large predatory spider found in &eCaves&r. They can summon smaller spiders to aid in combat."
+				"&bМатерь пауков&r — это большой хищный паук, обитающий в &eПещерах&r. Она может призывать мелких пауков для помощи в бою."
 				""
-				"The Spiders Mother Has:"
-				"&b+100% Physical to Chaos Damage&r"
-				"&b+33% Poison Chance&r"
+				"Матерь пауков обладает:"
+				"&b+100% физического урона в хаос урон&r"
+				"&b+33% шанс отравления&r"
 				""
-				"&e&oThe Bestiary books will unlock as you progress through the Acts.&r&r"
+				"&e&oКниги бестиария будут открываться по мере прохождения Актов.&r&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1864,7 +1880,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Putrid Grounds"
+			subtitle: "Гнилая земля"
 			tasks: [{
 				entity: "born_in_chaos_v1:mother_spider"
 				icon: "ftb_ph:mother_spider"
@@ -1872,13 +1888,13 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary I"
+			title: "Бестиарий I"
 			x: 1.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["4956C0B5633CE91E"]
-			description: ["You can craft gear to suit up for your adventure. Check out the M\\&S Professions Chapter for in-depth information!"]
+			description: ["Вы можете создавать снаряжение, чтобы подготовиться к приключениям. Подробнее смотрите в главе профессий M\\&S!"]
 			id: "4C68E7AC4C59F2EB"
 			rewards: [{
 				auto: "enabled"
@@ -1903,16 +1919,16 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Suit Up II"
+			title: "Экипируйся II"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&eRepair Kits&r automatically repair equipped gear and tools every 10 seconds. The amount they repair depends on the tier of the kit."
+				"&eНабор для ремонта&r автоматически восстанавливают экипированное снаряжение и инструменты каждые 10 секунд. Количество восстанавливаемого зависит от уровня набора."
 				""
-				"They have limited uses, denoted by their charge. You can fill up a kit by feeding it &eMine and Slash Stones&r!"
+				"У них ограниченное количество использований, обозначенное зарядом. Вы можете пополнить набор, используя &eКамни Mine and Slash&r!"
 			]
 			icon: {
 				Count: 1
@@ -1945,26 +1961,26 @@
 					type: "command"
 				}
 			]
-			subtitle: "Gear Retention"
+			subtitle: "Сохранение cнаряжения"
 			tasks: [{
 				count: 8L
 				id: "7773BDB87F5C4B52"
 				item: { Count: 8, id: "minecraft:leather" }
 				type: "item"
 			}]
-			title: "Auto-Repair"
+			title: "Автоматический ремонт"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
 			description: [
-				"&eSir Pumpkinhead&r is a mysterious spirit found during the month of October... However, you can also summon him by destroying a &especial pumpkin&r surrounded by candles that you can find in the world."
+				"&eСэр Безголовый&r — загадочный дух, встречающийся в октябре... Но его также можно призвать, уничтожив &eособую тыкву&r, окружённую свечами, которые можно найти в мире."
 				""
-				"Sir Pumpkinhead Has:"
-				"&b+30% Armor&r"
-				"&b+30% Elemental Resistance&r"
-				"&b+30% Chaos Resistance&r"
+				"Сэр Безголовый обладает:"
+				"&b+30% брони&r"
+				"&b+30% сопротивление всем стихиям&r"
+				"&b+30% сопротивление хаосу&r"
 			]
 			hide_dependency_lines: true
 			icon: "mca:book_supporters"
@@ -1979,7 +1995,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Pumpking"
+			subtitle: "Тыквенный король"
 			tasks: [{
 				entity: "born_in_chaos_v1:sir_the_headless"
 				icon: "ftb_ph:lord_of_pumpkin"
@@ -1987,23 +2003,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Bestiary VI"
+			title: "Бестиарий VI"
 			x: 9.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["0D04908025368D7B"]
 			description: [
-				"&eLord Pumpkinhead&r is a stronger and final version of &eSir Pumpkinhead&r. You can fight him by summoning him. Right-click on a &eInfernal Evil Pumpkin&r (created or found) using a &eTransmuting Elixir&r."
+				"&eЛорд Безголовый&r — более сильная и финальная версия &eСэр Безолового&r. Вы можете сразиться с ним, призвав его. Кликните правой кнопкой мыши по &eЗлобная тыква скверны&r (созданной или найденной) с помощью &eТрансмутирующего элексира&r."
 				""
-				"Note that one of the components for the &eTransmuting Elixir&r, the &eChaos Component&r can be made by brewing a &eSeed of Chaos&r in a &eBottle of Water&r using a &eBrewing Stand&r."
+				"Обратите внимание, что один из компонентов для &eТрансмутирующий элексир&r — &eкомпонент хаоса&r, который можно сделать, заварив &eсемя хаоса&r в &eбаночке с водой&r, используя &eзельеварку&r."
 				""
-				"&cLord Pumpkinhead spawns at minimum level 60 and Mythic Rarity.&r"
+				"&cЛорд Безголовый появляется минимум 60 лвл и мифическим уровнем редкости.&r"
 				""
-				"Lord Pumpkinhead Has:"
-				"&b+50% Armor&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+50% Chaos Resistance&r"
+				"Лорд Безголовый обладает::"
+				"&b+50% брони&r"
+				"&b+50% сопротивление всем стихиям&r"
+				"&b+50% сопротивление хаосу&r"
 			]
 			icon: "mca:book_supporters"
 			id: "32228E2B053EF761"
@@ -2017,7 +2033,7 @@
 				title: "16000 Experience"
 				type: "command"
 			}]
-			subtitle: "Lv. 60 - Pumpking II"
+			subtitle: "Ур. 60 - Тыквенный король II"
 			tasks: [{
 				entity: "born_in_chaos_v1:lord_the_headless"
 				icon: "ftb_ph:lord_of_pumpkin"
@@ -2025,18 +2041,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Bestiary VIb"
+			title: "Бестиарий VIb"
 			x: 9.0d
-			y: 7.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1DEC808C04130184"]
 			description: [
-				"&eZombie Clowns&r are slow and dense enemies. They apply Intoxicating Brew on hit. They can be found in &eClown Caravans&r."
+				"&eЗомби клоуны&r — медленные и крепкие враги. Они накладывают эффект &e«Опьяняющее зелье»&r при атаке. Их можно встретить в &eКлоунских Караванах&r."
 				""
-				"The Zombie Clown Has:"
-				"&b+25% Physical to Chaos Damage&r"
-				"&b+75% Chaos Resistance&r"
+				"Зомби клоун обладает:"
+				"&b+25% физического урона в хаос урон&r"
+				"&b+75% сопротивление хаосу&r"
 			]
 			icon: "mca:book_supporters"
 			id: "4E589D39C44CAAD2"
@@ -2050,7 +2066,7 @@
 				title: "120 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Joke On You!"
+			subtitle: "Шутка над тобой!"
 			tasks: [{
 				entity: "born_in_chaos_v1:zombie_clown"
 				icon: "ftb_ph:zombie_clown"
@@ -2058,16 +2074,16 @@
 				type: "kill"
 				value: 30L
 			}]
-			title: "Bestiary IIb"
+			title: "Бестиарий IIb"
 			x: 3.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["472D5441B6FCD6EC"]
 			description: [
-				"&eWaystones&r allow you to teleport to and from each one you've unlocked. Global Waystones are usable across dimensions."
+				"&eПутеводные камни&r позволяют телепортироваться к любому разблокированному путеводному камню и обратно. Глобальные путеводные камни пути можно использовать между измерениями."
 				""
-				"You can craft or find your own &eWaystone&r to teleport to. These will be relatively expensive, but they're definitely worth it!"
+				"Вы можете создать или найти свой собственный &eпутеводный камень&r, чтобы телепортироваться к нему. Они довольно дорогие, но определённо того стоят!"
 			]
 			id: "4BA92370D0D0DC32"
 			rewards: [
@@ -2088,7 +2104,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "The Extras"
+			subtitle: "Дополнительно"
 			tasks: [{
 				id: "4A411B6E171AC9B2"
 				item: {
@@ -2120,11 +2136,11 @@
 		{
 			dependencies: ["7032850A1F1FFF32"]
 			description: [
-				"The &eDire Hound Leader&r is a large Hound found wandering around all different biomes at &bNight&r. They can summon smaller Dire Hounds to aid in combat."
+				"&bВожак ужасных гончих&r — это крупный пёс, который бродит по разным биомам &bНочью&r. Он может призывать мелких ужасных гончих для помощи в бою."
 				""
-				"The Dire Hound Leader Has:"
-				"&b+30% Dodge Chance&r"
-				"&b+60% Bleed Chance&r"
+				"Вожак ужасных гончих обладает:"
+				"&b+30% шанс уклонения&r"
+				"&b+60% шанс кровотечения&r"
 			]
 			icon: "mca:book_supporters"
 			id: "6F1CBC071DD2414C"
@@ -2138,7 +2154,7 @@
 				title: "120 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Howling Hounds"
+			subtitle: "Воющие псы"
 			tasks: [{
 				entity: "born_in_chaos_v1:dire_hound_leader"
 				icon: "ftb_ph:direhound_leader"
@@ -2146,18 +2162,18 @@
 				type: "kill"
 				value: 6L
 			}]
-			title: "Bestiary Ib"
+			title: "Бестиарий Ib"
 			x: 1.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["761BC90863C35627"]
 			description: [
-				"The &eFallen Chaos Knight&r a proud knight that has succumbed to chaos. They can spawn at &bNight&r"
+				"&eПадший рыцарь хаоса&r — гордый рыцарь, который пал под влиянием хаоса. Может появляться &bночью&r."
 				""
-				"The Fallen Chaos Knight Has:"
-				"&b+50% Armor&r"
-				"&b+100% Physical to Chaos Damage&r"
+				"Падшей рыцарь хаоса обладает:"
+				"&b+50% брони&r"
+				"&b+100% физического урона в хаос урон&r"
 			]
 			icon: "mca:book_supporters"
 			id: "16739950F16AB006"
@@ -2171,7 +2187,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Fallen Knights"
+			subtitle: "Падший рыцарь"
 			tasks: [{
 				entity: "born_in_chaos_v1:fallen_chaos_knight"
 				icon: "ftb_ph:fallen_chaos_knight"
@@ -2179,18 +2195,19 @@
 				type: "kill"
 				value: 5L
 			}]
-			title: "Bestiary IVb"
+			title: "Бестиарий IVb"
 			x: 6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: ["472D5441B6FCD6EC"]
 			description: [
-				"During your travels, you may find &eObelisk Maps&r or &eHarvest Maps&r in chests. These can be used on &eObeslisks&r or &eHarvests&r, respectively, to trigger wave-based instanced encounters!"
+				"Во время путешествий вы можете найти в сундуках &eкарты обелисков&r или &eкарты жатвы&r. Их можно использовать на &eОбелисках&r или &eЖатве&r соответственно, чтобы активировать особые сражения!"
 				""
-				"Obelisks drop special materials that can be used to &eupgrade your Support and Augment Gems&r, whereas Harvests drop special materials that are used to craft other powerful currencies!"
+				"Обелиски добывают особые материалы, которые можно использовать для &eулучшения камней поддержки и камней аур&r, а жатва дают особые материалы, используемые для создания другой мощной валюты!"
 				""
-				"Mobs that spawn in these encounters scale to your level."
+				"Мобы, появляющиеся в этих сражениях, масштабируются в соответствии с вашим уровнем."
+
 			]
 			id: "7BE77FBF663D995C"
 			rewards: [
@@ -2205,7 +2222,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Wave-Based Instances"
+			subtitle: "Сражения с волнами врагов."
 			tasks: [
 				{
 					id: "2E5E647AF53CF519"
@@ -2218,21 +2235,21 @@
 					type: "item"
 				}
 			]
-			title: "Instanced Battles"
+			title: "Особые сражения"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["044F1A64E4751E01"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"&eАвантюрист&r — это профессия Mine and Slash, которая повышается по уровню по мере выполнения заданий с наградами. Выполняйте задания, чтобы зарабатывать опыт авантюризма и &eнаградные талоны&r!"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards!"
+				"&eДоска обьявлений&r генерируют для вас &eслучайные задания&r. Выберите &eзапрос&r в интерфейсе доски и выполните его в установленное &eвремя&r, чтобы получить указанные награды!"
 				""
-				"You can either craft the Bounty Boards or find them randomly throughout the world - generally in villages!"
+				"Вы можете либо создать Доски с заданиями самостоятельно, либо найти их случайно в мире — обычно в деревнях!"
 				""
-				"For more information, refer to: "
-				"{ \"text\": \"Bounty Hunting\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
+				"Для дополнительной информации обратитесь к:"
+				"{ \"text\": \"Охота за наградами\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"4E27A84CE1F030A1\" } }"
 			]
 			id: "0726C033448D45CE"
 			rewards: [{
@@ -2245,7 +2262,7 @@
 				title: "500 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [
 				{
 					id: "164D7BC468D2116C"
@@ -2264,16 +2281,16 @@
 					type: "item"
 				}
 			]
-			title: "Bountiful Boards"
+			title: "Щедрые награды"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"Mobs in Craft to Exile have stats, and some mobs will always spawn with specific stats in addition to the randomly generated stats. Certain quests will sometimes mention what stats the associated mob will spawn with. For example, You'll notice in Act II that most mobs mentioned in quests have some sort of &cFire&r modifier."
+				"Мобы в Craft to Exile обладают характеристиками, и некоторые мобы всегда появляются с определёнными характеристиками в дополнение к случайно сгенерированным. В некоторых заданиях может упоминаться, с какими характеристиками появится связанный моб. Например, вы заметите во втором акте, что у большинства мобов, упомянутых в заданиях, есть какое-либо свойство, связанное с &cогнём&r."
 				""
-				"You can also view the exact stats of a mob you are looking at by pressing \"&e=&r\"."
+				"Вы также можете просмотреть точные характеристики моба, на которого смотрите, нажав клавишу \"&e=&r\"."
 			]
 			icon: "minecraft:paper"
 			id: "2FC973866E3F8A8A"
@@ -2282,17 +2299,17 @@
 				item: "mmorpg:currency/gear_rarity_random"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "2D89449C24CD6554"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Monster Stats"
+			title: "Характеристики монстров"
 			x: 12.0d
 			y: -1.5d
 		}
 	]
 	subtitle: ["Lv. 1-15"]
-	title: "Act I"
+	title: "Акт I"
 }

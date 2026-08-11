@@ -13,7 +13,7 @@
 				"18E09A4B9FC1B43F"
 				"29CADE48F14D6436"
 			]
-			description: ["Well these &eLemurians&r certainly don't belong here..."]
+			description: ["Ну, эти &eЛемурийцы&r определённо здесь выглядят как чужаки..."]
 			id: "52DAC9E8213D2624"
 			rewards: [
 				{
@@ -39,7 +39,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Risk of Rain"
+			subtitle: "Риск дождя"
 			tasks: [{
 				entity: "riskofrain_mobs:lemurian_entity"
 				icon: "nightlights:octopus_purple"
@@ -47,16 +47,16 @@
 				type: "kill"
 				value: 24L
 			}]
-			title: "Otherworldly Beings II"
+			title: "Потусторонние существа II"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mosquitoes are annoying enough in the Overworld... These things are huge, they stick to your face, and are generally difficult to kill!"
+				"Комары в Верхнем мире уже достаточно надоедливы... Но эти — огромные, цепляются прямо за лицо и в целом очень сложные для убийства!"
 				""
-				"These hideous, mutant flying insects are found in the &eforests of The Nether&r."
+				"Эти отвратительные мутантские летающие насекомые обитают в &eлесах незера&r."
 			]
 			icon: "alexsmobs:mosquito_proboscis"
 			id: "322725A82ADAA810"
@@ -86,7 +86,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "Багровые леса"
 			tasks: [{
 				entity: "alexsmobs:crimson_mosquito"
 				icon: "ftb_ph:crimson_mosquito"
@@ -94,13 +94,13 @@
 				type: "kill"
 				value: 4L
 			}]
-			title: "Bloody Pests"
+			title: "Кровавые вредители"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Looks like your intuition was correct. The Nether Fortresses are crawling with weird enemies. The &eWither Skeleton&r seems to drop fragments of its skull, which seem to emanate some energy."]
+			description: ["Похоже, твоя интуиция не подвела. Крепости незера кишат странными врагами. &eВизер-скелет&r, похоже, сбрасывают фрагменты своих черепов, излучающие особую энергию."]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "63F4CAF1CA065949"
 			rewards: [
@@ -128,7 +128,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
 				icon: "ftb_ph:wither_skeleton"
@@ -136,16 +136,16 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Skull Collectors"
+			title: "Коллекционеры черепов"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18E09A4B9FC1B43F"]
 			description: [
-				"It seems not all creatures here are innately hostile. But we need to show them we mean business."
+				"Похоже, не все существа здесь изначально враждебны. Но нам нужно показать им, что мы настроены серьёзно."
 				""
-				"It's time to take care of some &ePiglins&r and some &eHoglins&r. You'll find them most commonly in &eNether Wastes&r and &eCrimson Forests&r."
+				"Пора разобраться с &eПиглинами&r и &eХоглинами&r. Их чаще всего можно встретить в &eПустошах (Nether Wastes)&r и &eБагровые леса (Crimson Forests)&r."
 			]
 			icon: "minecraft:piglin_head"
 			id: "29CADE48F14D6436"
@@ -174,7 +174,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					entity: "minecraft:piglin"
@@ -191,18 +191,18 @@
 					value: 4L
 				}
 			]
-			title: "Otherworldly Beings"
+			title: "Потусторонние существа"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"In The Nether, you may come across aggressive, fiery creatures. While the &eWyrm&r and &eBlaze&r seem powerful, it is almost certain that there are more powerful magma creatures given the size and depth of The Nether."
+				"В Незере вы можете встретить агрессивных огнедышащих существ. Хотя &eВирм&r и &eВсполох&r кажутся мощными, почти наверняка в глубинах и просторах Незера обитают ещё более сильные магматические твари."
 				""
-				"It might be best to be prepared against fire. Try finding and vanquishing these mobs to test yourself."
+				"Лучше подготовиться к сопротивлению огню. Попробуйте найти и победить этих мобов, чтобы проверить свои силы."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение откроет повторяемый квест в главе Повторяемые!&r&r"
 			]
 			icon: "minecraft:blaze_powder"
 			id: "1D01AD334C7C70F1"
@@ -225,7 +225,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "Огненное приключение"
 			tasks: [
 				{
 					entity: "minecraft:blaze"
@@ -242,16 +242,16 @@
 					value: 4L
 				}
 			]
-			title: "Fiery Foes"
+			title: "Огненные враги"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Surely you've already run into these flying critters... Something tells you that there are hundreds of these lurking around every corner."
+				"Ты, должно быть, уже сталкивался с этими летающими тварями... Что-то подсказывает тебе, что сотни таких скрываются за каждым углом."
 				""
-				"They must come from something..."
+				"Они ведь откуда-то появляются..."
 			]
 			icon: {
 				Count: 1
@@ -280,7 +280,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "Огненное приключение"
 			tasks: [{
 				entity: "monsterplus:lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -288,18 +288,18 @@
 				type: "kill"
 				value: 18L
 			}]
-			title: "Flame Spitters"
+			title: "Изрыгатели пламени"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"This is that &ething.&r"
+				"Вот оно — &eто самое.&r"
 				""
-				"The Mother Lava Squid Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"Матерь лавового кальмара обладает:"
+				"&b+50% физического урона в огненный урон&r"
+				"&a5% шанс выпадения Руны Net&r"
 			]
 			icon: "simplehats:burning_m_bison"
 			id: "05AD0B9A77F0325F"
@@ -329,7 +329,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "Огненное приключение"
 			tasks: [{
 				entity: "monsterplus:mother_lava_squid"
 				icon: "ftb_ph:lava_squid"
@@ -337,27 +337,27 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Mother"
+			title: "Мать"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["75447684ADAD02D8"]
 			description: [
-				"Place &eSoul Sand&r in a T shape, topped with &e3 Wither Skeleton Skulls&r to summon the &eWither.&r"
+				"Поместите &eпесок душ&r в форме буквы T и установите сверху &e3 Черепа визер-скелета&r, чтобы призвать &eИссушителя.&r"
 				""
-				"This boss is very difficult, as it requires you to have a projectile weapon or spell to take care of its first phase. In the second phase, be prepared for the Wither to be up close and personal..."
+				"Этот босс очень сложен: для первой фазы вам понадобится метательное оружие или заклинание. Во второй фазе будьте готовы к тому, что Иссушитель приблизится и станет очень опасен в ближнем бою..."
 				""
-				"&o&eTip:&r &oHaving trouble defeating the Wither? Did you know that the higher level a mob is to you it takes less damage and deals more? This bonus starts at a 3 level differential.&r"
+				"&o&eСовет:&r &oЕсли вам сложно победить Иссушителя, знайте, что чем выше уровень моба по сравнению с вашим, тем меньше урона он получает и больше наносит. Этот эффект начинает проявляться при разнице в 3 уровня.&r"
 				""
-				"&cThe Wither spawns at minimum level 30.&r"
+				"&cИссушитель появляется минимум 30 уровня.&r"
 				""
-				"The Wither Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+20% Elemental Resistance&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"Иссушитель обладает:"
+				"&b+50% Физического урона в огненый урон&r"
+				"&b+20% сопротивление всем стихиям&r"
+				"&a10% шанс выпадения &eРуны Net&r"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
+				"&6Завершение этого квеста открывает новые покупки в \"Магазин кампании\".&r"
 			]
 			icon: "minecraft:wither_rose"
 			id: "114D74DF8284ACC3"
@@ -388,7 +388,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "ftb_ph:wither"
@@ -396,23 +396,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dark Ritual"
+			title: "Тёмный ритуал"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["277A8C4C5D50ED00"]
 			description: [
-				"Well, here is one of those big bads you've been tasked with removing. The &eWildfire&r is a powerful foe - you will need to be prepared."
+				"Ну вот, один из тех больших злодеев, которых тебе предстоит устранить. &eИнферно&r — мощный враг, к которому нужно тщательно подготовиться."
 				""
-				"The plates spinning around the &eWildfire&r need to be popped off before it can receive any damage."
+				"Пластинки, вращающиеся вокруг &eИнферно&r, нужно сбить, прежде чем он сможет получить урон."
 				""
-				"You can find &eWildfire&r in &eCitadels.&r Alternatively, you can use a &eGateway of the Hellish Fortress&r."
+				"&bИнферно&r можно найти в &eЦитадели&r. Также можно использовать &eВрата адкой крепости&r."
 				""
-				"The Wildfire Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+25% Burn Chance&r"
-				"&a5% Chance of Dropping Net Rune&r"
+				"Инферно обладает:"
+				"&b+50% физического урона в огненный урон&r"
+				"&b+25% шанс ожога&r"
+				"&a5% шанс выпадения Руны Net&r"
 			]
 			icon: {
 				Count: 1
@@ -448,7 +448,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Fiery Adventure"
+			subtitle: "Огненное приключение"
 			tasks: [{
 				entity: "friendsandfoes:wildfire"
 				icon: "ftb_ph:wildfire"
@@ -456,16 +456,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Ruler of Flames"
+			title: "Правитель пламени"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"You've reported your achievements to the village guard and received your rewards. It's time to move onto the next dimension - the &eUndergarden&r. A moist, sticky, and mostly habitable dimension with some curious creatures... They might not be mutated, but it's worth taking a look anyway."
+				"Вы доложили о своих достижениях стражникам деревни и получили награды. Теперь пора отправляться в следующее измерение — &eUndergarden&r. Это влажное, липкое и относительно обитаемое измерение с любопытными существами... Они могут не быть мутантами, но всё равно стоит исследовать."
 				""
-				"Craft a &eCatalyst&r using your &eNether Star&r, and access the Undergarden by making a portal with &eStone Bricks in the same shape as the Nether Portal&r. Activate it using the Catalyst."
+				"Создайте &eКатализатор&r, используя свою &eзвезду незера&r, и войдите в Undergarden, построив портал из &eкаменных кирпичей&r в той же форме, что и портал в Незер. Активируйте портал с помощью катализатора."
 				""
 				"{image:cte2:textures/undergarden.png width:160 height:140 align:center}"
 			]
@@ -490,7 +490,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					id: "4F61CA02549D0BF8"
@@ -505,7 +505,7 @@
 					type: "dimension"
 				}
 			]
-			title: "Travel Catalyst"
+			title: "Катализатор путешествий"
 			x: 7.5d
 			y: 0.0d
 		}
@@ -516,9 +516,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You've seen in Nether Fortresses clues to another structure. \"The Citadel\" is etched into the walls of the Fortress in various locations. Maybe you can find the &eCitadel&r and investigate."
+				"Вы видели в крепостях Незера надписи с подсказками о другой структуре. Название &eЦитадель (Citadel)&r выгравировано на стенах крепости в разных местах. Возможно, стоит найти &eцитадель&r и провести расследование."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&eТребуется выполнение 1 зависимости.&r"
 			]
 			id: "277A8C4C5D50ED00"
 			min_required_dependencies: 1
@@ -545,20 +545,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "Fiery Adventure"
+			subtitle: "Огненное приключение"
 			tasks: [{
 				advancement: "friendsandfoes:nether/find_citadel"
 				criterion: ""
 				id: "6E38DD14F2F2B52D"
 				type: "advancement"
 			}]
-			title: "A Castle in the Dark"
+			title: "Замок в темноте"
 			x: 4.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
-			description: ["If you find yourself dying frequently, you can craft a &eRespawn Anchor&r. To craft one, you will need to first find some &eCrying Obsidian&r!"]
+			description: ["Если вы часто умираете, можно скрафтить &eЯкорь возрождения&r. Для его создания сначала нужно найти &eПлачущий обсидиан&r!"]
 			id: "0A37821899EAE5B4"
 			rewards: [
 				{
@@ -579,23 +579,23 @@
 					type: "command"
 				}
 			]
-			subtitle: "Crimson Forests"
+			subtitle: "Багровые леса"
 			tasks: [{
 				advancement: "minecraft:nether/obtain_crying_obsidian"
 				criterion: ""
 				id: "79B01E4A345318F7"
 				type: "advancement"
 			}]
-			title: "Dried Up Tears"
+			title: "Высохшие слезы"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Occasionally, you'll see large, looming structures in The Nether. How is that possible? Is there civilization here?"
+				"Время от времени в нижнем мире можно заметить огромные, величественные строения. Как это возможно? Неужели здесь есть цивилизация?"
 				""
-				"Maybe finding one of these structures and exploring it will provide you clues on where to find powerful creatures."
+				"Возможно, исследование одного из таких сооружений поможет тебе найти подсказки о местонахождении могущественных существ."
 			]
 			id: "45535AECCE43183A"
 			rewards: [{
@@ -609,29 +609,29 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
 				criterion: ""
 				id: "110553725D320A0F"
 				type: "advancement"
 			}]
-			title: "Nether Fortress"
+			title: "Адская крепость"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["29CD881773D976E5"]
 			description: [
-				"If the &eCrimson Mosquito&r drinks the blood of a &eMungus&r which is coated in &eWarped Fungus&r, then the mosquito will turn blue and start to grow in size - eventually turning into a &eWarped Mosco&r."
+				"Если &eИскажённые комар&r выпьет кровь у &eМангуса&r, покрытого &eWarped Fungus&r, то комар станет синим и начнёт расти в размерах — в итоге превратится в &eИскажёного комара&r."
 				""
-				"Alternatively, you can feed a &eCrimson Mosquito with Warped Mixture&r. Unsure where to get that? You can &epurchase it from the Trading Terminal/Barter Board&r!"
+				"Альтернативно, можно накормить &eБагрового комара&r искажённой смесью&r. Не знаете, где её взять? Вы можете &eкупить её на Торговом терминале/Доске обмена&r!"
 				""
-				"That sounds like a very mutagenic process..."
+				"Звучит как очень мутагенный процесс..."
 				""
-				"The Warped Mosco Has:"
-				"&b+40% Armor&r"
-				"&a10% Chance of Dropping Net Rune&r"
+				"Искажёный комар обладает:"
+				"&b+40% брони&r"
+				"&a10% шансом выпадения руны Net&r"
 			]
 			icon: "alexsmobs:warped_muscle"
 			id: "37167129D6D6A280"
@@ -661,7 +661,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Crimson Forests"
+			subtitle: "Багровые леса"
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				icon: "ftb_ph:warped_mosco"
@@ -669,18 +669,18 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Forest Chad"
+			title: "Лесной гигачад"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
 			description: [
-				"&eGear Soul Extractors&r can be used on gear. You will get the \"stats\" of the gear back as a soul, destroying the base item in the process. You can then use the soul on another piece of gear!"
+				"&eИзвелекатель душ экипировки&r можно использовать на экипировке. Ты получишь «характеристики» предмета в виде души, при этом сам предмет будет уничтожен. Затем эту душу можно применить к другому предмету!"
 				""
-				"Conversely, &eGear Soul Cleaners&r are used to get rid of the stats of the gear while keeping the base item."
+				"Для обратного действия есть &eОчиститель душ снаряжения&r — он удаляет характеристики предмета, сохраняя саму основу."
 				""
-				"&eGem Extractors&r are used to remove &eGems&r from your socketed gear. There is no penalty for doing so, but the extractor will be consumed. There is also a &eRune Extractor&r, but using that will cost &e1 Gear Potential&r."
+				"&eИзвлеатель самоцветов&r используются для извлечения &eСамоцветов&r из экипировки с гнёздами. Штрафа за это нет, но сам извлекатель будет израсходован. Также существует &eИзвлеатель рун&r, но его использование стоит &e1 потенциал экипировки&r."
 			]
 			icon: "minecraft:paper"
 			id: "60D44B70BB06539B"
@@ -704,29 +704,29 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "5222FCC05296547A"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Gear Soul Extractors"
+			title: "Извлеатель душ"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["4343A66299F26319"]
 			description: [
-				"The &eNether Keeper&r is a powerful foe found in the &eKeeping Castle&r of The Nether. Keeping Castles can be found in &eNether Wastes and Crimson Forests underground&r. You can summon it by placing a &eNether Star in the altar&r."
+				"&eNether Keeper&r — мощный противник, обитающий в &eKeeping Castle&r нижнего мира. Замки Keeping Castle можно найти под землей в &eпустошах и багровых лесах&r. Для его призыва положите &eЗвезду Нижнего мира на алтарь&r."
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"&cОбратите внимание, что эти структуры нельзя обнаружить с помощью компаса исследователя обычным способом. Их нужно искать вручную.&r"
 				""
 				"{image:cte2:textures/nether_keeper.png width:192 height:108 align:center}"
 				""
-				"The Nether Keeper Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+40% Armor&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"Nether Keeper имеет:"
+				"&b+50% Физический урон в огненые урон&r"
+				"&b+40% Броню&r"
+				"&a15% шанс выпадения &eРуны Net&r"
 			]
 			id: "4B57F45BE30AA5F2"
 			rewards: [
@@ -765,13 +765,6 @@
 				}
 				{
 					auto: "enabled"
-					icon: "ftb_ph:talent"
-					id: "40EEEAB2C09C5FCA"
-					title: "3 Talent Points"
-					type: "custom"
-				}
-				{
-					auto: "enabled"
 					icon: "ftb_ph:ascend"
 					id: "0B062AF006F72FED"
 					title: "Novice Ascendancy"
@@ -779,7 +772,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Big Baddies"
+			subtitle: "Большие злодеи"
 			tasks: [{
 				id: "3D45F31ADFFF1165"
 				item: {
@@ -791,7 +784,7 @@
 				}
 				type: "item"
 			}]
-			title: "Defenders of the Nether II"
+			title: "Защитники нижнего мира II"
 			x: 7.5d
 			y: -3.0d
 		}
@@ -803,7 +796,7 @@
 				"37167129D6D6A280"
 				"3F61325EA08B6DAA"
 			]
-			description: ["Defeat all of the mini-bosses of Act II to complete this achievement. Then show it off with your hot new hat!"]
+			description: ["Победи всех мини-боссов Акта II, чтобы завершить это достижение. А потом похвастайся своим новым стильным головным убором!"]
 			hide_dependency_lines: true
 			icon: "simplehats:fakefire"
 			id: "389CFAF34A692969"
@@ -821,19 +814,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "5285A75C058C5073"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Defeat All Act II Mini-Bosses!"
+			title: "Победите всех мини-боссов акта II!"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
-			description: ["Magnets are incredibly useful for dungeons and exploring as they will siphon any dropped items towards you. Hold one in hand and crouch + right-click to configure its range and filters. Can even be upgraded to have a far larger range!"]
+			description: ["Магниты невероятно полезны в подземельях и исследованиях, поскольку они притягивают к вам все выпавшие предметы. Держите магнит в руке и нажмите Shift + ПКМ, чтобы настроить его радиус и фильтры. Можно даже улучшить для значительного увеличения радиуса действия!"]
 			id: "25F1A1475A6E6F1D"
 			rewards: [{
 				auto: "enabled"
@@ -845,7 +838,7 @@
 				title: "1000 Experience"
 				type: "command"
 			}]
-			subtitle: "Magnets"
+			subtitle: "Магниты"
 			tasks: [{
 				id: "2A9C784EEF5930E4"
 				item: {
@@ -855,26 +848,30 @@
 				}
 				type: "item"
 			}]
-			title: "How Do They Work?"
+			title: "Как они работают?"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["322725A82ADAA810"]
 			description: [
-				"&eLightman's Currency&r is a mod that adds those coins you get for killing things. You can use these coins to sometimes trade with villagers, purchase Support and Augment gems at the end of each Act, or set up shops and trade with other players."
+				"&eLightman's Currency&r — это мод, добавляющий монеты, которые вы получаете за убийство мобов. Эти монеты можно использовать для торговли с жителями, покупки камней поддержки и аур в конце каждого Акта, а также для создания торговых точек и обмена с другими игроками."
 				""
-				"Even in singleplayer, you can purchase items from the trader. Craft to Exile 2 has some default items that can be bought regardless of world. Set up a &eTrading Terminal/Barter Board&r to check it out!"
+				"Даже в одиночной игре вы можете покупать предметы у торговца. В Craft to Exile 2 есть набор базовых товаров, доступных для покупки вне зависимости от мира. Создайте &eТорговый Терминал/Доску Обмена&r, чтобы ознакомиться с ассортиментом!"
 				""
-				"Examples of things you can buy:"
-				"- Mine and Slash Profession Materials"
-				"- Painting Palette and Music Sheet"
-				"- Rare Resources"
-				"- Common Blocks (Dirt, Stone, etc.)"
+				"Примеры покупаемых вещей:"
 				""
-				"If you're playing in multiplayer, you can even purchase &eFLAN claim blocks&r using the FLAN buy option."
+				"Материалы профессий Mine and Slash"
 				""
-				"&oFor more information, refer to \"&eLightman's Currency&r\" quest in the &eJolly Cooperation&r chapter!&r"
+				"Палитра для рисования и нотный лист"
+				""
+				"Редкие ресурсы"
+				""
+				"Обычные блоки (земля, камень и др.)"
+				""
+				"Если вы играете в мультиплеере, то можете покупать &eблоки захвата FLAN&r через опцию покупки FLAN."
+				""
+				"&oДля дополнительной информации смотрите задание \"&eLightman's Currency&r\" в главе &eВеселое сотрудничество&r!&r"
 			]
 			id: "29CD881773D976E5"
 			rewards: [{
@@ -882,19 +879,19 @@
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			subtitle: "Currency"
+			subtitle: "Валюта"
 			tasks: [{
 				id: "165EE02B3146E124"
 				item: "lightmanscurrency:terminal"
 				type: "item"
 			}]
-			title: "Buying Happiness"
+			title: "Покупка счастья"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
-			description: ["Craft a &eTarget Dummy&r and place it down. You can hit it to view your damage per second! You can also enable the &5Damage Chat-Log&r option in the &eFeatures&r tab of the &eMNS Hub&r to view &eexact damage value breakdowns&r."]
+			description: ["Создайте &eтренеровачный манекен&r и поставьте его. Вы можете бить его, чтобы увидеть свой урон в секунду! Также можно включить опцию &5Лог урона&r во вкладке &eФункции&r в &eMNS Hub&r, чтобы видеть &eточные разбивки значений урона&r."]
 			id: "12B20146ED616389"
 			rewards: [{
 				auto: "enabled"
@@ -906,7 +903,7 @@
 				title: "1000 Experience"
 				type: "command"
 			}]
-			subtitle: "DPS Meter"
+			subtitle: "DPS-метр"
 			tasks: [{
 				id: "201D6D22A54727D4"
 				item: "dummmmmmy:target_dummy"
@@ -918,12 +915,12 @@
 		{
 			dependencies: ["1D01AD334C7C70F1"]
 			description: [
-				"&eCurrencies&r are various items that can be used directly on your Gear. They will modify your Gear and empower them."
+				"&eВалюты&r — это различные предметы, которые можно использовать напрямую на снаряжении. Они модифицируют и усиливают его."
 				""
-				"Each Gear comes with a set amount of &ePotential&r. Using a Currency on the Gear will reduce the Gear's &ePotential&r. Once the Potential has reached 0, Currency with Potential Cost may no longer be applied to it. Not all Currencies use Potential, however, and may be used at any time."
+				"Каждое снаряжение имеет определённое количество &eПотенциала&r. Использование валюты уменьшает &eПотенциал&r предмета. Когда Потенциал достигнет 0, нельзя применять валюту с требованием Потенциала. Однако не вся валюта его расходует — такую можно использовать в любое время."
 				""
-				""
-				"Certain Currencies, such as the &eOrb of Chaos,&r can add very powerful effects, but may cause negative effects to your Gear. &cWith the Orb of Chaos, there is a 25% chance that your item will turn into Coal&r."
+				"Некоторые валюты, например &eСфера Хаоса,&r могут наложить очень мощные эффекты, но при этом вызвать и негативные."
+				"&cСфера Хаоса есть 25% шанс, что предмет превратится в уголь&r."
 			]
 			icon: "minecraft:paper"
 			id: "68EB4F5B367C3C47"
@@ -940,34 +937,34 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "5B5346C72F51EAD5"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "More On Currencies"
+			title: "Подробнее о валютах"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
 			description: [
-				"You may have noticed some &eNether&r mobs dealing more &cFire Damage.&r Mobs native to a specific dimension tend to have an affinity towards a specific element. For example, in the Nether, some mobs will deal a combination of Fire and Physical Damage."
+				"Вы, наверное, заметили, что некоторые монстры из &eНезера&r наносят больше &cогненного урона.&r Мобы, обитающие в определённом измерении, обычно имеют склонность к определённым стихиям. Например, в Незере некоторые мобы наносят сочетание огненного и физического урона."
 				""
-				"&oAlso note, this doesn't mean they will take less damage from the element they have an affinity for.&r"
+				"&oОбратите внимание, что это не означает, что они получают меньше урона от стихий, к которому имеют склонность.&r"
 				""
-				"&nElemental Affinities&r"
+				"&nСтихийные склонности&r"
 				""
-				"&lOverworld:&r &7None&r"
-				"&lNether:&r &cFire&r"
-				"&lUndergarden:&r &5Chaos&r"
-				"&lAquamirae&r Mobs: &bCold&r"
-				"&lEverbright:&r &bCold&r + &eLightning&r"
-				"&lEverdawn:&r &cFire&r + &5Chaos&r"
-				"&lThe End:&r &cFire&r + &eLightning&r + &5Chaos&r"
-				"&lThe Otherside:&r &5Chaos&r"
-				"&lThe Twilight Forest:&r &7None&r"
+				"&lОбычный мир:&r &7нет&r"
+				"&lНезер:&r &cОгонь&r"
+				"&lПодземный сад:&r &5Хаос&r"
+				"&lAquamirae:&r &bХолод&r"
+				"&lЭвербрайт:&r &bХолод&r + &eМолния&r"
+				"&lЭвердан:&r &cОгонь&r + &5Хаос&r"
+				"&lКрай:&r &cОгонь&r + &eМолния&r + &5Хаос&r"
+				"&lТа Сторона:&r &5Хаос&r"
+				"&lСумречный лес:&r &7нет&r"
 			]
 			icon: "minecraft:paper"
 			id: "3F61325EA08B6DAA"
@@ -990,24 +987,24 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "5CE8B1EB861233D7"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Mob Affinities"
+			title: "Стихийные склонности"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["29CADE48F14D6436"]
 			description: [
-				"Mine and Slash Professions can sometimes be tedious to level... Did you know that gaining experience through combat gives you &eRested Profession Experience&r? This experience pools and will be consumed when performing Profession activities to enhance your experience gained."
+				"Профессии в Mine and Slash порой прокачиваются довольно медленно... Знаете ли вы, что опыт, получаемый в бою, даёт &eДополнительный опыт от боя&r? Этот опыт накапливается и расходуется при выполнении профессий, увеличивая получаемый опыт."
 				""
-				"Similarly, performing Profession activities will give you &eRested Combat Experience&r!"
+				"Аналогично, выполнение действий в профессиях даёт &eДополнительный опыт от профессии&r!"
 				""
-				"You can view how much Rested Experience you have in the Mine and Slash Hub by mousing over the Profession icon."
+				"Вы можете увидеть, сколько у вас Дополнительного опыта, наведя курсор на иконку профессии в Mine and Slash Hub."
 			]
 			icon: "minecraft:paper"
 			id: "256EB6DAF1808F35"
@@ -1016,26 +1013,26 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "41373A88D8FE08D7"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "A Moment's Respite"
+			title: "Минутная передышка"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"&eAscendancy&r is a way to further grow your character by completing challenging tasks. To start, you must &ecomplete the \"Defenders of the Nether\" quest&r, which will unlock the &eAscendancy Chapter&r."
+				"&eВосхождения&r — это способ дальнейшего развития вашего персонажа через выполнение сложных заданий. Чтобы начать, нужно &eзавершить задание \"Защитники нижнего мира\"&r, что разблокирует &eглаву Восхождение&r."
 				""
-				"The first quest you complete will earn you 1 Ascendancy point, just enough to choose your specialization. With each subsequent challenge you complete, you will earn more Ascendancy points!"
+				"Первое выполненное задание даст вам 1 очко Восхождения — достаточно, чтобы выбрать специализацию. За каждое последующее выполненное испытание вы будете получать дополнительные очки!"
 				""
-				"These points are capped at 7, and you can use these points similar to Talent points in the Ascendancy tab of the &eMine and Slash Hub&r."
+				"Максимум очков — 7, и их можно распределять подобно очкам талантов в вкладке Восхождения в &eMine and Slash ХАБ&r."
 				""
-				"You can only select one Ascendancy tree at a time. To select another tree, you must first respec and retrieve all of your points in your current tree."
+				"Вы можете активировать только одно дерево Восхождения одновременно. Чтобы выбрать другое, нужно сначала сбросить очки текущего дерева и вернуть их."
 			]
 			icon: "minecraft:paper"
 			id: "3C2D7F2998CC495F"
@@ -1056,19 +1053,19 @@
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "24A37C91BE150CC6"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Ascendancy"
+			title: "Восхождение"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["45535AECCE43183A"]
-			description: ["Craft a hearty meal to keep yourself alive! Eating foods will give you bonus stats for a set duration."]
+			description: ["Приготовьте сытное блюдо, чтобы поддержать себя в живых! Приём пищи даёт временные бонусы к характеристикам на определённый период."]
 			id: "75349B31576A3930"
 			rewards: [{
 				auto: "enabled"
@@ -1080,7 +1077,7 @@
 				title: "1250 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "08BE1394EA5B782D"
 				item: {
@@ -1093,13 +1090,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Food For Thought"
+			title: "Пища для размышлений"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1EA8FC97142B16A7"]
-			description: ["Try your hand at crafting a custom weapon to help with your adventure!"]
+			description: ["Попробуй создать собственное оружие, чтобы помочь себе в приключении!"]
 			id: "575DEFDB9962966C"
 			rewards: [{
 				auto: "enabled"
@@ -1111,7 +1108,7 @@
 				title: "2000 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "21E5841575537E9D"
 				item: {
@@ -1124,17 +1121,17 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "The Sharpest"
+			title: "Самый острый"
 			x: 6.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["52DAC9E8213D2624"]
 			description: [
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
+				"&eФантомные криперы&r появляются в &eИскажённом лесу&r и &eКраю&r. При контакте они раскалываются на несколько частей, так что с ними нужно быть осторожным!"
 				""
-				"The Phantom Creeper Has:"
-				"&b+25% Dodge Rating&r"
+				"Фантомный крипер обладает:"
+				"&b+25% шансу уклонения&r"
 			]
 			icon: "born_in_chaos_v1:phantom_bomb"
 			id: "3B1B7EC7FF90C8E4"
@@ -1148,7 +1145,7 @@
 				title: "1500 Experience"
 				type: "command"
 			}]
-			subtitle: "Explosive, Invisible Bombs"
+			subtitle: "Взрывные, невидимые бомбы"
 			tasks: [{
 				entity: "born_in_chaos_v1:phantom_creeper_copy"
 				icon: "ftb_ph:phantom_creeper"
@@ -1156,7 +1153,7 @@
 				type: "kill"
 				value: 10L
 			}]
-			title: "Otherworldly Beings III"
+			title: "Потусторонние существа III"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -1166,11 +1163,11 @@
 				"75447684ADAD02D8"
 			]
 			description: [
-				"&cThis quest requires the completion of:&r"
+				"&cДля выполнения этого задания необходимо завершить:&r"
 				""
 				"{ \"text\": \"Chococrafts and Mounts\", \"color\": \"yellow\", \"underlined\": \"true\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"730BE78211A1573B\" } }"
 				""
-				"The Chocopedia mentions a breed that exists in the Nether that can fly..."
+				"В Чокопедии упоминается порода, которая обитает в Нижнем мире и умеет летать..."
 			]
 			id: "6A023A63B5FEE4A0"
 			rewards: [
@@ -1191,7 +1188,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Wild Chocobos"
+			subtitle: "Дикие чокобо"
 			tasks: [
 				{
 					id: "14037C63F43DB96D"
@@ -1210,52 +1207,54 @@
 					type: "item"
 				}
 			]
-			title: "Aerial Exploration"
+			title: "Воздушная разведка"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3C2D7F2998CC495F"]
 			description: [
-				"The &eAwful Ghast&r can be found in the &eAwful Dungeons&r of The Nether. Awful Dungeons can be found in &eSoul Sand Valleys and Warped Forests&r where they appear as floating circular structures. You can summon it by placing a &eNether Star in the altar&r."
+				"&eAwful Ghast&r можно встретить в &eAwful Dungeons&r нижнего мира. Эти подземелья расположены в &eДолинах песка душ и искажённых лесах&r, где они выглядят как плавающие круглые структуры. Чтобы призвать его, положите &eЗвезду незера на алтарь&r."
 				""
-				"&cNote that these structures cannot be found conventionally with the Explorer's Compass. You may need to find them manually.&r"
+				"&cОбратите внимание, что эти структуры нельзя найти с помощью компаса исследователя обычным способом. Их нужно искать вручную.&r"
 				""
 				"{image:cte2:textures/awful_ghast.png width:192 height:108 align:center}"
 				""
-				"The Awful Ghast Has:"
-				"&b+50% Physical to Fire Damage&r"
-				"&b+30% Elemental Resistance&r"
-				"&a15% Chance of Dropping Net Rune&r"
+				"Awful Ghast обладает:"
+				"&b+50% физический урон в огненый урон&r"
+				"&b+30% сопротивление всем стихиям&r"
+				"&a15% шанс выпадения &eРуны Net&r"
 			]
 			id: "4343A66299F26319"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "ftb_ph:exp"
-				id: "7E7FC3B9C75BC6F8"
-				silent: true
-				title: "5000 Experience"
-				type: "command"
-			}]
-			shape: "diamond"
-			subtitle: "Big Baddies"
-			tasks: [{
-				id: "02751A7FE39DD1D0"
-				item: "stalwart_dungeons:awful_crystal"
-				type: "item"
-			}]
-			title: "Defenders of the Nether"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7E7FC3B9C75BC6F8"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3FCC783499DC9ACE"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
+			title: "Защитники нижнего мира"
 			x: 7.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63F4CAF1CA065949"]
 			description: [
-				"Smithing templates are items used in &eSmithing Tables&r to alter tools and armor. They are consumed when used, but can be duplicated using an existing template, its material and diamonds."
+				"Кузнечные шаблоны — это предметы, используемые в &eКузнечных столах&r для улучшения инструментов и брони. Они расходуются при использовании, но могут быть продублированы с помощью уже имеющегося шаблона, соответствующего материала и алмазов."
 				""
-				"Netherite upgrade smithing templates are required to upgrade diamond equipment with a &eNetherite Ingot&r. They are only found in &eBastion Remnants&r, and are guaranteed only in treasure rooms."
+				"Кузнечные шаблоны для улучшения до незерита необходимы, чтобы улучшить алмазное снаряжение с помощью &eслитка незерита&r. Их можно найти только в &eОстатках бастиона (Bastion Remnants)&r, причем гарантированно — только в сокровищницах."
 			]
 			id: "75447684ADAD02D8"
 			rewards: [
@@ -1288,17 +1287,17 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				id: "02B914E0382A57F7"
 				item: "minecraft:netherite_upgrade_smithing_template"
 				type: "item"
 			}]
-			title: "Preparation"
+			title: "Подготовка"
 			x: 4.5d
 			y: 0.0d
 		}
 	]
 	subtitle: ["Lv. 10-30"]
-	title: "Act II"
+	title: "Акт II"
 }

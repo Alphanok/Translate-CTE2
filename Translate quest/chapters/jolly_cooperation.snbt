@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&eLightman's Currency&r introduces coins as currency, various trading posts, the auction house, and more. "
+				"&eLightman's Currency&r вводит монеты как валюту, различные торговые точки, аукционный дом и многое другое."
 				""
-				"Any &eLightman's Trader&r you place can only be modified by you or your Lightman's &eteam.&r Team accounts can be created by clicking the small Steve icon in the upper right of your inventory. There's also a &enotifications&r button for trader and team account events. Team accounts are used to share profits and costs between players."
+				"Любой &eLightman's Trader&r, которого вы разместите, может изменяться только вами или вашей &eкомандой Lightman's.&r Аккаунты команд создаются нажатием на маленький значок Стива в правом верхнем углу вашего инвентаря. Также есть кнопка &eуведомления&r для событий торговцев и аккаунтов команд. Аккаунты команд используются для совместного распределения прибыли и затрат между игроками."
 				""
-				"&eCurrency&r is obtained by &ekilling&r mobs, &eloot&r, and &equests.&r"
+				"&eВалюта&r добывается путём &eубийства&r мобов, &eдобычи&r и &eвыполнения заданий.&r"
 				""
-				"Use &e/lctrade&r to trade with other nearby players."
+				"Используйте &e/lctrade&r для торговли с другими игроками поблизости."
 			]
 			id: "06B577BB603F2F0A"
 			rewards: [{
@@ -29,7 +29,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Vending Machine"
+			subtitle: "Создайте один торговый автомат"
 			tasks: [{
 				id: "3A6E6453C16F4C89"
 				item: "lightmanscurrency:vending_machine"
@@ -42,9 +42,9 @@
 		{
 			dependencies: ["06B577BB603F2F0A"]
 			description: [
-				"Most Item Trader blocks can trade any item, but some item types such as &ebooks&r or &earmor&r require specific &eTraders.&r "
+				"Большинство блоков Торговцев предметами могут торговать любыми предметами, но некоторые типы предметов, такие как &eкниги&r или &eброня&r, требуют специальных &eТорговцев.&r"
 				""
-				"Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r."
+				"Используйте &eкассовый аппарат&r, чтобы &eсвязать&r любых размещённых торговцев — кликните правой кнопкой по кассе, чтобы &eпривязать&r её к &eрегистру.&r После установки регистра все доступные сделки торговцев &eотобразятся&r в интерфейсе &eкассового аппарата&r."
 			]
 			id: "64C7494796410D04"
 			rewards: [{
@@ -57,26 +57,26 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Cash Register"
+			subtitle: "Создайте один кассовый аппарат"
 			tasks: [{
 				id: "2DCBF62C3EC5F4FE"
 				item: "lightmanscurrency:cash_register"
 				type: "item"
 			}]
-			title: "Trading Posts"
+			title: "Торговые точки"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["64C7494796410D04"]
 			description: [
-				"&eATMs&r can &ekeep your money&r, &etransfer money&r between accounts and team accounts, and can &eexchange coins&r between denominations."
+				"&eБанкоматы&r могут &eхранить ваши деньги&r, &eпереводить деньги&r между аккаунтами и командными аккаунтами, а также &eобменивать монеты&r между номиналами."
 				""
-				"&ePiggy Banks&r can store coins by right clicking on it with a coin in hand. You'll have to &ebreak it&r to get the cash out, though."
+				"&eКопилки&r позволяют хранить монеты — кликните правой кнопкой по копилке с монетой в руках. Чтобы забрать деньги, придётся &eразбить&r её."
 				""
-				"The &eMoney Chest&r is an alternative to the ATM but &ecan only store&r money. If you don't &etrust&r the bank's ATM, keep your coins in the Money Chest instead."
+				"&eДенежный сундук&r — это альтернатива банкомату, но он &eможет только хранить&r деньги. Если вы не &eдоверяете&r банкомату, храните монеты в Сундуке с деньгами."
 				""
-				"Use &e/lcbaltop&r to see who has the most money &estored in their bank&r account."
+				"Используйте &e/lcbaltop&r, чтобы увидеть, у кого &eбольше всего денег&r на банковском счёте."
 			]
 			id: "6C57A4CBA635B27E"
 			rewards: [{
@@ -89,7 +89,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого."
 			tasks: [
 				{
 					id: "0D6098AA97808306"
@@ -107,20 +107,20 @@
 					type: "item"
 				}
 			]
-			title: "Money Storage"
+			title: "Хранилище денег"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["6C57A4CBA635B27E"]
 			description: [
-				"&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players."
+				"&eТорговые терминалы&r позволяют торговать с любыми другими торговцами в &eглобальной сети&r. Также вы можете получить доступ к &eАукционному дому&r сервера, который недоступен обычным игрокам."
 				""
-				"&eItem Network Traders&r have &e4&r tiers and can only be &eaccessed&r through Trading Terminals."
+				"&eСетевлй торговец, предметами&r имеют &e4&r уровня и к ним можно получить доступ только через Торговые терминалы."
 				""
-				"You can &eupgrade&r any regular trader to be accessed through the network as well as in person by placing a &eNetwork Upgrade&r in one of its &eupgrade slots&r."
+				"Вы можете &eулучшить&r любого обычного торговца, чтобы к нему можно было получить доступ через сеть, а также лично, поместив &eСетевое улучшение&r в один из его &eслотов для улучшений&r."
 				""
-				"&eAuction Stands&r can let players &ebid&r on items within the &etime alotted&r before the auction ends."
+				"&eАукционные стенды&r позволяют игрокам &eделать ставку&r на предметы в течение &eотведённого времени&r до окончания аукциона."
 			]
 			id: "2BB4B6FE41F4CC58"
 			rewards: [{
@@ -133,7 +133,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [
 				{
 					id: "5BE8EC6FBAEA12B4"
@@ -157,9 +157,9 @@
 		{
 			dependencies: ["2BB4B6FE41F4CC58"]
 			description: [
-				"The &eTicket system&r is a good way to allow only &epaying customers to enter&r a designated area or &eactivate a redstone contraption&r. Don't let anyone get ahold of any &eMaster Tickets&r you create."
+				"&eСистема билетов&r — хороший способ разрешить вход только &eплатным клиентам&r в определённую зону или &eактивировать редстоун-механизм&r. Не давайте никому &eМастер-билеты&r, которые вы создаёте."
 				""
-				"The &eSlot Machine&r allows you to create your own &epayout weights and potential rewards&r to paying customers."
+				"&eИгровой автомат&r позволяет создавать собственные &eвесы выплат и возможные награды&r для платных клиентов."
 			]
 			id: "322F44860B462AEF"
 			rewards: [{
@@ -172,7 +172,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [
 				{
 					id: "36CBBF5574C67135"
@@ -195,7 +195,7 @@
 					type: "item"
 				}
 			]
-			title: "Tickets and Slot Machines"
+			title: "Билеты и игровые автоматы"
 			x: 0.0d
 			y: -6.0d
 		}
@@ -220,7 +220,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					count: 4L
@@ -252,15 +252,15 @@
 					type: "item"
 				}
 			]
-			title: "High Roller"
+			title: "Важный игрок"
 			x: 0.0d
 			y: -8.0d
 		}
 		{
 			description: [
-				"&eJoy of Painting&r allows you to create works of art by placing any size of &ecanvas&r on an &eeasel.&r Add dyes to your &epalette&r and mix them up to create unique colors. The &ePalette&r may be purchased on the &eTrading Terminal&r. Make sure to &esign&r your painting after you're done."
+				"&eJoy of Painting&r позволяет создавать произведения искусства, устанавливая холсты любого размера на &eмольберт.&r Добавляйте красители в свою &eпалитру&r и смешивайте их, чтобы создавать уникальные цвета. &eПалитру&r можно приобрести на &eТорговом терминале&r. Не забудьте &eсохранить&r вашу картину после завершения."
 				""
-				"To craft a &ePalette&r, you need to have 3x planks and at least 1 dye. This is a dynamic recipe so it won't show up in JEI."
+				"Чтобы создать &eПалитру&r, вам понадобятся 3 доски и как минимум 1 краситель. Это динамический рецепт, поэтому он не отображается в JEI."
 			]
 			id: "792587BFEA5FB382"
 			rewards: [{
@@ -273,7 +273,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [
 				{
 					id: "5D1C69FA31081C44"
@@ -297,17 +297,17 @@
 		}
 		{
 			description: [
-				"&eMusical Instrument Minecraft Interface&r allows you to &eplay MIDIs&r from a &econnected MIDI device&r to your computer, from &efiles,&r or from &edirect links online&r."
+				"&eMusical Instrument Minecraft Interface&r позволяет &eвоспроизводить MIDI-файлы&r с помощью &eподключённого MIDI-устройства&r к вашему компьютеру, из &eфайлов,&r или по &eпрямым ссылкам онлайн&r."
 				""
-				"Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here."
+				"Полные инструкции по моду &eдоступны в руководстве по моду.&r Некоторые функции, такие как &eигра на инструментах в мультиплеере,&r здесь не описаны."
 				""
-				"To start, &edownload&r a MIDI song from the internet and place it into a &edesignated folder.&r"
+				"Для начала &eскачайте&r MIDI-песню из интернета и поместите её в &eспециальную папку.&r"
 				""
-				"The &eTransmitter&r is used to transmit notes from a MIDI File to instruments in MIMI."
+				"&eПередатчик&r используется для передачи нот из MIDI-файла на инструменты в MIMI."
 				""
-				"To use a &eTransmitter&r, craft one, place it into your main or off hand, and right-click to open the Transmitter Screen (explained below). The Transmitter acts a bit like an Ender Chest in that each player only has one, and every Transmitter item will be the same for that player."
+				"Чтобы использовать &eПередатчик&r, создайте его, держите в основной или дополнительной руке и кликните правой кнопкой мыши, чтобы открыть экран Передатчика (описан ниже). Передатчик работает похожим образом на Эндер-сундук: у каждого игрока только один, и каждый Передатчик для этого игрока одинаков."
 				""
-				"You can use \"&b/mimi config&r\" to modify sound output, etc."
+				"Вы можете использовать команду \"&b/mimi config&r\" для настройки звука и прочего."
 			]
 			id: "4EB78B5D6F8061E9"
 			rewards: [{
@@ -320,7 +320,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [
 				{
 					id: "4F23B706CC2324EB"
@@ -338,7 +338,7 @@
 					type: "item"
 				}
 			]
-			title: "Music Maker"
+			title: "Создатель музыки"
 			x: 2.0d
 			y: 0.0d
 		}
@@ -363,7 +363,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "47AD9E90B03F4DB1"
@@ -556,12 +556,12 @@
 					type: "item"
 				}
 			]
-			title: "Big Band Player"
+			title: "Большой оркестровый проигрыватель"
 			x: 2.0d
 			y: -8.0d
 		}
 		{
-			description: ["&eLootr&r is a mod that makes each world generated loot chest, barrel, and minecart with chest a special version that has &eplayer-instanced loot&r."]
+			description: ["&eLootr&r — это мод, который превращает каждый сгенерированный в мире сундук, бочку и вагонетку с сундуком в особую версию с &eуникальным лутом для каждого игрока&r."]
 			id: "6E3023586AC43198"
 			rewards: [{
 				auto: "enabled"
@@ -573,7 +573,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Open your first Lootr container"
+			subtitle: "Откройте ваш первый контейнер Lootr"
 			tasks: [{
 				advancement: "lootr:1chest"
 				criterion: ""
@@ -597,7 +597,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Open 10 Lootr containers"
+			subtitle: "Откройте 10 контейнеров Lootr"
 			tasks: [{
 				advancement: "lootr:10loot"
 				criterion: ""
@@ -620,7 +620,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Open 25 Lootr containers"
+			subtitle: "Откройте 25 контейнеров Lootr"
 			tasks: [{
 				advancement: "lootr:25loot"
 				criterion: ""
@@ -651,22 +651,22 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				advancement: "lootr:100loot"
 				criterion: ""
 				id: "2486E63A4C408549"
 				type: "advancement"
 			}]
-			title: "Bandit"
+			title: "Бандит"
 			x: -2.0d
 			y: -8.0d
 		}
 		{
 			description: [
-				"Craft a &eTelepass&r to link it to yourself. Another player can then use that telepass to &einstantly teleport&r to you."
+				"Создайте &eТелепасс&r, чтобы связать его с собой. Другой игрок сможет использовать этот телепасс, чтобы &eмоментально телепортироваться&r к вам."
 				""
-				"&eGold Telepasses&r are &esingle&r use while &eDiamond Telepasses&r have &edurability.&r They can both be &eenchanted.&r"
+				"&eЗолотые Телепассы&r — одноразовые, а &eАлмазные Телепассы&r имеют &eпрочность&r. Оба типа можно &eзачаровывать.&r"
 			]
 			id: "0152DC99C57C0731"
 			rewards: [{
@@ -679,7 +679,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one Diamond Telepass"
+			subtitle: "Создайте один Diamond Telepass"
 			tasks: [{
 				id: "13F379B253EDA98D"
 				item: {
@@ -707,7 +707,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Open 50 Lootr containers"
+			subtitle: "Откройте 50 контейнеров Lootr"
 			tasks: [{
 				advancement: "lootr:50loot"
 				criterion: ""
@@ -758,38 +758,38 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "1C2D9D8441D68E4C"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Team Player"
+			title: "Командный игрок"
 			x: 0.0d
 			y: -10.0d
 		}
 		{
 			description: [
-				"&eFLAN&r is used for claiming land. Right click the ground with a &eGolden Hoe&r to start claiming. "
+				"&eFLAN&r используется для создания привата территории. Кликните правой кнопкой мыши по земле с &eЗолотой мотыгой&r, чтобы начать приват территории."
 				""
-				"You can right click anywhere with a &estick&r to see who owns what and where the boundaries are."
+				"Вы можете кликнуть правой кнопкой мыши в любом месте с &eпалкой&r, чтобы увидеть, кому что принадлежит и где границы."
 				""
-				"Use &e/flan menu&r to edit your claim. Use &e/flan delete&r to remove the claim you are standing in. Use &e/flan switchMode&r to create subclaims."
+				"Используйте &e/flan menu&r для редактирования вашего привата. Используйте &e/flan delete&r, чтобы удалить приват, на котором вы находитесь. Используйте &e/flan switchMode&r для создания субприватов."
 				""
-				"&eGlobal permissions&r are permissions given to anyone who is &enot&r in a permission group."
+				"&eГлобальные права&r — это права, выданные всем, кто &eне&r состоит в группе с правами."
 				""
-				"&eRight-click&r permission groups to set their individual permissions."
+				"&eКликайте правой кнопкой&r по группам прав для настройки их индивидуальных разрешений."
 				""
-				"&4&lYour claim will be deleted after 90 days of inactivity by the owner of the claim in multiplayer.&r&n&r"
+				"&4&lВаш приват территории будет удалён после 90 дней бездействия владельца в мультиплеере.&r&n&r"
 				""
-				"&eStarting Claim Blocks:&r 2000"
-				"&e+1&r Block every &e10 seconds&r"
-				"&eMaximum Claim Blocks:&r 25600"
-				"&eTime to get Max: &r66 hours"
-				"&eInitial Claim Depth:&r 20 blocks"
-				"&eMax Claims: &r5"
+				"&eНачальные блоки привата&r 2000"
+				"&e+1&r блок каждые &e10 секунд&r"
+				"&eМаксимум блоков привата:&r 25600"
+				"&eВремя для максимума:&r 66 часов"
+				"&eНачальная глубина привата территории:&r 20 блоков"
+				"&eМаксимум приват территорий:&r 5"
 				""
-				"Claim depth will continue further down &eautomatically&r if you &ebuild&r under your claim."
+				"Глубина привата территории будет &eавтоматически&r увеличиваться вниз, если вы &eстроите&r под своим приватом территории."
 			]
 			id: "447144432E16E12F"
 			rewards: [{
@@ -803,7 +803,7 @@
 				type: "command"
 			}]
 			size: 1.5d
-			subtitle: "Craft one of each"
+			subtitle: "Создать по одному предмету каждого типа"
 			tasks: [{
 				id: "118E2836C81016A3"
 				item: {
@@ -815,13 +815,13 @@
 				}
 				type: "item"
 			}]
-			title: "Land Claiming"
+			title: "Притязание на землю"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4EB78B5D6F8061E9"]
-			description: ["Instruments can be &etuned&r to change how they sound and work. Craft a &eTuning Table&r and navigate to the chapter in the &emod guide book&r to see the &efull list&r of instruments that can be tuned and with what items."]
+			description: ["Инструменты можно &eнастраивать&r, чтобы изменить их звук и работу. Создайте &eНастройочный стол&r и перейдите к соответствующей главе в &eруководстве по моду&r, чтобы увидеть &eполный список&r инструментов, которые можно настроить, и нужные для этого предметы."]
 			id: "34D93634E3BD0A59"
 			rewards: [{
 				auto: "enabled"
@@ -833,7 +833,7 @@
 				title: "100 Experience x Lvl."
 				type: "command"
 			}]
-			subtitle: "Craft one Tuning Table"
+			subtitle: "Создайте один Настройочный стол"
 			tasks: [{
 				id: "568DA92753424F60"
 				item: "mimi:tuningtable"
@@ -845,9 +845,9 @@
 		{
 			dependencies: ["34D93634E3BD0A59"]
 			description: [
-				"The &eMechanical Maestro&r will &eplay music by itself&r if given an &einstrument&r. The Maestro can play up to 3 instruments at once! It requires a &eredstone signal&r to function."
+				"&eМеханический Маэстро&r будет &eсамостоятельно воспроизводить музыку&r, если дать ему &eинструмент&r.&r Маэстро может одновременно играть на 3 инструментах! Для работы ему требуется &eсигнал редстоуна&r."
 				""
-				"The &eListener&r and the &eReceiver&r blocks listen for &enotes played near them&r and output a &eredstone signal&r if it matches the filter set."
+				"Блоки &eСлушатель&r и &eПриёмник&r реагируют на &eноты, сыгранные рядом&r, и выдают &eсигнал редстоуна&r, если они соответствуют установленному фильтру."
 			]
 			id: "13BFD3FE012DE2AE"
 			rewards: [{
@@ -860,7 +860,7 @@
 				title: "100 Experience x Lvl."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [
 				{
 					id: "0608E7A2EAE0494D"
@@ -884,9 +884,9 @@
 		{
 			dependencies: ["13BFD3FE012DE2AE"]
 			description: [
-				"The &eServer Transmitter&r is a block form of the Transmitter that doesn't need to be held by a player to play MIDI files. However, it can only play songs provided by the server. MIDI files can be added to the Server Transmitter by placing them in the \"server_midi_files\" folder within the MIMI config folder (also works for single player and the host in LAN) and clicking the reload button."
+				"&eСерверный передатчик&r — это блочный вариант Передатчика, который не нужно держать игроку для воспроизведения MIDI-файлов. Однако он может проигрывать только те песни, которые предоставлены сервером. MIDI-файлы можно добавить в Серверный передатчик, поместив их в папку server_midi_files внутри папки конфигурации MIMI (работает и в одиночной игре, и у хоста в локальной сети), а затем нажав кнопку перезагрузки."
 				""
-				"Unlike the handheld Transmitter, where settings are saved once per player, &eServer Transmitter&r settings are saved separately on each block. While it is playing a song, the Server Transmitter block will emit a Redstone signal."
+				"В отличие от переносного Передатчика, где настройки сохраняются один раз для каждого игрока, настройки &eСерверного передатчика&r сохраняются отдельно для каждого блока. Во время воспроизведения песни блок Серверного передатчика будет излучать сигнал редстоуна."
 			]
 			id: "309792D482119CAD"
 			rewards: [{
@@ -899,7 +899,7 @@
 				title: "100 Experience x Lvl."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Создайте по одному каждого"
 			tasks: [{
 				id: "60B81DC36D3F79DE"
 				item: "mimi:transmitterblock"
@@ -909,7 +909,7 @@
 			y: -6.0d
 		}
 		{
-			description: ["You can view your DPS with the DPS overlay. Bring it up with &eShift + ]&r and move it around with &eShift + [&r! Reset the window with &e*&r!"]
+			description: [""Вы можете просматривать свой урон с помощью панели DPS. Откройте её сочетанием клавиш &eShift + ]&r, перемещайте с помощью &eShift + [&r, а сбросить положение окна можно клавишей &e*&r!"]
 			icon: "born_in_chaos_v1:evilometer"
 			id: "41B73C0882D4CAA4"
 			rewards: [{
@@ -917,16 +917,16 @@
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "DPS Check!"
+			subtitle: "Проверка DPS!"
 			tasks: [{
 				id: "54512F768D4A938F"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Damage Meter"
+			title: "Счетчик урона"
 			x: -3.5d
 			y: 1.5d
 		}
 	]
-	title: "Jolly Cooperation"
+	title: "Веселое сотрудничество"
 }

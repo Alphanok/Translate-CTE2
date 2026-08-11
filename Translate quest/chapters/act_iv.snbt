@@ -16,7 +16,7 @@
 	quests: [
 		{
 			dependencies: ["4FEFBA3770769DA9"]
-			description: ["Now that you're ready, your next task is to investigate &eThe End&r, and to slay the &eEnder Dragon&r. To get there, locate a &eStronghold&r, where you might find an &eEnd Portal Frame&r. You can activate the portal by slotting in &eEye of Enders&r into the frame."]
+			description: ["Твоя следующая задача — исследовать &eКрай&r и победить &eЭндер-дракона&r. Чтобы попасть туда, найди &eКрепость&r, где может находиться &eрамка портала в Край&r. Активировать портал можно, вставив в рамку &eоко эндера&r."]
 			id: "75454F0A3C4C3596"
 			rewards: [{
 				auto: "enabled"
@@ -29,25 +29,25 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				advancement: "minecraft:story/enter_the_end"
 				criterion: ""
 				id: "20FC7F4ADCE826EB"
 				type: "advancement"
 			}]
-			title: "The End"
+			title: "Край"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0998037F5701A2D7"]
 			description: [
-				"You've found the Gatekeeper... He's willing to give you information, but for a price."
+				"Ты нашёл Привратника... Он готов поделиться информацией, но не бесплатно."
 				""
-				"You were able to learn from him (for free) that he's familiar with 2 alternate dimensions: the &eEverbright&r and the &eEverdawn&r. According to the Gatekeeper, it's possible to access these dimensions from the Overworld!"
+				"Тебе удалось узнать от него (бесплатно), что он знаком с двумя альтернативными измерениями: &eЭвербрайт&r и &eЭвердроун&r. По словам Привратника, из Верхнего мира можно попасть в эти измерения!"
 				""
-				"It also looks like he has some sort of &elighter for sale&r. Apparently it's needed to access the dimensions. Maybe it's fine to humour him and buy the lighter, but you'll need more information than that. Perhaps &esnooping around the house&r might prove fruitful..."
+				"Похоже, у него есть &eзажигалка на продажу&r. Видимо, она нужна для доступа в измерения. Возможно, стоит его развлечь и купить зажигалку, но тебе понадобится больше информации. Может, &eпошариться по дому&r будет полезно..."
 			]
 			id: "01B3ED0D457F7A7C"
 			rewards: [
@@ -70,7 +70,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				id: "18AAB8BD2E919933"
 				item: {
@@ -82,18 +82,18 @@
 				}
 				type: "item"
 			}]
-			title: "Wanderlust Ignition"
+			title: "Жажда странствий"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["01B3ED0D457F7A7C"]
 			description: [
-				"&cOnly Requires 1 task to complete.&r"
+				"&cТребуется выполнить только 1 задание.&r"
 				""
-				"Instead of relying on the portals that spawn in the &eGatekeeper's House&r, you can craft them yourself."
+				"Вместо того чтобы полагаться на порталы, которые появляются в &eдоме Привртаника&r, ты можешь создать их самостоятельно."
 				""
-				"You can even buy the blocks from the &eTrading Terminal/Barter Board&r!"
+				"Ты даже можешь купить блоки в &eТорговом терминале/Бирже&r!"
 			]
 			id: "467EF949DCDD7863"
 			rewards: [{
@@ -106,7 +106,7 @@
 				title: "12500 Experience"
 				type: "command"
 			}]
-			subtitle: "Deterministic Portal"
+			subtitle: "Детерминированный портал"
 			tasks: [
 				{
 					count: 10L
@@ -121,13 +121,16 @@
 					type: "item"
 				}
 			]
-			title: "Deterministic Portals"
+			title: "Детерминированные порталы"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["BRRrrr, it is really cold in this dimension... But you made it! The &eEverbright&r is a dimension in perpetual frost. Now would be a good time to refer to the &9Blue Journal&r..."]
+			description: [
+				"БРРррр, в этом измерении действительно холодно... Но ты справился!"
+				"&eЭвербрайт&r — это измерение вечной стужи. Сейчас самое время заглянуть в &9Голубой дневник&r..."
+			]
 			id: "44D0530C2718FC69"
 			rewards: [
 				{
@@ -154,7 +157,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				dimension: "blue_skies:everbright"
 				icon: "blue_skies:everbright_portal"
@@ -162,13 +165,13 @@
 				title: "Visit The Everbright"
 				type: "dimension"
 			}]
-			title: "The Everbright"
+			title: "Эвербрайт"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["Yowza, it is really warm and humid in this dimension... But you made it! The &eEverdawn&r is a dimension filled with creature mutations and high heat. Now would be a good time to refer to the &9Blue Journal&r..."]
+			description: ["Ух ты, в этом измерении действительно жарко и влажно... Но ты справился! &eЭвердон&r — это измерение, полное мутаций существ и высокой температуры. Сейчас самое время обратиться к &9голубому дневнику&r..."]
 			id: "260297A19CCA9015"
 			rewards: [
 				{
@@ -195,7 +198,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				dimension: "blue_skies:everdawn"
 				icon: "blue_skies:everdawn_portal"
@@ -203,13 +206,13 @@
 				title: "Visit The Everdawn"
 				type: "dimension"
 			}]
-			title: "The Everdawn"
+			title: "Эвердон"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["01B3ED0D457F7A7C"]
-			description: ["The Gatekeeper is also keen on giving away his &ejournal&r. It looks really old and musty, but according to the keeper, it contains a lot of &einformation&r on the dimensions."]
+			description: ["Привратник также охотно отдаёт свой &eдневник&r. Он выглядит очень старым и затхлым, но, по словам хранителя, в нём содержится много &eинформации&r об измерениях."]
 			id: "10ABAF144ABC131E"
 			rewards: [
 				{
@@ -231,34 +234,34 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				id: "4436206A9CCFCCC9"
 				item: "blue_skies:blue_journal"
 				type: "item"
 			}]
-			title: "Your Personal Blue Skies Guide"
+			title: "Ваш персональный гид по голубому небу"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"To access the Everbright's &eNature Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Summoner&r in the Everbright's Blinding Dungeon."
+				"Чтобы получить доступ к &eПриродному подземелью&r Эвербрайта, сперва нужно отыскать &eОслепляющее подземелье (Blinding Dungeon)&r этого измерения… По словам Привратника, именно там можно &eнайти Заклинателя&r."
 				""
-				"&eAfter touching the door lock, the Gatekeeper will start selling keys for that door!&r"
+				"&eПосле взаимодействия с замком двери Привратник начнёт продавать ключи от этой двери!&r"
 				""
-				"Be careful with the Summoner, as the Summoner fights with lightning and energy attacks, and has golems to guard themselves! According to the Gatekeeper, the Summoner becomes &estronger in the presence of more enemies&r (players)."
+				"Будь осторожен: Заклинатель использует в бою молнии и энергетические атаки, а также окружён големами-защитниками! Привратник также предупреждает, что &eЗаклинатель становится сильнее в присутствии большего количества врагов&r (игроков)."
 				""
-				"Defeat the Summoner, and you will be able to access the Nature Dungeon!"
+				"Победи Заклинатель, чтобы получить доступ к Природному подземелью (Nature Dungeon)!"
 				""
-				"You can also &eresummon&r the Summoner, by using the &eEthereal Arc&r obtained from it on a &eBlinding Keystone (Everbright)&r."
+				"Также ты можешь &eпризвать Заклинатель повторно&r, использовав &eЭфирную арку&r, полученную с него, на &eОслепляющем краеугольном камне (Эвербрайт)&r."
 				""
-				"&cThe Summoner spawns at minimum level 45.&r"
+				"&cЗаклинатель появляется минимум 45 уровня.&r"
 				""
-				"The Summoner Has:"
-				"&b+50% Physical to Lightning Damage&r"
-				"&a10% Chance of Dropping Bri Rune&r"
+				"Заклинатель обладает:"
+				"&b+50% физический урон в урон молнией&r"
+				"&a10% шанс выпадения руны Bri&r"
 			]
 			icon: {
 				Count: 1
@@ -301,7 +304,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					icon: "blue_skies:bright_blinding_keystone"
@@ -324,29 +327,29 @@
 					value: 1L
 				}
 			]
-			title: "A New Headquarters"
+			title: "Новая штаб-квартира"
 			x: 7.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"To access the Everdawn's &ePoison Dungeon,&r you will first need to find the dimension's &eBlinding Dungeon&r... According to the Gatekeeper, you'll be able to &efind the Alchemist&r in the Everdawn's Blinding Dungeon."
+				"Чтобы попасть в &eЯдовитое подземелье&r Эвердона, тебе сначала нужно найти &eОслепляющее подземелье&r этого измерения... По словам привратника, именно там ты сможешь &eнайти Алхимика&r."
 				""
-				"&eAfter touching the door lock, the Gatekeeper will start selling keys for that door!&r"
+				"&eПосле взаимодействия с замком двери Привратник начнёт продавать ключи от этой двери!&r"
 				""
-				"Watch out for potions and physical constructs as you fight the Alchemist. A lot of the Alchemist's attacks are telegraphed, but missing these cues may cost you an arm! According to the Gatekeeper, the Alchemist becomes &estronger in the presence of more enemies&r (players)."
+				"Осторожно — во время боя с Алхимиком тебя будут поджидать зелья и физические конструкции. Многие атаки Алхимика хорошо предсказуемы, но если пропустить сигналы — можешь дорого за это заплатить! Привратник утверждает, что Алхимик становится &eсильнее при наличии других врагов&r (игроков) рядом."
 				""
-				"Defeat the Alchemist, and you will be able to access the Poison Dungeon!"
+				"Победи Алхимика, и ты получишь доступ к Ядовитому подземелью (Poison Dungeon)!"
 				""
-				"You can also &eresummon&r the Alchemist by using the &eDusk Arc&r obtained from it on a &eBlinding Keystone (Everdawn)&r."
+				"Также ты можешь &eпризвать&r Алхимика снова, используя &eСумеречную арку&r, полученную с него, на &eОслепляющем Ключе (Эвердон)&r."
 				""
-				"&cThe Alchemist spawns at minimum level 45.&r"
+				"&cАлхимик появляется минимум 45 уровня.&r"
 				""
-				"The Alchemist Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&c+100% Projectile Damage Received&r"
-				"&a10% Chance of Dropping Daw Rune&r"
+				"Алхимик обладает:"
+				"&b+50% физического урона в хаос урон&r"
+				"&c+100% получаемого урона от снарядов&r"
+				"&a10% шанс выпадения Руны Daw&r"
 			]
 			icon: {
 				Count: 1
@@ -387,7 +390,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					icon: "blue_skies:dawn_blinding_keystone"
@@ -408,33 +411,33 @@
 					value: 1L
 				}
 			]
-			title: "A New Laboratory"
+			title: "Новая лаборатория"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"You've defeated the Summoner, and in their dying moments, they tell you about the Nature Dungeon."
+				"Ты победил Заклинателя и в его последние мгновения он рассказал тебе о природном подземелье (Nature Dungeon)."
 				""
-				"The Nature Dungeon is a &emassive green labyrinth&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading up to the next floor."
+				"Природное подземелье — это &eогромный зелёный лабиринт&r, состоящий из &e4 этажей.&r На каждом этаже находится &e1 из 4 ключей&r и лестница, ведущая вверх на следующий уровень."
 				""
-				"Resting at the top of the floor you will find the &eStarlit Crusher&r. This slow-moving tree packs a punch, but opportunities to stun the tree may arise if you're using a &ospear&r. According to the Gatekeeper, the Starlit Crusher becomes &estronger in the presence of more enemies&r (players)."
+				"На вершине этажа ты найдёшь &eКрушителя Старлит&r. Это медленно двигающееся дерево наносит мощные удары, но если у тебя есть &oкопьё&r, у тебя могут появиться возможности оглушить дерево. По словам привратника, Крушителя Старлит становится &eсильнее при наличии других врагов&r (игроков) рядом."
 				""
-				"Should you find a Nature Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				"Если ты наткнёшься на Природное подземелье, которое &eуже было очищено&r, можешь вернуться к &eпривратнику&r и &eкупить необходимые ключи&r."
 				""
-				"You can also &eresummon&r the Starlit Crusher by using the &eNature Arc&r obtained from it on a &eNature Keystone&r."
+				"Также ты можешь &eпризвать&r Крушителя Старлит снова, используя &eПриродную арку&r, полученную с него, на &eПриродном ключе&r."
 				""
-				"&cThe Starlit Crusher spawns at minimum level 50.&r"
+				"&cКрушителя Старлит появляется минимум 50 уровня.&r"
 				""
-				"The Starlit Crusher Has:"
-				"&b+50% Physical to Lightning Damage&r"
-				"&b+50% Electrify Chance&r"
-				"&b+25% Shock Chance&r"
-				"&a25% Chance of Dropping Bri Rune&r"
+				"Крушитель Старлит обладает:"
+				"&b+50% физического урона в урон молнией&r"
+				"&b+50% шанс электрифицировать&r"
+				"&b+25% шанс оглушения&r"
+				"&a25% шанс выпадения Руны Bri&r"
 				""
-				"&6This Quest Will Unlock New Shops In the Campaign Shop when the Quest: "
-				"&a\"Caught in a Web\"&r &6is complete"
+				"&6Этот квест откроет новые магазины в разделе Повторяемые , когда будет завершён квест:"
+				"&a«Пойман в паутину»&r &6"
 			]
 			icon: "blue_skies:nature_key"
 			id: "30B56119C4EA7398"
@@ -471,13 +474,13 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					icon: "blue_skies:nature_key"
 					id: "522F544ED0AF2DF1"
 					structure: "blue_skies:nature_dungeon"
-					title: "Find a Nature Dungeon"
+					title: "Найдите природное подземелье"
 					type: "structure"
 				}
 				{
@@ -494,32 +497,31 @@
 					value: 1L
 				}
 			]
-			title: "An Uprooting"
+			title: "Выкорчевывание"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
 			description: [
-				"You've defeated the Alchemist, and in their dying moments, they tell you about the Poison Dungeon."
+				"Ты победил Алхимика, и в его последние мгновения он рассказал тебе о Ядовитом подземелье (Poison Dungeon)."
 				""
-				"The Poison Dungeon is a &elarge underground maze&r consisting of &e4 floors.&r Each floor will contain &e1 of 4 keys&r and a staircase leading down to the next floor. You will find a &elarge, hollowed maple tree covered in cobwebs on the surface&r."
+				"Ядовитое подземелье — это &eбольшой подземный лабиринт&r, состоящий из &e4 этажей.&r На каждом этаже находится &e1 из 4 ключей&r и лестница, ведущая вниз на следующий уровень. На поверхности ты найдёшь &eогромное полое кленовое дерево, покрытое паутиной&r."
 				""
-				"Lurking in the lowest depths, you will find the &eArachnarch&r in her lair. This venomous foe lunges at targets and sprays poison from the ceiling above, but opportunities to stun the spider may arise if you're using a &oshield&r. According to the Gatekeeper, the Arachnarch becomes &estronger in the presence of more enemies&r (players)."
+				"В самых глубоких недрах обитает &eАрахна&r в своём логове. Эта ядовитая паучиха атакует рывками и распыляет яд с потолка, но если у тебя есть &oщит&r, у тебя могут появиться возможности оглушить паука. По словам привратника, Арахна становится &eсильнее при наличии других врагов&r (игроков) рядом."
 				""
-				"Should you find a Poison Dungeon that's &ealready been cleared&r, you can go back to the &eGatekeeper&r and &epurchase the required keys&r."
+				"Если ты наткнёшься на Ядовитое подземелье, которое &eуже было очищено&r, можешь вернуться к &eпривртнику&r и &eкупить необходимые ключи&r."
 				""
-				"You can also &eresummon&r the Arachnarch by using the &ePoisonous Arc&r obtained from it on a &ePoison Keystone&r."
+				"Также ты можешь &eпризвать&r Арахна снова, используя &eЯдовитую арку&r, полученную с неё, на &eЯдовитом ключе&r."
 				""
-				"&cThe Arachnarch spawns at minimum level 50.&r"
+				"&cАрахна появляется минимум 50 уровня.&r"
 				""
-				"The Arachnarch Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&b+33% Poison Chance&r"
-				"&a25% Chance of Dropping Daw Rune&r"
+				"Арахна обладает:"
+				"&b+50% физического урона в хаос урон&r"
+				"&b+33% шанс отравления&r"
+				"&a25% шанс выпадения Руны Daw&r"
 				""
-				"&6This Quest Will Unlock New Shops In the Campaign Shop when the Quest: "
-				"&a\"An Uprooting\"&r &6is complete"
+				"&6Завершение этого квеста открывает новые покупки в \"Магазин кампании\"&r &6"
 			]
 			icon: "blue_skies:poison_key"
 			id: "09CFBF8766DA4706"
@@ -556,51 +558,42 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
-			tasks: [
-				{
-					icon: "blue_skies:poison_key"
-					id: "7A4081191F33BB95"
-					structure: "blue_skies:poison_dungeon"
-					title: "Find a Poison Dungeon"
-					type: "structure"
-				}
-				{
-					id: "646496939A074529"
-					item: {
-						Count: 1
-						id: "itemfilters:or"
-						tag: {
-							items: [
-								{
-									Count: 1b
-									id: "blue_skies:poison_arc"
-									tag: {
-										ArcLevel: 0
-									}
+			subtitle: "Основное задание"
+			tasks: [{
+				id: "646496939A074529"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "blue_skies:poison_arc"
+								tag: {
+									ArcLevel: 0
 								}
-								{
-									Count: 1b
-									id: "blue_skies:poison_arc"
-									tag: {
-										ArcLevel: 1
-									}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:poison_arc"
+								tag: {
+									ArcLevel: 1
 								}
-								{
-									Count: 1b
-									id: "blue_skies:poison_arc"
-									tag: {
-										ArcLevel: 2
-									}
+							}
+							{
+								Count: 1b
+								id: "blue_skies:poison_arc"
+								tag: {
+									ArcLevel: 2
 								}
-							]
-						}
+							}
+						]
 					}
-					title: "Poisonous Arc (Any Rarity)"
-					type: "item"
 				}
-			]
-			title: "Caught in a Web"
+				title: "Poisonous Arc (Any Rarity)"
+				type: "item"
+			}]
+			title: "Пойман в паутину"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -611,9 +604,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The Gatekeeper did mention there would be civilization in the Everbright and Everdawn. You'll just need to find it."
+				"Привратник упоминал, что в измерениях &eЭвербрайта&r и &eЭвердоуна&r есть цивилизация. Тебе просто нужно её найти."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&eТребуется выполнение одного предварительного задания.&r"
 			]
 			icon: "minecraft:campfire"
 			id: "5B4E23F4CD32950F"
@@ -642,7 +635,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Villages"
+			subtitle: "Деревни"
 			tasks: [
 				{
 					icon: "minecraft:soul_campfire"
@@ -659,16 +652,16 @@
 					type: "structure"
 				}
 			]
-			title: "Encampment"
+			title: "Лагерь"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B4E23F4CD32950F"]
 			description: [
-				"Apparently if you find a &eNightwatcher&r, they can provide you with a &eBag of Spoils&r which will let you &epickpocket villagers&r... Seems like a criminal activity that would be frowned upon by them..."
+				"Говорят, если найти &eНочных дозорных&r, они могут дать тебе &eСумку добычи&r, с помощью которой можно &eворовать у жителей&r... Похоже на преступление, которое они явно не одобрят..."
 				""
-				"That is, if they catch you."
+				"Ну, если тебя поймают."
 			]
 			id: "08D0C45FA283D50A"
 			rewards: [
@@ -701,13 +694,13 @@
 					type: "command"
 				}
 			]
-			subtitle: "Villages"
+			subtitle: "Деревни"
 			tasks: [{
 				id: "39EE9E362FC12FBB"
 				item: "blue_skies:bag_of_spoils"
 				type: "item"
 			}]
-			title: "Pickpocketing"
+			title: "Карманные кражи"
 			x: 6.0d
 			y: 0.0d
 		}
@@ -718,9 +711,9 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"These dimensions seem to have plenty of natural resources. It might be worthwhile to harvest some to craft with."
+				"Эти измерения, похоже, богаты природными ресурсами. Возможно, стоит собрать немного для ремесла."
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&eТребуется выполнить 1 зависимость.&r"
 			]
 			id: "1E4735F6982A43ED"
 			rewards: [
@@ -753,7 +746,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "Добывай и уничтожай"
 			tasks: [
 				{
 					count: 16L
@@ -780,13 +773,13 @@
 					type: "item"
 				}
 			]
-			title: "Mark My Words..."
+			title: "Запомните мои слова..."
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["1E4735F6982A43ED"]
-			description: ["According to the &9Blue Book&r, &5Falsite&r can be found in the &eEverbright&r and possesses a &estrengthening property&r. &6Horizonite&r can be found in the &eEverdawn&r and contains a &ehigh amount of heat&r."]
+			description: ["Согласно &9голубому дневнику&r, &5Фальзит&r можно найти в &eЭвербрайте&r — он обладает &eусиливающим свойством&r. &6Горизонит&r встречается в &eЭвердоне&r и содержит &eбольшое количество тепла&r."]
 			id: "1FC3745ADFF992F2"
 			rewards: [
 				{
@@ -813,7 +806,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "Добывай и уничтожай"
 			tasks: [
 				{
 					count: 4L
@@ -828,16 +821,16 @@
 					type: "item"
 				}
 			]
-			title: "There's Trouble Brewin'"
+			title: "Назревают неприятности"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"You've noticed sticks of different properties while exploring in the Everbright. Perhaps it's even possible to use these sticks to craft spears."
+				"Ты заметил палки с разными свойствами во время своих исследований в &eЭвербрайте&r. Возможно, из этих палок даже можно создать копья."
 				""
-				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+				"Хорошей идеей будет заглянуть в &9голубой дневник&r, чтобы узнать больше о различных типах палок. Уверен, &eПривратник&r тоже обратил на это внимание."
 			]
 			id: "74FCB46359C566CA"
 			rewards: [
@@ -859,7 +852,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				id: "49FFE6F489219E0E"
 				item: {
@@ -871,16 +864,16 @@
 				}
 				type: "item"
 			}]
-			title: "Spears and Sticks"
+			title: "Копья и палки"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"You've noticed sticks of different properties while exploring in the Everdawn. Perhaps it's even possible to use these sticks to craft spears."
+				"Во время исследования Эвердона ты заметил палки с разными свойствами. Возможно, их даже можно использовать для создания копий."
 				""
-				"It might be a good idea to refer to the &9Blue Journal&r for the different types of sticks. I'm sure the Gatekeeper noticed this too."
+				"Стоит заглянуть в &9голубой журнал&r, чтобы узнать о различных типах палок. Уверен, привратник тоже это заметил."
 			]
 			id: "07B675A69ECAD9D0"
 			rewards: [
@@ -902,7 +895,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				id: "42B8F5AE130930FB"
 				item: {
@@ -914,18 +907,18 @@
 				}
 				type: "item"
 			}]
-			title: "Sticks and Spears"
+			title: "Палки и копья"
 			x: 4.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
 			description: [
-				"The Everbright seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				"Похоже, &eЭвербрай&r является домом для множества необычных существ. Трудно сказать, являются ли они мутациями или просто местными диковинками."
 				""
-				"Creatures here seem to be covered in ice..."
+				"Кажется, что эти существа покрыты льдом..."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение открывает повторяемое задание в главе «Повторяемые»!&r&r"
 			]
 			icon: "blue_skies:frose"
 			id: "61FABF4C4DB118C8"
@@ -962,7 +955,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [
 				{
 					entity: "blue_skies:armored_frost_spirit"
@@ -985,18 +978,18 @@
 					value: 8L
 				}
 			]
-			title: "Frozen in Time"
+			title: "Застывшие во времени"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
 			description: [
-				"The Everdawn seems to be home to many foreign creatures. You can't really tell if they're mutations or natively weird."
+				"Похоже, Эвердон — обитель множества необычных существ. Трудно сказать, являются ли они мутациями или просто странными местными обитателями."
 				""
-				"Here, they seem to be similar to insects you'd find in the Overworld."
+				"Здесь они напоминают насекомых, которых можно встретить в обычном мире."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -1039,7 +1032,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [
 				{
 					entity: "blue_skies:emberback"
@@ -1056,7 +1049,7 @@
 					value: 8L
 				}
 			]
-			title: "Creepy Crawlies"
+			title: "Жуткие ползучие твари"
 			x: 6.0d
 			y: 4.5d
 		}
@@ -1092,7 +1085,7 @@
 				"54D98C5CCDE624EF"
 				"4FEFBA3770769DA9"
 			]
-			description: ["&eComplete&r all of the &equests&r in Act IV to complete this achievement. Then show it off with your new hat!"]
+			description: ["&eЗаверши&r все &eквесты&r в Акте IV, чтобы получить это достижение. Затем похвастайся им с новой шляпой!"]
 			hide_dependency_lines: true
 			icon: "simplehats:questbook"
 			id: "713453058246129A"
@@ -1110,22 +1103,22 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "0980095FE80FC990"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Complete All Act IV Quests!"
+			title: "Завершите все задания Акта IV!"
 			x: 10.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
 			description: [
-				"In the Everbright and Everdawn dimensions, you will find &enew tameables and new potential mounts&r."
+				"В измерениях Эвербрайт и Эвердоун ты найдёшь &eновых приручаемых существ и потенциальных ездовых животных&r."
 				""
-				"It might be fun to find a &eReindeer&r, &eCamel&r, or even a &eCosmic Fox&r."
+				"Будет интересно найти &eоленя&r, &eверблюда&r или даже &eкосмическую лису&r."
 			]
 			icon: "minecraft:paper"
 			id: "5145DB1D393B6681"
@@ -1143,22 +1136,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "5410793780654A4C"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Mounts"
+			title: "Маунты"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"The &eSnowcap Oven&r can utilize the special hot and cold properites of the &eSnowcap Mushroom as a fuel source&r."
+				"&eСнежношапочная печь&r может использовать особые горячие и холодные свойства &eгриба Снежношапки в качестве топлива&r."
 				""
-				"Cooking with Snowcap Mushrooms will result in a &ecold byproduct&r that may be used elsewhere."
+				"Готовка с использованием Снежношапок даёт &eхолодный побочный продукт&r, который может пригодиться в других целях."
 			]
 			id: "517A65DD1CDCA89F"
 			rewards: [{
@@ -1171,20 +1164,20 @@
 				title: "15500 Experience"
 				type: "command"
 			}]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				advancement: "blue_skies:everbright/craft_snowcap_oven"
 				criterion: ""
 				id: "20A4DC3C89497906"
 				type: "advancement"
 			}]
-			title: "The Wrong Kind"
+			title: "Не тот вид"
 			x: 7.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
-			description: ["The &eHorizonite Forge&r can &esmelt things without any fuel&r due to the natural heat of the block. It does have a &erecharge time&r, but the forge can be recharged quicker using anything made of Horizonite or Sunstone."]
+			description: ["&eКузница горизонита&r может &eплавить предметы без какого-либо топлива&r благодаря естественному теплу блока. У неё есть &eвремя перезарядки&r, но кузницу можно перезарядить быстрее, используя любые предметы из Горизонита или Солнцекамня."]
 			id: "6954FEF58C12CA7F"
 			rewards: [{
 				auto: "enabled"
@@ -1196,25 +1189,25 @@
 				title: "15500 Experience"
 				type: "command"
 			}]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				advancement: "blue_skies:everdawn/craft_horizonite_forge"
 				criterion: ""
 				id: "166DEBA8C0BA4181"
 				type: "advancement"
 			}]
-			title: "Really Hot Flames"
+			title: "Действительно горячее пламя"
 			x: 7.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"The &eCodex&r is an accessory/gear item that you can equip, which starts dropping at level 50. The &eCodex&r provides powerful stats to the player depending on the diversity of gear equipped."
+				"&eКодекс&r — это аксессуар/экипируемый предмет, который начинает выпадать с 50 уровня. &eКодекс&r предоставляет мощные характеристики игроку в зависимости от разнообразия надетой экипировки."
 				""
-				"The bottom lists the requirements, such as: having 2 &cUniques&r, 1 piece of Normal gear (&7Common&r -> &5Mythic&r), and 2 &eRunewords&r equipped."
+				"Внизу указаны требования, например: наличие 2 &cУникальных&r предметов, 1 предмета обычной экипировки (&7Обычный&r -> &5Мифический&r), и 2 экипированных &eРунных слова&r."
 				""
-				"Depending on the number of these you have equipped, the &eCodex&r provides more stats which can be seen in the tooltip."
+				"В зависимости от количества таких предметов, &eКодекс&r даёт больше характеристик, которые можно увидеть во всплывающей подсказке."
 			]
 			icon: "minecraft:paper"
 			id: "65FD2E8334B1DF1C"
@@ -1230,19 +1223,19 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "272F644A9E6BED12"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Book of Records"
+			title: "Книга рекордов"
 			x: 12.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
-			description: ["If you're having trouble defending yourself from Elemental Damage, consider crafting a new Shield, Tome, or Totem!"]
+			description: ["Если у тебя проблемы с защитой от стихийного урона, попробуй создать новый щит, том или тотем!"]
 			id: "450D4FC0C8C994AD"
 			rewards: [
 				{
@@ -1261,7 +1254,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "0C231DE25B40FE7B"
 				item: {
@@ -1274,13 +1267,13 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Defensive Traits"
+			title: "Защитные черты"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
-			description: ["Increase your Core Attributes to gain an edge on your enemies..."]
+			description: ["Повышай свои основные характеристики, чтобы получить преимущество над врагами..."]
 			id: "6EE535C73A769B4D"
 			rewards: [{
 				auto: "enabled"
@@ -1292,7 +1285,7 @@
 				title: "17000 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [
 				{
 					id: "6C08F041B2EF03B6"
@@ -1331,13 +1324,13 @@
 					type: "item"
 				}
 			]
-			title: "Alchemist's Brew"
+			title: "Алхимическое варево"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["44D0530C2718FC69"]
-			description: ["Find more creatures in the Everbright dimension for research!"]
+			description: ["Найди больше существ в измерении &eЭвербрайт&r для исследований!"]
 			id: "598F0B2047B2ED63"
 			rewards: [
 				{
@@ -1357,7 +1350,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [
 				{
 					entity: "blue_skies:diophyde_prowler"
@@ -1387,13 +1380,13 @@
 					value: 4L
 				}
 			]
-			title: "Frozen Predators"
+			title: "Замороженные хищники"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["260297A19CCA9015"]
-			description: ["Find more creatures in the Everdawn dimension for research!"]
+			description: ["Найди больше существ в измерении Эвердон для исследований!"]
 			id: "1AD4461B780DE1AF"
 			rewards: [
 				{
@@ -1412,7 +1405,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [
 				{
 					entity: "blue_skies:nyctofly"
@@ -1429,21 +1422,21 @@
 					value: 8L
 				}
 			]
-			title: "Pestilence"
+			title: "Мор"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["10ABAF144ABC131E"]
 			description: [
-				"The &eSupreme Bonescaller&r is a more powerful version of the &eBonescaller&r. It boasts increased defenses and has two combat phases. You can find them in &eDark Towers&r in the &eBlue Skies dimensions&r and &eThe End&r."
+				"&eВерховный призыватель костей&r — это более мощная версия &eПризывателя костей&r. Он обладает повышенной защитой и имеет две боевые фазы. Ты можешь найти его в &eТёмных башнях&r в измерениях &eBlue Skies&r и в &eКраю&r."
 				""
-				"&cThe Surpeme Bonescaller spawns at minimum level 45 and Mythic Rarity.&r"
+				"&cВерховный призыватель костей появляется минимум 45 уровня и имеет мифическую редкость.&r"
 				""
-				"The Supreme Bonescaller Has:"
-				"&b+25% Armor&r"
-				"&b+40% Elemental Resistance&r"
-				"&b+75% Chaos Resistance&r"
+				"Верховный призыватель костей обладает:"
+				"&b+25% брони&r"
+				"&b+40% сопротивления всем стихиям&r"
+				"&b+75% сопротивления хаосу&r"
 			]
 			icon: {
 				Count: 1
@@ -1483,7 +1476,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				entity: "born_in_chaos_v1:supreme_bonescaller_stage_2"
 				icon: "ftb_ph:bonescaller"
@@ -1491,23 +1484,23 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Unexpected Guests"
+			title: "Неожиданные гости"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
 			description: [
-				"The &eNightmare Stalker&r is an extremely dangerous spirit. The beginning of the Stalker's spawn is accompanied by a characteristic sound and a message in the chat. It also appears completely invisible - all you can see are two glowing eyes. While the Stalker is invisible, he moves much faster. When he receives damage, he loses invisibility."
+				"&eКошмарный сталкер&r — чрезвычайно опасный дух. Его появление сопровождается характерным звуком и сообщением в чате. Существо изначально полностью невидимо — ты видишь лишь две светящиеся глаза. Пока сталкер невидим, он передвигается значительно быстрее. При получении урона невидимость рассеивается."
 				""
-				"The Nightmare Stalker notices the player from a great distance (up to 70 blocks), and immediately starts to stalk its victim. When attacking a victim, the stalker produces a piercing scream and causes blindness in its target, plunging them into complete darkness."
+				"Кошмарный сталкер замечает игрока с большого расстояния (до 70 блоков) и немедленно начинает преследование. При атаке он издаёт пронзительный крик и накладывает на цель слепоту, погружая её в полную темноту."
 				""
-				"&cThe Nightmare Stalker spawns at minimum level 35.&r"
+				"&cКошмарный сталкер появляется минимум 35 уровня.&r"
 				""
-				"The Nightmare Stalker Has:"
-				"&b+25% Bleed Chance&r"
-				"&b+50% Dodge Rating&r"
-				"&b+50% Elemental Resistance&r"
+				"Кошмарный сталкер обладает:"
+				"&b+25% шансом наложить кровотечение&r"
+				"&b+50% уклонением&r"
+				"&b+50% сопротивлением всем стихиям&r"
 			]
 			icon: "born_in_chaos_v1:nightmare_stalker_skull"
 			id: "1A18C9F2B0E6E37B"
@@ -1535,7 +1528,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				entity: "born_in_chaos_v1:nightmare_stalker"
 				icon: "ftb_ph:nightmare_stalker"
@@ -1543,21 +1536,21 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "The Stalker"
+			title: "Сталкер"
 			x: 9.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["63DA191A8533F1AE"]
 			description: [
-				"The &eLifestealer&r is a fearsome undead creature. After receiving enough damage, he reveals his true form by screaming. The &eLifestealer&r also periodically begins to cause a dark splash that pushes the player and all nearby creatures to the side, causing them damage."
+				"&eПохититель жизни&r — грозное неживое существо. Получив достаточно урона, он кричит, раскрывая свою истинную форму. &eПохититель жизни&r также периодически вызывает тёмный всплеск, который отталкивает игрока и всех ближайших существ в сторону, нанося им урон."
 				""
-				"&cThe Lifestealer spawns at minimum level 35.&r"
+				"&cПохититель жизни появляется минимум 35 уровня.&r"
 				""
-				"The Lifestealer Has:"
-				"&b+2% Attack Hit Health Leech&r"
-				"&b+50% Elemental Resistance&r"
-				"&b+50% Chaos Resistance&r"
+				"Похититель жизни обладает:"
+				"&b+2% к вампиризму при атаке&r"
+				"&b+50% к сопротивлению всем стихиям&r"
+				"&b+50% к сопротивлению хаосу&r"
 			]
 			icon: "born_in_chaos_v1:lifestealer_skull"
 			id: "54D98C5CCDE624EF"
@@ -1585,7 +1578,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Ever Exploration"
+			subtitle: "В поисках неизведанного"
 			tasks: [{
 				entity: "born_in_chaos_v1:lifestealer_true_form"
 				icon: "ftb_ph:life_stealer"
@@ -1593,13 +1586,13 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Vitality Drainer"
+			title: "Вытягивание жизненных сил"
 			x: 9.0d
 			y: 4.5d
 		}
 		{
 			dependencies: ["5F455D8A504B112D"]
-			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			description: ["Нужен небольшой прирост опыта? Попробуй съесть &eМорепродукты на опыт&r, созданные через систему Профессий!"]
 			id: "221133BF7C60E9C3"
 			rewards: [
 				{
@@ -1618,7 +1611,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "261373246C850AB3"
 				item: {
@@ -1631,7 +1624,7 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Everbright Aquarium"
+			title: "Аквариум Эвербрайта"
 			x: 9.0d
 			y: -3.0d
 		}
@@ -1642,17 +1635,17 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"Before you're able to warp to &eThe End&r, you'll need to familiarize yourself with portal mechanics. Craft a &eMap Device&r - a block that lets you place \"Maps\" with pre-determined modifiers to spawn an &einstanced dungeon&r."
+				"Прежде чем вы сможете отправиться в &eКрай&r, вам нужно ознакомиться с механикой порталов. Создайте &eМашину картоходца&r — блок, который позволяет размещать «Карты» с заранее заданными модификаторами, создавая &eотдельное подземелье&r."
 				""
-				"Crafting a &eMap Device&r for the first time rewards you with a &eMap Creator&r, but you can also craft these."
+				"Первое создание &eмашины картоходца&r наградит вас &eсоздателем карт&r, однако его также можно изготовить вручную."
 				""
-				"Before you can enter these instanced dungeons, you will also need to have a &ePearl of Home&r in your inventory, to ensure you can return safely."
+				"Прежде чем войти в такое подземелье, убедитесь, что в вашем инвентаре есть &eЖемчужина дома&r, чтобы вы могли безопасно вернуться обратно."
 				""
-				"Right-click the &eMap Device&r with the generated Map in your hand to warp into the instanced dungeon."
+				"Щёлкните ПКМ по &eмашине картоходца&r, держа созданную карту в руке, чтобы перенестись в отдельное подземелье."
 				""
-				"Once you're in, kill mobs and loot chests to increase your &eexploration progress&r! Once you've explored enough, you'll be able to &eteleport to the Boss room&r to complete the Map."
+				"Оказавшись внутри, убивайте монстров и обыскивайте сундуки, чтобы повышать &eпрогресс исследования&r! Когда вы исследуете достаточную часть карты, сможете &eтелепортироваться в комнату босса&r и завершить прохождение."
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребуется выполнить ВСЕ зависимые задания.&r"
 			]
 			icon: "dungeon_realm:map_device"
 			id: "4FEFBA3770769DA9"
@@ -1671,7 +1664,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mapping"
+			subtitle: "Картография"
 			tasks: [
 				{
 					id: "0ABCAE5B4B3DEF92"
@@ -1684,23 +1677,23 @@
 					type: "item"
 				}
 			]
-			title: "Portal Initiation"
+			title: "Активация портала"
 			x: 10.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4FEFBA3770769DA9"]
 			description: [
-				"Maps will have an associated Rarity and Tier. The Rarity and Tier determine the difficulty of mobs, and quality of loot."
+				"Каждая Карта имеет свою редкость и тир. Именно они определяют сложность монстров и качество добычи."
 				""
-				"&7Common&r - Tier 0-10"
-				"&aUncommon&r - Tier 11-20"
-				"&9Rare&r - Tier 21-40"
-				"&dEpic&r - Tier 41-60"
-				"&6Legendary&r - Tier 61-80"
-				"&5Mythic&r - Tier 81-100"
+				"&7Обычная&r — Тир 0–10"
+				"&aНеобычная&r — Тир 11–20"
+				"&9Редкая&r — Тир 21–40"
+				"&dЭпическая&r — Тир 41–60"
+				"&6Легендарная&r — Тир 61–80"
+				"&5Мифическая&r — Тир 81–100"
 				""
-				"Maps can also roll various affixes. &eAffixes&r are random modifiers that are applied either to the players (usually negative) or the mobs (usually positive)."
+				"Карты также могут иметь различные аффиксы. &eАффиксы&r — это случайные модификаторы, которые применяются либо к игрокам (обычно отрицательные), либо к монстрам (обычно положительные)."
 			]
 			icon: "minecraft:paper"
 			id: "56A4E368845DC907"
@@ -1709,17 +1702,17 @@
 				item: "mmorpg:map_creator"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "238EDF0B5228BD00"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Dungeon Delving Basics"
+			title: "Основы исследования подземелий"
 			x: 10.5d
 			y: -1.5d
 		}
 	]
 	subtitle: ["Lv. 35-55"]
-	title: "Act IV"
+	title: "Акт IV"
 }

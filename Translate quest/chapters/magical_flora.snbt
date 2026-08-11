@@ -10,18 +10,23 @@
 	quests: [
 		{
 			description: [
-				"The &eLexica Botania&r is a very useful item and guide that will help you navigate through &2&lBotania&r&r. By keeping the Lexica in your hotbar, you can hover over any item and hold &eCtrl&r to open an article regarding the item in the Lexica Botania."
+				"&eЛексикон ботании&r — это очень полезный предмет и справочник, который поможет вам разобраться в &2&lБотании&r&r. Если держать лексмкон в панели быстрого доступа, вы можете навести курсор на любой предмет и зажать &eCtrl&r, чтобы открыть статью о нём в лексиконе ботании."
 				""
-				"By going through and familiarizing yourself with Botania, you can craft powerful trinkets and items that can assist you in combat and automation!"
+				"Изучая Ботанию, вы сможете создавать мощные талисманы и предметы, которые помогут вам в бою и автоматизации!"
 				""
-				"&c&oNote that some parts of Botania are disabled for balance reasons. The list below is not exhaustive and only covers notable removals:&r&r"
-				"- Loonium"
-				"- Damage, Weight, and Entropic Lenses"
-				"- Gaia Relics (from Dice)"
-				"- Elementium armor and sword"
-				"- Gravity and Missile Rods"
+				"&c&oОбратите внимание, что некоторые элементы Botania отключены по соображениям баланса. Ниже приведён неполный список наиболее значимых удалений:&r&r"
 				""
-				"There are many useful things not mentioned here, reading through the &eLexica Botania&r periodically as you progress is a must!"
+				"Лутюльпан"
+				""
+				"Линзы: повреждения, энтропии, массы"
+				""
+				"Реликвии Гайи (из Кубика)"
+				""
+				"Элементиевая броня и меч"
+				""
+				"Скиптр тёмной мезы и нестабильной энергии"
+				""
+				"Полезных вещей в моде гораздо больше, чем указано здесь — читайте &eЛексикон ботании&r по мере прохождения, это обязательно!"
 			]
 			id: "375C5F3D6F6CE434"
 			rewards: [
@@ -42,22 +47,22 @@
 					type: "command"
 				}
 			]
-			subtitle: "A Realistical Logical Ideologist"
+			subtitle: "Реалистичный логический идеолог"
 			tasks: [{
 				id: "333E6715999C5638"
 				item: "botania:lexicon"
 				type: "item"
 			}]
-			title: "The Botania Scriptures"
+			title: "Лексикон ботании"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["375C5F3D6F6CE434"]
 			description: [
-				"&eMystical Flowers&r are the very start of progression through Botania. The &eFlower Pouch&r can help you keep them organized in one place!"
+				"&eМистические цветы&r — это отправная точка прогрессии в Ботании. &eЦветочный мешок&r поможет вам держать их организованными в одном месте!"
 				""
-				"&eFloral Fertilizer&r can be used like bonemeal in order to more easily obtain &eMystical Flowers&r!"
+				"&eЦветочное удобрение&r можно использовать как костную муку, чтобы легче получать &eМистические цветы&r!"
 			]
 			id: "386F0541CCE9CA16"
 			rewards: [
@@ -98,13 +103,13 @@
 					type: "item"
 				}
 			]
-			title: "Magic-Infused Plants"
+			title: "Растения, наделенные магией"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["You can cultivate your &eMystical Flowers&r into more flowers by placing &ePetals&r in the world and using Bone meal on them."]
+			description: ["Вы можете размножать свои &eмистические цветы&r, размещая &eлепестки&r в мире и используя на них костную муку."]
 			id: "7F9BDB18FBE5EDCF"
 			rewards: [
 				{
@@ -137,13 +142,13 @@
 				title: "Any #botania:double_mystical_flowers"
 				type: "item"
 			}]
-			title: "More Magic-Infused Plants"
+			title: "Больше растений, наделенных магией"
 			x: 0.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["The &ePetal Apothecary&r is the primary 'station' of Botania. It acts as the crafting station for all &eFunctional and Generating Flowers&r."]
+			description: ["&eЛепестковый алтарь&r — это основная «станция» Ботании. Он служит верстаком для создания всех &eфункциональных и генерирующих цветов&r."]
 			id: "7F4A3981CAAEF73B"
 			rewards: [{
 				auto: "enabled"
@@ -172,7 +177,7 @@
 		}
 		{
 			dependencies: ["7F4A3981CAAEF73B"]
-			description: ["&ePure Daisy&r is your bread and butter of the flowers - it turns &eStone and Logs into Livingrock and Livingwood&r accordingly."]
+			description: ["&eЧистая маргаритка&r — основа всех цветов: она превращает &eкамень и брёвна в жизнекамень и жизнедерево&r соответственно."]
 			icon: "botania:pure_daisy"
 			id: "5886370AB6110B26"
 			rewards: [{
@@ -185,7 +190,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "An Ecstatic Vivace"
+			subtitle: "Экстатическая Вивасе"
 			tasks: [
 				{
 					id: "15080337FAF41819"
@@ -214,9 +219,9 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"The &eMana Pool&r is your \"battery\" that contains all the mana you accumulate. As the primary storage, it is vital that you get your Mana Pool up and running!"
+				"&eБассейн маны&r — это ваша «батарея», в которой накапливается вся ваша мана. Будучи основным хранилищем, он жизненно важен — обязательно постройте и запустите свой бассейн маны!"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребует выполнения ВСЕХ зависимостей.&r"
 			]
 			id: "626B63941D36E8C2"
 			rewards: [{
@@ -229,13 +234,13 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Vivid Wave"
+			subtitle: "Яркая волна"
 			tasks: [{
 				id: "735046BC3125BB03"
 				item: "botania:mana_pool"
 				type: "item"
 			}]
-			title: "Gimme Your Mana!"
+			title: "Дай мне свою ману!"
 			x: -2.5d
 			y: -5.5d
 		}
@@ -245,13 +250,13 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"The &eMana Spreader&r is primarily used to direct mana pulses to and from &eMana Pools&r. It is also required to generate mana, as the source generating flower must send its mana to a linked spreader before it is sent to a pool."
+				"&eРаспространитель маны&r в первую очередь используется для направления импульсов маны к &eбассейнам маны&r и от них. Он также необходим для генерации маны, так как цветок-источник должен сначала отправить ману в связанный распространитель, прежде чем она попадёт в бассейн."
 				""
-				"Important to note that distance drastically impacts mana transfer rates, a spreader cannot fire another burst until the previous one has landed!"
+				"Важно помнить, что расстояние сильно влияет на скорость передачи маны — распространитель не может выпустить новый импульс, пока предыдущий не достиг цели!"
 				""
-				"&oTransfers 160 mana per burst.&r"
+				"&oПередаёт 160 маны за импульс.&r"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребует выполнения ВСЕХ зависимостей.&r"
 			]
 			id: "144467B32903983B"
 			rewards: [{
@@ -269,13 +274,13 @@
 				item: "botania:mana_spreader"
 				type: "item"
 			}]
-			title: "Mana Delegation"
+			title: "Делегация маны"
 			x: 0.5d
 			y: -5.5d
 		}
 		{
 			dependencies: ["5886370AB6110B26"]
-			description: ["The &eWand of the Forest&r is your linking tool and 'wrench' that will help you &ebind&r flowers to &eMana Pool/Mana Spreaders&r. Think of the wand as a tool that lets you link certain Botania objects together, such as the direction of mana flow from the Mana Spreader."]
+			description: ["&eПосох леса&r — это ваш инструмент для связывания и «ключ», который поможет вам &eпривязывать&r цветы к &eБассейну маны или Распространителю маны&r. Представьте себе жезл как инструмент, позволяющий соединять определённые объекты Ботании между собой, например, указывать направление потока маны от Распространителя маны."]
 			id: "425932D1D16BF387"
 			rewards: [
 				{
@@ -306,13 +311,13 @@
 				}
 				type: "item"
 			}]
-			title: "The Wrench of the Forest"
+			title: "Ключ леса"
 			x: -1.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["By throwing various items in a filled &eMana Pool&r, you can turn them into mana variants that are used in most crafts."]
+			description: ["Бросая различные предметы в заполненный &eбассейн маны&r, вы можете превратить их в манасталивые аналоги, которые используются в большинстве рецептов."]
 			id: "7765E99AC13D3032"
 			rewards: [
 				{
@@ -358,16 +363,16 @@
 					type: "item"
 				}
 			]
-			title: "Infused Ingots"
+			title: "Инфузионные слитки"
 			x: -4.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["144467B32903983B"]
 			description: [
-				"To actually generate mana you will need &eGenerating Flowers&r such as the &eEndoflame or Hydroangeas&r."
+				"Чтобы действительно начать производить ману, вам понадобятся &eгенерирующие цветы&r, такие как &eЭндопламя или Водогортензия&r."
 				""
-				"The Endoflame will consume furnace fuels such as coal or charcoal to generate mana, whereas Hydroangeas will drink surrounding water sources in a 3x3 area to passively provide you small amounts of mana. However, Hydroangeas will eventually decay."
+				"Эндопламя поглощает топливо для печей, такое как уголь или древесный уголь, чтобы генерировать ману, в то время как Водогортензия поглощает окружающие источники воды в области 3x3 и пассивно вырабатывает небольшое количество маны. Однако Водогортензия со временем увядает."
 			]
 			id: "757C990D0DCFE95B"
 			rewards: [
@@ -394,7 +399,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Flower Magic"
+			subtitle: "Цветочная магия"
 			tasks: [
 				{
 					id: "0D4CA0EF2C1317EE"
@@ -407,13 +412,13 @@
 					type: "item"
 				}
 			]
-			title: "First Generating Flora"
+			title: "Первогенерирующая флора"
 			x: 1.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["By dipping strings in a &eMana Pool&r you can create &eMana Strings&r. You can use these strings for various cosmetic items and trinkets."]
+			description: ["Погружая нитки в &eбассейн маны&r, вы можете создать &eМананить&r. Эти нитки можно использовать для создания различных косметических предметов и талисманов."]
 			id: "35AF07FCCB27D2E0"
 			rewards: [
 				{
@@ -438,13 +443,13 @@
 				item: "botania:mana_string"
 				type: "item"
 			}]
-			title: "It's Time To Get Fancy"
+			title: "Пришло время проявить фантазию"
 			x: -4.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["35AF07FCCB27D2E0"]
-			description: ["If you combine &eMana Strings&r into &eManaweave Cloth&r you can create a good basic Botania armor that will signifigantly reduce the mana consumption of all rods, armor and tools."]
+			description: ["Если вы объедините &eмананит&r в &eманаткань&r, вы сможете создать хороший базовый доспех ботании, который значительно снизит расход маны у всех жезлов, брони и инструментов."]
 			id: "4E4F05F210F326B4"
 			rewards: [
 				{
@@ -468,7 +473,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Imagination Forest"
+			subtitle: "Лес воображения"
 			tasks: [
 				{
 					id: "2C9CEA1A0FD8BEAB"
@@ -515,13 +520,13 @@
 					type: "item"
 				}
 			]
-			title: "Posh Outerwear"
+			title: "Шикарная верхняя одежда"
 			x: -5.5d
 			y: -5.0d
 		}
 		{
 			dependencies: ["7765E99AC13D3032"]
-			description: ["By using a &3&lMana Tablet&r&r you can carry and transfer around mana. Use the Wand of the Forest to toggle a mana pool into charge or drain modes, simply drop the tablet onto the pool to transfer mana."]
+			description: ["Используя &3&lПланшет маны&r&r, вы можете переносить и передавать ману. Посохом леса переключайте бассейн маны между режимами зарядки и разрядки, просто бросьте планшет в бассейн для передачи маны."]
 			icon: "botania:mana_tablet"
 			id: "21E565614968622B"
 			rewards: [
@@ -547,7 +552,7 @@
 				item: "botania:mana_tablet"
 				type: "item"
 			}]
-			title: "Portable Mana"
+			title: "Портативная мана"
 			x: -6.0d
 			y: -7.0d
 		}
@@ -558,9 +563,9 @@
 				"425932D1D16BF387"
 			]
 			description: [
-				"By directing mana into the &n&3&lRunic Altar&r&r&r and adding some crafting materials, you can intiate the crafting of &eBotania Runes&r (&cnot to be mistaken with Mine and Slash Runes!&r). To finish the crafting process you have to drop a &eLivingrock&r on top and then click it with the &eWand of the Forest&r. Runes are used in various crafts."
+				"Направляя ману в &n&3&lРунический алтарь&r&r&r и добавляя некоторые материалы, вы можете начать создание &eРун Ботании&r (&cне путать с рунами из Mine and Slash!&r). Чтобы завершить процесс создания, нужно бросить &eжизнекамень&r сверху и затем щёлкнуть по алтарю &eпосохом леса&r. Руны используются во многих рецептах."
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребует выполнения ВСЕХ зависимостей.&r"
 			]
 			icon: "botania:runic_altar"
 			id: "2CCB1CB299A81969"
@@ -587,7 +592,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Drop Pop Candy"
+			subtitle: "Конфеты Drop Pop"
 			tasks: [
 				{
 					id: "524F696A444E116F"
@@ -613,7 +618,7 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["&eElemental Runes&r are core Runes that can be used for creating more complex Runes and various items."]
+			description: ["&eСтихийные руны&r — базовые руны, которые используются для создания более сложных рун и различных предметов."]
 			id: "5AF488FC9A36BFA1"
 			rewards: [
 				{
@@ -638,7 +643,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Elemental Power"
+			subtitle: "Сила стихий"
 			tasks: [
 				{
 					id: "4598AB9722168777"
@@ -666,13 +671,13 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Runes"
+			title: "Стихийные руны"
 			x: -2.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5AF488FC9A36BFA1"]
-			description: ["The &eAgglomeration Plate&r is used as crafting station for the creation of &eTerrasteel&r."]
+			description: ["&eПлита агломерации&r используется как верстак для создания &eтеррастили&r."]
 			id: "4C947F0DD56C009C"
 			rewards: [
 				{
@@ -732,11 +737,11 @@
 		{
 			dependencies: ["4C947F0DD56C009C"]
 			description: [
-				"By pouring large amounts of mana on core mana resources you can combine them into ingots more capable than the simple &eManasteel Ingot&r. Requires half of a pool of mana to successfully craft, make sure the craft is not interupted or the mana will be lost!"
+				"Наполняя большое количество маны на основные ресурсы маны, вы можете объединить их в слитки, более мощные, чем простой &eслиток манастали&r. Для успешного крафта требуется половина бассейна маны — убедитесь, что процесс не прерывается, иначе мана будет потеряна!"
 				""
-				"It is highly advised to place a Spark on both the Plane and source Mana Pool in order to vastly speed up this process, spreaders are far too slow for this complex of a process."
+				"Настоятельно рекомендуется поставить Искру как на плите агломерации, так и на источнике маны, чтобы значительно ускорить процесс — распространители слишком медленные для такой сложной операции."
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребует выполнения ВСЕХ зависимостей.&r"
 			]
 			id: "29FF9EF35E5B5FC7"
 			rewards: [{
@@ -749,20 +754,20 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Dancer in the Dark"
+			subtitle: "Танцор в темноте"
 			tasks: [{
 				count: 4L
 				id: "73F5589E0579E511"
 				item: "botania:terrasteel_ingot"
 				type: "item"
 			}]
-			title: "An Introduction to Terrasteel"
+			title: "Введение в террасталь"
 			x: -4.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["During your adventures you can occasionally find &eBlack Lotus&r in chests. If you drop the lotus into a non-empty &eMana Pool&r, you can gain some free mana!"]
+			description: ["Во время приключений вы иногда можете найти &eЧёрный Лотос&r в сундуках. Если бросить лотос в непустой &eбассейн маны&r, вы получите немного бесплатной маны!"]
 			id: "7CFDB0573735E69E"
 			rewards: [{
 				auto: "enabled"
@@ -780,13 +785,13 @@
 				item: "botania:black_lotus"
 				type: "item"
 			}]
-			title: "Free Mana?!"
+			title: "Бесплатная мана?!"
 			x: -2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["7CFDB0573735E69E"]
-			description: ["Sometimes your luck exceeds your expectations and you get a better version of the &eBlack Lotus&r..."]
+			description: ["Иногда вам невероятно везёт, и вы получаете улучшенную версию &eЧёрного Лотоса&r..."]
 			id: "19C436D10269B068"
 			rewards: [
 				{
@@ -811,13 +816,13 @@
 				item: "botania:blacker_lotus"
 				type: "item"
 			}]
-			title: "Power Nine Squared"
+			title: "Сила Девяти в квадрате"
 			x: -3.5d
 			y: -8.0d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["Chop a whole tree in one hit! Does have an upper limit to prevent server lag."]
+			description: ["Срубите целое дерево одним ударом! Имеется верхний предел, чтобы предотвратить лаги сервера."]
 			id: "644D7EB2D3F68FB1"
 			rewards: [{
 				auto: "enabled"
@@ -829,7 +834,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Lumberjack's Dream"
+			subtitle: "Мечта дровосека"
 			tasks: [{
 				id: "10862186EDEB87AF"
 				item: {
@@ -841,15 +846,15 @@
 				}
 				type: "item"
 			}]
-			title: "Tree-Feller"
+			title: "Лесоруб"
 			x: -2.5d
 			y: -10.5d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
 			description: [
-				"THE upgradable pickaxe, that consumes only... a speck of your mana to upgrade, right?"
-				"To upgrade it just soak it in manapool with mana. Consumes a large amount of mana to upgrade through various stages and sizes, starting with D (no bonus) all the way up to the staggeringly expensive &c&lSS&r&r, a 9x9! Consumes over 1,000 full pools to fully upgrade."
+				"Этот улучшемый кирка, которая потребляет всего... каплю вашей маны для апгрейда, верно?"
+				"Чтобы улучшить её, просто погрузите в бассейн маны. Апгрейд потребляет большое количество маны, проходя через разные стадии и размеры — начиная с D (без бонуса) и до невероятно дорогого &c&lSS&r&r — 9x9! Для полного апгрейда потребуется более 1000 полных бассейнов маны."
 			]
 			id: "3529E83325555E7A"
 			rewards: [
@@ -869,7 +874,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Harvest the Earth"
+			subtitle: "Соберите урожай Земли"
 			tasks: [{
 				id: "54D79ECAD22B6004"
 				item: {
@@ -881,14 +886,14 @@
 				}
 				type: "item"
 			}]
-			title: "The Terrashatterer"
+			title: "Разрушитель терры"
 			x: -2.5d
 			y: -12.0d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
 			description: [
-				"By combining various blocks as it is shown in your Lexica and adding large amounts of mana you can create a portal connection with &eElven Traders&r. Maybe once you establish a connection they would be interested in your &eLexica Botania&r..."
+				"Объединяя различные блоки, как показано в вашем Лексеконе, и добавляя большое количество маны, вы можете создать портал для связи с &eЭльфийскими торговцами&r. Возможно, когда вы установите связь, им станет интересен ваш &eЛексикон ботании&r..."
 				"{image:botania:block/alfheim_portal_swirl width:100 height:100 align:center}"
 			]
 			id: "5E33BF5591E1C097"
@@ -902,7 +907,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "World Calling"
+			subtitle: "Мировой призыв"
 			tasks: [
 				{
 					id: "20FECEC54F5EDD1C"
@@ -947,21 +952,21 @@
 					type: "item"
 				}
 			]
-			title: "Elven Traders"
+			title: "Эльфийские торговцы"
 			x: -4.0d
 			y: -13.0d
 		}
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"You can summon the &eGuardian of Gaia&r by building a special arena as shown in the &eLexica Botania&r, and throwing &eTerrasteel Ingots&r into the centre."
+				"Вы можете призвать &eСтража Гайи&r, построив специальную арену, как показано в &eЛексиконе ботании&r, и бросив &eслиток террастали&r в центр."
 				""
-				"&cThe Guardian of Gaia always spawns at minimum level 45.&r"
+				"&cСтраж Гайи всегда появляется минимум на 45 уровне.&r"
 				""
-				"The Guardian of Gaia Has:"
-				"&b+30% Dodge Rating&r"
-				"&b+30% Spell Dodge Rating&r"
-				"&b+100% Elemental Resistance&r"
+				"Страж Гайи имеет:"
+				"&b+30% уклонения&r"
+				"&b+30% уклонения от заклинаний&r"
+				"&b+100% сопротивления всем стихиям&r"
 			]
 			icon: "botania:life_essence"
 			id: "0F4713A9935F369F"
@@ -984,7 +989,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Dead and Seek"
+			subtitle: "Мертвый и ищущий"
 			tasks: [
 				{
 					count: 4L
@@ -1016,7 +1021,7 @@
 					value: 1L
 				}
 			]
-			title: "The Guardian of Gaia"
+			title: "Страж Гайи"
 			x: -1.0d
 			y: -14.0d
 		}
@@ -1054,10 +1059,10 @@
 		{
 			dependencies: ["7E4CDBDAE7BAD2C3"]
 			description: [
-				"If you ignite a TNT block near the &c&lEntropinnyum&r&r it will consume the explosion and convert it into a large amount of mana."
-				"Important note: if it has any mana in its buffer it will ignore any other explosions letting them explode as normal! Timing is vital to prevent catastrophic damage! Emptying this flower as fast as possible is vital, maybe there is a way to upgrade that old mana spreader... The flower seems to be able to detect whether or not the TNT was ethically sourced, incurring an extreme generation penalty if said TNT was sourced via a duplication machine."
+				"Если поджечь блок TNT рядом с &c&lЭнтропинниумом&r&r, он поглотит взрыв и преобразует его в большое количество маны."
+				"Важно: если у цветка уже есть мана в буфере, он проигнорирует взрыв, и тот произойдёт как обычно! Тайминг имеет решающее значение, чтобы избежать катастрофических разрушений! Очень важно как можно быстрее опустошать этот цветок — возможно, стоит улучшить старый распространитель маны... Похоже, цветок умеет определять, был ли TNT получен «этичным» способом — если он был создан с помощью дюп-машины, вы получите сильнейшее снижение генерации."
 				""
-				"The &c&lThermalilly&r&r is a nether alternative of Hydroangeas that produces mana by consuming lava sources. It has a cooldown for processing lava and if you place another source of lava during this cooldown it will consume it and reset the cooldown without producing any mana. This flower is tricky to automate due to its variable cooldown but can be a powerful mana source!"
+				"&c&lТеплолилия&r&r — это незер альтернатива Водогортензии, которая вырабатывает ману, поглощая источники лавы. У неё есть время перезарядки после обработки лавы — если вы разместите новый источник лавы в это время, цветок поглотит его, но не произведёт ману, а просто сбросит таймер. Этот цветок сложно автоматизировать из-за переменного времени восстановления, но он может стать мощным источником маны!"
 			]
 			id: "622EF4EBE96C0429"
 			rewards: [
@@ -1095,17 +1100,16 @@
 					type: "item"
 				}
 			]
-			title: "Mature Explosion"
+			title: "Мощный взрыв"
 			x: 4.5d
 			y: -4.0d
 		}
 		{
 			dependencies: ["757C990D0DCFE95B"]
 			description: [
-				"The &2&lGourmaryllis&r&r is a hungry flower that will consume any food its given and turn it"
-				" into mana after digesting it, any food thrown in the time of"
-				" digestion will not yield any mana but still will be consumed. Digestion time and amount of mana directly depends on nutritional value of the given food. This flower prefers a variety and will incur a generation penalty if it eats the same food item too many times in a row."
-				"The &2&lKekimurus&r&r has quite the sweet tooth, it will gradually eat any cakes placed nearby and turn them into mana."
+				"&2&lГурмарилис&r&r — это голодный цветок, который поглощает любую еду, которую ему дают, и после переваривания превращает её в ману. Любая еда, брошенная во время переваривания, не принесёт маны, но всё равно будет съедена. Время переваривания и количество маны напрямую зависят от питательности еды. Этот цветок предпочитает разнообразие — если он слишком часто ест один и тот же продукт, вы получите штраф к генерации."
+				""
+				"&2&lКикиморус&r&r — настоящий сладкоежка: он постепенно поедает любые торты, размещённые рядом, и превращает их в ману."
 			]
 			id: "7E4CDBDAE7BAD2C3"
 			rewards: [
@@ -1142,13 +1146,13 @@
 					type: "item"
 				}
 			]
-			title: "Tasty treat"
+			title: "Вкусное угощение"
 			x: 3.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["4E4F05F210F326B4"]
-			description: ["Armor and tools made from Manasteel have their own built-in mending system that will slowly repair them by using mana from your portable mana source."]
+			description: ["Броня и инструменты из Манастали имеют встроенную систему починки, которая постепенно восстанавливает их, используя ману из вашего переносного источника маны."]
 			id: "63FAC5EE546117E9"
 			rewards: [
 				{
@@ -1168,7 +1172,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Magical Protection"
+			subtitle: "Магическая защита"
 			tasks: [
 				{
 					id: "41E4BB72C3044925"
@@ -1215,13 +1219,13 @@
 					type: "item"
 				}
 			]
-			title: "Mana\"steal\""
+			title: "Кража маны"
 			x: -7.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["21E565614968622B"]
-			description: ["Instead of carrying mana tablets around you can craft them into rings to wear it in your curio slot! Such trinkets can even have MNS Souls applied!"]
+			description: ["Вместо того чтобы носить планшет маны с собой, вы можете скрафтить их в кольца и носить в слоте! На такую бижутерию можно применить Души MNS!"]
 			id: "29792179C0F9C558"
 			rewards: [{
 				auto: "enabled"
@@ -1233,7 +1237,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "Внутренние искусства"
 			tasks: [{
 				id: "3AC049EC332B237A"
 				item: "botania:mana_ring"
@@ -1244,7 +1248,7 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eBotanical Brewery&r allows you to brew multi-use potions with various vanilla and even botania-unique potion effects."]
+			description: ["&eБотаническая варочная стойка&r позволяет варить зелья многократного использования с различными эффектами из ванильного Minecraft, а также уникальными эффектами из ботании."]
 			id: "5501085B22C643F9"
 			rewards: [
 				{
@@ -1263,7 +1267,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "My Strongest Potions"
+			subtitle: "Мои самые сильные зелья"
 			tasks: [
 				{
 					id: "6161F6D45BD55F73"
@@ -1277,16 +1281,16 @@
 					type: "item"
 				}
 			]
-			title: "Brew me some more!"
+			title: "Завари мне еще!"
 			x: 0.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5501085B22C643F9"]
 			description: [
-				"Do you ever wish for some rest from mobs around you? &l&3Brew of Vanity's Emptiness&r&r will stop any natural mob spawning in a &n128 block radius&r around you, making you a portable Megatorch for duration of this brew."
+				"Хотите немного отдохнуть от мобов вокруг? &l&3Пузырёк Мирского покоя&r&r остановит естественное появление мобов в радиусе &n128 блоков&r вокруг вас, превращая вас в переносной Мегафакел на время действия зелья."
 				""
-				"And if you crave blood and struggle with mob spawn rates - &c&lBrew of Crinson Shade&r&r will help you with that in a &n64 block radius&r for its duration, turning you into a pocket Blood Moon."
+				"А если вы жаждете крови и недовольны скоростью спавна — &c&lПузырёк Багровой тени&r&r поможет вам в этом в радиусе &n64 блоков&r, превращая вас в карманную Кровавую луну на время действия."
 			]
 			id: "6C492D34CE6F404C"
 			rewards: [{
@@ -1299,7 +1303,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Peace or Chaos"
+			subtitle: "Мир или Хаос"
 			tasks: [
 				{
 					id: "0EFEF6DB4CB9FAA6"
@@ -1324,18 +1328,19 @@
 					type: "item"
 				}
 			]
-			title: "Complex Brewing"
+			title: "Комплексное зельеварение"
 			x: 2.0d
 			y: -10.0d
 		}
 		{
 			dependencies: ["144467B32903983B"]
 			description: [
-				"Aside from Generational flora there are also many &nFunctional Flora&r. If you supply those flowers with mana they will use it to perform various actions."
-				"Most common ones are:"
-				"&2&lHopperhock&r&r - it will pick up all the items in its radius and deposit into an adjacent inventory, by supplying it with a small amount of mana it's radius is greatly increased, you can even filter items using item frames placed on inventories."
-				"&2&lAgricarnation&r&r is a fertilizer flower that will greatly speed up your crops growth if provided with mana."
-				"&2&lExoflame&r&r is a reverse version of the Endoflame flower from Generational flora - if provided with mana, it will power and give a speed boost to nearby furnaces without the need for fuel."
+				"Помимо генерирующих цветов, существуют также многие &nфункциональные цветы&r. Если снабжать эти цветы маной, они будут использовать её для выполнения различных действий."
+				""
+				"Самые распространённые из них:"
+				"&2&lВороток&r&r — собирает все предметы в своём радиусе и кладёт их в соседний инвентарь. При подаче небольшой порции маны радиус значительно увеличивается, а также можно фильтровать предметы с помощью рамок для предметов, размещённых на инвентарях."
+				"&2&lАгрогвоздика&r&r — удобряющий цветок, который значительно ускоряет рост ваших посевов при обеспечении маной."
+				"&2&lЭкзопламя&r&r — обратная версия цветка Эндопламя из генерирующих цветов — при подаче маны он питает и даёт ускорение рядом стоящим печам без необходимости топлива."
 			]
 			id: "2A9C8DC76F5402B5"
 			rewards: [{
@@ -1365,16 +1370,16 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Functional Flora"
+			title: "Введение в функциональную флору"
 			x: 1.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["6C84C6DC5D77E05D"]
 			description: [
-				"A great example of Generational Flora are the &2&lOrechid&r&r and &2&lOrechid Ignem&r&r."
-				"Both of these flowers are used for transforming Stone/Netherrack into a respectable amount of dimension specific ores if provided with a large amount of mana."
-				"&eImportant note: Orechid Ignem needs to be in the Nether to function.&r"
+				"Отличным примером Генерирующих цветов являются &2&lРудноцвет&r&r и &2&lОгненый рудноцвет&r&r."
+				"Оба этих цветка используются для превращения камня/незерита в значительное количество измеренческих руд при потреблении большого количества маны."
+				"&eВажно: Огненый рудноцвет должен находиться в Незере, чтобы работать.&r"
 			]
 			id: "14960E1ACAB65A8A"
 			rewards: [{
@@ -1399,15 +1404,15 @@
 					type: "item"
 				}
 			]
-			title: "Ore Generation"
+			title: "Генерация руды"
 			x: 4.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
 			description: [
-				"The &2&lSpectranthemum&r&r is a flower that will teleport items to a linked location for the cost of mana. You can link a specific location using Wand of the Forest in binding mode. "
-				"The &2&lClayconia&r&r quickly converts nearby sand blocks into clay balls."
+				"&2&lСпектрантимум&r&r — цветок, который телепортирует предметы в связанное место за счёт маны. Вы можете связать конкретное место с помощью посоха леса в режиме связывания."
+				"&2&lГлинарцис&r&r быстро превращает рядом расположенные песчаные блоки в глиняные шарики."
 			]
 			id: "6C84C6DC5D77E05D"
 			rewards: [{
@@ -1432,13 +1437,13 @@
 					type: "item"
 				}
 			]
-			title: "Natural Utilities"
+			title: "Природные ресурсы"
 			x: 3.0d
 			y: -7.0d
 		}
 		{
 			dependencies: ["2A9C8DC76F5402B5"]
-			description: ["There are a wide variety of &eGenerational Flora&r not listed in this book, it would be wise to view the related chapter in the &eLexica Botania&r and discover what other interesting and powerful options await you."]
+			description: ["Существует множество видов &eгенерирующих цветов&r, не перечисленных в этой книге. Рекомендуется ознакомиться с соответствующей главой в &eЛексиконе ботании&r и узнать, какие ещё интересные и мощные возможности вас ждут."]
 			icon: "botania:narslimmus"
 			id: "0E605A9E8F7445AE"
 			rewards: [{
@@ -1451,10 +1456,10 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Complex Curiosities"
+			subtitle: "Сложные диковинки"
 			tasks: [{
 				id: "716172C55EF47C42"
-				title: "Advanced Generational Flora"
+				title: "Продвинутая генерационная флора"
 				type: "checkmark"
 			}]
 			x: 3.0d
@@ -1462,7 +1467,7 @@
 		}
 		{
 			dependencies: ["6C492D34CE6F404C"]
-			description: ["If you use an &eIncense Stick&r instead of a Vial in a brewing process you can imbue it with the same effect as one would with a potion. By sacrificing the mobility of a potion effect and puting an &eIncense Stick&r into an &eIncense Plate&r and lighting it with a Flint and Steel - the potion effect will last 64 times longer!"]
+			description: ["Если вместо пузырька использовать &eАроматическую палочку&r в процессе варки, вы можете наложить на неё тот же эффект, что и на зелье. Пожертвовав мобильностью зелья и поместив &eАроматическую палочку&r на &eАроматическую алиту&r, подожгите её Огнивом — и эффект зелья будет длиться в 64 раза дольше!"]
 			id: "53845C1C87A44C3C"
 			rewards: [{
 				auto: "enabled"
@@ -1474,7 +1479,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Custom Temporary Beacon"
+			subtitle: "Пользовательский временный маяк"
 			tasks: [
 				{
 					id: "26C5AE6669DF73EE"
@@ -1487,13 +1492,13 @@
 					type: "item"
 				}
 			]
-			title: "Smoking Effects"
+			title: "Эффекты курения"
 			x: 2.0d
 			y: -11.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
-			description: ["When equipped and provided a small amount of mana the &l&2Sojourner's Sash&r&r will give an increase to jump height and movement speed while also letting you step up 1 block heights!"]
+			description: ["Если надеть и обеспечить небольшим количеством маны, &l&2Пояс странника&r&r увеличит высоту прыжка и скорость передвижения, а также позволит вам подниматься на блоки высотой в 1 блок!"]
 			id: "2AC92077C2E11DEE"
 			rewards: [{
 				auto: "enabled"
@@ -1505,19 +1510,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "Внутренние искусства"
 			tasks: [{
 				id: "6B70CD8CB9D75CE1"
 				item: "botania:travel_belt"
 				type: "item"
 			}]
-			title: "Gotta go fast!"
+			title: "Нужно идти быстрее!"
 			x: -8.5d
 			y: -8.5d
 		}
 		{
 			dependencies: ["0F4713A9935F369F"]
-			description: ["Improved version of Sojourner's sash that makes you even faster."]
+			description: ["Улучшенная версия пояса Странника, которая делает вас ещё быстрее."]
 			id: "3328931FE8E2792E"
 			rewards: [{
 				auto: "enabled"
@@ -1529,26 +1534,26 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Gotta go &lreally&r fast!"
+			subtitle: "Нужно двигаться &lпо-настоящему&r быстро!"
 			tasks: [{
 				id: "58023219C8F85AF1"
 				item: "botania:super_travel_belt"
 				type: "item"
 			}]
-			title: "Zoom Zoom"
+			title: "Врум-врум"
 			x: -2.5d
 			y: -16.0d
 		}
 		{
 			dependencies: ["21E565614968622B"]
 			description: [
-				"You can craft and wear various&e &nTrinkets and Accessories&r&r that can provide you with various useful effects."
+				"Вы можете создавать и носить различные &e &nТалисманы и Аксессуары&r&r, которые дают полезные эффекты."
 				""
-				"Your first ever trinket should be &2&lManaseer Monocle&r&r that will let you see manabursts even through walls, but the most useful ability it provides is that it visualises range of effect of Generating and Functional flora."
+				"Ваш первый талисман должен быть &2&lМонокль&r&r — он позволяет видеть маначастицы даже сквозь стены, а самая полезная его функция — визуализация радиуса действия генерирующих и функциональных цветов."
 				""
-				"Another very useful trinket is &l&2The Spectator&r&r. Simply hold a desired item in your hand and any nearby containers with that item will glow."
+				"Ещё один очень полезный талисман — &l&2Инспектор&r&r. Просто держите нужный предмет в руке, и все рядом расположенные контейнеры с этим предметом будут светиться."
 				""
-				"&2&lThird Eye&r&r will make mobs around you have a glowing outline that you can see even through walls."
+				"&2&lТретий глаз&r&r выделит мобов вокруг вас светящимся контуром, который виден даже сквозь стены."
 			]
 			id: "5B980171D8F54AAC"
 			rewards: [{
@@ -1561,7 +1566,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "Внутренние искусства"
 			tasks: [
 				{
 					id: "12BEDDA4F2B264F3"
@@ -1579,16 +1584,16 @@
 					type: "item"
 				}
 			]
-			title: "Introduction to Trinkets"
+			title: "Введение в безделушки"
 			x: -7.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["5B980171D8F54AAC"]
 			description: [
-				"&2&lCirrus Amulet&r&r provides you with the ability to &e&ndouble jump&r&r. The second jump completely negates vertical momentum and subsequently all fall damage."
+				"&2&lАмулет перистого оьлака&r&r даёт вам способность &e&nдвойного прыжка&r&r. Второй прыжок полностью отменяет вертикальную скорость и, соответственно, весь урон от падения."
 				""
-				"&2&lBenevolent Godess's Charm&r &rwill stop all explosions around you from breaking blocks like they never happend."
+				"&2&lТалисман милостивой Богини&r&r предотвратит разрушение блоков взрывами вокруг вас, как будто их и не было."
 			]
 			id: "15A416B2B899440A"
 			rewards: [{
@@ -1601,7 +1606,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "Внутренние искусства"
 			tasks: [
 				{
 					id: "1D11C480C4911605"
@@ -1620,9 +1625,9 @@
 		{
 			dependencies: ["15A416B2B899440A"]
 			description: [
-				"&2&lRing of the Mantle&r&r will provide wearer with the Haste Effect for more efficient mining."
+				"&2&lКольцо шахтёра&r&r даёт носителю эффект Ускорения для более эффективной добычи."
 				""
-				"&2&lRong of Chordata&r&r will allow wearer to breathe as well as see and mine better underwater."
+				"&2&lКольцо хордовых&r&r позволяет носителю дышать, а также лучше видеть и добывать ресурсы под водой."
 			]
 			id: "00367AAF028966BC"
 			rewards: [{
@@ -1635,7 +1640,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Inner Arts"
+			subtitle: "Внутренние искусства"
 			tasks: [
 				{
 					id: "68EFA8D0F7CC6FC4"
@@ -1654,11 +1659,11 @@
 		{
 			dependencies: ["5AF488FC9A36BFA1"]
 			description: [
-				"By imbuing rods with elemental runes you can achieve interesting results. Botania provides you with many useful rods, a few of the brightest examples are: "
-				"&2&lRod of the Skies&r&r launches you high in the sky and can be used instead of rockets in conjuction with Elytra or Paraglider for easier flight;"
-				"&2&lRod of the Lands&r&r will provide you with unlimited dirt as long as you can provide mana for it making terraforming an easy task;"
-				"&2&lRod of the Depths&r&r performs the same action as the Rod of the Lands but with cobblestone instead for a slightly higher mana cost."
-				"&2&lRod of the Seas&r&r is an infinite water bucket that will provide you water as long as you have mana, found especially useful while working with a &ePetal Apothecary&r."
+				"Накладывая стихийные руны на жезлы, вы можете получить интересные эффекты. В ботании есть много полезных жезлов, некоторые из самых заметных:"
+				"&2&lЖезл Небес&r&r подбрасывает вас высоко в небо и может использоваться вместо ракет вместе с Элитрами или Парапланом для облегчения полёта;"
+				"&2&lЖезл Земель&r&r даёт вам неограниченное количество земли, пока вы обеспечиваете его маной, что значительно упрощает терраформинг;"
+				"&2&lЖезл Глубин&r&r выполняет ту же функцию, что и Жезл Земель, но вместо земли даёт булыжник при чуть более высоком расходе маны;"
+				"&2&lЖезл Морей&r&r — это бесконечное ведро воды, которое будет снабжать вас водой при наличии маны, особенно полезен при работе с &eЛепестковым аптекарем&r."
 			]
 			id: "52BB2147C93EAEDD"
 			rewards: [{
@@ -1671,7 +1676,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Elemental Tools"
+			subtitle: "Стихийные инструменты"
 			tasks: [
 				{
 					id: "675177DCE483E2DF"
@@ -1698,21 +1703,22 @@
 					type: "item"
 				}
 			]
-			title: "Elemental Rods"
+			title: "Стихийные жезлы"
 			x: -1.0d
 			y: -9.5d
 		}
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"By establishing &eElven Trading&r routes you manage to find a way to &eimprove your existing Sparks with Augments&r. "
-				"Augments can be applied to sparks that are stationed on top of a mana pool."
-				"By draining mana from the pool &2&lDispersive Augment&r&r will slowly recharge items in adventurers inventory."
-				"&2&lDominant Augment&r&r will pull mana from all mana pools with sparks to fill up its own mana pool."
-				"&2&lRecessive Augment&r&r will disperse mana from its own pool to all the other sparks in the same system."
-				"&2&lIsolation Augment&r&r will completely isolate spark from effects of other Augments."
+				"Установив маршруты &eЭльфийской торговли&r, вы нашли способ &eулучшить свои существующие Искры с помощью Дополнитель искр&r."
+				"Дополнитель искр можно применять к искрам, установленным на бассейне маны."
 				""
-				"Use any number of combinations of these &2&lAugments&r&r to enable mass mana storage and transfer!"
+				"При вытягивании маны из бассейна &2&lДополнитель искр: расеивающий&r&r медленно заряжает предметы в инвентаре приключенца."
+				"&2&lДополнитель искр: доминатный&r&r забирает ману из всех бассейнов с искрами, чтобы заполнить свой собственный бассейн маны."
+				"&2&lДополнитель искр: рецессивный&r&r распределяет ману из собственного бассейна по всем остальным искрам в той же системе."
+				"&2&lДополнитель искр: изолирующий&r&r полностью изолирует искру от эффектов других усовершенствований."
+				""
+				"Используйте любое сочетание этих &2&lДополнителей искр&r&r для массового хранения и передачи маны!"
 			]
 			id: "0F137A63D6205437"
 			rewards: [
@@ -1733,7 +1739,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Live Drive"
+			subtitle: "Живой драйв"
 			tasks: [
 				{
 					id: "4981A7B70DB3CE7E"
@@ -1756,7 +1762,7 @@
 					type: "item"
 				}
 			]
-			title: "Spark Augments"
+			title: "Искровые усилители"
 			x: -5.0d
 			y: -14.0d
 		}
@@ -1764,11 +1770,11 @@
 			can_repeat: true
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"&cThis is a SHOP quest!&r This \"quest\" consumes the items required and grants you the &eFlugel Tiara&r."
+				"&cЭто торговое задание!&r Это «задание» потребует указанные предметы и наградит вас &eКрылатой Тиарой&r."
 				""
-				"After harnessing &eGaia Spirits&r you find a way to gain temporary Creative flight with high mana consumption by wearing the &2&lFlugel Tiara&r&r."
+				"Овладев &eдухоиГайи&r, вы находите способ получить временный креативный полёт с высоким потреблением маны, надев &2&lКрылатую Тиару&r&r."
 				""
-				"The &2&lFlugel Tiara&r&r has a 1 minute duration with a 2 minute cooldown. There are also many different versions of the Tiara with different cosmetic wings!"
+				"&2&lКрылатая Тиара&r&r даёт 1 минуту полёта с перезарядкой в 2 минуты. Существует множество разных версий тиары с разными декоративными крыльями!"
 			]
 			icon: {
 				Count: 1
@@ -1794,7 +1800,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [
 				{
 					consume_items: true
@@ -1821,13 +1827,13 @@
 					type: "item"
 				}
 			]
-			title: "I Believe I Can Fly"
+			title: "Я верю, что могу летать"
 			x: -1.5d
 			y: -17.0d
 		}
 		{
 			dependencies: ["7765E99AC13D3032"]
-			description: ["After tinkering with &eMana Ingots&r and a &eCrating Table&r you manage to create a portable version - The &2&lAssembly Halo&r&r"]
+			description: ["После работы с &eманасталью&r и &eверстаком&r вы создаёте портативную версию — &2&lСборочный венец&r&r."]
 			id: "39B5D2C538B15A8F"
 			rewards: [
 				{
@@ -1852,13 +1858,13 @@
 				item: "botania:crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Crafting"
+			title: "Портативное крафт"
 			x: -5.0d
 			y: -8.0d
 		}
 		{
 			dependencies: ["386F0541CCE9CA16"]
-			description: ["If you put a &l&2Fel Pumpkin&r&r &eon top of 2 &nIron Bars&r as if one would build a Snowman&r you manage to summon a Blaze but because of its weaker form it drops &eBlaze Powder&r instead of Rods."]
+			description: ["Если поставить &l&2Осквернёную тыкву&r&r &eна два &nжелезных прутья&r, как будто вы собираетесь создать снеговика&r, вы призовёте Ифрита. Однако из-за его ослабленной формы с него будет выподать &eогненный порошок&r вместо жезлов."]
 			id: "44C71BBCFFAB3A33"
 			rewards: [
 				{
@@ -1897,8 +1903,8 @@
 		{
 			dependencies: ["39B5D2C538B15A8F"]
 			description: [
-				"With slight addition to &eAssembly Halo&r you manage to produce a portable crafting factory - &l&2Manufactory Halo&r&r."
-				"If set up correctly it can autmatically craft specified items while drawing items from your inventory."
+				"С небольшим улучшением &eСборочного венца&r вы создаёте портативную фабрику крафта — &l&2Фабричный венец&r&r."
+				"Если настроить правильно, оно сможет автоматически создавать указанные предметы, забирая материалы из вашего инвентаря."
 			]
 			id: "4303B37227E3BB77"
 			rewards: [
@@ -1924,13 +1930,13 @@
 				item: "botania:auto_crafting_halo"
 				type: "item"
 			}]
-			title: "Portable Factory"
+			title: "Портативная фабрика"
 			x: -6.0d
 			y: -9.0d
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["The &l&2Mana Mirror&r&r reflects the pool it is linked to allowing it to replace your &ePortable Mana Storage&r by drawing mana directly from a linked pool. It even works while the chunk is unloaded although the pool will not refill itself until you return!"]
+			description: ["&l&2Зеркало маны&r&r отражает связанный с ним бассейн, позволяя заменить ваш &eпланшет маны&r, забирая ману напрямую из связанного бассейна. Оно даже работает, когда чанк выгружен, хотя бассейн не будет пополняться, пока вы не вернётесь!"]
 			id: "3ACE081643D7F60B"
 			rewards: [{
 				auto: "enabled"
@@ -1942,7 +1948,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Reflections In The Water"
+			subtitle: "Отражения в воде"
 			tasks: [{
 				id: "608A781631CE984B"
 				item: "botania:mana_mirror"
@@ -1953,7 +1959,7 @@
 		}
 		{
 			dependencies: ["29FF9EF35E5B5FC7"]
-			description: ["By combining your &eMana Band&r with newfound alloy &eTerrasteel&r - you manage to create a &l&2Greater Mana Band&r&r that improves the amount of mana you can carry with you in one ring, equivallent to two entire pools!"]
+			description: ["Объединив ваш &eкольцо маны&r с новым сплавом &eтеррастали&r, вы создаёте &l&2большое кольцо маны&r&r, которое увеличивает количество маны, которую можно носить в одном кольце, эквивалентно двум полным бассейнам!"]
 			id: "4EA7CD6212661856"
 			rewards: [{
 				auto: "enabled"
@@ -1965,7 +1971,7 @@
 				title: "200 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Mass Mana On The Go"
+			subtitle: "Массовая мана на ходу"
 			tasks: [{
 				id: "3A58E8C9A21ACB1C"
 				item: "botania:mana_ring_greater"
@@ -1976,7 +1982,7 @@
 		}
 		{
 			dependencies: ["35AF07FCCB27D2E0"]
-			description: ["&l&2Teru Teru Bozu&r&r is a little guy with the power to alter weather conditions. If you feel like you have soaked in the rain long enough just give him a &esunflower&r to bring a sunny day back"]
+			description: ["&l&2Тэру-тэру-бодзу&r&r — это маленький дружок с силой менять погодные условия. Если чувствуешь, что достаточно промок под дождём, просто дай ему &eподсолнух&r, чтобы вернуть солнечный день."]
 			id: "27127198811C49D0"
 			rewards: [
 				{
@@ -2000,18 +2006,18 @@
 					type: "item"
 				}
 			]
-			subtitle: "Praise The Sun!"
+			subtitle: "Восславь солнце!"
 			tasks: [{
 				id: "01F7CD3A3E7BEE30"
 				item: "botania:teru_teru_bozu"
 				type: "item"
 			}]
-			title: "When The Sky is Gray"
+			title: "Когда небо серое"
 			x: -5.5d
 			y: -6.0d
 		}
 		{
-			description: ["The &eCorporea System&r consists of various components which when combined allow fairly complex item transfer. This system is far too complicated for the scope of this quest book so we advise you study the entries in the &eLexica Botania&r."]
+			description: ["&eСистема Корпореа&r состоит из различных компонентов, которые в сочетании позволяют создавать довольно сложные механизмы передачи предметов. Эта система слишком сложна для рамок данного квестбука, поэтому мы рекомендуем изучить соответствующие записи в &eЛексиконе ботании&r."]
 			icon: "botania:corporea_spark_creative"
 			id: "1576B342D9197BD6"
 			rewards: [{
@@ -2024,7 +2030,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Item Transfer"
+			subtitle: "Передача предметов"
 			tasks: [{
 				id: "701E468F93F2F03B"
 				title: "Corporea System"
@@ -2036,9 +2042,9 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"&eLuminizers&r allow for some fast and fun player transport, simply place and link two of them within their range and right click! You can even transfer items and animals with them using the &eLuminizer Launcher&r! Also works through blocks, you might want to watch your head, though."
+				"&eЛюминайзер&r позволяют быстро и весело перемещаться игроку — просто установите и свяжите два из них в пределах их радиуса действия и кликните правой кнопкой мыши! С их помощью можно даже транспортировать предметы и животных, используя &eЛюминайзер-лаунчер&r! Работают даже сквозь блоки, так что будьте осторожны с головой."
 				""
-				"&eDetector, Fork and Toggle Luminizers&r enable more advanced and interesting transportation systems."
+				"&eДетектор, Форк и Переключатель Люминаторов&r открывают возможности для более сложных и интересных транспортных систем."
 			]
 			id: "2B77DB16F266880E"
 			rewards: [
@@ -2059,20 +2065,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "World's End Dancehall"
+			subtitle: "Танцплощадка на краю света"
 			tasks: [{
 				count: 2L
 				id: "5C092F8FFAE39310"
 				item: "botania:light_relay"
 				type: "item"
 			}]
-			title: "Luminizer"
+			title: "Люминайзер"
 			x: -4.0d
 			y: -14.5d
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Blaster&r is a portable &eMana Spreader&r that can also accept &eMana Lenses&r to augment its behavior when fired. The &eFlash Lens&r is particularly useful as a source of near infinite lights, it can even be dyed to change the color of the resulting light!"]
+			description: ["&eИзлучатель маны&r — это портативный &eраспространитель маны&r, который также может использовать &eлинзы маны&r для улучшения характеристик при стрельбе. Линза &eвспышка&r особенно полезна как источник практически бесконечного света; её даже можно окрашивать, чтобы менять цвет получаемого света!"]
 			id: "621ABA886F06170A"
 			rewards: [{
 				auto: "enabled"
@@ -2084,7 +2090,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "M'aider Stranded Girl"
+			subtitle: "Помогите, девушка в беде"
 			tasks: [
 				{
 					id: "72E05E0B0C9AC1E2"
@@ -2106,7 +2112,12 @@
 		}
 		{
 			dependencies: ["2CCB1CB299A81969"]
-			description: ["The &eMana Enchanter&r is a large multiblock structure that allows you to apply Enchantments to gear by simply tossing the desired enchanted books down next to it and right clicking it with a &eWand of the Forest&r. This process notably does NOT consume the books. Doing so consumes a large amount of mana from nearby pools via a spark on the enchanter. The more enchants and the higher the levels the more it consumes! Check the &eLexica Botania&r for a visualization of the structure."]
+			description: [
+				"&eМана-зачарователь&r — это большая мультиблочная структура, позволяющая накладывать чары на снаряжение, просто бросив рядом нужные зачарованные книги и щёлкнув по структуре &eпосохом леса&r."
+				"Примечательно, что при этом книги &eне расходуются&r."
+				"Процесс потребляет большое количество маны из ближайших бассейнов через искру, размещённую на зачарователе. Чем больше чар и выше их уровень — тем больше требуется маны!"
+				"Ознакомьтесь с визуализацией структуры в &eЛексиконе ботании&r."
+			]
 			icon: "botania:enchanter"
 			id: "72B3D8E498D1E1F1"
 			rewards: [{
@@ -2119,7 +2130,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Enchanting With Mana"
+			subtitle: "Зачарование маной"
 			tasks: [{
 				id: "732608E288086EA6"
 				title: "Mana Enchanter"
@@ -2130,7 +2141,7 @@
 		}
 		{
 			dependencies: ["626B63941D36E8C2"]
-			description: ["The &eAlchemy Catalyst&r when placed under a &eMana Pool&r changes the result when items are tossed into it letting you convert various materials! Flint into gunpowder, transmuting various wood types and saplings, redstone into glowstone!"]
+			description: ["&eАлхимический катализатор&r, установленный под &eбассейном маны&r, меняет результат, когда предметы бросаются в бассейн, позволяя конвертировать различные материалы! Кремень в порох, различные типы древесины и саженцы — друг в друга, красную пыль в светокамень и многое другое!"]
 			id: "496BD9236D7C1D89"
 			rewards: [{
 				auto: "enabled"
@@ -2152,7 +2163,7 @@
 		}
 		{
 			dependencies: ["496BD9236D7C1D89"]
-			description: ["The &eConjuration Catalyst&r is a more advanced version of the &eAlchemy Catalyst&r that lets you consume a large amount of mana to duplicate certain items! Quartz, redstone, glowstone and coal being the main examples. Note that duplicating coal does not let you make an infinite mana loop with endoflames!"]
+			description: ["&eКолдовской катализатор&r — это более продвинутая версия &eалхимического катализатора&r, которая позволяет тратить большое количество маны для дублирования некоторых предметов! Основными примерами являются кварц, красная пыль, светокамень и уголь. Обратите внимание, что дублирование угля не даёт возможности создать бесконечный цикл маны с эндопламенем!"]
 			id: "058D4013FD42AC1F"
 			rewards: [
 				{
@@ -2197,9 +2208,9 @@
 		{
 			dependencies: ["5E33BF5591E1C097"]
 			description: [
-				"The &eElven Mana Spreader&r increases the mana transfered per burst by 50% compared to the normal mana spreader! Also signifigantly increases the distance a burst can travel before it starts losing mana."
+				"&eЭльфийский распространитель маны&r увеличивает передачу маны за импульс на 50% по сравнению с обычным распространителем! Также значительно увеличивает дальность полёта импульса до начала потери маны."
 				""
-				"&oTransfers 240 mana per burst.&r"
+				"&oПередаёт 240 маны за импульс.&r"
 			]
 			id: "40A9BBD5C665B831"
 			rewards: [
@@ -2225,7 +2236,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Upgraded Spreaders"
+			subtitle: "Улучшенные распространители"
 			tasks: [{
 				id: "37856729D86ABFBB"
 				item: "botania:elven_spreader"
@@ -2237,9 +2248,9 @@
 		{
 			dependencies: ["0F4713A9935F369F"]
 			description: [
-				"The &eGaia Mana Spreader&r is the ultimate spreader at more than double the transfer rate of its predecessor!"
+				"&eРаспространитель маны Гайи&r — это вершина среди распространителей, с более чем вдвое большей скоростью передачи по сравнению с предыдущим!"
 				""
-				"&oTransfers a staggering 640 mana per burst.&r"
+				"&oПередаёт ошеломляющие 640 маны за импульс.&r"
 			]
 			id: "6A58CF9DF79B8269"
 			rewards: [
@@ -2259,7 +2270,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "The Ultimate Spreader"
+			subtitle: "Лучший распространитель"
 			tasks: [{
 				id: "752DAA1E1B192724"
 				item: "botania:gaia_spreader"
@@ -2270,7 +2281,7 @@
 		}
 		{
 			dependencies: ["144467B32903983B"]
-			description: ["The &eMana Lenses&r impact how mana spreaders behave in various ways, most useful of the bunch being the &ePotency Lens&r, doubling the transfer rate of the spreader it is attached to! There is also &eVelocity&r, increasing the travel speed of the burst, &eBounce&r for making it ricochet off walls or even &eGravity&r to make it affected by gravity!"]
+			description: ["&eЛинзы маны&r влияют на поведение распространителей маны различными способами, самой полезной из которых является &eпотенциал&r, удваивающая скорость передачи маны у распространителя, к которому она прикреплена! Также есть &eЛинза скорости&r, увеличивающая скорость полёта импульса, &eЛинза отскока&r, позволяющая импульсу отражаться от стен, и &eЛинза гравитации&r, заставляющая импульс подчиняться действию гравитации!"]
 			id: "30243F276BE11AC3"
 			rewards: [
 				{
@@ -2289,19 +2300,19 @@
 					type: "item"
 				}
 			]
-			subtitle: "Transfer Rate"
+			subtitle: "Скорость передачи"
 			tasks: [{
 				id: "0A40C97CF59B559A"
 				item: "botania:lens_power"
 				type: "item"
 			}]
-			title: "Spreader Lenses"
+			title: "Распределительные линзы"
 			x: 2.0d
 			y: -5.5d
 		}
 		{
 			dependencies: ["30243F276BE11AC3"]
-			description: ["Two different &eMana Lenses&r can be glued together with a bit of slime to combine their effects into 1 lens! The combination of &ePotency&r and &eVelocity&r is notable for both doubling the mana per burst AND making it fly faster!"]
+			description: ["Две разные &eлинзы маны&r можно склеить с помощью слизи, чтобы объединить их эффекты в одну линзу! Особенно стоит отметить комбинацию &eпотенциала&r и &eскорости&r — она одновременно удваивает количество маны в импульсе И увеличивает его скорость полёта!"]
 			icon: "botania:lens_firework"
 			id: "49644F197F1FDF73"
 			rewards: [
@@ -2321,10 +2332,10 @@
 					type: "item"
 				}
 			]
-			subtitle: "Ultimate Customization"
+			subtitle: "Максимальная кастомизация"
 			tasks: [{
 				id: "0766EB2208BDC6D8"
-				title: "Compound Lenses"
+				title: "Составные линзы"
 				type: "checkmark"
 			}]
 			x: 3.5d
@@ -2332,15 +2343,15 @@
 		}
 		{
 			description: [
-				"&eChunk Loaders&r allow you to keep areas loaded at all times. This is useful certain activities such as automation, and crops will continue to process/grow even while you're away from the area."
+				"&eЗагрузчики чанков&r позволяют удерживать области загруженными в любое время. Это полезно для таких задач, как автоматизация — урожай будет расти и процессы продолжатся, даже если вы находитесь далеко."
 				""
-				"There are 4 different types of Chunk Loaders:"
-				"&8Single Chunk Loader&r - 1 Chunk"
-				"Basic Chunk Loader - 3x3 Chunks"
-				"&eAdvanced Chunk Loader&r - 5x5 Chunks"
-				"&bUltimate Chunk Loader&r - 7x7 Chunks"
+				"Существует 4 типа загрузчиков чанков:"
+				"&8Одиночный загрузчик чанков&r — 1 чанк"
+				"Базовый загрузчик чанков — 3x3 чанка"
+				"&eПродвинутый загрузчик чанков&r — 5x5 чанков"
+				"&bУльтимейтный агрузчик чанков&r — 7x7 чанков"
 				""
-				"&eYou can view the Chunk Loader map with Default Key: \"&cF8&r&e\".&r"
+				"&eВы можете открыть карту загрузки чанков клавишей по умолчанию: \"&cF8&r&e\".&r"
 			]
 			id: "63BF085EEE4B3689"
 			rewards: [{
@@ -2353,7 +2364,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Chunk Loading"
+			subtitle: "Загрузчик чанков"
 			tasks: [{
 				id: "3C7BB9EFD738D636"
 				item: "chunkloaders:basic_chunk_loader"
@@ -2365,7 +2376,7 @@
 		{
 			can_repeat: true
 			dependencies: ["0F4713A9935F369F"]
-			description: ["&cThis is a SHOP quest!&r This \"quest\" consumes the items required to convert your &eFlugel Tiara&r into a &enew variant&r&r."]
+			description: ["&cЭто задание является МАГАЗИНОМ!&r Это «задание» забирает указанные предметы, чтобы преобразовать вашу &eТиару Флюгеля&r в &eновый вариант&r."]
 			icon: "botania:quartz_lavender"
 			id: "0CFA65618989A9AC"
 			rewards: [{
@@ -2375,7 +2386,7 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [
 				{
 					consume_items: true
@@ -2397,10 +2408,10 @@
 					type: "item"
 				}
 			]
-			title: "Flying With Style"
+			title: "Полет со стилем"
 			x: -0.5d
 			y: -17.0d
 		}
 	]
-	title: "Magical Flora"
+	title: "Магическая флора"
 }

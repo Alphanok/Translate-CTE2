@@ -623,7 +623,7 @@
 				"67164081F0C0B1F8"
 				"16742DD3957CC064"
 			]
-			description: ["You must discover &eall&r structures listed as dependencies to unlock this. You must then discover the &ePuzzle Dungeon&r."]
+			description: ["Вы должны обнаружить &eвсе&r структуры, указанные в качестве требований, чтобы разблокировать это. После этого необходимо найти &eПазл-подземелье (Puzzle Dungeon)&r."]
 			id: "50228379A7F98359"
 			rewards: [
 				{
@@ -643,13 +643,13 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				id: "28B02EDA93008E03"
 				structure: "masiks_puzzle_dungeon:start"
 				type: "structure"
 			}]
-			title: "The Adventurer"
+			title: "Авантюрист"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -665,7 +665,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Discover all 53 Vanilla Overworld biomes"
+			subtitle: "Откройте для себя все 53 биома ванильного мира"
 			tasks: [{
 				advancement: "minecraft:adventure/adventuring_time"
 				criterion: ""
@@ -687,7 +687,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Discover all 16 Undergarden biomes"
+			subtitle: "Откройте для себя все 16 биомов Undergarden "
 			tasks: [{
 				advancement: "undergarden:undergarden/all_undergarden_biomes"
 				criterion: ""
@@ -709,7 +709,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Discover all 4 Otherside biomes"
+			subtitle: "Откройте для себя все 4 биома Другого мира"
 			tasks: [{
 				advancement: "deeperdarker:main/explore_otherside"
 				criterion: ""
@@ -731,7 +731,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Discover all 5 Vanilla Nether biomes"
+			subtitle: "Откройте для себя все 5 биомов ванильного Незера"
 			tasks: [{
 				advancement: "minecraft:nether/explore_nether"
 				criterion: ""
@@ -753,7 +753,7 @@
 				title: "150 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Find the End City"
+			subtitle: "Найдите город Края"
 			tasks: [{
 				advancement: "minecraft:end/find_end_city"
 				criterion: ""
@@ -792,7 +792,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				id: "68F61F6EB05F3DAA"
 				item: {
@@ -804,7 +804,7 @@
 				}
 				type: "item"
 			}]
-			title: "The Wanderer"
+			title: "Странник"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -855,13 +855,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "602BDDE94CFE5702"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Expert Explorer"
+			title: "Эксперт-исследователь"
 			x: 0.0d
 			y: -0.5d
 		}
@@ -897,18 +897,18 @@
 		}
 		{
 			description: [
-				"Welcome to Small Ships! Small Ships expands naval travel by adding new types of ships and functionality!"
+				"Добро пожаловать в Small Ships! Этот мод расширяет возможности морских путешествий, добавляя новые типы кораблей и функциональность!"
 				""
-				"&eWhilesitting in the Ship&r:"
+				"&eНаходясь на корабле&r:"
 				""
-				"Press \"K\" to open/close the Ships Sail. "
-				"Press \"W\" to increase and \"S\" to decrease the Sail."
-				"To dismount an entity from the ship, right-click the entity."
-				"To open the Inventory outside of the ship, use crouch + right-click on the ship."
+				"Нажмите \"K\", чтобы поднять/убрать паруса."
+				"Нажмите \"W\", чтобы спустить паруса, и \"S\", чтобы поднять."
+				"Чтобы высадить существо с корабля, нажмите ПКМ по существу."
+				"Чтобы открыть инвентарь корабля снаружи, используйте Shift + ПКМ по кораблю."
 				""
-				"&eCannons&r:"
+				"&eПушки&r:"
 				""
-				"To add a cannon on your ship you need to right-click the ship with a cannon in your hand. To shoot the cannon, you need to look in the direction of the cannon and press \"space\", while sitting in the ship. Note that you need to have a round shot in the ships inventory. To remove a cannon, right-click the ship with a pickaxe."
+				"Чтобы установить пушку на корабль, возьмите её в руку и нажмите ПКМ по кораблю. Чтобы выстрелить из пушки, смотрите в её направлении и нажмите \"space\", находясь на корабле. Учтите, что в инвентаре корабля должен быть пушечный снаряд. Чтобы убрать пушку, нажмите ПКМ по кораблю с киркой в руке."
 			]
 			id: "0F6FAA5F3731F43A"
 			rewards: [{
@@ -921,28 +921,28 @@
 				title: "50 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Set Sail!"
+			subtitle: "Поднять паруса!"
 			tasks: [{
 				id: "5A6304B75D634568"
 				item: "smallships:sail"
 				type: "item"
 			}]
-			title: "First-Time Sailor"
+			title: "Начинающий мореплаватель"
 			x: -3.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["0F6FAA5F3731F43A"]
 			description: [
-				"There are 4 different types of craftable ships: Cog, Brigg, Galley, Drakkar."
+				"Существует 4 типа создаваемых кораблей: Когг, Бриг, Галера, Драккар."
 				""
-				"&eShip Performance&r: In terms of ship performance, cold-water ships will be 10% faster in cold water biomes but 10% slower in warm water biomes. Conversely, warm-water ships will be 10% faster in warm water biomes but 10% slower in cold water biomes. It's important to note that the speed of the ships will also be affected by the number of cannons on board, reducing speed by 2.5% per cannon. Additionally, cargo on board can decrease the ship's speed by up to 10%."
+				"&eХарактеристики корабля&r: Что касается характеристик, корабли для холодных вод будут на 10% быстрее в холодных биомах, но на 10% медленнее в тёплых. И наоборот, корабли для тёплых вод будут на 10% быстрее в тёплых биомах, но на 10% медленнее в холодных. Важно отметить, что скорость кораблей также зависит от количества пушек на борту, уменьшаясь на 2.5% за каждую пушку. Кроме того, груз на борту может снизить скорость корабля до 10%."
 				" "
-				"&eSail Coloring&r: You can customize sails by coloring them with dye items. Simply right-click the ship with the dye in your hand."
+				"&eОкрашивание парусов&r: Вы можете настроить паруса, окрашивая их красителями. Просто нажмите ПКМ по кораблю с красителем в руке."
 				""
-				"&eShip Repairing&r: You can repair your ship with iron nuggets and planks. Simply right-click the ship with the iron nuggets in your hand, you need to have a good supply of planks in your inventory."
+				"&eРемонт корабля&r: Вы можете ремонтировать свой корабль с помощью железных самородков и досок. Просто нажмите ПКМ по кораблю с железными самородками в руке, но убедитесь, что у вас в инвентаре достаточно досок."
 				""
-				"&eShip Naming&r: You can name your ship with a name-tag. Simply right-click the ship with the name-tag in your hand."
+				"&eНазвание корабля&r: Вы можете назвать свой корабль с помощью бирки. Просто нажмите ПКМ по кораблю с биркой в руке."
 			]
 			id: "7BFE568B90CE811B"
 			rewards: [{
@@ -955,7 +955,7 @@
 				title: "50 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Set Sail!"
+			subtitle: "Поднять паруса!"
 			tasks: [{
 				id: "7491E98208FF8B29"
 				item: {
@@ -1002,13 +1002,13 @@
 						]
 					}
 				}
-				title: "Cog"
+				title: "Когг"
 				type: "item"
 			}]
-			title: "Shiver Me Timbers"
+			title: "Вот так трюм!"
 			x: -2.0d
 			y: -0.5d
 		}
 	]
-	title: "Exploration"
+	title: "Исследование"
 }

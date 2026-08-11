@@ -17,13 +17,13 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Salvaging is the act of deconstructing your gear into materials that can be used to craft Profession items, gear, or repair."
+				"Разбор снаряжения — это процесс разбора снаряжения на материалы, которые можно использовать для создания предметов профессий, снаряжения или ремонта."
 				""
-				"In order to use a Salvaging Station, you &lmust&r place a hopper above the station, and place your gear to be salvaged into the hopper. Salvaging in the Station can yield more results and experience than auto-salvaging."
+				"Чтобы использовать Станцию разбора, вы &lобязаны&r разместить воронку над станцией и поместить снаряжение для разбора в воронку. Разбор с помощью станции может дать больше ресурсов и опыта, чем авторазбор."
 				""
-				"Your gear will be salvaged and you will receive materials as the output. &eWhen salvaging, you will receive &eStones&r of varying rarity. These are used to repair or craft gear. They can also be used to craft other items. The rarity of the stone depends on the rarity of the gear salvaged."
+				"Ваше снаряжение будет разобрано, и вы получите материалы на выходе. &eПри разборе вы получите &eКамни&r разной редкости. Они используются для ремонта или создания снаряжения. Также их можно использовать для создания других предметов. Редкость камня зависит от редкости разобранного снаряжения."
 				""
-				"&bYou can also salvage your gear via the Hub auto-salvaging feature, but you will earn less experience doing so.&r"
+				"&bВы также можете разбирать снаряжение через функцию авторазбора в Хабе, но вы получите меньше опыта.&r"
 			]
 			id: "16525899DA8C3A74"
 			rewards: [
@@ -50,24 +50,22 @@
 				item: "mmorpg:salvaging_station"
 				type: "item"
 			}]
-			title: "Salvaging"
+			title: "Разбор"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eCrafted Gear Souls&r for the following: armor, offhands, jewelry, and weapons. When crafting gear, there are a few ingredients:"
+				"Вы можете создавать &eДуши Созданного Снаряжения&r для брони, оффхендов, украшений и оружия. При создании снаряжения используются несколько компонентов:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1.&eТипы руды&r — получаемая при добыче, она зависит от уровня предмета, который вы хотите создать. Диапазоны уровней совпадают с теми, что используются в Профессии горное дело."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging. The amount of Stones required depends on the rarity of the gear."
+				"2.&eКамни (Редкость)&r — Камни определяют редкость создаваемого снаряжения. Вы можете получить эти Камни при разборе. Количество камней зависит от редкости снаряжения."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes!"
+				"3.&eСлитки + Идентифицирующие предметы&r — предметы, которые определяют, создаёте ли вы броню, оффхенды, украшения или оружие. Смотрите &cJEI&r для рецептов!"
 				""
-				"4. &eMoney&r"
-				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCrafted Gear Soul&r&l.&r"
+				"4.&eДеньги&r"
 			]
 			id: "66D05E37DC634CC8"
 			rewards: [
@@ -105,7 +103,7 @@
 				item: "mmorpg:gear_crafting_station"
 				type: "item"
 			}]
-			title: "Gear Crafting"
+			title: "Создание снаряжения"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -116,23 +114,23 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"You can cook foods which will provide hunger and saturation, but also provide stat boosts. When cooking, there are a few ingredients:"
+				"Вы можете готовить еду, которая восстанавливает голод и насыщение, а также даёт бонусы к характеристикам. При готовке используются несколько ингредиентов:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what food you cook:"
+				"&eМясо/Урожай/Рыба&r — получаемые при Охоте, Фермерстве и Рыбалке, они зависят от уровня предмета, который вы хотите создать. Диапазоны уровней совпадают с теми, что используются в профессиях сбора ресурсов. Тип используемой еды зависит от того, что вы готовите:"
 				""
-				"&cMeat&r: Health/Magic Shield Regen"
-				"&2Produce&r: Mana/Energy Regen"
-				"&bFish&r: EXP/Loot"
+				"&cМясо&r: восстановление здоровья/магического щита"
+				"&2Продукция&r: восстановление маны/энергии"
+				"&bРыба&r: опыт/добыча"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"&c1.&r &eКамень (Редкость)&r — Камни определяют редкость создаваемого снаряжения. Вы можете получить эти Камни при разборе."
 				""
-				"3. &eOther Food Item&r - generally used as an additional ingredient that can also determine what food you're cooking. Refer to &cJEI&r for recipes!"
+				"&c2.&r &eДругой пищевой ингредиент&r — обычно используется как дополнительный ингредиент, который также может определять, что именно вы готовите. Смотрите &cJEI&r для рецептов!"
 				""
-				"4. &eMoney&r"
+				"&c3.&r&eДеньги&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eCooking&r&l.&r"
+				"&lВы всегда можете проверить &cJEI&r &l, чтобы узнать, какие предметы нужны для &eГотовки&r&l.&r"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&eТребует выполнения 1 зависимости.&r"
 			]
 			id: "0402FA5F0E1D4835"
 			rewards: [
@@ -170,28 +168,28 @@
 				item: "mmorpg:cooking_station"
 				type: "item"
 			}]
-			title: "Cooking"
+			title: "Готовка"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4E27A84CE1F030A1"]
 			description: [
-				"You can brew potions which can recover health and resources, or provide stat boosts. When brewing, there are a few ingredients:"
+				"Вы можете варить зелья, которые восстанавливают здоровье и ресурсы или дают бонусы к характеристикам. При варке используются несколько ингредиентов:"
 				""
-				"1. &eTiered Meat/Produce/Fish&r - earned from Bounty Hunting, Farming, and Fishing they are based on the item level you want to craft. The level ranges are the same as what you'd find in the gathering Professions. The type of food you use depends on what potion you brew:"
+				"&eМясо/Продукция/Рыба&r — получаемые при Охоте, Фермерстве и Рыбалке, они зависят от уровня предмета, который вы хотите создать. Диапазоны уровней совпадают с теми, что используются в профессиях сбора ресурсов. Тип используемой еды зависит от того, какое зелье вы варите:"
 				""
-				"&cMeat&r: Health/Resource Potion"
-				"&2Produce&r: Core Stat Potion"
-				"&bFish&r: Damage Buff Potion"
+				"&cМясо&r: зелье здоровья/ресурсов"
+				"&2Продукция&r: зелье основных характеристик"
+				"&bРыба&r: зелье повышения урона"
 				""
-				"2. &c1&r &eStone (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"&c1&r &eКамень (Редкость)&r — Камни определяют редкость создаваемого снаряжения. Вы можете получить эти Камни при разборе."
 				""
-				"3. 1-2 &eOther Food Items&r - used as an additional ingredient. Refer to &cJEI&r for recipes!"
+				"1-2 &eДругих пищевых ингредиента&r — используются как дополнительные ингредиенты. Смотрите &cJEI&r для рецептов!"
 				""
-				"4. &eMoney&r"
+				"&eДеньги&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eAlchemy&r&l.&r"
+				"&lВы всегда можете проверить &cJEI&r &l, чтобы узнать, какие предметы нужны для &eАлхимии&r&l.&r"
 			]
 			id: "69CEB39AA409EB41"
 			rewards: [
@@ -242,26 +240,26 @@
 				item: "mmorpg:alchemy_station"
 				type: "item"
 			}]
-			title: "Alchemy"
+			title: "Алхимия"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["06E3D7523619E263"]
 			description: [
-				"You can craft &eInfusions&r for the following: armor, offhands, jewelry, and weapons. When crafting the scrolls, there are a few ingredients:"
+				"Вы можете создавать &eЗачарования&r для брони, оффхендов, украшений и оружия. При создании свитков используются несколько компонентов:"
 				""
-				"1. &eTiered Ore&r - earned from Mining, they are based on the item level you want to craft. The level ranges are the same as what you'd find in the Mining Profession."
+				"1.&eТип руды&r — получаемая при добыче, она зависит от уровня предмета, который вы хотите создать. Диапазоны уровней совпадают с теми, что используются в профессии горное дело."
 				""
-				"2. &eStones (Rarity)&r - the Stones determine the rarity of the gear you will craft. You can get these Stones while salvaging."
+				"2.&eКамни (Редкость)&r — Камни определяют редкость создаваемого снаряжения. Вы можете получить эти Камни при разборе."
 				""
-				"3. &eIngots + Identifier Items&r - the items that determine whether you are crafting armor, offhands, jewelry, or weapons. Refer to &cJEI&r for recipes"
+				"3.&eСлитки + Идентифицирующие предметы&r — предметы, которые определяют, создаёте ли вы броню, оффхенды, украшения или оружие. Смотрите &cJEI&r для рецептов."
 				""
-				"4. &ePaper&r"
+				"4.&eБумага&r"
 				""
-				"5. &eMoney&r"
+				"5.&eДеньги&r"
 				""
-				"&lYou can always check the &cJEI&r &lto see what items are needed for &eInfusions&r&l.&r"
+				"&lВы всегда можете проверить &cJEI&r&l, чтобы узнать, какие предметы нужны для создания &eЗачарования&r&l.&r"
 			]
 			id: "5DA0A1825512C2E3"
 			rewards: [
@@ -308,25 +306,25 @@
 				item: "mmorpg:enchanting_station"
 				type: "item"
 			}]
-			title: "Infusing"
+			title: "Зачарование"
 			x: -1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Mining any types of ores will grant you Mining experience. However, you will only earn the full amount of experience from ores relative to your Mining level:"
+				"Добыча любых видов руды даёт опыт Горного дела. Однако вы получите полное количество опыта только с руд, соответствующих вашему уровню Горного дела:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Coal, Iron, Copper"
-				"&eLv. 21-40&r (&aTier 1&r): Redstone, Lapis Lazuli, Gold, Quartz, Emerald"
-				"&eLv. 41-60&r (&9Tier 2&r): Cloggrum, Diamond, Froststeel, Utherium"
-				"&eLv. 61-80&r (&dTier 3&r): Regalium, Moonstone, Pyrope, Aquite"
-				"&eLv. 81-100&r (&6Tier 4&r): Falsite, Ventium, Horizonite"
-				"&eLv. 100&r (&5Tier 5&r): Charoite, Diopside"
+				"&eУр. 1–20&r (&7Тир 0&r): Уголь, Железо, Медь"
+				"&eУр. 21–40&r (&aТир 1&r): Редстоун, Лазурит, Золото, Кварц, Изумруд"
+				"&eУр. 41–60&r (&9Тир 2&r): Клоггрум, Алмаз, Морозная сталь, Утериум"
+				"&eУр. 61–80&r (&dТир 3&r): Регалий, Лунный камень, Пироп, Аквит"
+				"&eУр. 81–100&r (&6Тир 4&r): Фальсит, Вентиум, Горизонит"
+				"&eУр. 100&r (&5Тир 5&r): Чаорит, Диопсид"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&cЭто не значит, что вы совсем не получите опыта с руды вне вашего диапазона уровней — просто его будет меньше.&r"
 				""
-				"While mining, you will find Tiered Ore&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r, which drop by chance depending on your level and the level range of the ore you are mining. This ore can be used in other Professions."
+				"Во время добычи вы можете найти &eруду разной редкости&r (&7Духовная&r, &aНебесная&r, &9Высшая&r, &dАнгельская&r, &6Божественная&r и &5Богоподобная&r), которая выпадает с определённым шансом в зависимости от вашего уровня и уровня руды. Эту руду можно использовать в других профессиях."
 			]
 			id: "06E3D7523619E263"
 			rewards: [{
@@ -347,25 +345,25 @@
 				}
 				type: "item"
 			}]
-			title: "Mining"
+			title: "Шахта"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Farming and harvesting produce will grant you Farming experience. However, you will only earn the full amount of experience from plants relative to your Farming level:"
+				"Фермерство и сбор урожая дают вам опыт Фермерства. Однако вы получите полное количество опыта только с растений, соответствующих вашему уровню Фермерства:"
 				""
-				"&eLv. 1-20&r (&7Tier 0&r): Wheat, Beetroot, Carrot, Potatoes"
-				"&eLv. 21-40&r (&aTier 1&r): Melon, Pumpkin, Flax, Cabbage, Tomato, Onion, Cocoa Beans"
-				"&eLv. 41-60&r (&9Tier 2&r): Corn, Gysahl Green, Nether Wart, Rice, Gloomgourd"
-				"&eLv. 61-80&r (&dTier 3&r): Pine Fruit, Winter Leaves"
-				"&eLv. 81-100&r (&6Tier 4&r): Scalefruit, Fiery Beans"
-				"&eLv. 100&r (&5Tier 5&r): Cryoroot, Solnut"
+				"&eУр. 1–20&r (&7Тир 0&r): Пшеница, Свёкла, Морковь, Картофель"
+				"&eУр. 21–40&r (&aТир 1&r): Арбуз, Тыква, Лён, Капуста, Помидор, Лук, Какао-бобы"
+				"&eУр. 41–60&r (&9Тир 2&r): Кукуруза, Зелёный Гисаль, Адский нарост, Рис, Мракотыква"
+				"&eУр. 61–80&r (&dТир 3&r): Сосновый плод, Зимние листья"
+				"&eУр. 81–100&r (&6Тир 4&r): Чешуйчатый фрукт, Огненные бобы"
+				"&eУр. 100&r (&5Тир 5&r): Криокорень, Грецский орех"
 				""
-				"&cThat doesn't mean you won't receive any experience from items outside your level range, just less.&r"
+				"&cЭто не значит, что вы совсем не получите опыта с растений вне вашего диапазона уровней — просто его будет меньше.&r"
 				""
-				"While harvesting, you will find &eTiered Produce&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level and the level range of the plant you are harvesting. These can then be used in other Professions."
+				"Во время сбора урожая вы можете найти &eурожай разной редкости&r (&7Духовная&r, &aНебесная&r, &9Высшая&r, &dАнгельская&r, &6Божественная&r и &5Богоподобная&r), которая выпадает с определённым шансом в зависимости от вашего уровня и уровня растения. Эти предметы можно использовать в других Профессиях."
 			]
 			id: "350315F71B69062F"
 			rewards: [{
@@ -386,16 +384,16 @@
 				}
 				type: "item"
 			}]
-			title: "Farming"
+			title: "Фермерство"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Fishing any fish will grant you Fishing experience. "
+				"Ловля любой рыбы даёт опыт Рыбалки."
 				""
-				"While fishing, you will find &eTiered Fish&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r), which drop by chance depending on your level. For example, &7Spiritual&r Fish drop while your Fishing level is between 1-20, &aCelestial&r while your level is between 21-40, etc. The fish can then be used in other Professions."
+				"Во время рыбалки вы можете найти &eрыбу разной редкости&r (&7Духовную&r, &aНебесную&r, &9Высшую&r, &dАнгельскую&r, &6Божественную&r и &5Богоподобную&r), которая выпадает с определённым шансом в зависимости от вашего уровня. Например, &7Духовная&r рыба выпадает при уровне Рыбалки от 1 до 20, &aНебесная&r — от 21 до 40 и так далее. Эти рыбы можно использовать в других Профессиях."
 			]
 			id: "5BAFAA732A026ADD"
 			rewards: [{
@@ -416,22 +414,22 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing"
+			title: "Рыбалка"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eBounty Hunting&r is a Mine and Slash Profession which levels up as you complete Bountiful bounties. Complete bounties to earn Bounty Hunting experience and &eBounty Slips&r!"
+				"&eАвантюризм&r — это профессия Mine and Slash, которая повышается по уровню по мере выполнения различных заказов. Выполняйте заказы, чтобы получать опыт авантюризма и &eнаградные талоны&r!"
 				""
-				"&eBounty Boards&r will generate &erandom bounties&r for you to complete. Take out a &erequest&r from the board's interface and complete it within the &etime limit&r to earn the listed rewards. As you complete bounties, your &ereputation&r (tied to that Bounty Board block) will increase, increasing the level of rewards. Empowered Bounty Slips will start appearing at 45 reputation!"
+				"&eДоски объявлений&r будут генерировать для вас &eслучайные заказы&r для выполнения. Берите &eзапрос&r из интерфейса доски и выполните его в течение &eустановленного времени&r, чтобы получить указанные награды. По мере выполнения заказов ваша &eрепутация&r (привязанная к конкретному блоку доски заказов) будет расти, повышая уровень наград. Улучшенные наградные талоны начнут появляться при 45 репутации!"
 				""
-				"As you level your Bounty Hunting, you will gain access to more purchasable rewards in the &eProfession Shop&r. Items in this shop are purchasable with &eBounty Slips&r! The shop can be accessed with &eDefault Key: P, or the menu wheel&r."
+				"По мере прокачки Авантюризма вы получите доступ к большему количеству покупаемых наград в &eмагазине профессии&r. Предметы в магазине покупаются за &eнаградные талоны&r! Магазин можно открыть с помощью &eстандартной клавиши: P, или через меню колесо&r."
 				""
-				"Craft &eDecrees&r to give new quest types to the board per decree type, which is randomly determined."
+				"Создавайте &eраспоряжения&r, чтобы добавлять новые типы заданий на доску в зависимости от типа декрета, который определяется случайно."
 				""
-				"Through Bounty Hunting you will be able to gain &eTiered Meats&r (&7Spritual&r, &aCelestial&r. &9Emyprean&r, &dAngelic&r, &6Divine&r, and &5Godly&r) to be used in Cooking."
+				"Выполняя заказы, вы сможете получить &eмясо разной редкости&r (&7Духовное&r, &aНебесное&r, &9Высшее&r, &dАнгельское&r, &6Божественное&r и &5Богоподобное&r), которое используется в Кулинарии."
 			]
 			icon: {
 				Count: 1
@@ -461,30 +459,39 @@
 				title: "Common Bounty"
 				type: "item"
 			}]
-			title: "Bounty Hunting"
+			title: "Авантюризм"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			description: [
-				"Mine and Slash adds its very own Profession system. Professions are split into 3 categories:"
+				"Mine and Slash добавляет собственную систему Профессий. Профессии делятся на 3 категории:"
 				""
-				"&e&lGathering:&r&r"
-				"- &7Mining&r: gather materials while mining."
-				"- &2Farming&r: gather materials when harvesting produce."
-				"- &9Fishing&r: gather special fish by chance while fishing."
-				"- &6Bounty Hunting&r: complete bounties for rewards."
+				"&e&lСбор:&r&r"
 				""
-				"&e&lCrafting:&r&r"
-				"- &eGear Crafting&r: craft gear to be used in combat."
-				"- &eInfusing&r: craft scrolls to enhance your gear."
-				"- &cCooking&r: cook up foods that provide stat, drop, and experience bonuses for a period of time upon consumption."
-				"- &5Alchemy&r: create powerful brews to enhance your stats for a period of time."
+				"&7Горное дело&r: собирайте материалы во время добычи руды."
 				""
-				"&e&lOther:&r&r"
-				"- &4Salvaging&r: extract resources from gear when salvaged in a Salvaging Station &e(you can also enable auto-salvaging through the Hub)&r."
+				"&2Фермерство&r: получайте материалы при сборе урожая."
 				""
-				"&c&lNote: Professions cannot be leveled beyond your Mine and Slash level!&r&r"
+				"&9Рыбалка&r: с шансом ловите особую рыбу во время рыбалки."
+				""
+				"&6Авантюризм&r: выполняйте заказы ради наград."
+				""
+				"&e&lСоздание:&r&r"
+				""
+				"&eСоздание снаряжения&r: создавайте снаряжение для боя."
+				""
+				"&bЗачарование&r: создавайте свитки для усиления снаряжения."
+				""
+				"&cКулинария&r: готовьте еду, которая временно даёт бонусы к статам, добыче и опыту при употреблении."
+				""
+				"&5Алхимия&r: создавайте мощные зелья, временно усиливающие ваши характеристики."
+				""
+				"&e&lДругое:&r&r"
+				""
+				"&4Разбор снаряжения&r: извлекайте ресурсы из снаряжения при разборе на Станции разбора &e(также можно включить авторазбор через Хаб)&r."
+				""
+				"&c&lПримечание: Профессии нельзя прокачивать выше вашего уровня Mine and Slash!&r&r"
 			]
 			icon: {
 				Count: 1
@@ -510,16 +517,16 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Professions Overview"
+			title: "Обзор профессий"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"Tools in Craft to Exile 2 can gain levels with use. As they increase in level, they can gain affixes which will grant various improvements!"
+				"Инструменты в Craft to Exile 2 могут получать уровни при использовании. С повышением уровня они могут получать аффиксы, которые дают различные улучшения!"
 				""
-				"&eTools will gain an affix every 20 levels!&r"
+				"&eИнструменты получают один аффикс каждые 20 уровней!&r"
 			]
 			icon: "minecraft:paper"
 			id: "4FC11A47AE877347"
@@ -528,24 +535,24 @@
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions Lost Page"
+			subtitle: "M\\&S Professions потерянная страница"
 			tasks: [{
 				id: "425830C92EB05E74"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Leveling Tools"
+			title: "Прокачка инструментов"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"&eSharpening Stones&r can be used on your gear to increase their potency. The quality increase is reflected in the gear's base stat (Weapon Damage, Armor, Dodge Rating, etc.)."
+				"&eКамни заточки&r можно использовать на вашем снаряжении, чтобы увеличить его эффективность. Повышение качества отражается в базовых характеристиках снаряжения (Урон оружия, Броня, Уклонение и т.д.)."
 				""
-				"You can craft &eSharpening Stones&r in the &eGear Crafting Station&r using Stones. As you find higher rarity Stones, you will be able to craft better &eSharpening Stones&r."
+				"&eКамни заточки&r можно создавать в &eСтанции создания снаряжения&r, используя Камни. Чем выше редкость найденных Камней, тем лучше &eКамни заточки&r вы сможете создавать."
 				""
-				"These &eSharpening Stones&r can push quality above the normal cap of &b20&r, so they should always be used after &eOrbs of Quality&r as &eSharpening Stones&r can only be used once on an item!"
+				"Эти &eКамни заточки&r могут повысить качество выше обычного предела в &b20&r, поэтому их следует использовать всегда после &eСфер качества&r, так как &eКамни заточки&r можно применить к предмету только один раз!"
 			]
 			id: "141FEAAFF05B9AD0"
 			rewards: [
@@ -568,20 +575,20 @@
 				item: "mmorpg:currency/sharpening_stone_0"
 				type: "item"
 			}]
-			title: "Increasing Gear Quality"
+			title: "Повышение качества снаряжения"
 			x: -4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"Сварите зелья, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Meat&r"
-				"1x &7Common Stone&r"
-				"1x Cooked Chicken/3x Apple"
-				"1x Tomato/Onion"
-				"1x Copper Coin"
+				"3x &7Духовное мясо&r"
+				"1x &7Обычный камень&r"
+				"1x Жареная курица / 3x Яблоко"
+				"1x Помидор / Лук"
+				"1x Медная монета"
 			]
 			id: "50FD77E095AAC45F"
 			rewards: [
@@ -631,19 +638,19 @@
 					type: "item"
 				}
 			]
-			title: "Recovery Potions"
+			title: "Зелья восстановления"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"Сварите зелья, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Produce&r"
-				"1x &7Common Stone&r"
-				"3x Potato/Cabbage/Carrot"
-				"1x Copper Coin"
+				"3x &7Духовная продукция&r"
+				"1x &7Обычный камень&r"
+				"3x Картофель/Капуста/Морковь"
+				"1x Медная монета"
 			]
 			id: "53205D57DBDEE858"
 			rewards: [
@@ -707,25 +714,25 @@
 					type: "item"
 				}
 			]
-			title: "Core Buffs"
+			title: "Базовые усиления"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5DA0A1825512C2E3"]
 			description: [
-				"Craft an &eUncommon Armor Infusion&r with the following:"
+				"Создайте &eНеобычное зачарование брони&r, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Ore&r"
-				"1x &aUncommon Stone&r"
-				"2x Iron Ingot"
-				"1x Leather"
-				"1x Paper"
-				"5x Copper Coin"
+				"3x &7Духовная руда&r"
+				"1x &aНеобычный камень&r"
+				"2x Железный слиток"
+				"1x Кожа"
+				"1x Бумага"
+				"5x Медных монет"
 				""
-				"When used on your Gear, you have a chance of applying a random stat as a bonus. You can then upgrade that stat by applying higher rarity Infusions."
+				"При использовании на вашем снаряжении есть шанс применить случайный бонус к характеристикам. Затем вы сможете улучшать эту характеристику, используя Зачарование более высокой редкости."
 				""
-				"&cThe Infusion has a chance of failure when used&r, but you will see the item's tooltip update with \"Infusion\" once successful. &cInfusions must be applied in rarity order.&r Meaning you must start with a successful common Infusion before applying an uncommon one. You cannot apply a rare Infusion onto an item with a common Infusion. The colour of the \"Infusion\" tooltip denotes the rarity of the infusion."
+				"&cИспользование зачарования может завершиться неудачей&r, но при успешном применении в подсказке предмета появится слово \"Зачарование\". &cЗачарование должны применяться по порядку редкости.&r То есть сначала нужно успешно применить обычное Зачаровани, прежде чем использовать необычное. Нельзя применять редкое Зачаровани на предмет с обычным Зачарованием. Цвет подсказки \"Зачарование\" показывает редкость насыщения."
 			]
 			id: "13CE922E843B9A50"
 			rewards: [
@@ -767,19 +774,19 @@
 				}
 				type: "item"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "Не ванильные зачарования"
 			x: -1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["0402FA5F0E1D4835"]
 			description: [
-				"Craft the food with the following:"
+				"Создайте еду, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Fish&r"
-				"3x Tropical Fish"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"3x &7Духовная рыба&r"
+				"3x Тропическая рыба"
+				"1x &7Обычный камень&r"
+				"1x Медная монета"
 			]
 			id: "29BD14415C264D41"
 			rewards: [
@@ -812,21 +819,21 @@
 				}
 				type: "item"
 			}]
-			title: "Luxurious Seafoods"
+			title: "Роскошные морепродукты"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0402FA5F0E1D4835"]
 			description: [
-				"Craft the foods with the following:"
+				"Создайте еду, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Meat/Produce&r"
-				"2x Cooked Fish Fillet/3x Beetroot"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"3x &7Духовное мясо/продукция&r"
+				"2x Приготовленное рыбное филе/3x Свёкла"
+				"1x &7Обычный камень&r"
+				"1x Медная монета"
 				""
-				"&cThe order of materials doesn't matter, but the output of the station must be empty!&r"
+				"&cПорядок материалов не важен, но выходной слот станции должен быть пустым!&r"
 			]
 			id: "74D3767A981DAE84"
 			rewards: [
@@ -872,22 +879,22 @@
 					type: "item"
 				}
 			]
-			title: "Healthy Foods"
+			title: "Полезная еда"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["66D05E37DC634CC8"]
 			description: [
-				"Craft a &eCrafted Common Jewelry Soul&r with the following:"
+				"Создайте &eсозданая душа обычного украшения&r, используя следующие ингредиенты:"
 				""
-				"3x &7Spiritual Ore&r"
-				"2x &7Common Stone&r"
-				"1x Iron Ingot"
-				"1x Copper Ingot"
-				"1x Copper Coin"
+				"3x &7Духовная руда&r"
+				"2x &7Обычный камень&r"
+				"1x Железный слиток"
+				"1x Медный слиток"
+				"1x Медная монета"
 				""
-				"The Crafted Gear Soul will work on any base item that matches the type (Ring Souls on Rings)."
+				"Созданая обычная душа урашениий подойдёт для любого базового предмета соответствующего типа (Души колец — для колец)."
 			]
 			id: "7C542CE6F026787C"
 			rewards: [
@@ -932,19 +939,19 @@
 				}
 				type: "item"
 			}]
-			title: "Humble Beginnings"
+			title: "Скромное начало"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"Сварите зелья, используя следующие ингредиенты:"
 				""
-				"1x &7Spiritual Fish&r"
-				"5x Lapis Lazuli/3x Gold Ingot/3x Redstone"
-				"1x &7Common Stone&r"
-				"1x Copper Coin"
+				"1x &7Духовная рыба&r"
+				"5x Лазурит / 3x Золотой слиток / 3x Редстоун"
+				"1x &7Обычный камень&r"
+				"1x Медная монета"
 			]
 			id: "609557127CC400F5"
 			rewards: [
@@ -1008,16 +1015,16 @@
 					type: "item"
 				}
 			]
-			title: "Raw Damage"
+			title: "Базовый урон"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["69CEB39AA409EB41"]
 			description: [
-				"Brew the potions with the following:"
+				"Сварите зелья, используя следующие ингредиенты:"
 				""
-				"The recipes for these potions are a bit different, please check &cJEI&r for more information."
+				"Рецепты этих зелий немного отличаются, пожалуйста, смотрите &cJEI&r для получения дополнительной информации."
 			]
 			id: "70D6378FAA39BED0"
 			rewards: [
@@ -1062,9 +1069,9 @@
 		{
 			dependencies: ["5B97985430859986"]
 			description: [
-				"&eCrafting Stations&r for each of the Professions are &etied to the player that placed them&r."
+				"&eСтанции крафта&r для каждой из Профессий &eпривязываются к игроку, который их разместил&r."
 				""
-				"Each player will need their own set of Crafting Stations!"
+				"Каждому игроку понадобится собственный набор Станций Крафта!"
 			]
 			icon: "minecraft:paper"
 			id: "3C7E703FC750E2B3"
@@ -1073,28 +1080,28 @@
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "M\\&S Professions Lost Page"
+			subtitle: "M\\&S Professions потерянная страница"
 			tasks: [{
 				id: "6A644AC376F30A75"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "To Your Stations!"
+			title: "На свои места!"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7C542CE6F026787C"]
 			description: [
-				"When using a &eCrafted Gear Soul&r, there is a &cchance&r it will roll as any one of the armor types. To circumvent this randomness, you can use &eSoul Modifiers&r."
+				"При использовании &eДуши созданного снаряжения&r существует &cшанс&r, что будет случайно выбрана одна из типов брони. Чтобы обойти эту случайность, вы можете использовать &eМодификаторы Души&r."
 				""
-				"You can apply &eSoul Modifiers&r directly onto &eCrafted Gear Souls&r to &eguarantee the material (plate, cloth, leather) outcome&r of your item."
+				"Вы можете применить &eМодификаторы души&r непосредственно к &eсозданной душе снаряжения&r, чтобы &eгарантировать материал (латы, ткань, кожа)&r вашего предмета."
 				""
-				"There are also &eSoul Modifiers&r for the various hybrid armor sets!"
+				"Также существуют &eМодификаторы Души&r для различных гибридных комплектов брони!"
 				""
-				"Use the &eSoul Modifier&r on the &eCrafted Gear Soul&r by dragging and dropping it. You may not notice any changes, but once the &eCrafted Gear Soul&r is used, you will see that it belongs to that type."
+				"Используйте &eМодификатор Души&r на &eДуше cозданного cнаряжения&r, перетаскивая и отпуская его. Возможно, вы не заметите изменений, но после использования &eДуши cозданного cнаряжения&r вы увидите, что предмет относится к выбранному типу."
 				""
-				"For example, apply a &eCloth Soul Modifier&r onto a &eCrafted Armor Soul&r to guarantee Cloth Armor!"
+				"Например, примените &eМодификатор души тканевого снаряжения&r к &eсозданной душе брони&r, чтобы гарантировать получение тканевой брони!"
 			]
 			id: "1F781E29B5ACDD96"
 			rewards: [{
@@ -1121,20 +1128,20 @@
 					type: "item"
 				}
 			]
-			title: "Soul Modification"
+			title: "Модификация Души"
 			x: -1.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["7C542CE6F026787C"]
 			description: [
-				"Craft a &eCrafted Rare Weapon Soul&r with the following:"
+				"Создайте &eсозданная душа редкого оружия&r, используя следующие ингредиенты:"
 				""
-				"3x &aCelestial Ore&r"
-				"4x &9Rare Stone&r"
-				"2x Emerald"
-				"1x Stick"
-				"1x Iron Coin"
+				"3x &aНебесная руда&r"
+				"4x &9Редкий камень&r"
+				"2x Изумруд"
+				"1x Палка"
+				"1x Железная монета"
 			]
 			id: "59FA681B103BE2AB"
 			rewards: [
@@ -1168,29 +1175,29 @@
 				}
 				type: "item"
 			}]
-			title: "A Blacksmith's Lesson"
+			title: "Урок кузнеца"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["5B97985430859986"]
-			description: ["Insert the &eDisassembler's Learning Method&r into the &ecrafting station&r of your choice to &eimmediately void&r the item you've crafted but gain &edouble Profession experience&r."]
+			description: ["Вставьте &eМетод Обучения Разборщика&r в &eстанцию крафта&r по вашему выбору, чтобы &eнемедленно уничтожить&r созданный предмет, но получить &eудвоенный опыт Профессии&r."]
 			id: "4C14F8BB015A5892"
 			rewards: [{
 				id: "566A53AA87A4E85F"
 				item: "lightmanscurrency:coin_iron"
 				type: "item"
 			}]
-			subtitle: "Disassembler's Learning Method"
+			subtitle: "Метод обучения разборщика"
 			tasks: [{
 				id: "40C533C34F3858DF"
 				item: "mmorpg:destroy_output_exp"
 				type: "item"
 			}]
-			title: "Fast Levelling"
+			title: "Быстрая прокачка"
 			x: 0.0d
 			y: 1.5d
 		}
 	]
-	title: "&aM\\&S Professions&r"
+	title: "&aM\\&S Профессии&r"
 }

@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: [
-			"70DA25C53FFEB49F"
 			"5E95CED116D2C8F4"
 			"6EFCD443EA481BD4"
 			"6428AF7E62AC7FA9"
@@ -22,7 +21,7 @@
 			"481C3C4D8D5AF5B8"
 			"0F4713A9935F369F"
 		]
-		description: ["&l&eWow. You've completed all side quests! Congratulations!&r&r"]
+		description: ["&l&eВау! Ты выполнил все побочные квесты! Поздравляю!&r&r"]
 		icon: {
 			Count: 1
 			id: "stalwart_dungeons:teleporter_pearl"
@@ -62,15 +61,15 @@
 		]
 		shape: "hexagon"
 		size: 3.0d
-		subtitle: "Final Achievment"
+		subtitle: "Финальное достижение"
 		tasks: [{
 			id: "74A99B588AB7DC63"
 			title: "Click Once Read"
 			type: "checkmark"
 		}]
-		title: "The Completionist"
+		title: "Завершающий"
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Completionist"
+	title: "Завершающий"
 }

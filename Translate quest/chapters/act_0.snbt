@@ -20,15 +20,15 @@
 	quests: [
 		{
 			description: [
-				"&nWelcome to Craft to Exile 2&r - a highly customized modpack that turns Minecraft into an action RPG."
+				"&nДобро пожаловать в Craft to Exile 2&r — сильно модифицированный модпак, превращающий Minecraft в экшен-RPG."
 				""
-				"The first chapter of quests, \"Prologue\" is meant to give you an overview to certain systems introduced in the modpack that may be different from what you're used to in most Minecraft modpacks."
+				"Первая глава квестов, «Пролог», предназначена для знакомства с системами модпака, которые могут отличаться от того, к чему вы привыкли в большинстве Minecraft-модпаков."
 				""
-				"&eComplete each \"page\" of the Prologue by clicking the checkmark.&r"
+				"&eВыполняйте каждую «страницу» Пролога, нажимая на галочку.&r"
 				""
-				"For more information, visit our &9Wiki&r (you can also find the link in the main menu)."
+				"Для получения дополнительной информации посетите наш &9Вики&r (ссылку также можно найти в главном меню)."
 				""
-				"Also feel free to join our &9Discord&r server (link also on the main menu) where we can help you with any issues in game, or even just chat with you about the modpack!"
+				"Также вы можете присоединиться к нашему &9Discord&r серверу (ссылка тоже в главном меню), где мы поможем с любыми игровыми вопросами или просто поболтаем о модпаке!"
 			]
 			icon: "minecraft:writable_book"
 			id: "30403B3DE1E47F33"
@@ -46,28 +46,28 @@
 					type: "item"
 				}
 			]
-			subtitle: "Table of Contents"
+			subtitle: "Содержание"
 			tasks: [{
 				id: "77FDE21B75D712EC"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Welcome to Craft to Exile 2!"
+			title: "Добро пожаловать в Craft to Exile 2!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["624D8CD0A4A6668B"]
 			description: [
-				"CTE2 supports party questing and play. &eAll Teams/Party option are accessible through the Inventory!&r"
+				"CTE2 поддерживает игру и выполнение квестов в группе. &eВсе опции команд/групп доступны через Инвентарь!&r"
 				""
-				"There are 3 different commands to use for party play:"
+				"Для игры в группе есть 3 разных команды:"
 				""
-				"&eMine and Slash's teams&r, allows you to share EXP and heal/buff each other. Additionally, you will see party member's Health/Magic Shield values in the GUI!"
+				"&eКоманды Mine and Slash&r — позволяют делиться опытом и лечить/усиливать друг друга. Кроме того, в интерфейсе вы увидите показатели здоровья и магического щита членов группы!"
 				""
-				"FTB Teams allows you to share quest progression. FTB Teams also has a custom team chat menu, press - by default to access it."
+				"Команды FTB позволяют делиться прогрессом квестов. В командах FTB также есть собственное меню командного чата, по умолчанию открыть его можно клавишей -."
 				""
-				"Lightman's Teams allows you to share money and trader notifications."
+				"Команды Lightman позволяют делиться деньгами и уведомлениями торговцев."
 			]
 			icon: "ftbquests:book"
 			id: "48075B2F138A9C2C"
@@ -78,26 +78,26 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 2b"
+			subtitle: "Страница 2б"
 			tasks: [{
 				id: "37CC2CFDC34FC657"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Party Play"
+			title: "Игра в группе"
 			x: 3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["04849611F904771C"]
 			description: [
-				"Thanks to Mine and Slash, CTE2 has a fully customized leveling progression system."
+				"Благодаря Mine and Slash, в CTE2 реализована полностью кастомная система прокачки."
 				""
-				"Kill mobs to earn experience, and receive stat points with each level. You can allocate these points in the main hub by &epressing \"H\"&r. In fact, most of the menus will be accessible from this menu wheel!"
+				"Убивайте мобов, чтобы получать опыт и очки характеристик с каждым уровнем. Вы можете распределять эти очки в главном хабе, &eнажав \"H\"&r. На самом деле, большинство меню доступны через это колесо меню!"
 				""
 				"{image:cte2:textures/character_stats.png width:160 height:128 align:1}"
 				""
-				"Your player stats can also be increased via other means, such as: equipment (gear) and talent points which we'll cover later."
+				"Характеристики вашего персонажа также можно повысить другими способами, например, снаряжением (экипировкой) и очками талантов, о которых мы расскажем позже."
 			]
 			icon: "minecraft:book"
 			id: "624D8CD0A4A6668B"
@@ -118,24 +118,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 2"
+			subtitle: "Страница 2"
 			tasks: [{
 				id: "352F3C2796BACD2F"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Character Stats"
+			title: "Характеристики персонажа"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["624D8CD0A4A6668B"]
 			description: [
-				"The &eTalent Tree&r allows for an additional layer of &echaracter customization&r, and is found in the Mine and Slash hub."
+				"&eДрево талантов&r предоставляет дополнительный уровень &eкастомизации персонажа&r и находится в хабе Mine and Slash."
 				""
 				"{image:cte2:textures/talent_tree.png width:160 height:115 align:1}"
 				""
-				"Each level grants you &e1 talent point.&r You will need to choose your starting position, and then &eallocate points into nodes&r connected to any other nodes you already have. Each &enode&r provides &ebonuses&r to stats, and in some cases, can alter your core gameplay loop!"
+				"С каждым уровнем вы получаете &e1 очко таланта.&r Вам нужно выбрать стартовую точку, а затем &eраспределять очки по узлам&r, связанным с уже выбранными узлами. Каждый &eузел&r даёт &eбонусы&r к характеристикам и в некоторых случаях может изменить вашу основную игровую механику!"
 			]
 			icon: "minecraft:book"
 			id: "53A5ECD28E7E16E1"
@@ -156,13 +156,13 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 3"
+			subtitle: "Страница 3"
 			tasks: [{
 				id: "07B9CDCDF05CC52E"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Talent Tree"
+			title: "Дерево талантов"
 			x: 4.5d
 			y: 0.0d
 		}
@@ -171,15 +171,15 @@
 			description: [
 				"{image:cte2:textures/gui.png width:160 height:105 align:1}"
 				""
-				"The &eCharacters&r menu lets you save and load different characters. It will save all of your character's information except for their gear! You can have up to 3 saved characters. Newly created characters start at level 1 but share quest completion unlocks such as &eTalent and Ascendancy points&r."
+				"Меню &eПерсонажи&r позволяет сохранять и загружать разных персонажей. Оно сохраняет всю информацию о персонаже, кроме снаряжения! Вы можете иметь до 3 сохранённых персонажей. Новые персонажи начинаются с 1 уровня, но сохраняют разблокировки выполнения квестов, таких как &eочки талантов и восхождения&r."
 				""
-				"The &eSalvaging&r menu lets you turn bad loot into useful crafting materials upon pick-up."
+				"Меню &eРазбор&r позволяет превращать плохую добычу в полезные материалы для крафта при подборе."
 				""
-				"The &eClasses&r menu allows character specialization. You will learn skills here and can improve them with points. In CTE2, you can &especialize in two different classes&r!"
+				"Меню &eКлассы&r позволяет специализировать персонажа. Здесь вы изучаете навыки и улучшаете их с помощью очков. В CTE2 можно &eспециализироваться на двух разных классах&r!"
 				""
-				"The &eJewels&r menu is used once you've allocated any points into Jewel Sockets in the Talent Tree. Equipping Jewels can improve your character stats!"
+				"Меню &eДрагоценности&r используется, когда вы распределяете очки в гнёздах для драгоценностей в Древе Талантов. Надетые драгоценности улучшают характеристики персонажа!"
 				""
-				"Additionally, at the bottom of the GUI (where the pickaxes are), you can see your &eProfession&r levels."
+				"Дополнительно, внизу интерфейса (там, где иконки кирок) отображаются уровни ваших &eПрофессий&r."
 			]
 			icon: "minecraft:book"
 			id: "0C1568D71346C427"
@@ -202,24 +202,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 4"
+			subtitle: "Страница 4"
 			tasks: [{
 				id: "60453E7473A695D0"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "The Rest of the GUI"
+			title: "Остальная часть интерфейса"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0C1568D71346C427"]
 			description: [
-				"In CTE2, there are 3 \"main\" fighting styles. You can either be a &4close-ranged warrior&r, a &9magic spellcaster&r, or a &2long-ranged archer&r. This is of course, a basic generalization, as each character can be customized and expressed extensively."
+				"В CTE2 есть 3 основных стиля боя. Вы можете быть либо &4воином&r, либо &9магом&r, либо &2лучником&r. Конечно, это общее упрощение, так как каждый персонаж может быть глубоко кастомизирован и уникален."
 				""
-				"Do you want to be a flame-spewing warrior? A necromantic spellcaster? Or even a trap throwing hunter?"
+				"Хотите стать воином, выпускающим пламя? Некромантом? Или охотником, расставляющим ловушки?"
 				""
-				"CTE2 has a lot to offer in terms of character customization. Hopefully, you will find the playstyle that best suits you!"
+				"CTE2 предлагает огромные возможности для настройки персонажа. Надеемся, вы найдёте стиль игры, который вам подходит!"
 			]
 			icon: "minecraft:book"
 			id: "3059FF2D6DB1AC9F"
@@ -248,24 +248,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 5"
+			subtitle: "Страница 5"
 			tasks: [{
 				id: "7EA3FFEFB226B157"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Your First Weapon"
+			title: "Ваше первое оружие"
 			x: 6.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3059FF2D6DB1AC9F"]
 			description: [
-				"Combat has been overhauled in Craft to Exile 2. &eWeapons have animations and combos&r, and have different properties depending on the type of weapon you wield."
+				"В Craft to Exile 2 бой был полностью переработан. &eОружие имеет анимации и комбо&r, а также разные свойства в зависимости от типа используемого оружия."
 				""
-				"Additionally, you can press &e\"Alt\" to dodge roll&r, which has a short cooldown."
+				"Кроме того, вы можете нажать &e\"Alt\", чтобы сделать уклонение с перекатом&r, у которого небольшой кулдаун."
 				""
-				"Don't forget about your basic attacks in CTE2! They are powerful in combat and can be used in conjunction with skills."
+				"Не забывайте про базовые атаки в CTE2! Они мощные в бою и могут использоваться вместе с навыками."
 			]
 			icon: "minecraft:book"
 			id: "546A9D082F1A2160"
@@ -287,28 +287,28 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 6"
+			subtitle: "Страница 6"
 			tasks: [{
 				id: "222D99698592B33D"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Combat"
+			title: "Бой"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0A39A9996E8D63F4"]
 			description: [
-				"Skills require &9Mana&r or &aEnergy&r and are used in combat. They can be learnt through the Classes tab and can be equipped in the &9square&r slots in the Skills GUI:"
+				"Навыки требуют &9ману&r или &aэнергию&r и используются в бою. Их можно изучить на вкладке классов и экипировать в &9квадратные&r слоты в окне навыков:"
 				""
 				"{image:cte2:textures/skill_gem.png width:140 height:105 align:1}"
 				""
-				"You can modify and enhance Skills by either leveling them, or linking them to Support Gems, which go in the &5circular&r slots. These can increase the &eResource Cost&r and power of the linked Skill."
+				"Вы можете модифицировать и улучшать навыки, либо повышая их уровень, либо связывая с камнями поддержки, которые ставятся в &5круглые&r слоты. Они могут увеличивать &eстоимость ресурсов&r и силу связанного навыка."
 				""
-				"Skills have a maximum number of Support Gems that can be linked (see \"&5Support Slots:&r\"). The number of sockets a Skill can have is determined by the &eSkill's level&r, with a max of 5 sockets at level 16. &eTo get the first slot, your skill must be at least level 4.&r &cThe number of slots is &lalso&r limited by your &eplayer level&r (1 slot every 10 levels, starting at 1).&r"
+				"У навыков есть максимальное количество камней поддержки, которые можно к ним привязать (см. «&5слоты поддержки:&r»). Количество слотов определяется &eуровнем навыка&r, максимум 5 слотов на уровне 16. &eЧтобы получить первый слот, навык должен быть не ниже 4 уровня.&r &cКоличество слотов &lтакже&r ограничено вашим &eуровнем персонажа&r (1 слот каждые 10 уровней, начиная с 1).&r"
 				""
-				"In the &ebottom&r row, equip Augment Gems which use up Augment Capacity to provide stats. You can see how much Augment Capacity you have remaining in &dpink&r to the right."
+				"В &eнижнем&r ряду экипируйте камни аур, которые используют ёмкость для повышения характеристик. Оставшуюся ёмкость можно видеть справа &dрозовым&r цветом."
 			]
 			icon: "minecraft:book"
 			id: "22EAD61501470768"
@@ -346,24 +346,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 8"
+			subtitle: "Страница 8"
 			tasks: [{
 				id: "703C97D9D47FEB19"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Skill, Support, and Augment Gems"
+			title: "Камни навыков, поддержки и ауры"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["546A9D082F1A2160"]
 			description: [
-				"Test your new blade and knowledge in combat!"
+				"Испытайте свой новый клинок и знания в бою!"
 				""
-				"&eDo not summon the creature in the village as the Iron Golem may kill your Zombie! Also be cautious of summoning it in daylight! Consider summoning in a cave.&r"
+				"&eНе призывайте существо в деревне, так как Железный Голем может убить вашего Зомби! Также будьте осторожны при призыве днём! Лучше вызвать его в пещере.&r"
 				""
-				"&oMake sure to allocate your stats before the fight, as weapons have a minimum stat requirement!&r"
+				"&oОбязательно распределите характеристики перед боем, так как у оружия есть минимальные требования к статам!&r"
 			]
 			icon: "minecraft:book"
 			id: "0A39A9996E8D63F4"
@@ -377,33 +377,33 @@
 				title: "700 Experience"
 				type: "command"
 			}]
-			subtitle: "Page 7"
+			subtitle: "Страница 7"
 			tasks: [{
 				advancement: "minecraft:adventure/kill_a_mob"
 				criterion: ""
 				icon: "ftb_ph:zombie"
 				id: "54F60D14EA2C9CC2"
-				title: "Kill x1 Zombie"
+				title: "Убить x1 зомби"
 				type: "advancement"
 			}]
-			title: "First Blood"
+			title: "Первая кровь"
 			x: 2.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["22EAD61501470768"]
 			description: [
-				"In Minecraft, &4Health&r is your life force, and if it hits 0, your character will die. In CTE2, you don't lose equipment on &4death&r, but starting at level 50, you will lose a good chunk of your experience."
+				"В Minecraft &4Здоровье&r — это ваша жизненная сила, и если оно достигнет 0, персонаж умрёт. В CTE2 вы не теряете снаряжение при &4смерти&r, но начиная с 50 уровня, потеряете значительную часть опыта."
 				""
-				"Character defenses can be classified into 3 categories: &4Armor&r (plate), &2Dodge&r (leather), and &9Magic Shield&r (cloth), but may also consist of hybrid types (&8Brigandine&r = &4Armor&r/&2Dodge&r)."
+				"Защита персонажа делится на 3 категории: &4Броня&r (латная), &2Уклонение&r (кожаная) и &9Магический щит&r (тканевая), а также могут быть гибридные типы (&8Бригандин&r = &4Броня&r/&2Уклонение&r)."
 				""
-				"Armor reduces physical damage taken, dodge gives you a chance to completely negate any attack, and magic shield acts as an additional health buffer that regenerates slowly. You can improve these stats mainly through gear, stat points, and the Talent Tree."
+				"Броня снижает получаемый физический урон, уклонение даёт шанс полностью избежать атаки, а магический щит действует как дополнительный буфер здоровья, который медленно восстанавливается. Улучшать эти характеристики можно в основном через снаряжение, очки характеристик и Древо Талантов."
 				""
-				"There are &eother ways to mitigate damage&r, such as elemental resistances, spell dodge, and damage reduction. You can find these stats on gear, in the Talent Tree, and on Jewels."
+				"Есть &eи другие способы уменьшить урон&r — элементальная устойчивость, уклонение от заклинаний и уменьшение урона. Эти параметры можно найти на снаряжении, в Древе Талантов и на драгоценностях."
 				""
-				"There are options on the Talent Tree that may change how your defenses work, such as setting your health to 1 and giving a large bonus to magic shield!"
+				"В древе талантов есть опции, которые могут изменить работу вашей защиты, например, установить здоровье равным 1 и дать большой бонус к магическому щиту!"
 				""
-				"&oIf you don't like how the armor looks, you can use Cosmetic Armor to cover it up!&r"
+				"&oЕсли вам не нравится внешний вид брони, вы можете использовать косметическую броню для её скрытия!&r"
 			]
 			icon: "minecraft:book"
 			id: "7B22B96E95E5DA09"
@@ -449,24 +449,24 @@
 					type: "command"
 				}
 			]
-			subtitle: "Page 9"
+			subtitle: "Страница 9"
 			tasks: [{
 				id: "4B40DF289BF860BF"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Suit Up"
+			title: "Снаряжайся"
 			x: 0.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1C852F78D386B77E"]
 			description: [
-				"Congratulations on completing the Prologue quest line. By completing this final page, you can finally &estart your journey in Act I&r!"
+				"Поздравляем с завершением цепочки заданий Пролога! Завершив эту последнюю страницу, вы наконец можете &eначать своё путешествие в Акте I&r!"
 				""
-				"In CTE2, &eyou can complete tasks in later quests even if you have yet to complete the dependencies&r. You won't be able to claim the rewards until you actually reach the quest, though."
+				"В CTE2 &eвы можете выполнять задачи в более поздних квестах, даже если не завершили их зависимости&r. Однако вы не сможете получить награды, пока не достигнете соответствующего квеста."
 				""
-				"Make sure to check out the &eSide Quests&r as they contain a lot of very useful information, and will introduce you to the other mods used in CTE2. There are various integrations between other mods and Mine and Slash that you can discover through these quest lines!"
+				"Обязательно ознакомьтесь с &eПобочными заданиями&r — в них содержится много полезной информации, и они познакомят вас с другими модами, используемыми в CTE2. В этих квестах вы сможете открыть различные интеграции между другими модами и Mine and Slash!"
 			]
 			icon: "minecraft:writable_book"
 			id: "0CDFB8E5BB59B981"
@@ -495,28 +495,28 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Appendix"
+			subtitle: "Приложение"
 			tasks: [{
 				id: "4DE938BD22A26E0A"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Loot. Level. Explore."
+			title: "Добывай. Расти. Исследуй."
 			x: 6.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies."
+				"Камни и руны можно вставлять в снаряжение, имеющее доступные гнёзда. Гнёзда можно добавить с помощью некоторых валют Mine and Slash."
 				""
-				"&bGems&r come in multiple tiers. You can &ecombine 3 of them to create the next tier&r. Once you have socketed it into your item (click on the item with the Gem in your cursor). Once in your gear, the Gem will provide extra stats."
+				"&bКамни&r бывают нескольких уровней. Вы можете &eсочетать 3 камня одного уровня, чтобы получить следующий&r. Чтобы вставить камень в предмет, кликните по предмету, держа камень в курсоре. После вставки камень даст дополнительные характеристики."
 				""
-				"&cRunes&r can be added to gear to also provide extra stats. If you slot a specific combination of Runes in &eRuned gear&7, you can craft a &eRuneword&r which enhances the item with a specific set of bonuses! Note that the Runed gear can have more slots than the number of required Runes for the Runeword!"
+				"&cРуны&r также можно добавить в снаряжение для получения бонусных характеристик. Если вставить определённую комбинацию рун в &eрунное снаряжение&7, вы сможете создать &eрунное слово&r, которое усилит предмет набором бонусов! Обратите внимание, что рунное снаряжение может иметь больше слотов, чем количество рун, необходимых для рунного слова!"
 				""
-				"&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items."
+				"&eКликните правой кнопкой мыши по руне, чтобы увидеть доступные рунные слова для создания!&r &eрунного слова&r можно создавать только в предметах редкости &eрунный&r."
 				""
-				"It is possible to retrieve Gems and Runes from items using an &eExtractor Currency Orb!&r"
+				"Вы можете извлечь камни и руны из предметов с помощью &eизвлекателя&r!"
 			]
 			icon: "ftbquests:book"
 			id: "4C9F8B8F01189196"
@@ -546,22 +546,22 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Page 9c"
+			subtitle: "Страница 9в"
 			tasks: [{
 				id: "1DADE93D8FAB373D"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Gems and Runes"
+			title: "Камни и руны"
 			x: 0.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Test out your new spells and armor in combat!"
+				"Испытайте свои новые заклинания и броню в бою!"
 				""
-				"&eDo not summon the creature in the village as the Iron Golem may kill your Skeleton! Also be cautious of summoning it in daylight! Consider summoning in a cave.&r"
+				"&eНе призывайте существо в деревне, так как железный голем может убить вашего скелета! Также будьте осторожны при призыве днём! Лучше вызывать его в пещере.&r"
 			]
 			icon: "minecraft:book"
 			id: "1895A7A94BE0A4B6"
@@ -575,7 +575,7 @@
 				title: "250 Experience"
 				type: "command"
 			}]
-			subtitle: "Page 10"
+			subtitle: "Страница 10"
 			tasks: [{
 				entity: "minecraft:skeleton"
 				icon: "ftb_ph:skeleton"
@@ -583,24 +583,24 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Easy Kill"
+			title: "Лёгкая смерть"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["30403B3DE1E47F33"]
 			description: [
-				"&o\"Can money buy happiness?\"&r"
+				"&o«Может ли деньги купить счастье?»&r"
 				""
-				"Well, in this case, money can be used to buy many useful tools and resources. You will be able to use money to barter for goods with villagers and traders from other mods. Of course, you can also use money to trade with other players, and if you're on a server, purchase claim blocks!"
+				"Ну, в данном случае деньги можно использовать для покупки множества полезных инструментов и ресурсов. Вы сможете использовать деньги для торговли с жителями и торговцами из других модов. Конечно, вы также можете торговать с другими игроками, а если вы на сервере — покупать участки (claim blocks)!"
 				""
-				"You can &learn money from killing mobs or looting chests&r. You can also sometimes sell goods for money with traders."
+				"Вы можете &lзарабатывать деньги, убивая мобов или добывая сундуки&r. Иногда также можно продавать товары торговцам за деньги."
 				""
-				"The &eTrading Terminal/Barter Board&r is a valuable tool in order to acquire specific resources, as well.&r"
+				"&eТорговый терминал/Доска обмена&r — ценный инструмент для получения конкретных ресурсов."
 				""
-				"Keep your money safe in the &eWallet&r that you receive from this quest. Later on, upgrade the wallet so it can hold more money!"
+				"Храните свои деньги в &eКошельке&r, который вы получите в этом квесте. Позже можно улучшить кошелек, чтобы он мог хранить больше денег!"
 				""
-				"&eShould you need to exchange your money for lower amounts, you can use an ATM.&r"
+				"&eЕсли нужно разменять деньги на меньшие суммы, используйте банкомат.&r"
 			]
 			icon: "minecraft:book"
 			id: "04849611F904771C"
@@ -616,26 +616,26 @@
 				title: "Wallet"
 				type: "item"
 			}]
-			subtitle: "Page 1"
+			subtitle: "Страница 1"
 			tasks: [{
 				id: "33258148F7D6B004"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Money"
+			title: "Деньги"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3059FF2D6DB1AC9F"]
 			description: [
-				"In CTE2, you will craft and find many pieces of equipment. These pieces of &eequipment will not provide any stats unless you apply Gear Stat Souls to them&r, essentially imbuing them with Mine and Slash stats."
+				"В CTE2 вы будете создавать и находить множество предметов снаряжения. Эти &eпредметы не будут давать никаких характеристик, пока вы не примените к ним душу усиленного снаряжения&r, фактически наполняя их статистиками Mine and Slash."
 				""
-				"&cGear without a soul will have no effect, either defensively of offensively!&r"
+				"&cСнаряжение без души не даст никакого эффекта — ни в защите, ни в атаке!&r"
 				""
-				"Gear Stat Souls can be used on any piece of equipment that shares the same type. For example, the Aquaculture and Farmer's Delight knives have the \"Dagger\" type. By &eclicking on the item with a Gear Stat Soul&r of \"Dagger\" type, you can apply Mine and Slash stats to the knives!"
+				"Душу усиленного снаряжения можно использовать на любом предмете, который имеет тот же тип. Например, ножи из Aquaculture и Farmer's Delight имеют тип «Кинжал». &eКликнув по предмету с душу усиленного снаряжения&r типа «Кинжал», вы примените Mine and Slash характеристики к ножам!"
 				""
-				"Want to learn more about how to &ecraft Gear Stat Souls&r? Visit the &aM\\&S Professions&r quest chapter!"
+				"Хотите узнать больше о том, как &eсоздавать душу усиленного снаряжения&r? Посетите главу квестов &aПрофессии MS&r!"
 			]
 			icon: "ftbquests:book"
 			id: "289350CF47F41D69"
@@ -667,26 +667,26 @@
 				}
 			]
 			shape: "circle"
-			subtitle: "Page 5b"
+			subtitle: "Страница 5б"
 			tasks: [{
 				id: "1C99B6F792983F96"
-				title: "Click Once Read"
+				title: "Прочитать одним кликом"
 				type: "checkmark"
 			}]
-			title: "Gear Stat Souls"
+			title: "Душа усиления снаряжения"
 			x: 6.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["7B22B96E95E5DA09"]
 			description: [
-				"Shields (Armor), Totems (Dodge), and Tomes (Magic Shield) are offhands that can increase your defensive stat."
+				"Щиты (&4броня&r), Тотемы (&2уклонение&r) и Тома (&9магический щит&r) — это предметы в слоте второй руки, которые увеличивают вашу защиту."
 				""
-				"One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage."
+				"Одна из защитных возможностей в бою — способность делать перекат (по умолчанию: Alt). Она доступна всем. Однако, если вы экипируете щит, вы также можете использовать его для блокирования урона."
 				""
-				"Shields drain &aEnergy&r while being held up, and if you're facing the correct direction, negate damage taken."
+				"Щиты расходуют &aэнергию&r, когда подняты, и если вы смотрите в правильном направлении, блокируют получаемый урон."
 				""
-				"Did you know that the &eshield can have a passive chance to negate damage&r (similar to dodging)? You can get block chance from gear or the Talent Tree, which allows you to have a &ochance to negate damage even when not holding the shield up&r!"
+				"Знаете ли вы, что &eщиты могут иметь пассивный шанс заблокировать урон&r (похоже на уклонение)? Вы можете получить шанс блока на снаряжении или через древо талантов, что позволяет &oиметь шанс заблокировать урон даже без поднятого щита&r!"
 			]
 			icon: "ftbquests:book"
 			id: "119B706F79F22360"
@@ -697,29 +697,29 @@
 				type: "choice"
 			}]
 			shape: "circle"
-			subtitle: "Page 9b"
+			subtitle: "Страница 9б"
 			tasks: [{
 				id: "0662DB198465C67A"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Blocking"
+			title: "Блокирование"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
 			description: [
-				"Waystones are spread throughout the world and once discovered, can be teleported to via other Waystones, Warp Scrolls, or Warp Stones."
+				"Путевые камни разбросаны по всему миру, и однажды обнаружив их, вы сможете телепортироваться к ним через другие Путевые камни, Свитки перемещения или Камни телепортации."
 				""
-				"Waystones can spawn randomly in the world, but are &eoften found in villages&r."
+				"Путевые камни могут появляться случайно в мире, но &eих часто можно найти в деревнях&r."
 				""
-				"Use this &eWarp Stone&r to easily return to any discovered Waystone!"
+				"Используйте этот &eкамень телепортации&r, чтобы легко вернуться к любому обнаруженному путевому камню!"
 			]
 			icon: "ftbquests:book"
 			id: "19319F327C09E772"
 			rewards: [{
-				id: "2E41AC8DDD4E46D7"
+					id: "2E41AC8DDD4E46D7"
 				item: {
 					Count: 1
 					id: "waystones:warp_stone"
@@ -730,22 +730,22 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 10c"
+			subtitle: "Страница 10в"
 			tasks: [{
 				id: "302BF9765FDEFFE8"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Waystones"
+			title: "Путевые обелиски"
 			x: 3.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["48075B2F138A9C2C"]
 			description: [
-				"You can &eclaim an area&r to be protected against unwanted players. Use any &eGolden Hoe&r to do this by right-clicking the ground."
+				"Вы можете &eзаприватить территорию&r, чтобы защитить её от нежелательных игроков. Используйте любую &eзолотую мотыгу&r для этого, нажав ПКМ по земле."
 				""
-				"&oCheck out the \"&eLand Claiming with FLAN&r\" quest under the &eJolly Cooperation&r chapter for more details!&r"
+				"&oПодробности смотрите в задании «&eЗахват земли с FLAN&r» в главе &eВесёлое сотрудничество&r!&r"
 			]
 			icon: "ftbquests:book"
 			id: "31B023681AC62535"
@@ -758,9 +758,9 @@
 						Damage: 0
 						display: {
 							Lore: [
-								"{\"text\":\"Right-click to set Claim Point\",\"color\":\"light_purple\",\"italic\":false}"
-								"{\"text\":\"Click separate corners of your Base/Home to setup claim\",\"color\":\"green\",\"italic\":false}"
-								"{\"text\":\"Edit claim permissions by using the command\",\"color\":\"gold\",\"italic\":false}"
+								"{\"text\":\"Щёлкните правой кнопкой, чтобы установить точку захвата\",\"color\":\"light_purple\",\"italic\":false}"
+								"{\"text\":\"Укажите углы вашей базы/дома, чтобы установить территорию\",\"color\":\"green\",\"italic\":false}"
+								"{\"text\":\"Используйте команду, чтобы изменить разрешения для территории\",\"color\":\"gold\",\"italic\":false}"
 								"{\"text\":\"/flan menu\",\"color\":\"white\",\"italic\":false}"
 							]
 							Name: "{\"text\":\"Claiming Hoe\",\"color\":\"gold\",\"italic\":false}"
@@ -770,19 +770,19 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 2c"
+			subtitle: "Страница 2в"
 			tasks: [{
 				id: "5848EBF021C0262E"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Land Claiming"
+			title: "Захват земли"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
-			description: ["Throughout your travels, you will find &eSpirit Orbs&r, which can be exchanged at &eGoddess Statues&r for &cHeart Containers&r. Each Heart Container increases your base Health by 2, up to a maximum of 200 Health (100 Heart Containers). You can also find &eHeart Containers from Bosses&r in Craft to Exile 2."]
+			description: ["В ваших путешествиях вы будете находить &eДуховные Шары&r, которые можно обменять у &eСтатуй Богини&r на &cКонтейнеры Сердец&r. Каждый Контейнер Сердец увеличивает ваше базовое здоровье на 2, до максимума в 200 здоровья (100 Контейнеров Сердец). Также &eКонтейнеры Сердец можно получить с Боссов&r в Craft to Exile 2."]
 			icon: "minecraft:book"
 			id: "1C852F78D386B77E"
 			rewards: [{
@@ -790,24 +790,24 @@
 				item: "paraglider:heart_container"
 				type: "item"
 			}]
-			subtitle: "Page 11"
+			subtitle: "Страница 11"
 			tasks: [{
 				id: "5C49990F810F10CF"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Heart Containers"
+			title: "Контейнеры сердец"
 			x: 4.5d
 			y: 6.0d
 		}
 		{
 			dependencies: ["1C852F78D386B77E"]
 			description: [
-				"You will very soon realize that &eCraft to Exile 2&r has a LOT of loot to collect. Most of the loot comes from &eMine and Slash&r, the RPG mod. One of the most frustrating things is keeping your inventory organized and having enough space to pick things up."
+				"Вы очень скоро заметите, что в &eCraft to Exile 2&r очень много добычи для сбора. Большая часть добычи приходит из &eMine and Slash&r — RPG мода. Одной из самых раздражающих проблем является организация инвентаря и достаточное количество свободного места для поднятия предметов."
 				""
-				"This &eMaster Bag&r will specifically &bpick up and hold items&r from &eMine and Slash&r and assist you with organizing your loot. You can wear the bag in a Curio slot and access it via \"&eAlt + B&r\"!"
+				"Этот &eМастер-рюкзак&r будет специально &bподбирать и хранить предметы&r из &eMine and Slash&r и поможет вам организовать вашу добычу. Вы можете носить этот рюкзак в слоте Curio и открывать его с помощью \"&eAlt + B&r\"!"
 				""
-				"If you are still struggling with the sheer quantity of loot, you could also consider using the &eauto-salvage feature&r found in the Hub. To learn more about this, visit the &eProfessions Chapter&r."
+				"Если вам всё ещё тяжело справляться с огромным количеством добычи, вы также можете воспользоваться &eфункцией авторазборки&r, которая доступна в Хабе. Подробнее об этом можно узнать в &eглаве Профессий&r."
 			]
 			icon: "ftbquests:book"
 			id: "351118C34DCDFEB4"
@@ -817,22 +817,22 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 11b"
+			subtitle: "Страница 11б"
 			tasks: [{
 				id: "6E5BF0F42C1A3C85"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Managing Your Inventory"
+			title: "Управление инвентарём"
 			x: 4.5d
 			y: 5.0d
 		}
 		{
 			dependencies: ["04849611F904771C"]
 			description: [
-				"&eCraft to Exile 2&r comes with &ecustom key binds&r. However, there have been &ccases where the custom key binds did not apply&r. You can confirm this by pressing R. If it brings up the wheel, then the custom key binds did not apply (it should be H)."
+				"&eCraft to Exile 2&r поставляется с &eнастроенными горячими клавишами&r. Однако были &cслучаи, когда настройки клавиш не применялись&r. Вы можете проверить это, нажав R. Если появится колесо меню, значит кастомные клавиши не сработали (должна открываться клавиша H)."
 				""
-				"To fix this, hit Esc and go to &bOptions > Controls > Key Binds > click Reset Keys&r."
+				"Чтобы исправить это, нажмите Esc и перейдите в &bНастройки > Управление > Горячие клавиши > нажмите Сбросить клавиши&r."
 			]
 			icon: "ftbquests:book"
 			id: "5CA9B71D52F01485"
@@ -842,24 +842,24 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 1b"
+			subtitle: "Страница 1б"
 			tasks: [{
 				id: "6F2223761F2F7200"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Key Binds"
+			title: "Горячие клавиши"
 			x: 1.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1895A7A94BE0A4B6"]
 			description: [
-				"In CTE2 there is a limit on how many mobs can be killed within a chunk before they &cstop yielding any drops or experience!&r The chunk will recover over time."
+				"В CTE2 есть лимит на количество мобов, которых можно убить в одном чанке, прежде чем они &cперестанут давать дроп и опыт&r! Со временем чанк восстанавливается."
 				""
-				"This is done to encourage travel and exploration instead of the usage of automated experience methods."
+				"Это сделано, чтобы поощрять путешествия и исследования, а не использование автоматических методов фарма опыта."
 				""
-				"&oExplore and discover! There are many structures and dangers to be found."
+				"&oИсследуйте и открывайте новое! Вас ждёт множество построек и опасностей.&r"
 			]
 			icon: "ftbquests:book"
 			id: "151EDFFBB525349E"
@@ -874,31 +874,34 @@
 				type: "command"
 			}]
 			shape: "circle"
-			subtitle: "Page 10b"
+			subtitle: "Страница 10б"
 			tasks: [{
 				id: "321AFA63AEF2B67B"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Anti Mob Farm"
+			title: "Защита от мобо-ферм"
 			x: 3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["30403B3DE1E47F33"]
 			description: [
-				"Craft to Exile 2 comes bundled with &eVR support&r! You &lmust&r have the following:"
-				"- SteamVR"
-				"- A VR Headset"
-				"- Minecraft Window is Focused on PC"
+				"Craft to Exile 2 поставляется с &eподдержкой VR&r! Вам &lнеобходимо&r иметь следующее:"
 				""
-				"Once the above are checked, turn on your headset and connect it to your PC. Then you can enable VR from the main menu. Some key binds are already set up for you. However, you will probably want to &econfigure SteamVR inputs&r for Vivecraft to better suit your needs."
+				"SteamVR"
 				""
-				"By default, the &lVR radial menu&r is used for Mine and Slash Skill hotkeys and some other important menu items. When bringing up the radial menu, you can hold the &lGrip button to access the second set of options&r!"
+				"VR-гарнитуру"
 				""
-				"Additionally, there is VR integration support with most aspects of Minecraft, such as the Crafting Table and immersive swinging and bow usage! You can also modify locomotion and enable run in place to move!"
+				"Окно Minecraft должно быть в фокусе на ПК"
 				""
-				"&lPerform the following to prevent the GUI from failing to load. Before exiting the game, you need turn off VR in the main menu and subsequently, re-enable it on log in.&r"
+				"После проверки вышеуказанного включите гарнитуру и подключите её к ПК. Затем вы сможете включить VR в главном меню. Некоторые клавиши уже настроены для вас, однако, скорее всего, вам захочется &eнастроить SteamVR inputs&r для Vivecraft под свои нужды."
+				""
+				"По умолчанию &lрадиальное меню VR&r используется для горячих клавиш навыков Mine and Slash и других важных элементов меню. При вызове радиального меню удерживайте &lкнопку Grip&r, чтобы получить доступ ко второму набору опций!"
+				""
+				"Кроме того, VR интеграция поддерживает большинство аспектов Minecraft, таких как Верстак, а также реалистичные махи мечом и использование лука! Вы также можете настроить передвижение и включить бег на месте для перемещения!"
+				""
+				"&lЧтобы избежать проблем с загрузкой интерфейса, перед выходом из игры нужно отключить VR в главном меню и затем заново включить его при следующем входе в игру.&r"
 			]
 			icon: "simplehats:goggles"
 			id: "3FD1760A231D429D"
@@ -910,10 +913,10 @@
 			shape: "circle"
 			tasks: [{
 				id: "7A2278B60D17AB84"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "VR Support"
+			title: "Поддержка VR"
 			x: 0.0d
 			y: -1.0d
 		}
@@ -922,9 +925,9 @@
 			description: [
 				"{image:cte2:textures/skill_bar.png width:120 height:120 align:center}"
 				""
-				"&eSkills&r can be assigned to your hotbar by clicking &eSkill Hotbar&r from the hub."
+				"&eНавыки&r можно назначить на панель быстрого доступа, нажав &eSkill Hotbar&r в хабе."
 				""
-				"&eYou can move the Skill hotbar&r via the &eExile GUI Settings&r (bottom of quick access wheel)."
+				"&eВы можете переместить панель навыков&r через &eНастройки интерфейса Exile&r (внизу колеса быстрого доступа)."
 			]
 			icon: "ftbquests:book"
 			id: "33E4003EA7B05BA4"
@@ -935,19 +938,19 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 8b"
+			subtitle: "Страница 8б"
 			tasks: [{
 				id: "24E6BC2E8058814E"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "The Spell Bar"
+			title: "Панель заклинаний"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C852F78D386B77E"]
-			description: ["CTE2 has tons of information, and sometimes it can be a bit spread across the campaign. If you're looking for this information consolidated in one place, you can use the Patchoulie &eAdventurer Handbook&r!"]
+			description: ["CTE2 содержит массу информации, и иногда она может быть немного разбросана по кампании. Если вы хотите найти эту информацию в одном месте, вы можете использовать &eРуководство искателя приключений&r Пачули!"]
 			icon: "ftbquests:book"
 			id: "7343515F10544FDE"
 			rewards: [{
@@ -962,22 +965,22 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 11c"
+			subtitle: "Страница 11в"
 			tasks: [{
 				id: "2D60441D0A153B0F"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Information Compiled"
+			title: "Информация собрана"
 			x: 4.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["0C1568D71346C427"]
 			description: [
-				"You can adjust most parts of your GUI via the &eExile GUI Settings&r. You can quickly access these settings at the bottom of the quick access wheel (default: H)."
+				"Большинство элементов интерфейса можно настроить через &eНастройки интерфейса&r. Быстрый доступ к ним находится в нижней части колеса быстрого доступа (по умолчанию: H)."
 				""
-				"In the &eExile GUI Settings&r you can enable other features as well, such as the &eDamage Tracker&r, adjust enemy health bars, enable &equick loot&r, etc."
+				"В &eНастройках интерфейса&r вы также можете включить дополнительные функции, такие как &eотслеживание урона&r, настроить полосы здоровья врагов, включить &eбыстрый сбор&r и многое другое."
 			]
 			icon: "ftbquests:book"
 			id: "25A6FD78EFFD11A9"
@@ -988,10 +991,10 @@
 				type: "item"
 			}]
 			shape: "circle"
-			subtitle: "Page 4b"
+			subtitle: "Страница 4b"
 			tasks: [{
 				id: "0C3BCC54BCFE11CC"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
 			title: "GUI Adjustments"
@@ -999,5 +1002,5 @@
 			y: -1.0d
 		}
 	]
-	title: "Prologue"
+	title: "Пролог"
 }

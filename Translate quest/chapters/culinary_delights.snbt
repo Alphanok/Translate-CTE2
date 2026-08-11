@@ -10,13 +10,13 @@
 	quests: [
 		{
 			description: [
-				"&eFarmer's Delight&r overhauls the process of cooking. You can now create a &estove&r to heat a &epot or skillet&r that is placed ontop of it. "
+				"&eFarmer's Delight&r полностью перерабатывает процесс готовки. Теперь вы можете создать &eплиту&r, чтобы нагревать &eкотёл или сковороду&r, размещённые сверху."
 				""
-				"&ePots&r are able to make stews and combined foods that are held with bowls. You can also make Feasts which are foods that are placed, like cakes, that have multiple portions."
+				"&eКотлы&r позволяют готовить супы и комбинированные блюда, которые подаются в мисках. Также можно создавать Пиры — блюда, которые ставятся на стол, как торты, и содержат несколько порций."
 				""
-				"&eSkillets&r can cook food over campfires or stoves."
+				"&eСковороды&r позволяют готовить еду на кострах или плитах."
 				""
-				"&eCutting Boards &rare useful in and out of cooking. Not only can you &efillet fish and meats&r into strips, but also cut up various items such as wool into string or leather armor into leather. Cutting boards require &eknives&r primarily but some recipes will use pickaxes, axes, shears, etc."
+				"&eРазделочные доски&r полезны как в кулинарии, так и вне её. С их помощью можно &eразделывать рыбу и мясо на филе&r, а также нарезать различные предметы, например, шерсть на нити или кожаную броню на кожу. Для работы с досками в основном требуются &eножи&r, но некоторые рецепты используют кирки, топоры, ножницы и другие инструменты."
 			]
 			id: "1ABBB0CCEECA066F"
 			rewards: [{
@@ -29,7 +29,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each item"
+			subtitle: "Создайте по одному экземпляру каждого предмета"
 			tasks: [
 				{
 					id: "233009494ADD7158"
@@ -69,12 +69,12 @@
 					type: "item"
 				}
 			]
-			title: "Farmer's Delight"
+			title: "Фермерское наслаждение"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
-			description: ["&eCrabber's Delight &rallows you to catch crabs and other treasures using &eCrab Pots&r. They require bait, usually fish, in them to catch anything. They can also be fished up with a fishing rod."]
+			description: ["&eCrabber's Delight&r позволяет ловить крабов и другие сокровища с помощью &eКрабовой ловушки&r. Для того чтобы что-то поймать, в них должна быть наживка — обычно рыба. Ловушки также можно выловить удочкой."]
 			id: "3ADE97CD486AE65C"
 			rewards: [{
 				auto: "enabled"
@@ -86,7 +86,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft 3 Crab Pots"
+			subtitle: "Создать 3 крабовые ловушки"
 			tasks: [{
 				count: 3L
 				id: "0E73B487ED20E490"
@@ -98,7 +98,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["While holding a &ehoe,&r right click crops to harvest without breaking them. Higher tiered &ehoes&r harvest in bigger radiuses."]
+			description: ["Держа &eмотыгу,&r щёлкните ПКМ по посевам, чтобы собрать урожай, не ломая их. Мотыги высокого уровня собирают урожай на большей площади."]
 			id: "7F58716061D74AC2"
 			rewards: [{
 				auto: "enabled"
@@ -110,7 +110,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Right click crops with hoe"
+			subtitle: "Щелкните правой кнопкой мыши по культурам с помощью мотыги"
 			tasks: [{
 				id: "34C3EF34008C3C11"
 				item: {
@@ -122,19 +122,19 @@
 				}
 				type: "item"
 			}]
-			title: "Better Harvesting"
+			title: "Лучший сбор урожая"
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"&eFarming for Blockheads&r makes farming easier by providing &ethree&r different fertilizers to apply to farmland. Only one fertilizer can be used on a farmland."
+				"&eFarming for Blockheads&r облегчает сельское хозяйство, предоставляя &eтри&r разных удобрения для обработки земли. На один участок можно использовать только одно удобрение."
 				""
-				"The &eMarket&r block allows you to buy seeds and sapling directly."
+				"&eРынок&r позволяет напрямую покупать семена и саженцы."
 				""
-				"The &eFeeding Trough&r lets animals breed automatically if supplied with food."
+				"&eКормушка&r позволяет животным автоматически размножаться при наличии корма."
 				""
-				"The &eChicken Nest&r automatically collects any eggs laid near it."
+				"&eГнездо для кур&r автоматически собирает яйца, отложенные рядом с ним."
 			]
 			id: "3B4E06CA3D404A7C"
 			rewards: [{
@@ -147,7 +147,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру каждого вида"
 			tasks: [
 				{
 					id: "154DB277F57B7837"
@@ -180,12 +180,12 @@
 					type: "item"
 				}
 			]
-			title: "Farming for Blockheads"
+			title: "Фермерство для дураков"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
-			description: ["&eNether's Delight&r adds food and utility to the Nether such as &eHoglin Loins&r and&e Strider meats&r."]
+			description: ["&eNether's Delight&r добавляет еду и полезные предметы для Незера, такие как &eФиле хоглина&r и &eмясо страйдера&r."]
 			id: "462BAB455A040B51"
 			rewards: [{
 				auto: "enabled"
@@ -197,7 +197,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 3 Hoglin Loins and 3 Strider Slices"
+			subtitle: "Получите 3 куска филе хоглина и 3 куска страйдера."
 			tasks: [
 				{
 					count: 3L
@@ -217,7 +217,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["&eCorn Delight&r adds corn products such as tortillas, nachos, popcorn, and more."]
+			description: ["&eCorn Delight&r добавляет кукурузные продукты, такие как тортильи, начос, попкорн и многое другое."]
 			id: "4EB5BD23AA91660A"
 			rewards: [{
 				auto: "enabled"
@@ -229,7 +229,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 8 Corn Kernals"
+			subtitle: "Получить 8 зерен кукурузы"
 			tasks: [{
 				count: 8L
 				id: "384E567ED41274E2"
@@ -242,15 +242,17 @@
 		}
 		{
 			description: [
-				"&eCuisine Delight&r allows you to cook &eany compatible food&r to create new, unique foods. "
+				"&eCuisine Delight&r позволяет готовить &eлюбую совместимую еду&r, создавая новые, уникальные блюда."
 				""
-				"While near a fire source, hold the &eCuisine Skillet&r in your &eoffhand.&r You can also place it on the fire source. &eRight click food&r in hand to add it to the &eskillet.&r Two gauges will appear on the right side of your screen for each ingredient added. The &efirst gauge&r is how cooked the food is, you want it to end in the &eyellow.&r The &esecond gauge&r is how &eburned each side&r is, you want the pointer inside to &eremain within the green&r. Then, use the &espatula&r to &eflip&r all the ingredients inside to keep either side from &eburning.&r Use the &ebowl&r quickly to take the food out."
+				"Находясь рядом с источником огня, держите &eКулинарную сковороду&r во &eвторой руке.&r Также её можно поставить на источник огня. &eЩёлкните ПКМ по еде&r в руках, чтобы добавить её в &eсковороду.&r Справа на экране появятся два индикатора для каждого добавленного ингредиента."
+				"&eПервый индикатор&r показывает степень готовности блюда — он должен закончиться в &eжёлтой зоне.&r"
+				"&eВторой индикатор&r показывает, насколько &eпережарена каждая сторона&r — стрелка должна оставаться в &eзелёной зоне&r. Используйте &eлопатку&r, чтобы &eпереворачивать&r все ингредиенты внутри, чтобы избежать их &eпережаривания.&r Быстро используйте &eмиску&r, чтобы достать готовое блюдо."
 				""
-				"Hold &eshift&r on food in inventory to see cooking timings."
+				"Удерживайте &eshift&r на еде в инвентаре, чтобы увидеть время приготовления."
 				""
-				"If it's &eburned,&r you let the second gauge get into the red on one of the sides."
+				"Если блюдо &eпережарено,&r значит второй индикатор ушёл в красную зону с одной из сторон."
 				""
-				"If it's &enot cooked enough,&r you didn't let the first gauge get into the yellow."
+				"Если блюдо &eнедостаточно приготовлено,&r значит первый индикатор не достиг жёлтой зоны."
 			]
 			id: "75800C2A9E6F13F0"
 			rewards: [{
@@ -263,7 +265,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру каждого вида"
 			tasks: [
 				{
 					id: "3F2FB4CEA9BB6DCC"
@@ -287,12 +289,12 @@
 					type: "item"
 				}
 			]
-			title: "Cuisine Delight"
+			title: "Кулинарное наслаждение"
 			x: -3.0d
 			y: 1.5d
 		}
 		{
-			description: ["&eEnder's Delight &radds food and ingredient drops to each mob in the End. These can be cooked into foods that can assist you navigating the End."]
+			description: ["&eEnder's Delight&r добавляет дроп в виде еды и ингредиентов с каждого моба в Энде. Эти ингредиенты можно приготовить в блюда, которые помогут вам в исследовании Края."]
 			id: "0B9F6275E5B8A1EC"
 			rewards: [{
 				auto: "enabled"
@@ -304,7 +306,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 6 of each"
+			subtitle: "Соберите 6 единиц каждого вида."
 			tasks: [
 				{
 					count: 6L
@@ -330,7 +332,7 @@
 			y: 0.0d
 		}
 		{
-			description: ["&eOcean's Delight &radds food drops to numerous creatures within the oceans"]
+			description: ["&eOcean's Delight&r добавляет пищу в дроп множества существ, обитающих в океанах."]
 			id: "54A6BA8EB4D9D0A0"
 			rewards: [{
 				auto: "enabled"
@@ -342,7 +344,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 12 Tentacles and Fugu Slices"
+			subtitle: "Получите 12 щупалец и ломтиков фугу"
 			tasks: [
 				{
 					count: 12L
@@ -357,13 +359,13 @@
 					type: "item"
 				}
 			]
-			title: "Ocean's Delight"
+			title: "Восторг океана"
 			x: -4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["54A6BA8EB4D9D0A0"]
-			description: ["Slay an &eElder Guardian&r for its meat."]
+			description: ["Убейте &eДревнего стража&r, чтобы получить его мясо."]
 			id: "2CABF1E53F173621"
 			rewards: [{
 				auto: "enabled"
@@ -375,7 +377,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain Elder Guardian Slab"
+			subtitle: "Получить плиту Древнего Стража"
 			tasks: [{
 				id: "730C6710D5405360"
 				item: "oceansdelight:elder_guardian_slab"
@@ -412,7 +414,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -436,7 +438,7 @@
 					type: "item"
 				}
 			]
-			title: "Corn Lover"
+			title: "Любитель кукурузы"
 			x: -3.0d
 			y: -3.0d
 		}
@@ -453,27 +455,27 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Harvest 16 Maize"
+			subtitle: "Соберите 16 единиц кукурузы."
 			tasks: [{
 				count: 16L
 				id: "6DE4AB2790B4DD6A"
 				item: "corn_delight:corn"
 				type: "item"
 			}]
-			title: "Amaizeing"
+			title: "Удивительно"
 			x: -3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1ABBB0CCEECA066F"]
 			description: [
-				"&eFarmer's Delight&r also provides three basic resources that can be used to make decorations, such as hanging signs, to utilities, such as climable ropes and safety nets. "
+				"&eFarmer's Delight&r также добавляет три основных ресурса, которые можно использовать как для создания декораций, например подвесных вывесок, так и для полезных предметов, таких как верёвочные лестницы и страховочные сети."
 				""
-				"&eTree barks&r are obtained from using an axe on wood placed on a cutting board and can be used to make paper."
+				"&eКора деревьев&r получается, если использовать топор на древесине, размещённой на разделочной доске, и может применяться для изготовления бумаги."
 				""
-				"&eCanvas&r is made from straw and can replace leather in all recipes as well as make rugs and other decorations."
+				"&eХолст&r изготавливается из соломы и может заменить кожу во всех рецептах, а также использоваться для создания ковриков и других украшений."
 				""
-				"&eStraw&r is obtained from cutting grass with a knife and can be used in numerous recipes such as crafting leads."
+				"&eСолома&r добывается путём срезания травы ножом и используется во множестве рецептов, например, для создания поводков."
 			]
 			id: "21923B5086A5FA57"
 			rewards: [{
@@ -486,7 +488,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 12 of each"
+			subtitle: "Соберите 12 единиц каждого вида."
 			tasks: [
 				{
 					count: 12L
@@ -507,13 +509,13 @@
 					type: "item"
 				}
 			]
-			title: "Farmer's Tools"
+			title: "Фермерские инструменты"
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["3ADE97CD486AE65C"]
-			description: ["&eClams&r can be caught and opened on a &ecutting board&r which can sometimes result in precious &epearls.&r Even if they're useless, they're still shiny."]
+			description: ["&eМоллюски&r могут быть выловлены и вскрыты на &eразделочной доске&r — иногда внутри можно найти драгоценные &eжемчужины.&r Даже если они бесполезны, они всё равно блестят."]
 			id: "7D68159C74783F3C"
 			rewards: [{
 				auto: "enabled"
@@ -525,7 +527,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 16 Pearls"
+			subtitle: "Соберите 16 моллюсков"
 			tasks: [
 				{
 					count: 16L
@@ -544,16 +546,16 @@
 					type: "item"
 				}
 			]
-			title: "Clams"
+			title: "Моллюски"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["462BAB455A040B51"]
 			description: [
-				"Use a &eknife&r on &ePropelplants&r to collect them. They can be planted on &eNetherrack, Nylium, or Rich Soul Soil&r."
+				"Используйте &eнож&r на &eПропеллер-растениях&r, чтобы собрать их. Их можно сажать на &eадский камень, нилий или обогащённую почву душ&r."
 				""
-				"The &eMachete&r is a better weapon to use for killing/harvesting &eHoglins&r over the knife. It may be a worthy weapon by itself."
+				"&eМачете&r — более эффективное оружие для убийства/сбора &eХоглинов&r по сравнению с ножом. Оно может быть достойным оружием само по себе."
 			]
 			id: "653E2D7F781C9BAA"
 			rewards: [{
@@ -566,7 +568,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Collect 12 of each"
+			subtitle: "Соберите 12 единиц каждого вида."
 			tasks: [
 				{
 					count: 12L
@@ -592,7 +594,7 @@
 					type: "item"
 				}
 			]
-			title: "Plant Life"
+			title: "Растительная жизнь"
 			x: 3.0d
 			y: -1.5d
 		}
@@ -624,7 +626,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -648,7 +650,7 @@
 					type: "item"
 				}
 			]
-			title: "Fourth Dimensional Cooking"
+			title: "Кулинария четвертого измерения"
 			x: 4.5d
 			y: -3.0d
 		}
@@ -665,7 +667,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 12 of each"
+			subtitle: "Соберите 12 единиц каждого"
 			tasks: [
 				{
 					consume_items: false
@@ -681,7 +683,7 @@
 					type: "item"
 				}
 			]
-			title: "Biscuits"
+			title: "Печенье"
 			x: 4.5d
 			y: -1.5d
 		}
@@ -713,7 +715,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -730,7 +732,7 @@
 					type: "item"
 				}
 			]
-			title: "Pescatarian"
+			title: "Пескетарианец"
 			x: -4.5d
 			y: -3.0d
 		}
@@ -762,14 +764,14 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				advancement: "farmersdelight:main/master_chef"
 				criterion: ""
 				id: "6B36090D242B5283"
 				type: "advancement"
 			}]
-			title: "Master Chef"
+			title: "Шеф-повар"
 			x: -1.5d
 			y: -3.0d
 		}
@@ -801,7 +803,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -832,7 +834,7 @@
 					type: "item"
 				}
 			]
-			title: "Deadliest Catch"
+			title: "Самый смертельный улов"
 			x: 1.5d
 			y: -3.0d
 		}
@@ -864,7 +866,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -887,7 +889,7 @@
 					type: "item"
 				}
 			]
-			title: "Hog Hunter"
+			title: "Охотник на кабанов"
 			x: 3.0d
 			y: -3.0d
 		}
@@ -938,29 +940,29 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "1B9FD9860E832B8F"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "World Star Chef"
+			title: "Звездный шеф-повар мира"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			description: [
-				"&eCooking for Blockheads&r makes your cooking experience a lot easier. Aside from Farmer's Delight which requires you to use the Pot, with Cooking for Blockhead you can cook all the food in one place. No recipe juggling necessary."
+				"&eCooking for Blockheads&r значительно упрощает процесс готовки. В отличие от Farmer's Delight, где нужно использовать котёл, с Cooking for Blockheads вы можете готовить всю еду в одном месте — никакой путаницы с рецептами."
 				""
-				"Connect each component with &eKitchen Floors&r."
+				"Соединяйте все компоненты с помощью &eкухонной плитки&r."
 				""
-				"The &eStove&r can cook multiple foods at once and can take FE as energy if upgraded."
+				"&eДуховка&r позволяет готовить сразу несколько блюд и может принимать энергию FE при улучшении."
 				""
-				"The &eSink&r provides infinite water for buckets and recipes."
+				"&eРаковина&r обеспечивает бесконечный запас воды для ведёр и рецептов."
 				""
-				"The &eCooking Table&r is able to pull food and tools from blocks and fridges connected by Kitchen Floors."
+				"&eКухонный стол&r может автоматически забирать еду и инструменты из блоков и холодильников, соединённых Кухонными полами."
 				""
-				"There are more pieces to add to your kitchen as well such as the &etoaster&r or &espice rack&r."
+				"Также есть другие предметы для кухни, такие как &eтостер&r и &eполка для специй&r."
 			]
 			id: "608DF81CF3DC9A64"
 			rewards: [{
@@ -973,7 +975,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовьте по одному экземпляру каждого вида"
 			tasks: [
 				{
 					id: "2159129FA615A117"
@@ -1001,19 +1003,19 @@
 					type: "item"
 				}
 			]
-			title: "Cooking for Blockheads"
+			title: "Готовка для дураков"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			description: [
-				"These blocks allow &eRefined Storage&r and &eCooking for Blockheads&r to work together!"
+				"Эти блоки позволяют &eRefined Storage&r и &eCooking for Blockheads&r работать вместе!"
 				""
-				"The &eKitchen Station&r needs to be placed as part of the kitchen network and the &eKitchen Access Point&r needs to be placed in the Refined Storage Network."
+				"&eКухонная станция&r должна быть размещена в составе кухонной сети, а &eТочка доступа кухни&r — в сети Refined Storage."
 				""
-				"The Kitchen Station acts as &eRefined Storage Network Receiver&r and needs to be attached to a &eKitchen Network Card&r. Then this Kitchen Network Card needs to be &eplaced inside&r a &eKitchen Access Point&r, which acts as a Refined Storage Network Transmitter."
+				"Кухонная станция выступает как &eПриёмник сети Refined Storage&r и должна быть подключена к &eКухонной сетевой сарте&r. Затем эту Кухонную сетевую карту нужно &eвставить&r в &eТочку доступа кухни&r, которая работает как Передатчик сети Refined Storage."
 				""
-				"Once everything is connected, you'll be able to &econsume items&r from your Refined Storage network right from your cooking table."
+				"После подключения вы сможете &eиспользовать предметы&r из вашей сети Refined Storage прямо с кулинарного стола."
 			]
 			id: "712861ACFF721889"
 			rewards: [{
@@ -1026,7 +1028,7 @@
 				title: "250 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовьте по одному экземпляру каждого вида"
 			tasks: [
 				{
 					id: "7208A57F50772155"
@@ -1044,12 +1046,12 @@
 					type: "item"
 				}
 			]
-			title: "Refined Cooking"
+			title: "Изысканная кулинария"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
-			description: ["&eUndergarden Delight&r adds new &eknives and some food recipes&r to Undergarden food items!"]
+			description: ["&eUndergarden Delight&r добавляет новые &eножи и несколько рецептов еды&r для продуктов из Undergarden!"]
 			id: "4D0073E78182BB97"
 			rewards: [{
 				auto: "enabled"
@@ -1061,7 +1063,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each item"
+			subtitle: "Создайте по одному экземпляру каждого предмета"
 			tasks: [
 				{
 					id: "7CF32BD5AE02F374"
@@ -1092,9 +1094,9 @@
 		{
 			dependencies: ["4D0073E78182BB97"]
 			description: [
-				"&eShimmerpearls&r can be harvested from &eTall Shimmerweed&r on a &eCutting Board&r."
+				"&eМерцающие жемчужины&r можно собрать с &eМерцающей травы&r на &eразделочной доске&r."
 				""
-				"&eGloomgourd Pie&r can be made from various &eUndergarden&r ingredients!"
+				"&eПирог из мрачной тыквы&r можно приготовить из различных ингредиентов &eUndergarden&r!"
 			]
 			id: "5F82117320E8D3BF"
 			rewards: [{
@@ -1107,7 +1109,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain 4 of each"
+			subtitle: "Получите по 4 еденицы каждого вида"
 			tasks: [
 				{
 					count: 4L
@@ -1128,7 +1130,7 @@
 					type: "item"
 				}
 			]
-			title: "Undergarden Gourmet"
+			title: "Гурман подземелий"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -1160,7 +1162,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -1198,19 +1200,19 @@
 					type: "item"
 				}
 			]
-			title: "Undergarden Connoisseur"
+			title: "Знаток сада"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			description: [
-				"&eBrewin' And Chewin'&r allows you to brew and ferment new foods."
+				"&eПивоварение и Закуски&r позволяет вам варить и ферментировать новые продукты."
 				""
-				"As soon as you get a &eKeg&r, you may enter the world of fermenting. Here you may create drinks, cheese, and light snacks."
+				"Как только у вас появится &eБочонок&r, вы сможете погрузиться в мир ферментации. Здесь вы можете создавать напитки, сыры и лёгкие закуски."
 				""
-				"You can put &eup to 4 ingredients&r inside a keg, with an additional slot for fluids such as water, honey, and milk, which can be filled through the container slot. You will also want to keep the temperature of the keg in mind, which may change depending on the biome you're in or blocks surrounding it. If the ingredients, fluid and temperature match, the keg will start brewing."
+				"Вы можете поместить &eдо 4 ингредиентов&r в бочонок, а также дополнительную ячейку для жидкостей, таких как вода, мёд и молоко, которую можно заполнить через соответствующий слот. Также следует учитывать температуру бочонка, которая может меняться в зависимости от биома, в котором вы находитесь, или блоков вокруг него. Если ингредиенты, жидкость и температура соответствуют рецепту, бочонок начнёт готовить."
 				""
-				"Most drinks require a &eTankard&r to be served in, and cheeses require &eHoneycomb&r to be served. The finished fluid slot will tell you which item to use. Simply add the container to the corresponding slot or right-click the pot with it to take a serving!"
+				"Большинство напитков требуют подачи в &eКружке&r, а сыры требуют &eСоты&r для сервировки. Готовая ячейка жидкости подскажет вам, какой предмет использовать. Просто добавьте ёмкость в соответствующую ячейку или нажмите ПКМ по бочонку с ней в руке, чтобы налить порцию!"
 			]
 			id: "6E7FA3FA85E401B7"
 			rewards: [{
@@ -1223,7 +1225,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each item"
+			subtitle: "Создайте по одному предмету каждого вида"
 			tasks: [
 				{
 					id: "1A785A4AA8B698AA"
@@ -1241,16 +1243,16 @@
 					type: "item"
 				}
 			]
-			title: "Brewin' And Chewin'"
+			title: "Пивоварение и Закуски"
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E7FA3FA85E401B7"]
 			description: [
-				"You can place heating or cooling blocks near the keg to turn up or down the heat!"
+				"Вы можете разместить нагревающие или охлаждающие блоки рядом с бочонком, чтобы повысить или понизить температуру!"
 				""
-				"Use the keg to create Mead and Cheese!"
+				"Используйте бочонок для создания Мёдовухи и Сыра!"
 			]
 			id: "426CC2EFAFC1EEAF"
 			rewards: [{
@@ -1263,7 +1265,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft the listed items"
+			subtitle: "Изготовьте предметы из списка"
 			tasks: [
 				{
 					id: "36550F9CBF78BA2F"
@@ -1288,7 +1290,7 @@
 					type: "item"
 				}
 			]
-			title: "Fine-Tuning"
+			title: "Точная настройка"
 			x: -6.0d
 			y: -1.5d
 		}
@@ -1320,7 +1322,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					count: 16L
@@ -1347,14 +1349,14 @@
 					type: "item"
 				}
 			]
-			title: "Alcoholic"
+			title: "Алкоголик"
 			x: -6.0d
 			y: -3.0d
 		}
 		{
-			description: ["Looking to wind down? Farmer's Respite adds &eteas and other beverages&r you can drink! Farmer's Respite also has compatibility with Brewin' And Chewin' &eKegs&r!"]
+			description: ["Хотите расслабиться? Farmer's Respite добавляет &eчаи и другие напитки&r, которые вы можете употреблять! Farmer's Respite также совместим с &eБочонками&r из мода «Пивоварение и Закуски»!"]
 			id: "6CB03CDDEE5ED76B"
-			subtitle: "Obtain 2 Green Tea Leaves"
+			subtitle: "Добудьте 2 листа зелёного чая"
 			tasks: [{
 				count: 2L
 				id: "585D49BE932190C9"
@@ -1367,7 +1369,7 @@
 		}
 		{
 			dependencies: ["6CB03CDDEE5ED76B"]
-			description: ["Using a pot and specific ingredients, you can brew your own teas!"]
+			description: ["Используя котёл и определённые ингредиенты, вы можете варить собственный чай!"]
 			id: "06AA0E421880B520"
 			tasks: [
 				{
@@ -1389,7 +1391,7 @@
 					type: "item"
 				}
 			]
-			title: "Calm State"
+			title: "Умиротворение"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -1421,18 +1423,12 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					count: 64L
 					id: "5D81B1BC4FB61116"
 					item: { Count: 64, id: "farmersrespite:coffee_cake_slice" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "57A07ACE4834656C"
-					item: { Count: 16, id: "farmersrespite:long_purulent_tea" }
 					type: "item"
 				}
 				{
@@ -1448,10 +1444,10 @@
 					type: "item"
 				}
 			]
-			title: "Tea Guru"
+			title: "Ча́йный Гуру"
 			x: 6.0d
 			y: -3.0d
 		}
 	]
-	title: "Culinary Delights"
+	title: "Кулинарные изыски"
 }

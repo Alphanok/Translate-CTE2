@@ -10,13 +10,32 @@
 	quests: [
 		{
 			description: [
-				"&eRefined Storage&r is the best method of item storage, filtering, and mass crafting. Devices within the storage network manipulate your items which are on Disks. "
+				"&eRefined Storage&r — это лучший способ хранения предметов, их фильтрации и массового крафта. Устройства в сети хранят и обрабатывают ваши предметы, которые находятся на дисках."
 				""
-				"The &eController&r is the core of the storage network. All other Refined Storage must connect to it by being near it or through cables."
+				"&eКонтроллер&r — это ядро сети хранения. Все остальные устройства Refined Storage должны быть к нему подключены либо вблизи, либо через кабели."
 				""
-				"A basic storage system (&eController, Disk Drive, External Storage, and any Grid&r) uses 0 energy to run!"
+				"Базовая"
+				"система"
+				"хранения"
+				"("
+				"&eконтроллер"
+				"дисковый"
+				"привод"
+				"внешнее"
+				"хранилище"
+				"и"
+				"любой"
+				"терминал"
+				"&r"
+				")"
+				"не"
+				"потребляет"
+				"энергию"
+				"для"
+				"работы"
+				"!"
 				""
-				"This quest line is non-exhaustive. Check &eJEI&r for the full list of items and possibilities within Refined."
+				"Эта цепочка квестов не полная — смотрите &eJEI&r для полного списка предметов и возможностей Refined Storage."
 			]
 			id: "6390924916E0EF54"
 			rewards: [{
@@ -35,25 +54,25 @@
 				item: "refinedstorage:controller"
 				type: "item"
 			}]
-			title: "Interconnecting Chests"
+			title: "Соединяющиеся сундуки"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Backpacks&r allows you to do everything with a backpack you'd want. There are tons of upgrades from auto feeding, crafting and smelting in your bag, and carrying fluids and experience in fluid form. Check JEI for the full list of upgrades."
+				"&eSophisticated Backpacks&r позволяют вам делать всё, что только можно пожелать от рюкзака. В них множество улучшений: автоматическое питание, крафт и плавка прямо в сумке, перенос жидкостей и опыта в жидкой форме. Посмотрите в JEI полный список улучшений."
 				""
-				"Each tier of backpack allows for more upgrade slots and  more inventory space."
+				"Каждый уровень рюкзака даёт больше слотов для улучшений и увеличенный инвентарь."
 				""
-				"&eBackpack: &r27 slots, 1 upgrade slot"
+				"&eРюкзак:&r 27 слотов, 1 слот для улучшений"
 				""
-				"&eIron Backpack:&r 54 slots, 2 upgrade slots"
+				"&eЖелезный рюкзак:&r 54 слота, 2 слота для улучшений"
 				""
-				"&eGold Backpack:&r 81 slots, 3 upgrade slots"
+				"&eЗолотой рюкзак:&r 81 слот, 3 слота для улучшений"
 				""
-				"&eDiamond Backpack:&r 108 slots, 5 upgrade slots"
+				"&eАлмазный рюкзак:&r 108 слотов, 5 слотов для улучшений"
 				""
-				"&eNetherite Backpack:&r 120 slots, 7 upgrade slots"
+				"&eНезеритовый рюкзак:&r 120 слотов, 7 слотов для улучшений"
 			]
 			id: "309037CD749F2133"
 			rewards: [{
@@ -72,25 +91,25 @@
 				item: "sophisticatedbackpacks:diamond_backpack"
 				type: "item"
 			}]
-			title: "On The Move"
+			title: "В движении"
 			x: -2.5d
 			y: 0.0d
 		}
 		{
 			description: [
-				"&eSophisticated Storage&r is the companion to Sophisticated Backpacks. Chests and Barrels can be upgraded from Iron, Gold, Diamond, to Netherite with increasing amount of item slots and upgrade slots."
+				"&eSophisticated Storage&r — дополнение к Sophisticated Backpacks. Сундуки и бочки можно улучшать от железных, золотых, алмазных до незеритовых с увеличением количества слотов для предметов и слотов для улучшений."
 				""
-				"Vanilla Chests and Barrels can be upgraded to their Sophisticated Storage counterparts using the Basic Tier Upgrade."
+				"Обычные сундуки и бочки можно улучшить до их Sophisticated Storage аналогов с помощью Основы улучшения."
 				""
-				"&eNormal Chest:&r 27 slots, 1 upgrade slot"
+				"&eОбычный сундук:&r 27 слотов, 1 слот для улучшения"
 				""
-				"&eIron Chest:&r 54 slots, 2 upgrade slots"
+				"&eЖелезный сундук:&r 54 слота, 2 слота для улучшений"
 				""
-				"&eGold Chest:&r 81 slots, 3 upgrade slots"
+				"&eЗолотой сундук:&r 81 слот, 3 слота для улучшений"
 				""
-				"&eDiamond Chest:&r 108 slots, 4 upgrade slots"
+				"&eАлмазный сундук:&r 108 слотов, 4 слота для улучшений"
 				""
-				"&eNetherite Chest: &r120 slots, 5 upgrade slots"
+				"&eНезеритовый сундук:&r 120 слотов, 5 слотов для улучшений"
 			]
 			id: "2DC978CB3CC53730"
 			rewards: [{
@@ -128,7 +147,7 @@
 					type: "item"
 				}
 			]
-			title: "Strong Organizational Skills"
+			title: "Сильные организационные навыки"
 			x: 2.5d
 			y: 0.0d
 		}
@@ -136,19 +155,19 @@
 			dependencies: ["309037CD749F2133"]
 			dependency_requirement: "one_started"
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a bag."
+				"&eУлучшения для стаков&r очень важны. Они складываются друг с другом, если в рюкзаке несколько таких улучшений."
 				""
-				"For example:"
+				"Например:"
 				""
-				"&e1 Tier 4 Stack Upgrade&r: 1024"
+				"&e1 улучшение 4 уровня&r: максимум в стаке — 1024"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"&e2 улучшения 4 уровня:&r максимум в стаке — 16 384 (1024 × 16)"
 				""
-				"&eTier 4 Stack Upgrades:&r 262,144"
+				"&e3 улучшения 4 уровня:&r максимум в стаке — 262 144 (16 384 × 16)"
 				""
-				"&e4 Tier 4 Stack Upgrades: &r4,194,304"
+				"&e4 улучшения 4 уровня:&r максимум в стаке — 4 194 304 (262 144 × 16)"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
+				"Каждое следующее максимальное значение получается умножением предыдущего на 16, при этом всего доступно до 7 слотов улучшений."
 			]
 			id: "0E17ABDC0AD61E23"
 			rewards: [{
@@ -167,7 +186,7 @@
 				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
 				type: "item"
 			}]
-			title: "Stack Upgrades"
+			title: "Улучшения стака"
 			x: -2.5d
 			y: -1.5d
 		}
@@ -200,7 +219,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "71DA616E7AF70799"
@@ -259,13 +278,13 @@
 					type: "item"
 				}
 			]
-			title: "Nomad"
+			title: "Кочевник"
 			x: -2.5d
 			y: -6.0d
 		}
 		{
 			dependencies: ["059B848E5374A860"]
-			description: ["&eAdvanced Upgrades&r allow for &efiner filtering&r and control over the behavior of the upgrade in the bag, such as the advanced pickup upgrade allows for picking up items on a whitelist, disallowing items on a blacklist, or picking up matching items that are already in the bag."]
+			description: ["&eПродвинутые улучшения&r дают более тонкую настройку и контроль над поведением улучшений в рюкзаке. Например, улучшение для расширенного подбора позволяет собирать предметы по белому списку, исключать из подбора по черному списку или собирать только те предметы, которые уже есть в рюкзаке."]
 			id: "31D3B2B532AADE5B"
 			rewards: [{
 				auto: "enabled"
@@ -290,20 +309,20 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Upgrades"
+			title: "Продвинутые улучшения"
 			x: -2.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["6390924916E0EF54"]
 			description: [
-				"The &eDisk Drive&r contains &eDisks,&r where each disk adds to the network's inventory limit. Higher tiers are more expensive and take longer to craft but can hold more items."
+				"&eДисковой привод&r содержит &eдиски&r — каждый диск увеличивает лимит предметов в сети. Более высокие уровни дороже и дольше в крафте, но могут хранить больше предметов."
 				""
-				"The &eGrid&r is the basic method of interacting with the items within the network. It lets you &etake or insert items&r from the network. The Crafting Grid is an upgrade to it and allows for crafting from all items within the grid. JEI can grab items from the grid."
+				"&eТерминал&r — базовый интерфейс для взаимодействия с предметами в сети. Через него можно &eизвлекать или вкладывать предметы&r. Терминал создания — улучшенная версия, позволяющая крафтить прямо из сети, используя все доступные предметы. JEI тоже может брать предметы из терминала."
 				""
-				"&eFluid storage&r requires specialized versions of both to store fluids within the network."
+				"Для &eхранения жидкостей&r нужны специальные версии этих устройств."
 				""
-				"Each Refined Storage block has a priority you can set where the network will first take or receive items from."
+				"Каждому блоку Refined Storage можно задать приоритет — сеть сначала будет брать или принимать предметы согласно этому приоритету."
 			]
 			id: "0BBF59F29BA6851E"
 			rewards: [{
@@ -349,18 +368,18 @@
 					type: "item"
 				}
 			]
-			title: "Basic Storage"
+			title: "Базовое хранилище"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6EF2C5B82615DD1B"]
 			description: [
-				"The &eStorage Monitor&r lets you select an item from the network to display how many is left."
+				"&eМонитор хранения&r — позволяет выбрать предмет из сети и отображать, сколько его осталось в наличии."
 				""
-				"The &ePattern Grid&r allows autocrafting within the network. Each sub-item within a recipe must have its own pattern. "
+				"&eТерминал с кодировщиком шаблонов&r — интерфейс для автокрафта внутри сети. Для каждого ингредиента в рецепте нужен отдельный шаблон."
 				""
-				"The &eCrafter&r is where the patterns will be stored and where the crafting will take place."
+				"&eСборщик&r — блок, где хранятся шаблоны и происходит сам процесс автоматического создания предметов."
 			]
 			id: "5F5B3C75910F8870"
 			rewards: [{
@@ -391,28 +410,28 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Storage"
+			title: "Продвинутое хранилище"
 			x: 0.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5F5B3C75910F8870"]
 			description: [
-				"These allow you to &eaccess&r a network's inventory from &efar away&r."
+				"Эти устройства позволяют &eполучить доступ&r к инвентарю сети &eна большом расстоянии&r."
 				""
-				"Simply craft a &eNetwork Transmitter&r and connect it to your Refined Storage system in your main base."
+				"Просто скрафтьте &eСетевой передатчик&r и подключите его к вашей системе Refined Storage в вашей главной базе."
 				""
-				"Next up, craft a &eNetwork Card&r."
+				"Далее скрафтьте &eСетевую карту&r."
 				""
-				"After crafting a Network Card, craft a &eNetwork Receiver&r and place it in the area far away from your base."
+				"После создания Сетевой карты скрафтьте &eСетевой приёмник&r и разместите его в удалённой от базы области."
 				""
-				"Take the Network Card and &eright click it&r on the Network Receiver."
+				"Возьмите Сетевую карту и &eщелкните правой кнопкой&r по Приёмнику сети."
 				""
-				"Put the Network Card in the Network Transmitter so the Network Transmitter knows where to &esend a signal&r to."
+				"Вставьте Сетевую карту в Сетевой передатчик, чтобы передатчик знал, куда &eотправлять сигнал&r."
 				""
-				"And now you are done. Simply &econnect machines&r to your Network Receiver according to the normal machine connecting rules."
+				"И теперь всё готово. Просто &eподключайте машины&r к вашему приёмнику сети согласно обычным правилам подключения машин."
 				""
-				"The transmitter must be &echunkloaded&r before linking to the network."
+				"Передатчик должен быть &eактивен в чанке&r до того, как будет связан с сетью."
 			]
 			id: "0EF218EB24BCC487"
 			rewards: [
@@ -440,7 +459,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "61BC6B3C28C327BF"
@@ -458,26 +477,26 @@
 					type: "item"
 				}
 			]
-			title: "Technophile"
+			title: "Технофил"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["0BBF59F29BA6851E"]
 			description: [
-				"More advanced features such as item manipulation require &eForge Energy&r to operate which is only obtainable through &eBotania's Mana Fluxfield&r."
+				"Более продвинутые функции, такие как управление предметами, требуют для работы &eForge Energy&r, которую можно получить только с помощью &eМана-RF преобразователя&r из &eBotania&r."
 				""
-				"If you want to get items &eout&r of your storage network, use an &eExporter&r and connect it to an inventory where you want to export to."
+				"Если хочешь получать предметы &eиз&r своей сети хранения, используй &eЭкспортёр&r, подключенный к инвентарю, куда хочешь экспортировать."
 				""
-				"If you want to get items &ein&r your storage network, use an &eImporter&r and connect it to an inventory where you want to import from."
+				"Если хочешь забирать предметы &eв&r свою сеть хранения, используй &eИмортёр&r, подключенный к инвентарю, откуда хочешь импортировать."
 				""
-				"Want the best of both worlds? Use an &eInterface&r to get &eimporting and exporting&r functionality in one block."
+				"Хочешь и то, и другое в одном блоке? Используй &eИнтерфейс&r — он совмещает функции импорта и экспорта."
 				""
-				"To &eplace&r blocks from your storage network in the world, use an &eConstructor.&r"
+				"Чтобы &eставить&r блоки из своей сети хранения в мир, используй &eШину формирования&r."
 				""
-				"To &edestroy and insert blocks&r from the world into your storage, use an &eDestructor.&r"
+				"Чтобы &eразрушать и забирать блоки&r из мира в сеть, используй &eШину разрушения&r."
 				""
-				"Each block can have filters applied to it."
+				"На каждый блок можно наложить фильтры для управления тем, что он будет брать или отдавать."
 			]
 			id: "6EF2C5B82615DD1B"
 			rewards: [
@@ -521,13 +540,13 @@
 					type: "item"
 				}
 			]
-			title: "Basic Item Manipulation"
+			title: "Базовые манипуляции с предметами"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0E17ABDC0AD61E23"]
-			description: ["Check &eJEI&r for the full list of upgrades."]
+			description: ["Обязательно загляни в &eJEI&r — там полный список всех улучшений и их описания!"]
 			id: "059B848E5374A860"
 			rewards: [{
 				auto: "enabled"
@@ -558,21 +577,21 @@
 		{
 			dependencies: ["2DC978CB3CC53730"]
 			description: [
-				"&eStack Upgrades&r are immensely important. Stack upgrades can stack upon each other if more than one is inside a storage block."
+				"&eУлучшения стека&r имеют огромное значение. Улучшения стека могут складываться друг с другом, если внутри блока хранения находится больше одного."
 				""
-				"For example:"
+				"Например:"
 				""
-				"&e1 Tier 4 Stack Upgrade:&r 1024"
+				"&e1 улучшение 4 уровня&r: максимум в стаке — 1024"
 				""
-				"&e2 Tier 4 Stack Upgrades:&r 16,384"
+				"&e2 улучшения 4 уровня:&r максимум в стаке — 16 384"
 				""
-				"&e3 Tier 4 Stack Upgrades:&r 262,144"
+				"&e3 улучшения 4 уровня:&r максимум в стаке — 262 144"
 				""
-				"&e4 Tier 4 Stack Upgrades:&r 4,194,304"
+				"&e4 улучшения 4 уровня:&r максимум в стаке — 4 194 304"
 				""
-				"Multiply previous max by 16 to get the next maximum up to 7 slots total"
+				"Умножайте предыдущий максимум на 16, чтобы получить следующий максимум, всего до 7 слотов."
 				""
-				"Check JEI for the full list of upgrades."
+				"Смотрите полный список улучшений в JEI."
 			]
 			id: "4F7406B2025F6706"
 			rewards: [{
@@ -608,20 +627,20 @@
 					type: "item"
 				}
 			]
-			title: "Upgrades"
+			title: "Улучшения"
 			x: 2.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F7406B2025F6706"]
 			description: [
-				"&eLimited Barrels&r act as drawers, where up to &efour items&r can be stored within and have &eimmensely high stack limits&r inherently. Barrels are marked by two things: &eTier&r and &eItem Limit&r."
+				"&eОграниченные бочки&r работают как ящики, где можно хранить до &eчетырёх предметов&r с &eочень высоким лимитом стака&r по умолчанию. Бочки характеризуются двумя параметрами: &eУровнем&r и &eЛимитом предметов&r."
 				""
-				"&eNormal, Iron, Gold, Diamond, and Netherite&r are the tier, which decides the stack limit."
+				"&eОбычная, Железная, Золотая, Алмазная и Незеритовая&r — это уровни, которые определяют лимит стека."
 				""
-				"&eI, II, III, IIII&r are the Item Limit which is how many different items can be inside it from 1 to 4. Barrels with a higher Item Limit have less maximum stack."
+				"&eI, II, III, IIII&r — это Лимит предметов, показывающий, сколько разных предметов может храниться внутри — от 1 до 4. Бочки с более высоким Лимитом предметов имеют меньший максимальный стек."
 				""
-				"These barrels can also be upgraded just like regular storage."
+				"Эти бочки также можно улучшать так же, как и обычные хранилища."
 			]
 			id: "4A3CBD5BF1BC9968"
 			rewards: [{
@@ -681,20 +700,20 @@
 					type: "item"
 				}
 			]
-			title: "Barrel Drawers"
+			title: "Ящики для бочек"
 			x: 2.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["4A3CBD5BF1BC9968"]
 			description: [
-				"&eStorage Controllers&r allow you to &epipe in/out items&r with connected storage blocks. Priority is determined by which storage blocks were placed last. There is no GUI currently."
+				"&eКонтроллеры хранилища&r позволяют &eпередавать и принимать предметы&r с подключёнными блоками хранения. Приоритет определяется порядком установки блоков — последние установленные имеют больший приоритет. В данный момент графического интерфейса нет."
 				""
-				"&eStorage Link &rallows to &econnect multiple storages&r that are not attached to controller or any blocks that are connected to it."
+				"&eСвязыватель хранилища&r позволяет &eсоединять несколько хранилищ&r, которые не прикреплены к контроллеру или к любым блокам, связанным с ним."
 				""
-				"The &eStorage Tool&r allows you to &elink, lock and toggle visibility of locks and item counts&r. Shift scroll to change mode. Linking works by right clicking the controller to start linking to it and then right click storages or storage link to get these linked."
+				"&eИнструмент для хранилища&r позволяет &eсвязывать, блокировать и переключать видимость замков и количества предметов&r. Для смены режима используйте Shift + прокрутку колеса мыши. Связывание происходит по правому клику на контроллер для начала связывания, а затем правым кликом по хранилищам или связкам хранилищ для установления связи."
 				""
-				"&ePacking Tape&r allows you to&e pack up&r a storage block and mine it to pick it up like a regular block without the items dropping."
+				"&eУпаковочная лента&r позволяет &eупаковать&r блок хранилища и добыть его как обычный блок, при этом предметы не выпадают."
 			]
 			id: "4F8DAFD8E626D7A1"
 			rewards: [{
@@ -741,7 +760,7 @@
 		}
 		{
 			dependencies: ["4F8DAFD8E626D7A1"]
-			description: ["Stay organized!"]
+			description: ["Будьте организованы!"]
 			id: "629A6257109536AB"
 			rewards: [
 				{
@@ -769,7 +788,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "0765FE1E964931AB"
@@ -818,7 +837,7 @@
 					type: "item"
 				}
 			]
-			title: "Too Many Chests"
+			title: "Слишком много сундуков"
 			x: 2.5d
 			y: -6.0d
 		}
@@ -863,13 +882,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "7FAAD1441DAB60C3"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Professional Hoarder"
+			title: "Профессиональный накопитель"
 			x: 0.0d
 			y: -8.5d
 		}
@@ -878,7 +897,7 @@
 				"4A3CBD5BF1BC9968"
 				"6EF2C5B82615DD1B"
 			]
-			description: ["The &eExternal Storage&r allows you to link &eRefined Storage&r with external storage blocks, such as blocks from &eSophisticated Storage&r!"]
+			description: ["&eШина внешнего хранения&r позволяет связать &eRefined Storage&r с внешними блоками хранения, такими как блоки из &eSophisticated Storage&r!"]
 			id: "4E4A3F37E8B476D5"
 			rewards: [{
 				auto: "enabled"
@@ -896,10 +915,10 @@
 				item: "refinedstorage:external_storage"
 				type: "item"
 			}]
-			title: "Compatibility"
+			title: "Совместимость"
 			x: 1.25d
 			y: -3.75d
 		}
 	]
-	title: "Storage Solutions"
+	title: "Системы хранения"
 }

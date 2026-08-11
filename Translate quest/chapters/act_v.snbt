@@ -11,18 +11,18 @@
 		{
 			dependencies: ["75454F0A3C4C3596"]
 			description: [
-				"This is it! &eKill the Ender Dragon&r and put an \"end\" to this madness!"
+				"Вот оно! &eУбей Эндер-дракона&r и положи «конец» этому безумию!"
 				""
-				"&oIt looks like you might be able to do something with the wing...&r"
+				"&oПохоже, с крылом можно что-то сделать...&r"
 				""
-				"&cThe Ender Dragon spawns at minimum level 50.&r"
+				"&cЭндер-дракон появляется минимум 50 уровня.&r"
 				""
-				"The Ender Dragon Has:"
-				"&b+25% Physical Damage converted to Lightning Damage&r"
-				"&b+25% Physical Damage converted to Chaos Damage&r"
-				"&b+25% Elemental Resistance&r"
-				"&b+35% Chaos Resistance&r"
-				"&a7.5% Chance of Dropping End Rune&r"
+				"Эндер-дракон обладает:"
+				"&b+25% физического урона в урон молнией&r"
+				"&b+25% физического урона в урон хаосом&r"
+				"&b+25% сопротивления всем стихиям&r"
+				"&b+35% сопротивления хаосу&r"
+				"&a7.5% шанс выпадения Руны End&r"
 			]
 			icon: "minecraft:dragon_head"
 			id: "6F0D75895E507FFD"
@@ -37,6 +37,17 @@
 						}
 					}
 					title: "Rare Gear Loot Chest (Lv. 55)"
+					type: "item"
+				}
+				{
+					id: "4CEB9753CEE68DF0"
+					item: {
+						Count: 1
+						id: "customizableelytra:elytra_wing"
+						tag: {
+							Damage: 0
+						}
+					}
 					type: "item"
 				}
 				{
@@ -57,7 +68,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "ftb_ph:ender_dragon"
@@ -65,20 +76,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dragon Quest"
+			title: "Драконий квест"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"You received &einstructions&r from a village guard, scribbled on a loose piece of bamboo."
+				"Ты получил &eинструкции&r от деревенского стражника, наспех нацарапанные на кусочке бамбука."
 				""
-				"&o1. Arrive in The End.&r"
-				"&o2. Obtain End Crystals from the island.&r"
-				"&o3. Place the crystals on the -&r"
+				"&o1. Прибудь в Край.&r"
+				"&o2. Добудь кристаллы края на островах.&r"
+				"&o3. Установи кристаллы на —&r"
 				""
-				"The rest has been &erubbed off &rfrom your adventures."
+				"Остальное было &eстерто&r в ходе твоих приключений."
 			]
 			id: "531BDC3DFCE88A6E"
 			rewards: [
@@ -98,20 +109,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				advancement: "minecraft:end/respawn_dragon"
 				criterion: ""
 				id: "1B0D7898F4168083"
 				type: "advancement"
 			}]
-			title: "Summoning Ritual"
+			title: "Ритуал призыва"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
-			description: ["You've slain the dragon, but it seems like there's more to The End than you thought. It might be a good time to use your newly found &eElytra&r and &eexplore the outer islands&r."]
+			description: ["Ты убил дракона, но кажется, что в Крае гораздо больше, чем ты думал. Сейчас самое время использовать твою новую &eЭлитру&r и &eисследовать внешние острова&r."]
 			id: "7EA6A0131C5FF143"
 			rewards: [
 				{
@@ -144,25 +155,25 @@
 					type: "command"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
 				id: "04D2837E3F91A62E"
 				type: "advancement"
 			}]
-			title: "Beyond"
+			title: "Вне"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"You learned that it wasn't the Ender Dragon that was causing the rifts to open. As vile as the beast was, it was just that - a vile beast."
+				"Ты узнал, что именно Эндер-дракон не был причиной разломов. Как бы отвратителен ни был этот зверь, он был всего лишь — отвратительным зверем."
 				""
-				"It seems there is more to The End than you thought... Some say another danger lurks in the void, and others say throwing a &eMysterious Worm&r into it will draw it out."
+				"Похоже, в Крае гораздо больше, чем ты думал... Говорят, что в Пустоте скрывается ещё одна опасность, а другие утверждают, что бросок &eТаинственного червя&r привлекает её."
 				""
-				"You can obtain a &eMysterious Worm&r by killing the &eEnder Dragon&r."
+				"Ты можешь получить &eТаинственного червя&r, убив &eЭндер-дракона&r."
 			]
 			id: "56A3604D9BAD661C"
 			rewards: [
@@ -197,27 +208,27 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				id: "1FD4027C3E5A4B93"
 				item: "alexsmobs:mysterious_worm"
 				title: "Obtain a Mysterious Worm"
 				type: "item"
 			}]
-			title: "Genetic Modification"
+			title: "Генетическая модификация"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["56A3604D9BAD661C"]
 			description: [
-				"Be prepared, as this horrific creature has many parts to its body. Additionally, it will fire homing crystals at nearby players. If you get too close you'll get knocked back. Be careful not to get knocked off the island!"
+				"Будь готов — у этого ужасного существа много частей тела. Кроме того, оно стреляет самонаводящимися кристаллами по ближайшим игрокам. Если подойдёшь слишком близко, тебя откинет назад. Будь осторожен, чтобы не упасть с острова!"
 				""
-				"&cThe Void Worm spawns at minimum level 55.&r"
+				"&cПустотный червь появляется минимум 55 уровня.&r"
 				""
-				"The Void Worm Has:"
-				"&b+25% Elemental Resistance&r"
-				"&a5% Chance of Dropping End Rune&r"
+				"Пустотный червь обладает:"
+				"&b+25% сопротивления всем стихиям&r"
+				"&a5% шанс выпадения Руны End&r"
 			]
 			icon: "alexsmobs:void_worm_eye"
 			id: "3944DD7AC4667137"
@@ -242,7 +253,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				icon: "ftb_ph:void_worm"
@@ -250,13 +261,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Worm from the Void"
+			title: "Червь из Пустоты"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["201E621A52FFCE65"]
-			description: ["There's a report of an underground creature wrecking havoc underground traders. Some call it a &e\"Warden\".&r Some say it can be found in the &eAncient City&r deep underneath."]
+			description: ["Появились сообщения о подземном существе, наводящем ужас на подземных торговцев. Некоторые называют его &eХранитель&r. Говорят, его можно найти в &eДревнем городе&r, глубоко под землёй."]
 			id: "0424E768816CB314"
 			rewards: [
 				{
@@ -283,30 +294,30 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основной сюжет"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_city"
 				criterion: ""
 				id: "73ECBABFC177A3AF"
 				type: "advancement"
 			}]
-			title: "Back Home"
+			title: "Назад домой"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0424E768816CB314"]
 			description: [
-				"The &eWarden&r is completely blind, and relies on vibrations, smell, and touch to detect players. You can evade them by sneaking, or using diversions such as arrows. It has a powerful melee attack, and can release a devastating homing sonic boom attack."
+				"&eХранитель&r полностью слеп и полагается на вибрации, обоняние и осязание, чтобы обнаружить игроков. Ты можешь избежать его, крадясь или отвлекая его, например, стрелами. У него мощная атака в ближнем бою, а также разрушительный самонаводящийся звуковой удар."
 				""
-				"&cThe Warden spawns at minimum level 60.&r"
+				"&cХранитель появляется минимум 60 уровня.&r"
 				""
-				"The Warden Has:"
-				"&b+50% Physical to Chaos Damage&r"
-				"&b+50% Armor&r"
-				"&b+35% Elemental Resistance&r"
-				"&b+35% Chaos Resistance&r"
-				"&a10% Chance of Dropping Sid Rune&r"
+				"Хранитель имеет:"
+				"&b+50% физического урона в урон хаосом&r"
+				"&b+50% брони&r"
+				"&b+35% сопротивления всем стихиям&r"
+				"&b+35% сопротивления хаосу&r"
+				"&a10% шанс выпадения Руны Sid&r"
 			]
 			icon: {
 				Count: 1
@@ -343,7 +354,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Main Quest"
+			subtitle: "Основной сюжет"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "ftb_ph:warden"
@@ -351,13 +362,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Dimension Guardian"
+			title: "Хранитель измерений"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6B5AFF6897A7AE6D"]
-			description: ["Wow, who'd have thought? The &eWarden&r seemed to be protecting a gateway to a new &eundiscovered dimension&r. What's on &eThe Otherside&r?"]
+			description: ["Вот это да, кто бы мог подумать? Похоже, &eХранитель&r охранял проход в новое, &eнеизведанное измерение&r. Что же находится &eпо ту сторону&r?"]
 			id: "707C5CDB48B487F8"
 			rewards: [
 				{
@@ -390,24 +401,24 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основной сюжет"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:warden_carapace"
 				id: "1ACA80128E406BE5"
-				title: "Visit The Otherside"
+				title: "Посетите Другую сторону"
 				type: "dimension"
 			}]
-			title: "The Otherside"
+			title: "Другая сторона"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["66226AD37A8822F0"]
 			description: [
-				"Continue to &eexplore,&r and descend into the &edarkness...&r You never know what &egoodies&r you'll find."
+				"Продолжай &eисследовать,&r и погружайся в &eтьму...&r Ты никогда не знаешь, какие &eсокровища&r тебя ждут."
 				""
-				"&b&oCongratulations on completing the main Campaign! Continue onto the Epilogue for completion or move on to explore what the worlds have to offer. Be sure to check out the Side Quests! Keep on leveling and customizing your character, and try to overcome the greatest challenges in Maps!&r&r"
+				"&b&oПоздравляем с завершением основной Кампании! Продолжай в Эпилоге для полного прохождения или переходи к изучению других миров. Не забудь заглянуть в Побочные квесты! Продолжай прокачивать и настраивать своего персонажа, и пытайся преодолеть самые сложные испытания в Картах!&r&r"
 			]
 			id: "6149D163ABF06A15"
 			rewards: [
@@ -458,7 +469,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основной сюжет"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_temple"
 				criterion: ""
@@ -466,18 +477,18 @@
 				id: "779882C7510983D8"
 				type: "advancement"
 			}]
-			title: "Untied Loose Ends"
+			title: "Незавершённые дела"
 			x: 13.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6F0D75895E507FFD"]
 			description: [
-				"Although you've &eslain the dragon&r, you will still find remnants of the beast. Slay its &espawn&r to prevent any further devastation."
+				"Хотя ты &eубил дракона&r, остатки зверя всё ещё можно найти. Уничтожь его &eспавн&r, чтобы предотвратить дальнейшее разрушение."
 				""
-				"Note that you can &erespawn&r the Ender Dragon again using &eEnd Crystals&r! The method is the same as &eVanilla.&r"
+				"Обрати внимание, что ты можешь &eвызвать&r Эндер-дракона снова, используя &eкристаллы края&r! Метод такой же, как в &eВаниле.&r"
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
 			]
 			id: "61FF2CADDF0013F6"
 			rewards: [
@@ -504,7 +515,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				entity: "realmrpg_wyrms:ender_wyrm"
 				icon: "simplehats:dragonskullender"
@@ -512,16 +523,16 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Dragonspawn"
+			title: "Драконье порождение"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["30FA1CCB6BBA7125"]
 			description: [
-				"Rumours have it that &eFarseer&r are prophetic creatures originating from the void."
+				"Ходят слухи, что &eПрозиратель&r — это пророческие существа, происходящие из Пустоты."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
 			]
 			icon: "alexsmobs:farseer_arm"
 			id: "69FD852AE0306BD2"
@@ -563,7 +574,7 @@
 					type: "custom"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				entity: "alexsmobs:farseer"
 				icon: "ftb_ph:farseer"
@@ -571,7 +582,7 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "They Knew You Were Coming"
+			title: "Они знали, что ты придешь"
 			x: 3.0d
 			y: 3.0d
 		}
@@ -603,7 +614,7 @@
 				"66226AD37A8822F0"
 				"7DB451E643FAB7BE"
 			]
-			description: ["&eComplete&r all of the &equests&r in Act V to complete this achievement. Then show it off with your new hat!"]
+			description: ["&eЗаверши&r все &eквесты&r в Акте V, чтобы получить это достижение. Затем похвастайся им с новой шляпой!"]
 			hide_dependency_lines: true
 			icon: "simplehats:rgbsunglasses"
 			id: "4ABF5C9676202847"
@@ -621,19 +632,202 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "3F2676327EA7C4ED"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Complete All Act V Quests!"
+			title: "Завершите все задания Акта V!"
 			x: 15.0d
 			y: 3.0d
 		}
 		{
+			dependencies: ["3944DD7AC4667137"]
+			description: [
+				"Прежде чем снова отправляться в другие измерения, вам стоит лучше ознакомиться с &eМашиной картооходца&r."
+				""
+				"Возможно, вы уже заметили, что если &eзажать Shift и нажать ПКМ (обе руки должны быть свободными)&r по &eМашине картооходца&r, откроется большое древо. Это &cАтлас&r — система прогрессии, созданная для того, чтобы мотивировать вас проходить различные виды карт."
+				""
+				"Набор карт, которые могут вам выпасть, ограничен открытыми узлами Карт. Проходя их, вы открываете новые варианты, а &eначиная с карт 20+ уровня&r также получаете &c1 очко пассивных навыков Атласа&r."
+				""
+				"Доступ к древу пассивных навыков Атласа можно получить, нажав кнопку в левом верхнем углу Атласа. Здесь вы можете распределять очки, чтобы &eизменять поведение ваших Карт&r."
+			]
+			id: "201E621A52FFCE65"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 17500"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "43413049B841CA66"
+				silent: true
+				title: "17500 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				icon: "mmorpg:map_creator"
+				id: "0F67BA1BD5611BA9"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 10
+			}]
+			title: "Путешествие между измерениями"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["201E621A52FFCE65"]
+			description: ["Убивая монстров и исследуя карту, вы заметите, как увеличиваются проценты убийств и добычи. Эти два показателя формируют вашу общую &eредкость исследования&r. Чем выше уровень исследования, тем лучше будет награда за победу над &eбоссом карты&r. По мере дальнейшего исследования редкость исследования будет повышаться, начиная с &aнеобычной&r как первого этапа."]
+			icon: "minecraft:paper"
+			id: "4983FE0DE8A1377F"
+			rewards: [{
+				id: "72DE3FED05338CB6"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Lost Page"
+			tasks: [{
+				id: "743D361CB7F4E030"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "Исследование карты"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["707C5CDB48B487F8"]
+			description: [
+				"Исследуя &eТу сторону&r, возможно, будет разумно вернуться к картам, чтобы стать сильнее. К счастью, во время своих путешествий вы узнали об усиленных измерениях."
+				""
+				"Начиная с &e50 уровня&r, на картах могут появляться различные события &e\"Лиг\"&r, которые делают прохождение подземелий разнообразнее. Выполняйте эти события, чтобы получать особые награды."
+				""
+				"Ниже приведён краткий обзор 6 событий, которые можно встретить на картах. С &eЖатвой&r и &eДревними обелисками&r вы уже должны быть знакомы!"
+				""
+				"1. &2Жатва&r — отбивайтесь от волн врагов, чтобы получить ценные материалы."
+				"2. &cДревние обелиски&r — переживите натиск, чтобы заработать валюту."
+				"3. &dПророчество&r — убивайте врагов на карте, чтобы получать монеты для особого магазина."
+				"4. &bЗаточённые монстры&r — освободите могущественного монстра и победите его ради ценных наград."
+				"5. &7Ларцы&r — уничтожьте стражей сундука, чтобы получить тематические награды."
+				"6. &eСвятилища&r — воспользуйтесь святилищем, чтобы получить мощные усиления."
+				""
+				"Более подробную информацию о каждой механике можно найти на соответствующих &bПотерянных страницах&r."
+			]
+			id: "7544F7A13E989534"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "7B0CC44126435994"
+				silent: true
+				title: "20000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				icon: "dungeon_realm:fixed_dungeon_map_item"
+				id: "71F106101EBB87E1"
+				stat: "mmorpg:dungeons_completed"
+				type: "stat"
+				value: 25
+			}]
+			title: "У этого есть уровни..."
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"В картах Mine and Slash могут появляться дополнительные события. На каждой карте &eможет быть активна только одна механика&r, если только у вас нет особых модификаторов, позволяющих иметь больше. Две из них вы уже могли встретить — они начинают появляться с 50-го уровня."
+				""
+				"&2Жатва&r (&bУр. 50+&r): находите порталы на картах, которые перенесут вас в новую комнату Жатвы. Убивайте монстров в этих комнатах, чтобы получать &eХаотические самоцветы&r, используемые для создания особых валют!"
+				""
+				"&cДревний обелиск&r (&bУр. 50+&r): подобно Жатве, находите порталы, ведущие на арену. Преодолевайте волны врагов, чтобы находить улучшения, которые можно использовать для &eОбелисков&r! Также у вас будет возможность получать особую валюту, улучшающую &eСамоцветы поддержки и аур&r."
+				""
+				"&eСвятилища&r (&3Ур. 60+&r): находите святилища по всей карте, с которыми можно взаимодействовать, чтобы наложить усиление на себя и ближайших союзников. Этот эффект длится 60 секунд и способен сделать прохождение карты практически лёгким!"
+			]
+			icon: "minecraft:paper"
+			id: "062656B385EA3960"
+			rewards: [{
+				id: "2F17F8F6DEB6F82D"
+				item: "mmorpg:currency/map_rarity_upgrade"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "2266C44EDE1AE423"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "События лиги"
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7544F7A13E989534"]
+			description: [
+				"Другие события начнут появляться с 60-го уровня. У каждого из них также есть уникальная система наград!"
+				""
+				"&dПророчество&r (&3Ур. 60+&r): взаимодействуйте с алтарём, чтобы начать &dПророчество&r. Алтарь позволяет выбрать Проклятия, которые можно наложить на себя. Пока на вас действует Проклятие, монстры будут сбрасывать &eМонеты пророчества&r. Чем больше Проклятий на вас наложено, тем больше &eМонет пророчества&r вы сможете заработать. Используйте эти монеты для покупки наград в Хабе. Учтите, что награды &6легендарного&r и &5мифического&r качества начинают появляться только на Картах 20-го и 40-го тира соответственно."
+				""
+				"&7Ларцы&r (&3Ур. 60+&r): находите &7Ларцы&r по всей карте. Взаимодействие с ними призовёт &7стражей ларца&r. Победите их и получите особые награды. Награды будут состоять из набора предметов одного типа (например, большое количество &eвалюты&r или множество &eрун&r)."
+				""
+				"&bЗаключённые монстры&r (&3Ур. 60+&r): иногда на карте вам будут встречаться клетки с запертым монстром. Взаимодействие с ней освободит монстра, который после победы может оставить особую &eвалюту&r, способную &eвосстанавливать потенциал снаряжения&r! Однако будьте осторожны — эти противники не для слабых духом."
+			]
+			icon: "minecraft:paper"
+			id: "747F8352825A124A"
+			rewards: [{
+				id: "64C505B09051A4A8"
+				item: "mmorpg:map_creator"
+				type: "item"
+			}]
+			subtitle: "Потерянная страница"
+			tasks: [{
+				id: "17104BCDCBE1AF5F"
+				title: "Click Once Read"
+				type: "checkmark"
+			}]
+			title: "События лиги II"
+			x: 12.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6DEBCC2B2DAE67AD"]
+			description: [
+				"Хотите испытать себя ещё сильнее? Помимо &cпассивных навыков Атласа&r, вы можете изменять свои карты с помощью &eРеликвий&r. К этому моменту у вас уже должно быть немало &eРеликвий&r, полученных из сундуков и за убийство &eбоссов&r. Используйте &eКлюч реликвии&r на &eМашине картоходца&r (или блоке Жатвы/Обелиска), чтобы открыть его &e\"Инвентарь реликвий\"&r."
+				""
+				"В этом инвентаре вы можете размещать &eРеликвии&r, чтобы усиливать подземелье. Учтите, что &cкаждая Реликвия имеет 3 использования, после чего исчезает&r, а также существует ограничение на количество Реликвий, которые можно разместить на одной карте."
+			]
+			icon: "mmorpg:relic"
+			id: "66226AD37A8822F0"
+			rewards: [{
+				auto: "enabled"
+				command: "/mine_and_slash give exp @p 20000"
+				elevate_perms: true
+				icon: "ftb_ph:exp"
+				id: "5B80ACDB0F87AF12"
+				silent: true
+				title: "20000 Experience"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Картография"
+			tasks: [{
+				id: "1487955558F49FBC"
+				item: "dungeon_realm:relic_key"
+				type: "item"
+			}]
+			title: "Реликвии прошлого"
+			x: 12.0d
+			y: 1.5d
+		}
+		{
 			dependencies: ["6F0D75895E507FFD"]
-			description: ["&eEnderiophages&r can be found where &eChorus Fruit grows&r. These things spread &edisease&r and should be taken care of as soon as possible! Enderiophages can be built by placing an &eEnd Rod with a Capsid on top and placing an Eye of Ender inside&r."]
+			description: ["&eЭндериофаги&r можно встретить там, где растёт &eплод хоруса&r. Эти существа распространяют &eболезнь&r и их нужно как можно скорее уничтожить! Эндериофаги создаются, если поставить &eстержень энда с капсидом сверху и поместить внутрь око эндера&r."]
 			id: "30FA1CCB6BBA7125"
 			rewards: [{
 				auto: "enabled"
@@ -645,7 +839,7 @@
 				title: "16500 Experience"
 				type: "command"
 			}]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				entity: "alexsmobs:enderiophage"
 				icon: "alexsmobs:enderiophage_rocket"
@@ -653,13 +847,13 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Viral Disaster"
+			title: "Вирусная катастрофа"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7544F7A13E989534"]
-			description: ["&eShriek Worms&r are terrifying creatures found on &eThe Otherside&r. Should you &estep on Infested Sculk&r, you'll be met with a surprise."]
+			description: ["&eЧервь-крикун&r — ужасающие существа, обитающие в &eТой Стороне&r. Если ты &eнаступишь на заражённый скаулк&r, тебя ждёт неприятный сюрприз."]
 			id: "081AD91A178C3A3F"
 			rewards: [{
 				auto: "enabled"
@@ -671,8 +865,7 @@
 				title: "25500 Experience"
 				type: "command"
 			}]
-			shape: "rsquare"
-			subtitle: "Deeper and Darker"
+			subtitle: "Глубже и темнее"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
 				icon: {
@@ -686,7 +879,7 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Death Traps"
+			title: "Смертельные ловушки"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -695,13 +888,12 @@
 				"081AD91A178C3A3F"
 				"0C894EBBB7C6F380"
 			]
-			dependency_requirement: "one_completed"
 			description: [
-				"&eStalkers&r are creepy and powerful entities that can be found on &eThe Otherside&r. They're attracted to harsh noises, so if you're looking to find one, maybe &ebreak some jars&r?"
+				"&eПодражатели&r — зловещие и могущественные сущности, которых можно встретить на &eТой Стороне&r. Их привлекают резкие звуки, так что если хочешь найти одного — может, стоит &eпобить пару кувшинов&r?"
 				""
-				"If you're not having any luck, consider the &eGateway of Darkness&r."
+				"Если удача не на твоей стороне, обрати внимание на &eВрата Тьмы (Gateway of Darkness)&r."
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребуется выполнить ВСЕ зависимости.&r"
 			]
 			icon: "alexsmobs:froststalker_horn"
 			id: "6DEBCC2B2DAE67AD"
@@ -732,7 +924,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Deeper and Darker"
+			subtitle: "Глубже и темнее"
 			tasks: [{
 				entity: "deeperdarker:stalker"
 				icon: "alexsmobs:froststalker_horn"
@@ -740,13 +932,13 @@
 				type: "kill"
 				value: 2L
 			}]
-			title: "Uncanny Presence"
+			title: "Странное присутствие"
 			x: 10.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["7544F7A13E989534"]
-			description: ["In &eEchoing Forests&r, you'll find creatures that have lost their souls. Once thought to be human, now a husk of its former self."]
+			description: ["В &eОтзвучивающих лесах (Echoing Forests)&r ты встретишь существ, потерявших свои души. Когда-то считавшиеся людьми, теперь они лишь оболочка самих себя."]
 			id: "0C894EBBB7C6F380"
 			rewards: [{
 				auto: "enabled"
@@ -759,7 +951,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Deeper and Darker"
+			subtitle: "Глубже и темнее"
 			tasks: [{
 				entity: "deeperdarker:shattered"
 				icon: {
@@ -773,14 +965,14 @@
 				type: "kill"
 				value: 32L
 			}]
-			title: "The Hopeless"
+			title: "Безнадежный"
 			x: 12.0d
 			y: 0.0d
 		}
 		{
 			can_repeat: false
 			dependencies: ["30FA1CCB6BBA7125"]
-			description: ["Catch the Ender Flu effect. Cure it by eating many &eChorus Fruit&r or &edrinking Milk&r. The clock is ticking..."]
+			description: ["Подхвати эффект Эндер-гриппа. Вылечись, съев много &eплодов хоруса&r или &eвыпив молоко&r. Время идёт..."]
 			id: "010FF3BF22DA9AED"
 			rewards: [
 				{
@@ -801,20 +993,20 @@
 					type: "item"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/ender_flu"
 				criterion: ""
 				id: "6EA193412C2E12A0"
 				type: "advancement"
 			}]
-			title: "A Race Against the Clock"
+			title: "Гонка на время"
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["0424E768816CB314"]
-			description: ["Despite it's expensive ingredients, the &eDisenchanter&r allows you to take all the enchantments off of an item for a &edurability cost&r."]
+			description: ["Несмотря на дорогие ингредиенты, &eСтол снятия чар&r позволяет снять все чары с предмета за счёт &eпрочности&r."]
 			id: "5596C3E03B25B9C8"
 			rewards: [
 				{
@@ -834,7 +1026,7 @@
 					type: "loot"
 				}
 			]
-			subtitle: "Utilities"
+			subtitle: "Утилиты"
 			tasks: [{
 				id: "613E6DBC63B51865"
 				item: "disenchanting:disenchanter"
@@ -846,11 +1038,11 @@
 		{
 			dependencies: ["7EA6A0131C5FF143"]
 			description: [
-				"Two new structures can be found in the End: &eEnd Tower and Catacombs&r. You can find fun new loot in these structures, as well as &ePurpur Golems&r!"
+				"В Крае можно найти две новые структуры: &eбашня края и катакомбы&r. В этих строениях тебя ждёт интересный новый лут, а также &eПурпурные големы&r!"
 				""
-				"The Purpur Golem Has:"
-				"&b+30% Armor&r"
-				"&b+25% Chaos Resistance&r"
+				"Пурпурный голем обладает:"
+				"&b+30% брони&r"
+				"&b+25% сопротивления хаосу&r"
 			]
 			id: "68ADEBE337D75CA7"
 			rewards: [
@@ -871,7 +1063,7 @@
 					type: "choice"
 				}
 			]
-			subtitle: "Outer End"
+			subtitle: "Край бездны"
 			tasks: [{
 				entity: "outer_end:purpur_golem"
 				icon: "stalwart_dungeons:purpur_bricks_wall"
@@ -879,13 +1071,13 @@
 				type: "kill"
 				value: 3L
 			}]
-			title: "Structures Beyond Reach"
+			title: "Недосягаемые сооружения"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["7EA6A0131C5FF143"]
-			description: ["You'll find &eStalkers, Entombed&r, and many other vicious creatures of the void in new End biomes. Check out the &eAzure Forest, Crystal Crag, and Primordial Pools&r!"]
+			description: ["Ты найдёшь &eсталкеров, погребённых&r и многих других свирепых существ Пустоты в новых биомах Края. Исследуй &eЛазурный лес (Azure Forest), Хрустальный утёс (Crystal Crag) и Первозданные пруды (Primordial Pool)&r!"]
 			icon: "outer_end:cooked_stalker_meat"
 			id: "594A647C82F46BD8"
 			rewards: [
@@ -911,7 +1103,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Outer End"
+			subtitle: "Край бездны"
 			tasks: [
 				{
 					entity: "outer_end:stalker"
@@ -928,19 +1120,19 @@
 					value: 8L
 				}
 			]
-			title: "Residents of the Void"
+			title: "Жители пустоты"
 			x: 3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["68ADEBE337D75CA7"]
 			description: [
-				"The Shelterer is an interesting creature that can be found in the &eEnd Dungeon&r. By releasing it with a &eNether Star&r on its &eAltar&r, it will be able to lock itself in an energetic shulker box."
+				"Shelterer — интересное существо, которое можно найти в &eПодземелье Края&r. Освободив его с помощью &eЗвезды незера&r на его &eАлтаре&r, оно сможет запереться в энергетическом шалкере."
 				""
-				"The Shelterer Has:"
-				"&b+100% Health&r"
-				"&b+25% Damage Supression Chance&r"
-				"&a15% Chance of Dropping End Rune&r"
+				"Shelterer обладает:"
+				"&b+100% здоровья&r"
+				"&b+25% шанс подавления урона&r"
+				"&a15% шанс выпадения Руны End&r"
 			]
 			id: "373410F7773044D4"
 			rewards: [
@@ -962,7 +1154,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				entity: "stalwart_dungeons:shelterer_without_armor"
 				icon: "stalwart_dungeons:shelterer_altar"
@@ -970,7 +1162,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Boxed In"
+			title: "Заключенный в коробку"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -980,12 +1172,12 @@
 				"68ADEBE337D75CA7"
 			]
 			description: [
-				"After slaying &ePhantom Creepers&r in the &eNether&r, you've found yourself face-to-face with them again in &eThe End&r!"
+				"После того как ты победил &eФантомных криперов&r в &eНезере&r, ты снова встретился с ними лицом к лицу в &eКрае&r!"
 				""
-				"&ePhantom Creepers&r spawn in &eWarped Forests&r and &eThe End&r. They split upon contact, so you'll need to handle them with care!"
+				"&eФантомные криперы&r появляются в &eИскажённых лесах&r и в &eКрае&r. Они разделяются при контакте, так что с ними нужно быть очень осторожным!"
 				""
-				"The Phantom Creeper Has:"
-				"&b+25% Dodge Rating&r"
+				"Фантомный крипер обладает:"
+				"&b+25% шанс уклонения&r"
 			]
 			id: "600F5339B6C0975C"
 			rewards: [
@@ -1006,7 +1198,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Endventure"
+			subtitle: "Последний поход"
 			tasks: [{
 				entity: "born_in_chaos_v1:phantom_creeper_copy"
 				icon: "born_in_chaos_v1:phantom_bomb"
@@ -1014,205 +1206,22 @@
 				type: "kill"
 				value: 50L
 			}]
-			title: "Otherworldly Beings IV"
+			title: "Потусторонние существа IV"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
-			dependencies: ["3944DD7AC4667137"]
-			description: [
-				"Before warping dimensions again, you should better familiarize with the &eMap Device&r."
-				""
-				"You may have already noticed that &esneak + right-clicking (both hands need to be empty)&r your &eMap Device&r brings up a huge tree. This is the &cAtlas&r, a progression-based system designed to encourage you to run various types of Maps."
-				""
-				"The pool of Maps you can roll is limited to Map nodes that are unlocked. Completing them unlocks more variants and &estarting with Tier 20+&r, rewards you with &c1 Atlas Passive&r."
-				""
-				"You can access the Atlas Passive tree by clicking the button in the top-left of the Atlas. Here, you can allocate points to &emodify how your Maps will behave&r."
-			]
-			id: "201E621A52FFCE65"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give exp @p 17500"
-				elevate_perms: true
-				icon: "ftb_ph:exp"
-				id: "43413049B841CA66"
-				silent: true
-				title: "17500 Experience"
-				type: "command"
-			}]
-			shape: "rsquare"
-			subtitle: "Mapping"
-			tasks: [{
-				icon: "mmorpg:map_creator"
-				id: "0F67BA1BD5611BA9"
-				stat: "mmorpg:dungeons_completed"
-				type: "stat"
-				value: 10
-			}]
-			title: "Dimensional Travel"
-			x: 6.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["201E621A52FFCE65"]
-			description: ["As you're killing mobs and exploring the Map, you will notice your kill and loot percent increasing. These two metrics contribute to your total &eexploration rarity&r. The higher your exploration, the better the rewards will be for killing the &eMap Boss&r. As you explore more, your exploration rarity will start to go up, starting with &auncommon&r exploration as the first milestone."]
-			icon: "minecraft:paper"
-			id: "4983FE0DE8A1377F"
-			rewards: [{
-				id: "72DE3FED05338CB6"
-				item: "mmorpg:currency/map_rarity_upgrade"
-				type: "item"
-			}]
-			subtitle: "Lost Page"
-			tasks: [{
-				id: "743D361CB7F4E030"
-				title: "Click Once Read"
-				type: "checkmark"
-			}]
-			title: "Map Exploration"
-			x: 6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["707C5CDB48B487F8"]
-			description: [
-				"While exploring &eThe Otherside&r, it may be prudent to go back to Maps to strengthen yourself. Luckily, you learned about empowered dimensions from your travels."
-				""
-				"Starting at &elevel 50&r, Maps can start rolling various &e\"League\"&r events that spice up the dungeon run. Complete these events for specialized rewards."
-				""
-				"Here is a brief overview of the 6 events you can encounter in Maps. You should already be familiar with &eHarvests&r and &eAncient Obeslisks&r!"
-				""
-				"1. &2Harvest&r - kill waves of enemies for powerful materials."
-				"2. &cAncient Obelisks&r - survive the onslaught to earn currency."
-				"3. &dProphecy&r - kill enemies in the Map to earn coins for a specialized shop."
-				"4. &bImprisoned Monsters&r - unleash a powerful mob and kill it for potential rewards."
-				"5. &7Strongboxes&r - kill the box's guardians for catered rewards."
-				"6. &eShrines&r - use the shrine to provide yourself with powerful buffs."
-				""
-				"For more detail on each individual mechanic, you can refer to the connected &bLost Pages&r."
-			]
-			id: "7544F7A13E989534"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give exp @p 20000"
-				elevate_perms: true
-				icon: "ftb_ph:exp"
-				id: "7B0CC44126435994"
-				silent: true
-				title: "20000 Experience"
-				type: "command"
-			}]
-			shape: "rsquare"
-			subtitle: "Mapping"
-			tasks: [{
-				icon: "dungeon_realm:fixed_dungeon_map_item"
-				id: "71F106101EBB87E1"
-				stat: "mmorpg:dungeons_completed"
-				type: "stat"
-				value: 25
-			}]
-			title: "There's Levels to This..."
-			x: 10.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["7544F7A13E989534"]
-			description: [
-				"Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50."
-				""
-				"&2Harvest&r (&bLv. 50+&r): find portals in Maps that will bring you to a new Harvest room. Kill mobs in these rooms to earn &eChaotic Gems&r which are used to craft special currencies!"
-				""
-				"&cAncient Obelisk&r (&bLv. 50+&r): similar to Harvest, find portals which will bring you to an arena. Tackle waves of enemies to find upgrades that can be used on &eObelisks&r! You'll also have the opportunity to earn special currency that can upgrade &eSupport and Augment Gems&r."
-				""
-				"&eShrines&r (&3Lv. 60+&r): find shrines throughout Maps that can be interacted with to provide yourself and nearby allies with a buff. This buff lasts 60s and can make a Map become trivial!"
-			]
-			icon: "minecraft:paper"
-			id: "062656B385EA3960"
-			rewards: [{
-				id: "2F17F8F6DEB6F82D"
-				item: "mmorpg:currency/map_rarity_upgrade"
-				type: "item"
-			}]
-			subtitle: "Lost Page"
-			tasks: [{
-				id: "2266C44EDE1AE423"
-				title: "Click Once Read"
-				type: "checkmark"
-			}]
-			title: "League Events"
-			x: 10.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["7544F7A13E989534"]
-			description: [
-				"Other events will start appearing at level 60. These also have a unique reward structure!"
-				""
-				"&dProphecy&r (&3Lv. 60+&r): interact with an altar to initiate &dProphecy&r. The altar allows you to choose from Curses that you can apply to yourself. While you have a Curse active, mobs will drop &eProphecy Coins&r. The more curses you have on yourself, the more &eProphecy Coins&r you can earn. Use these coins to purchase rewards in the Hub. Note that &6Legendary&r and &5Mythic&r rewards only appear starting in Tier 20 and 40 maps, respectively."
-				""
-				"&7Strongboxes&r (&3Lv. 60+&r): find &7Strongboxes&r throughout the Map. Interacting with one will summon &7Strongbox&r guardians. Defeat them, and reap specialized rewards. The rewards will consist of a pool of one type of item (eg. a bunch of &eCurrency&r, or a bunch of &eRunes&r)."
-				""
-				"&bImprisoned Monsters&r (&3Lv. 60+&r): sometimes in a Map, you'll run across a caged mob block. Interacting with it will free the mob which upon defeat, have a chance to drop special &eCurrency&r that can &erestore gear potential&r! Be warned though, these mobs are not for the faint of heart."
-			]
-			icon: "minecraft:paper"
-			id: "747F8352825A124A"
-			rewards: [{
-				id: "64C505B09051A4A8"
-				item: "mmorpg:map_creator"
-				type: "item"
-			}]
-			subtitle: "Lost Page"
-			tasks: [{
-				id: "17104BCDCBE1AF5F"
-				title: "Click Once Read"
-				type: "checkmark"
-			}]
-			title: "League Events II"
-			x: 12.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["6DEBCC2B2DAE67AD"]
-			description: [
-				"Looking to challenge yourself even further? In addition to &cAtlas Passives&r, you can modify your Maps using &eRelics&r. By now, you should have quite a few &eRelics&r earned from chests and &eBoss&r kills. Use a &eRelic Key&r on a &eMap Device&r (or Harvest/Obelisk block) to access its &e\"Relic Inventory\"&r."
-				""
-				"In the inventory, you can place &eRelics&r to enhance the dungeon. Note that &cRelics have 3 uses before they're consumed&r and there is a limit to how many Relics you can place in a Map."
-			]
-			icon: "mmorpg:relic"
-			id: "66226AD37A8822F0"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give exp @p 20000"
-				elevate_perms: true
-				icon: "ftb_ph:exp"
-				id: "5B80ACDB0F87AF12"
-				silent: true
-				title: "20000 Experience"
-				type: "command"
-			}]
-			shape: "rsquare"
-			subtitle: "Mapping"
-			tasks: [{
-				id: "1487955558F49FBC"
-				item: "dungeon_realm:relic_key"
-				type: "item"
-			}]
-			title: "Relics of the Past"
-			x: 12.0d
-			y: 1.5d
-		}
-		{
 			dependencies: ["6149D163ABF06A15"]
 			description: [
-				"You hear whispers of a powerful force deep in the void.. Continue exploring the &cAtlas&r and complete the toughest Maps to seek more information..."
+				"Вы слышите шёпот о могущественной силе, скрывающейся в глубинах Пустоты... Продолжайте исследовать &cАтлас&r и проходить самые сложные карты, чтобы узнать больше..."
 				""
-				"&cUber Maps&r are extremely difficult and rewarding Maps. A regular &5Tier 80+ Map&r can be upgraded into an &cUber Map&r using an &eAdventure Map Uber Upgrade&r item. You can craft these with &eUber Fragments&r which drop from Map Bosses."
+				"&cУбер-карты&r — это чрезвычайно сложные, но очень ценные карты. Обычную &5карту 80+ уровня&r можно улучшить до &cУбер-карты&r с помощью предмета &eУлучшение карты приключений: Убер&r. Его можно создать из &eУбер-фрагментов&r, которые выпадают с боссов карт."
 				""
-				"&cUber Maps&r contain &cUber Bosses&r, which drop very &epowerful Jewels&r."
+				"&cУбер-карты&r содержат &cУбер-боссов&r, с которых выпадают &eочень мощные самоцветы&r."
 				""
-				"By finishing the &cAtlas&r, which requires the completion of &cUber Maps&r, you unlock the &oprivilege&r to challenge the &4Pinnacle Boss&r. Similar to an &cUber&r, you can craft the &eAdventure Map Pinnacle Upgrade&r item to modify your Map."
+				"Завершив прохождение &cАтласа&r, что требует прохождения &cУбер-карт&r, вы получите &oправо&r бросить вызов &4Верховному боссу&r. Как и в случае с &cУбер&r, вы можете создать предмет &eУлучшение карты приключений: Верховный&r, чтобы изменить свою карту."
 				""
-				"&4Pinnacle Bosses&r are extremely difficult and also have a huge reward. But, &odo you have what it takes to find out what?&r"
+				"&4Верховные боссы&r — невероятно сложные противники, но награда за победу над ними столь же велика. Но &oхватит ли вам сил узнать, какая именно?&r"
 			]
 			id: "7DB451E643FAB7BE"
 			rewards: [
@@ -1233,7 +1242,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Mapping"
+			subtitle: "Картография"
 			tasks: [{
 				icon: "dungeon_realm:uber_upgrade"
 				id: "610DC03B1C7DF1D1"
@@ -1241,7 +1250,7 @@
 				type: "stat"
 				value: 5
 			}]
-			title: "The Pinnacle"
+			title: "Верховные"
 			x: 15.0d
 			y: 0.0d
 		}
@@ -1250,5 +1259,5 @@
 		"Lv. 50-65"
 		"Lv. 60-75"
 	]
-	title: "Act V"
+	title: "Акт V"
 }

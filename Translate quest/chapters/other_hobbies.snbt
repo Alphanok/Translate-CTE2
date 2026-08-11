@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"&eSniffers&r spawn by hatching from &esniffer eggs&r found in &esuspicious sand &rfrom &ewarm ocean ruins&r. Breeding sniffers with &etorchflower seeds&r would also result in a sniffer egg being laid as an item. It &esniffs out and digs out seeds&r for various unique decorative plants out of dirt, grass, and moss blocks. They will dig through &edirt and grass&r like blocks. "
+				"&eНюхачи&r появляются из &eяиц нюхачей&r, которые можно найти в &eподозрительном песке&r из &eразрушенных руин в тёплом океане&r. При скрещивании нюхачей с &eсеменами факельника&r также появляется яйцо нюхача в виде предмета. Нюхачи &eотыскивают и выкапывают семена&r различных уникальных декоративных растений из блоков земли, травы и мха. Они копают в &eземле и похожих на неё блоках&r."
 				""
-				"The sniffer &estores the last 20 locations&r it has dug up so it can't dig there anymore. After sniffing out seeds, an &eeight minute cooldown&r is activated before it can dig in again."
+				"Нюхачи &eзапоминает последние 20 мест&r, где он уже копал, чтобы не повторяться. После того как он нашёл семена, срабатывает &eвосьмиминутное восстановление&r перед следующим копанием."
 				""
-				"&eBonmeelia Seeds&r are used to create a &eJar of Bonmeel&r which creates a giant crop when used on a 3x3 grid of grown crops!"
+				"&eСемена бонмилии&r используются для создания &eБанки с бонмиелем&r, которая создаёт гигантский урожай при применении на сетке 3×3 из полностью выросших культур!"
 			]
 			id: "1D611B5828213E51"
 			rewards: [{
@@ -27,7 +27,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain a Sniffer Egg"
+			subtitle: "Получите яйцо нюхача"
 			tasks: [
 				{
 					id: "090B2E583665D316"
@@ -40,24 +40,24 @@
 					type: "item"
 				}
 			]
-			title: "Sniffers"
+			title: "Нюхачи"
 			x: -1.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["1D611B5828213E51"]
 			description: [
-				"&eTorchflower seeds&r can be placed on farmland, where they grow through three stages. Breaking the torchflower crop before it matures drops the seed, while breaking the final stage produces one torchflower and does not yield the seed. Torchflowers don't do anything special except &elook cool&r."
+				"&eСемена факельника&r можно посадить на вспаханную землю — они проходят три стадии роста. Если сломать растение до полного созревания, выпадет семя. При сборе на финальной стадии вы получите один факельник, но без возврата семени. Факельники не несут практической пользы, но &eвыглядят круто&r."
 				""
-				"&ePitcher Pods&r grow through three stages as a pitcher crop. It also does nothing except look cool."
+				"&eСтручок кувшинницы&r также проходят три стадии роста как отдельная культура. Они тоже не имеют функциональности, кроме как &eбыть красивыми&r."
 				""
-				"&eMore Sniffer Flowers&r also adds more seeds and plants the Sniffer can dig up that actually do something."
+				"&eMore Sniffer Flowers&r добавляет больше семян и растений, которые Нюхач может выкапывать — и некоторые из них действительно имеют полезные свойства."
 				""
-				"&eDawnberries&r drop edible berries when picked."
+				"&eРассветные ягоды&r дают съедобные ягоды при сборе."
 				""
-				"&eAmbushes&r produce &eAmber&r which drops a new armor trim, banner pattern, and more. "
+				"&eЯнтарники&r производят &eЯнтарь&r, который используется для создания новых шаблонов брони, узоров флагов и других предметов."
 				""
-				"&eCaulorflowers and Bondripia&r are decorational plants that are animated."
+				"&eЦаулорцветы и Бондрипия&r — декоративные анимированные растения."
 			]
 			id: "141FAE11D6180780"
 			rewards: [
@@ -78,7 +78,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру"
 			tasks: [
 				{
 					id: "4A1EC9F27C69F7C4"
@@ -111,18 +111,18 @@
 					type: "item"
 				}
 			]
-			title: "More Sniffer Flowers"
+			title: "Больше цветов нюхачей"
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["141FAE11D6180780"]
 			description: [
-				"&eGloomberries&r drop edible berries when picked, but at the same time it's kinda disgusting."
+				"&eМракоягоды&r дают съедобные ягоды при сборе, но выглядят &eдовольно отвратительно&r."
 				""
-				"&eGarbush&r is a corrupted version of &eAmbush&r which drops rarer ores. You can get the saplings for these from Amber."
+				"&eГарвкуст&r — искажённая версия &eЯнтарника&r, с которого выпадают более редкие руды. Саженцы этих растений можно получить из Янтаря."
 				""
-				"&eAciddripia&r are decorational plants that are animated as well. You can get the saplings for these from Amber."
+				"&eКаплекислотия&r — декоративное анимированное растение. Саженцы также можно получить из Янтаря."
 			]
 			id: "0D8B0AB8564ABCB9"
 			rewards: [{
@@ -135,7 +135,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру"
 			tasks: [
 				{
 					id: "4B23799C7BCBA42A"
@@ -153,22 +153,22 @@
 					type: "item"
 				}
 			]
-			title: "Corruption Seeds"
+			title: "Семена порчи"
 			x: -1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["3DB047DAC7A392C3"]
 			description: [
-				"The &esheep fossil&r can be found at some small stony peaks. It can be tuned and activated like a Noteblock to play some Goat Horn sounds!"
+				"&eОкаменелые останки овцы&r можно найти на небольших каменных пиках. Она настраивается и активируется как нотный блок, проигрывая звуки козлиного рога!"
 				""
-				"The &eocelot fossil&r can be found hidden away in its (maybe collapsed) cave inside the jungle. It scares creepers away for double the distance cats do (without making annoying sounds)."
+				"&eОкаменелые останки  оцелота&r прячется в (возможно обрушенной) пещере в джунглях. Она отпугивает криперов на расстоянии вдвое большем, чем обычные кошки (и при этом не издаёт раздражающих звуков)."
 				""
-				"The &ecreeper fossil &rcan be found at an old exploded dirt-hut. It emits fire and smoke particles when placed."
+				"&eОкаменелые останки  крипера&r находится на месте взорванной земляной хижины. При размещении она излучает частицы огня и дыма."
 				""
-				"The &evillager fossil&r can be found at a grave of a rotten outcast-house. It can hold items like a display and will emit the light of the item it is holding."
+				"&eОкаменелые останки  жителя&r можно найти на могиле рядом с разрушенным домом отшельника. Она может удерживать предметы как витрина и будет излучать свет предмета, который держит."
 				""
-				"The &echicken fossil&r can be found below trees surrounded by small rocks. It gives players in a 10 Block radius the slow-falling effect."
+				"&eОкаменелые останки  курицы&r зарыта под деревьями, окружёнными маленькими камнями. Она даёт эффект медленного падения игрокам в радиусе 10 блоков."
 			]
 			id: "4687F41A2DC1F1F6"
 			rewards: [{
@@ -181,7 +181,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру"
 			tasks: [
 				{
 					id: "6E1BBB79990C18E3"
@@ -209,13 +209,13 @@
 					type: "item"
 				}
 			]
-			title: "Fossils"
+			title: "Ископаемые"
 			x: 1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["4687F41A2DC1F1F6"]
-			description: ["&eTotems&r can be found in &eunderwater structures&r as well as &eMesa Ruins&r."]
+			description: ["&eТотемы&r можно найти в &eподводных структурах&r, а также в &eразвалинах месы (Mesa Ruins)&r."]
 			id: "6D81B1B54FCBAFA0"
 			rewards: [{
 				auto: "enabled"
@@ -227,7 +227,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру"
 			tasks: [
 				{
 					id: "5FE97D3DDBF7A7E1"
@@ -252,19 +252,19 @@
 					type: "item"
 				}
 			]
-			title: "Totems"
+			title: "Тотемы"
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"&eBetter Archeology &rintroduces content to archeology. &eFossils&r of various mobs can be found by &ebrushing Fossiliferous Dirt&r which generates at specific areas. Each area contains a &especific type of fossil&r, such as stone pillars' nearby Fossiliferous Dirt containing sheep fossils. "
+				"&eУлучшенная археология&r добавляет новый контент в археологическую систему. &eОкаменелости&r различных мобов можно найти, &eочищая археологическую землю&r, которая генерируется в определённых биомах. Каждая зона содержит &eопределённый тип окаменелостей&r — например, возле каменных колонн можно найти окаменелости овец."
 				""
-				"The &eArcheology Table&r is used to &eanalyse Unidentified Artifacts&r using any type of brush. &eIdentified Artifacts&r act as a catalyst for &eancient Enchantments like Enchanted Books&r do. Apply them to your Equipment using an Anvil."
+				"&eАрхеологический стол&r используется для &eанализа Неопознанных артефактов&r с помощью любой кисточки. &eОпознанные артефакты&r работают как катализаторы для &eдревних зачарований&r, аналогично зачарованным книгам. Их можно применять к снаряжению через наковальню."
 				""
-				"&eArtifact Shards&r can be found by &ebreaking pots or brushing suspicious sand&r. They are Fragments of knowledge that can be put together to craft Unidentified Artifacts. "
+				"&eФрагменты артефактов&r можно найти, &eразбивая горшки или очищая подозрительный песок&r. Это кусочки знаний, которые можно объединить в Неопознанные артефакты."
 				""
-				"&eIdentify&r the Unidentified Artifacts with the &eArcheology Table&r."
+				"Используйте &eАрхеологический стол&r, чтобы &eидентифицировать&r Неопознанные артефакты."
 			]
 			id: "3DB047DAC7A392C3"
 			rewards: [{
@@ -277,7 +277,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовьте по одному экземпляру"
 			tasks: [
 				{
 					id: "1EE5F2F4EF889807"
@@ -306,7 +306,7 @@
 					type: "item"
 				}
 			]
-			title: "Better Archeology "
+			title: "Лучшая археология"
 			x: 1.0d
 			y: 2.5d
 		}
@@ -331,7 +331,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				consume_items: true
 				id: "192947A1A4847203"
@@ -344,7 +344,7 @@
 				}
 				type: "item"
 			}]
-			title: "Ancient Anthropologist"
+			title: "Древний антрополог"
 			x: 1.0d
 			y: -2.0d
 		}
@@ -393,13 +393,13 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "0BD9F8B671E38D86"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "The Multipotentialite"
+			title: "Мультипотенциал"
 			x: 3.0d
 			y: -4.0d
 		}
@@ -424,7 +424,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					consume_items: true
@@ -497,12 +497,12 @@
 					type: "item"
 				}
 			]
-			title: "Ancient Farmer"
+			title: "Древний фермер"
 			x: -1.0d
 			y: -2.0d
 		}
 		{
-			description: ["&eGateways&r allow you to spawn in waves of a certain type of mob to fight. Each wave must be eliminated within a &etime limit&r, or else the gateway disappears. If you finish all waves, a &ebunch of mob drops&r will spawn at the base of the gateway."]
+			description: ["&eВрата&r позволяют вызывать волны определённого типа мобов для сражения. Каждую волну нужно уничтожить за &eограниченное время&r, иначе врата исчезнут. Если ты справишься со всеми волнами, в основании врат появится &eкуча дропов с мобов&r."]
 			id: "3E5A643A19ECF957"
 			rewards: [{
 				auto: "enabled"
@@ -526,13 +526,13 @@
 				}
 				type: "item"
 			}]
-			title: "Gateways to Eternity"
+			title: "Врата в вечность"
 			x: 3.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3E5A643A19ECF957"]
-			description: ["&eBigger gateways&r increase the amount of mobs per wave, but also the amount of drops."]
+			description: ["&eУвеличенные врата&r повышают количество мобов в каждой волне, но при этом увеличивают и количество дропа."]
 			icon: {
 				Count: 1
 				id: "minecraft:tipped_arrow"
@@ -551,20 +551,20 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Deafeat 5 Gateways"
+			subtitle: "Закройте 5 врат"
 			tasks: [{
 				id: "32012537114311E4"
 				stat: "gateways:gates_defeated"
 				type: "stat"
 				value: 5
 			}]
-			title: "Cross Dimensional Hunter"
+			title: "Охотник за измерениями"
 			x: 3.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["5C89FB95B4B3B3C4"]
-			description: ["&eLarge gateways&r are the ultimate challenge and have stringent time limits."]
+			description: ["&eБольшие врата&r — это высший вызов с очень строгими ограничениями по времени."]
 			icon: {
 				Count: 1
 				id: "minecraft:tipped_arrow"
@@ -583,14 +583,14 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Defeat 10 gateways"
+			subtitle: "Закройте 10 врат"
 			tasks: [{
 				id: "50B3081435E93654"
 				stat: "gateways:gates_defeated"
 				type: "stat"
 				value: 10
 			}]
-			title: "Dimensional Gatekeeper"
+			title: "Хранитель врат измерений"
 			x: 3.0d
 			y: -0.5d
 		}
@@ -616,7 +616,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытания"
 			tasks: [{
 				icon: "dungeon_realm:home_pearl"
 				id: "37DCF8DC33EEBCEF"
@@ -624,7 +624,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "Homeland Security"
+			title: "Внутренняя безопасность"
 			x: 3.0d
 			y: -2.0d
 		}
@@ -640,7 +640,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Die Once"
+			subtitle: "Умри однажды"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -655,7 +655,7 @@
 				type: "stat"
 				value: 1
 			}]
-			title: "Welcome to Craft to Exile 2"
+			title: "Добро пожаловать в Craft to Exile 2"
 			x: 5.0d
 			y: 2.5d
 		}
@@ -672,7 +672,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Die 25 times"
+			subtitle: "Умереть 25 раз"
 			tasks: [{
 				icon: "minecraft:skeleton_skull"
 				id: "0F35571D76091705"
@@ -680,7 +680,7 @@
 				type: "stat"
 				value: 25
 			}]
-			title: "This is Craft to Exile 2"
+			title: "Это Craft to Exile 2"
 			x: 5.0d
 			y: 1.0d
 		}
@@ -697,7 +697,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Die 50 times"
+			subtitle: "Умереть 50 раз"
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "284110B216A15CE0"
@@ -705,7 +705,7 @@
 				type: "stat"
 				value: 50
 			}]
-			title: "Welcome to Craft to Exile 2: Prepare to Mine Edition"
+			title: "Добро пожаловать в Craft to Exile 2: Издание \"Готовься к добыче\""
 			x: 5.0d
 			y: -0.5d
 		}
@@ -730,7 +730,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				icon: "minecraft:dragon_head"
 				id: "0D403D8B23E6D98D"
@@ -738,7 +738,7 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Hollowed"
+			title: "Опустошённый"
 			x: 5.0d
 			y: -2.0d
 		}
@@ -754,7 +754,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Kill 100 mobs"
+			subtitle: "Убить 100 мобов"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -768,7 +768,7 @@
 				type: "stat"
 				value: 100
 			}]
-			title: "Warming Up"
+			title: "Разминка"
 			x: -3.0d
 			y: 2.5d
 		}
@@ -785,14 +785,14 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Kill 500 mobs"
+			subtitle: "Убить 500 мобов"
 			tasks: [{
 				id: "35DFB874EE92E276"
 				stat: "minecraft:mob_kills"
 				type: "stat"
 				value: 500
 			}]
-			title: "Monster Hunter"
+			title: "Охотник на монстров"
 			x: -3.0d
 			y: 1.0d
 		}
@@ -809,7 +809,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Kill 1000 mobs"
+			subtitle: "Убить 1000 мобов"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -823,7 +823,7 @@
 				type: "stat"
 				value: 1000
 			}]
-			title: "Bloodthirsty"
+			title: "Кровожадный"
 			x: -3.0d
 			y: -0.5d
 		}
@@ -848,7 +848,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [{
 				icon: {
 					Count: 1
@@ -862,7 +862,7 @@
 				type: "stat"
 				value: 5000
 			}]
-			title: "Liquidator"
+			title: "Ликвидатор"
 			x: -3.0d
 			y: -2.0d
 		}
@@ -894,7 +894,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "05F0F5F68C77971D"
@@ -993,26 +993,33 @@
 					type: "item"
 				}
 			]
-			title: "Call of War"
+			title: "Зов войны"
 			x: 7.0d
 			y: -2.0d
 		}
 		{
 			description: [
-				"To &efind &rmonsters for quest completions or mob farming, push Y to open the &eminimap settings&r. &eClick entity radar&r, then click &eentity category&r. Click &eLiving,&r then &e\"Add Subcategory\"&r and name it whatever. Click on this &enew subcategory&r, click &esettings,&r then do the following: "
+				"Чтобы &eнайти&r монстров для выполнения квестов или фарма мобов, нажмите Y или J, чтобы открыть &eнастройки миникарты&r. Затем выберите &eНастройки радара&r, а после — &eНастройки категорий сущностей&r. Выберите &eЖивые,&r затем нажмите &e\"Добавить подкатегорию\"&r и придумайте название новой подкатегории."
 				""
-				"&eDisplay: &rON"
-				"&eIcons:&r ALWAYS"
-				"&eNames: &rALWAYS"
-				"&eEntity Dot Size: &r3"
-				"&eEntity Icon Scale:&r 2.00"
-				"&eRender Over Minimap Frame:&r Always"
+				"Далее выберите эту &eновую подкатегорию,&r нажмите &eнастройки,&r и установите следующие параметры:"
 				""
-				"Then, go to &eInclude List&r. In the &e\"Add to List\"&r box, type the &ename of the mob&r you want and click the correct one such as typing \"spider\" then clicking &e\"minecraft:cave_spider\"&r. Now, all of the mob that you've selected will appear as a &ebig icon on your minimap and map&r."
+				"&eПоказать:&r ВКЛ"
 				""
-				"Also in Entity Radar, go to the 2nd page (hit next page) and change &eEntity Height Limit to 2050&r which will allow the minimap to display mobs on &eall Y levels&r. "
+				"&eИконки:&r ВСЕГДА"
 				""
-				"Remember to remove the mob from the radar when you're done."
+				"&eИмена:&r ВСЕГДА"
+				""
+				"&eРазмер точек сущностей:&r 3"
+				""
+				"&eРазмер голов сущностей:&r 2.00"
+				""
+				"&eОтображение на рамкой мини-карты:&r Всегда"
+				""
+				"Затем перейдите в &eПеречень включений&r. В поле &e\"Добавить в список\"&r введите название нужного моба и выберите правильный вариант, например, введите «spider» и выберите &e\"minecraft:cave_spider\"&r. Теперь все выбранные мобы будут отображаться &eбольшими иконками на вашей миникарте и карте&r."
+				""
+				"Также в Настройках радара перейдите на вторую страницу (кнопка «След») и измените &eФильтр сущностей по высоте на 2050&r — это позволит миникарте показывать мобов на &eвсех уровнях Y&r."
+				""
+				"Не забудьте убрать моба из радарa после завершения поиска."
 			]
 			id: "24A1F71924383794"
 			rewards: [{
@@ -1026,19 +1033,19 @@
 				type: "command"
 			}]
 			size: 1.0d
-			subtitle: "Read and then click checkmark"
+			subtitle: "Прочитайте и затем нажмите галочку"
 			tasks: [{
 				id: "0EE61E427FF22F79"
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "Hunting Tools: Entity Radar"
+			title: "Инструменты для охоты: радар сущностей"
 			x: 7.0d
 			y: 2.5d
 		}
 		{
 			dependencies: ["24A1F71924383794"]
-			description: ["&eAlex's Mobs &radds in numerous mobs to be &etamed and hunted&r."]
+			description: ["&eAlex's Mobs&r добавляет множество мобов, которых можно &eприручать и охотиться&r."]
 			id: "3C8E45CB8CEA634D"
 			rewards: [{
 				auto: "enabled"
@@ -1050,19 +1057,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft the Animal Dictionary"
+			subtitle: "Создайте книга о животных"
 			tasks: [{
 				id: "50E1D666495F1533"
 				item: "alexsmobs:animal_dictionary"
 				type: "item"
 			}]
-			title: "Hunting Tools: Knowledge"
+			title: "Охотничьи инструменты: знания"
 			x: 7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3C8E45CB8CEA634D"]
-			description: ["Time to see what you've &elearned.&r "]
+			description: ["Пора проверить, чему ты &eнаучился&r."]
 			icon: "kobolds:kobold_skull"
 			id: "0C91F7CC3D7675AF"
 			rewards: [{
@@ -1075,7 +1082,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Kill 16 of each mob"
+			subtitle: "Убейте по 16 представителей каждого моба"
 			tasks: [
 				{
 					entity: "minecraft:sheep"
@@ -1114,27 +1121,33 @@
 					value: 16L
 				}
 			]
-			title: "Hunter's Tools: The Test"
+			title: "Инструменты охотника: Тест"
 			x: 7.0d
 			y: -0.5d
 		}
 		{
 			description: [
-				"&eDoggy Talents Next&r allows you to interact with, level up, and care for your dogs. You can &eplay tag, fetch, locate your dog, revive them, and teach them useful talents&r."
+				"&eDoggy Talents Next&r позволяет взаимодействовать с вашими собаками, развивать их и ухаживать за ними. Вы можете &eиграть в салочки, приносить предметы, находить собаку, воскресить её и обучать полезным талантам&r."
 				""
-				"&eTame a wolf&r and then use a Training Treat on them. Right click the dog with a stick to open it's menu. &eMore options&r can be found at the &ebottom of your screen in the GUI&r. "
+				"&eПриручите волка&r, затем используйте &eдрессировачная вкусняшка&r на нём. Щёлкните по собаке палкой, чтобы открыть меню. &eБольше опций&r можно найти в &eнижней части экрана в интерфейсе&r."
 				""
-				"Attach a &eRadio Collar&r to your dog and craft a &eCanine Locator&r so you'll never lose them. A &eBone&r can also be used to place your dog on your head. The &eConducting Bone&r can teleport your dog from anywhere in the world to you."
+				"Прикрепите &eРадиошейник&r к собаке и создайте &eСобачий трекер&r, чтобы никогда её не потерять. &eКость&r также можно использовать, чтобы посадить собаку к себе на голову. &eпереносящая кость&r позволяет телепортировать собаку к вам из любой точки мира."
 				""
-				"&nBehavior Modes&r"
+				"&nРежимы поведения&r"
 				""
-				"&eDocile&r: will follow but not attack."
-				"&eWandering&r: will stay near its food bowl."
-				"&eAggressive&r: will attack any mobs that attack you or you attack."
-				"&eBerserker&r: will attack any nearby mobs. Minor version won't attack Piglins or Endermen."
-				"&ePatrol&r: will patrol area for mobs."
-				"&eGuard&r: will follow closely and attack mobs that draw near. Flat version won't attack Piglins or Endermen. Minor version won't attack but instead growl to warn."
-				"&eTactical&r: won't attack unless you use Tactical whistle on a mob."
+				"&eПокорный&r: будет следовать, но не атаковать."
+				""
+				"&eБродячий&r: остаётся рядом с миской для еды."
+				""
+				"&eАгрессивный&r: атакует любых мобов, которые атакуют вас или которых вы атакуете."
+				""
+				"&eБерсерк&r: атакует всех близлежащих мобов. В «малой» версии не атакует пиглинов и эндерменов."
+				""
+				"&eПатруль&r: патрулирует территорию в поисках мобов."
+				""
+				"&eСтраж&r: следует близко и атакует приближающихся мобов. В «плоской» версии не атакует пиглинов и эндерменов. В «малой» версии не атакует, а лишь рычит в знак предупреждения."
+				""
+				"&eТактический&r: не атакует, пока вы не используете Тактический Свисток на мобе."
 			]
 			id: "77DED163AD398568"
 			rewards: [
@@ -1154,7 +1167,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовьте по одному экземпляру"
 			tasks: [
 				{
 					id: "66AF3B35CCDEFBFD"
@@ -1184,22 +1197,29 @@
 		{
 			dependencies: ["77DED163AD398568"]
 			description: [
-				"You'll need a &eDog Bed, Dog Bath, and Food Bowl&r to take care of your dog. &eLink the Dog Bed&r to your dog by &eright-clicking&r the bed and then your dog, and the &eFood Bowl&r by &ebringing the dog within 1 block&r of it. The dog will eat out of the food bowl when &ehungry&r if you put food inside."
+				"Для ухода за собакой вам понадобятся &eсобачья лежанка, собачья ванна и миска для еды&r. &eСвяжите собачью лежанку&r с собакой, &eнажав ПКМ&r сначала на кровать, затем на собаку. &eМиска для еды&r свяжите, подведя собаку на расстояние в 1 блок&r. Собака будет есть из миски, если она &eголодна&r и в миске есть еда."
 				""
-				"The &eWhistle&r is your main method of commanding your dog. &eRight-click&r it to use the currently selected command and &ecrouch + right-click&r to select the command. "
+				"&eСвисток&r — это ваш основной способ отдавать команды собаке. Нажмите &eПКМ&r, чтобы использовать выбранную команду, и &eShift + ПКМ&r, чтобы выбрать команду."
 				""
-				"Your dog has &ehunger&r (the middle number above it's head) which drains from &ehealing and talents&r. Once it reaches &e0&r, the dog will start to &edie.&r"
+				"У собаки есть &eголод&r (среднее число над головой), который расходуется на &eлечение и таланты&r. Когда он достигает &e0&r, собака начинает &eумирать.&r"
 				""
-				"&nWhistle Commands&r"
+				"&nКоманды свистка&r"
 				""
-				"&eStand/Ok?&r: dogs stand/teleport to you."
-				"&eHeel&r: all standing dogs come to you."
-				"&eStay&r: all standing dogs sit."
-				"&eTo Bed&r: all dogs return to their bed if they have one."
-				"&eGo Behind&r: all standing dogs teleport behind you."
-				"&eTactical&r: command all dogs in Tactical Mode to attack the target you aim at with the whistle."
-				"&eHowl&r: aim at a dog and use to make them howl."
-				"&eRide With Me&r: aim at a vehicle, such as a boat, and the dog will get in."
+				"&eСтой/Ок?&r: собаки стоят или телепортируются к вам."
+				""
+				"&eКо мне&r: все стоящие собаки подходят к вам."
+				""
+				"&eСидеть&r: все стоящие собаки садятся."
+				""
+				"&eК лежанке&r: все собаки возвращаются к своей кровати, если она есть."
+				""
+				"&eЗа мной&r: все стоящие собаки телепортируются за вами."
+				""
+				"&eТактический&r: приказывает всем собакам в Тактическом режиме атаковать цель, на которую вы нацелены со свистком."
+				""
+				"&eВой&r: наведите на собаку и используйте команду, чтобы заставить её выть."
+				""
+				"&eЕдем вместе&r: наведите на транспорт (например, лодку), и собака зайдёт в него."
 			]
 			id: "1BAD2923BF4081F3"
 			rewards: [{
@@ -1212,7 +1232,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовте по одному экземпляру"
 			tasks: [
 				{
 					id: "4343B7F7B6C39F6A"
@@ -1244,24 +1264,24 @@
 					type: "item"
 				}
 			]
-			title: "Home Preparation"
+			title: "Подготовка дома"
 			x: 9.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1BAD2923BF4081F3"]
 			description: [
-				"While &eincapacitated&r, your dog will need to be &etransported to it's bed&r and given some &eBand-Aids&r to speed up the healing process. Their hunger will be set to 0, and will gradually &eregenerate to 64&r. When it hits 64, the dog will &erevive&r. Use a &eBone&r on the dog to pick them up."
+				"Когда ваша собака &eбессознательна&r, её нужно &eперенести на лежанку&r и дать &eлейкопластыри&r, чтобы ускорить лечение. Голод при этом сбрасывается до 0 и постепенно &eвосстанавливается до 64&r. Когда показатель достигает 64, собака &eоживает&r. Чтобы поднять собаку, используйте &eкость&r."
 				""
-				"Any dogs that &ehaven’t been linked&r to the bed can still be revived on an unclaimed bed by using a &eTotem of Undying&r."
+				"Если собака &eне была связана&r с лежанкой, её всё равно можно воскресить на незанятой кровати с помощью &eТотема бессмертия&r."
 				""
-				"If enough &eBand-Aids&r are applied, the dog can begin to &ewalk.&r Note that any &edamage&r the dog takes will still cause the hunger to reset and remove the &eBand-Aids&r. Dogs &ecannot teleport when incapacitated&r. &eTotems of Undying&r will instantly revive all nearby dogs."
+				"Если применить достаточно &eлейкопластырей,&r собака сможет &eходить&r. Однако любое &eповреждение&r сбросит голод и снимет все &eлейкопластыри&r. При бессознательном состоянии собаки &eне могут телепортироваться&r. &eТотемы бессмертия&r мгновенно воскрешают всех собак рядом."
 				""
-				"Your dog will &eplay tag&r if you throw a &eSnowball&r at them. Use a &eThrowing Stick or Throwing Bone&r to play fetch."
+				"Ваша собака будет &eиграть в салочки&r, если вы бросите в неё &eснежок&r. Используйте &eметательный палку или метательную кость&r, чтобы играть в принос."
 				""
-				"The &eEnergizer Bone&r gives your dog some minor &ebuffs,&r such as &espeed,&r which is great when using them as a &emount.&r The &eBreeding Bone&r can breed two dogs of opposite gender."
+				"&eЗаряженая кость&r даёт собаке небольшие &eбаффы,&r например &eускорение,&r что отлично подходит, если использовать её как &eвсадника&r. &eКость для размножения&r позволяет разводить двух собак противоположного пола."
 				""
-				"The &eMagnifying Bone&r will &eincrease&r your dogs size while the &eShrinking Mallet&r will &eshrink&r your dog until they're a &epuppy.&r"
+				"&eУвеличительная кость&r &eувеличит&r размер вашей собаки, а &eуменьшающий молоток&r &eуменьшит&r её до размера &eщенка.&r"
 			]
 			id: "2DED343BD83179E3"
 			rewards: [{
@@ -1274,22 +1294,22 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Craft one of each"
+			subtitle: "Изготовьте по одному экземпляру"
 			tasks: [{
 				id: "2D51AC345728136C"
 				item: "doggytalents:bandaid"
 				type: "item"
 			}]
-			title: "Taking Care of Your Dog"
+			title: "Забота о вашей собаке"
 			x: 9.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["2DED343BD83179E3"]
 			description: [
-				"Your dog will require &ehigher tiered treats&r to &elevel up&r. Their max level is &e60.&r This is &4NOT&r Mine and Slash leveling up. "
+				"Для &eпрокачки&r вашей собаки потребуются &eлакомства более высокого уровня&r. Максимальный уровень — &e60.&r Это &4НЕ&r уровень из Mine and Slash."
 				""
-				"Your dog can be &ecustomized&r with &ecostumes, dyable capes, collars, etc&r. Some will allow the dog to drop &especial music discs&r if they kill a mob while wearing it."
+				"Собаку можно &eкастомизировать&r с помощью &eкостюмов, окрашиваемых плащей, ошейников и прочего&r. Некоторые из них позволяют собаке сбрасывать &eособые музыкальные диски&r, если она убивает моба в этом наряде."
 			]
 			id: "46CE10AA0F5E648A"
 			rewards: [
@@ -1318,7 +1338,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Challenge"
+			subtitle: "Испытание"
 			tasks: [
 				{
 					id: "1739E3CF4C2FEC23"
@@ -1336,10 +1356,10 @@
 					type: "item"
 				}
 			]
-			title: "Cynologist"
+			title: "Кинолог"
 			x: 9.0d
 			y: -2.0d
 		}
 	]
-	title: "Other Hobbies"
+	title: "Другие хобби"
 }

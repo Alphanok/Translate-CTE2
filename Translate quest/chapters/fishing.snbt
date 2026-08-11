@@ -150,7 +150,7 @@
 			y: -1.5d
 		}
 		{
-			description: ["Has a low chance of dropping from &eSkelewags&r."]
+			description: ["Имеет низкий шанс выпадения с &eСкелевягов (Skelewags)&r."]
 			id: "21F5B80CB82300A9"
 			rewards: [{
 				auto: "enabled"
@@ -946,9 +946,9 @@
 		}
 		{
 			description: [
-				"&eAquaculture&r heavily expands fishing by allowing you to catch many &enew fish, treasures&r, and customize new &etiered fishing rods&r with the &eTackle Box.&r"
+				"&eAquaculture&r значительно расширяет рыбалку, позволяя ловить множество &eновых видов рыб, сокровищ&r, а также настраивать &eуровневые удочки&r с помощью &eящик снастей.&r"
 				""
-				"Fish up a &eNeptune's Bounty&r for a chance to get &eNeptunium Ingots&r which are can create powerful &eequipment.&r"
+				"Выловите &eДар нептуна&r, чтобы получить шанс на &eслитки нептуна&r, из которых можно создать мощное &eснаряжение.&r"
 			]
 			id: "19527088738A2A88"
 			rewards: [{
@@ -962,7 +962,7 @@
 				type: "command"
 			}]
 			size: 1.5d
-			subtitle: "Obtain one of each"
+			subtitle: "Получите по одному экземпляру"
 			tasks: [
 				{
 					id: "3D59503141381E06"
@@ -1096,7 +1096,7 @@
 			]
 			shape: "hexagon"
 			size: 2.0d
-			subtitle: "Achievement"
+			subtitle: "Достижение"
 			tasks: [{
 				id: "7DB9CE4C5E6F313B"
 				item: {
@@ -1108,7 +1108,7 @@
 				}
 				type: "item"
 			}]
-			title: "Gotta Catch 'em All"
+			title: "Надо поймать их всех"
 			x: 0.0d
 			y: -8.0d
 		}
@@ -1255,17 +1255,17 @@
 		{
 			dependencies: ["19527088738A2A88"]
 			description: [
-				"Different Bobbers can help with fishing!"
+				"Разные поплавки могут помочь в рыбалке!"
 				""
-				"The Cork Bobber increases the size of your 'fishing bar', making catching fish easier!"
+				"&eПробковый поплавок&r увеличивает размер вашей «рыболовной полосы», делая поимку рыбы проще!"
 				""
-				"The Trap Bobber causes fish to escape slower when you aren't reeling them in!"
+				"&eЛовушечный поплавок&r замедляет побег рыбы, когда вы не подтягиваете леску!"
 				""
-				"The Sonar Bobber shows what fish is on your line before it's caught!"
+				"&eСонарный поплавок&r показывает, какая рыба попалась на крючок, ещё до поимки!"
 				""
-				"The Treasure Bobber keeps fish from escaping when collecting Treasure Chests, and increases the chances that Treasures will appear!"
+				"&eСокровищный поплавок&r предотвращает побег рыбы при вылове сундуков с сокровищами и увеличивает шанс их появления!"
 				""
-				"The Quality Bobber greatly increases Experience gained from fishing!"
+				"&eКачественный поплавок&r значительно увеличивает количество опыта, получаемого при рыбалке!"
 			]
 			id: "3AF3F4A0E84C0052"
 			rewards: [{
@@ -1292,12 +1292,12 @@
 				}
 				type: "item"
 			}]
-			title: "Fishing Improvements"
+			title: "Улучшения в рыболовстве"
 			x: -1.5d
 			y: 7.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "5C456A2984FAE809"
 			rewards: [{
 				auto: "enabled"
@@ -1309,7 +1309,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "76668579D732975E"
 				item: "stardew_fishing:goliath_grouper"
@@ -1319,7 +1319,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "0E92348377FBF5EB"
 			rewards: [{
 				auto: "enabled"
@@ -1331,7 +1331,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "32C562D960D9C8AD"
 				item: "stardew_fishing:vampire_payara"
@@ -1341,7 +1341,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "4FF064572DC21024"
 			rewards: [{
 				auto: "enabled"
@@ -1353,7 +1353,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "49B89ECCCEC6E9C5"
 				item: "stardew_fishing:golden_snook"
@@ -1363,7 +1363,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "3307A7D6859E74A2"
 			rewards: [{
 				auto: "enabled"
@@ -1375,7 +1375,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "7C57A74002543F2C"
 				item: "stardew_fishing:sabretoothed_tigerfish"
@@ -1385,7 +1385,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "480CC3AF20C5C7BD"
 			rewards: [{
 				auto: "enabled"
@@ -1397,7 +1397,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "41F3EFC06802F509"
 				item: "stardew_fishing:chromatic_arapaima"
@@ -1407,7 +1407,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "3C4F245ABFF01112"
 			rewards: [{
 				auto: "enabled"
@@ -1419,7 +1419,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "3C84E840505721AF"
 				item: "stardew_fishing:cyclops_mahimahi"
@@ -1429,7 +1429,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "26B2880120DE0D50"
 			rewards: [{
 				auto: "enabled"
@@ -1441,7 +1441,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "474552B0C2527273"
 				item: "stardew_fishing:storm_tarpon"
@@ -1451,7 +1451,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "54B2D182C50A4031"
 			rewards: [{
 				auto: "enabled"
@@ -1463,7 +1463,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "4BB960EDAB2AAB5A"
 				item: "stardew_fishing:blazing_oarfish"
@@ -1473,7 +1473,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "25CC97964D6D3973"
 			rewards: [{
 				auto: "enabled"
@@ -1485,7 +1485,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "3A563AFE84019E49"
 				item: "stardew_fishing:crystalline_snakehead"
@@ -1495,7 +1495,7 @@
 			y: -5.5d
 		}
 		{
-			description: ["Legendary Fish are exceptionally hard to catch, but grant coins and additional Fishing experience."]
+			description: ["Легендарные рыбы невероятно сложно поймать, но они приносят монеты и дополнительный опыт рыбалки."]
 			id: "3F3B74B4FECB3C94"
 			rewards: [{
 				auto: "enabled"
@@ -1507,7 +1507,7 @@
 				title: "500 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Legendary Fish"
+			subtitle: "Легендарная рыба"
 			tasks: [{
 				id: "0DA469D29C9E45ED"
 				item: "stardew_fishing:demon_gar"
@@ -1517,5 +1517,5 @@
 			y: -5.5d
 		}
 	]
-	title: "Fishing"
+	title: "Рыбалка"
 }

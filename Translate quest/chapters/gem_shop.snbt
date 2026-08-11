@@ -5,17 +5,17 @@
 	group: "1E3C4B5FFAE48A39"
 	icon: "lightmanscurrency:coinpile_gold"
 	id: "1C1F2FEB2B92EA6A"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
 			can_repeat: true
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"&eЭтот магазин откроется после завершения \"Акты\" в Акте I.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -28,14 +28,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "0E910380456F764A"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop I"
+			title: "Магазин камней аур I"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -43,10 +43,10 @@
 			can_repeat: true
 			dependencies: ["727ADA9C4F420BDC"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Acts\" in Act I.&r"
+				"&eЭтот магазин откроется после завершения \"Акты\" в Акте I.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -59,14 +59,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "7FAC4A08A9F84E6E"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop I"
+			title: "Магазин камней поддержки I"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -74,10 +74,10 @@
 			can_repeat: true
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"&eЭтот магазин откроется после завершения \"Тёмный ритуал\" в Акте II.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -90,14 +90,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "108033F458256676"
 				item: "lightmanscurrency:coin_gold"
 				type: "item"
 			}]
-			title: "Augment Gem Shop II"
+			title: "Магазин камней аур II"
 			x: 0.0d
 			y: 1.5d
 		}
@@ -105,10 +105,10 @@
 			can_repeat: true
 			dependencies: ["114D74DF8284ACC3"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Dark Ritual\" in Act II.&r"
+				"&eЭтот магазин откроется после завершения \"Тёмный ритуал\" в Акте II.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -121,14 +121,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "28E4CDDAD8CAF772"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Support Gem Shop II"
+			title: "Магазин камней поддержки II"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -136,10 +136,10 @@
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"&eЭтот магазин откроется после завершения \"Сундук капитана Корнелии\" в Акте III.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -152,14 +152,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "49B1944942C92B6A"
 				item: "lightmanscurrency:coin_emerald"
 				type: "item"
 			}]
-			title: "Augment Gem Shop III"
+			title: "Магазин камней аур III"
 			x: 0.0d
 			y: 3.0d
 		}
@@ -167,10 +167,10 @@
 			can_repeat: true
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Captain Cornelia's Locker\" in Act III.&r"
+				"&eЭтот магазин откроется после завершения \"Сундук капитана Корнелии\" в Акте III.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -183,14 +183,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "6590FCCB60F53CE9"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Support Gem Shop III"
+			title: "Магазин камней поддержки III"
 			x: 1.5d
 			y: 3.0d
 		}
@@ -201,10 +201,10 @@
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"&eЭтот магазин откроется после завершения \"Выкорчевывание\" &cи&r &e\"Пойман в паутину\" в Акте IV.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -217,14 +217,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "4CFE1BFC234987E5"
 				item: "lightmanscurrency:coin_diamond"
 				type: "item"
 			}]
-			title: "Augment Gem Shop IV"
+			title: "Магазин камней аур IV"
 			x: 0.0d
 			y: 4.5d
 		}
@@ -235,10 +235,10 @@
 				"09CFBF8766DA4706"
 			]
 			description: [
-				"This \"quest\" consumes the coin and lets you select a reward from the list."
+				"Это «задание» забирает монету и позволяет вам выбрать награду из списка."
 				""
 				""
-				"&eThis shop unlocks once you complete \"An Uprooting\" &cand&r &e\"Caught in a Web\" in Act IV.&r"
+				"&eЭтот магазин откроется после завершения \"Выкорчевывание\" &cи&r &e\"Пойман в паутину\" в Акте IV.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -251,14 +251,14 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "2D8C26F083B682EA"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Support Gem Shop IV"
+			title: "Магазин камней поддержки IV"
 			x: 1.5d
 			y: 4.5d
 		}
@@ -266,10 +266,10 @@
 			can_repeat: true
 			dependencies: ["1F3C2718AE550D5C"]
 			description: [
-				"This \"quest\" consumes the coin and gives you a &eSINGLE&r random level 60, 80, or 100 &cUnique&r!"
+				"Это «задание» забирает монету и даёт вам &eОДНУ&r случайную &cУникальную&r вещь 60, 80 или 100 уровня!"
 				""
 				""
-				"&eThis shop unlocks once you complete \"The Master Mastermind\" in the Epilogue.&r"
+				"&eЭтот магазин откроется после завершения \"Главный вдохновитель\" в Эпилоге.&r"
 			]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
@@ -282,24 +282,24 @@
 				type: "choice"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [{
 				consume_items: true
 				id: "0525293A48F7C0FB"
 				item: "lightmanscurrency:coin_netherite"
 				type: "item"
 			}]
-			title: "Random Unique Shop"
+			title: "Магазин случайных уников"
 			x: 3.0d
 			y: 6.0d
 		}
 		{
 			description: [
-				"The Campaign Shop"
+				"Магазин кампании"
 				""
-				"Campaign Shop: exchanges coins for Mine and Slash items"
+				"Магазин кампании: обменивает монеты на предметы из мода Mine and Slash."
 				""
-				"They can be unlocked after completing certain Quests or Acts"
+				"Он становится доступным после завершения определённых квестов или актов"
 			]
 			id: "5E8D1289340A4B82"
 			rewards: [{
@@ -313,7 +313,7 @@
 				title: "Click Once Read"
 				type: "checkmark"
 			}]
-			title: "The Campaign Shop"
+			title: "Магазин кампании"
 			x: 0.0d
 			y: -1.5d
 		}
@@ -321,10 +321,10 @@
 			can_repeat: true
 			dependencies: ["7343515F10544FDE"]
 			description: [
-				"A book which compiles the information found in the quests."
+				"Книга, в которой собрана информация из заданий."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Information Compiled\" in the Prologue.&r"
+				"&eЭтот магазин откроется после завершения задания \"Информация собрана\" в Прологе.&r"
 			]
 			hide_until_deps_complete: true
 			icon: {
@@ -347,7 +347,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			subtitle: "Shop"
+			subtitle: "Магазин"
 			tasks: [
 				{
 					consume_items: true
@@ -376,10 +376,10 @@
 			can_repeat: true
 			dependencies: ["7EA6A0131C5FF143"]
 			description: [
-				"&cThis is a SHOP quest!&r This \"quest\" consumes the items required and grants you the &eElytra&r."
+				"&cЭто задание является МАГАЗИНОМ!&r Это «задание» забирает указанные предметы и выдаёт вам &eЭлитры&r."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Structures Beyond Reach\" in Act V.&r"
+				"&eЭтот магазин откроется после завершения задания «Недосягаемые сооружения» в Акте V.&r"
 			]
 			icon: {
 				Count: 1
@@ -434,7 +434,7 @@
 					type: "item"
 				}
 			]
-			title: "Soaring Freely"
+			title: "Свободный полёт"
 			x: 0.0d
 			y: 6.0d
 		}
@@ -442,12 +442,18 @@
 			can_repeat: true
 			dependencies: ["68ADEBE337D75CA7"]
 			description: [
-				"&cThis is a SHOP quest!&r This \"quest\" consumes the items required to convert your &eElytra&r into a &enew variant&r&r."
+				"&cЭто задание является МАГАЗИНОМ!&r Это «задание» забирает указанные предметы, чтобы преобразовать ваши &eЭлитры&r в &eновый вариант&r."
 				""
 				""
-				"&eThis shop unlocks once you complete \"Structures Beyond Reach\" in Act V.&r"
+				"&eЭтот магазин откроется после завершения задания «Недосягаемые сооружения» в Акте V.&r"
 			]
-			icon: "botania:quartz_lavender"
+			icon: {
+				Count: 1
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3CB546ABCA30127E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -478,10 +484,10 @@
 					type: "item"
 				}
 			]
-			title: "Falling With Style"
+			title: "Падение со стилем"
 			x: 1.5d
 			y: 6.0d
 		}
 	]
-	title: "Campaign Shop"
+	title: "Магазин кампании"
 }

@@ -10,11 +10,11 @@
 	quests: [
 		{
 			description: [
-				"Each &eWind Chime&r produces different ambient sounds respective to their material. They also scare away Phantoms within a 25-block radius."
+				"Каждый &eКолокольчик&r издаёт уникальные атмосферные звуки в зависимости от материала. Также они отпугивают фантомов в радиусе 25 блоков."
 				""
-				"The &eGlass Wind Bell&r can have dyes applied to it to make a custom design. Wash off the design by right clicking a water source block."
+				"На &eСтеклянный ветряной колокольчик&r можно наносить красители, создавая индивидуальный дизайн. Чтобы смыть рисунок, щёлкните ПКМ по источнику воды."
 				""
-				"You can &etie/untie&r a Wind Chime by crouching + right-clicking a Wind Chime block with an empty hand to stop the phantom scaring effect."
+				"Вы можете &eсвязывать/развязывать&r колокольчик, удерживая приседание и щёлкая ПКМ по блоку колокольчика с пустой рукой — это отключает эффект отпугивания фантомов."
 			]
 			id: "0E7863B918B4B195"
 			rewards: [{
@@ -33,12 +33,12 @@
 				item: "chimes:glass_bells"
 				type: "item"
 			}]
-			title: "The Wind Blows"
+			title: "Ветер дует"
 			x: 4.5d
 			y: -4.5d
 		}
 		{
-			description: ["&eNight Lights &radds decorative light sources that can be toggled on and off."]
+			description: ["&eNight Lights&r добавляет декоративные источники света, которые можно включать и выключать."]
 			id: "31C042465B27EC87"
 			rewards: [{
 				auto: "enabled"
@@ -63,12 +63,12 @@
 					type: "item"
 				}
 			]
-			title: "Lighting With Style"
+			title: "Освещение со стилем"
 			x: -4.5d
 			y: -6.0d
 		}
 		{
-			description: ["&eSupplementaries&r and &eSupplementaries Squared&r adds numerous &edecoration and functional&r blocks that are relatively easy to craft and use."]
+			description: ["&eSupplementaries&r и &eSupplementaries Squared&r добавляют множество &eдекоративных и функциональных&r блоков, которые достаточно просто создать и использовать."]
 			id: "74E14D9A9F4799D4"
 			rewards: [{
 				auto: "enabled"
@@ -108,15 +108,15 @@
 					type: "item"
 				}
 			]
-			title: "Interior Designer"
+			title: "Дизайнер интерьеров"
 			x: -3.0d
 			y: -6.0d
 		}
 		{
 			description: [
-				"&eHandcrafted&r adds furniture such as &efancy beds, counters, and chairs&r. These are customizable using &esheets&r and &epillows&r of different colors."
+				"&eHandcrafted&r добавляет мебель, такую как &eизысканные кровати, прилавки и стулья&r. Всё это можно настраивать с помощью &eпростыней&r и &eподушек&r разных цветов."
 				""
-				"The &eHammer&r allows you to change the look of blocks into different forms, such as changing a stair's type without having to place and re-place it."
+				"&eМолот&r позволяет менять внешний вид блоков, например, менять тип лестницы без необходимости её переставлять."
 			]
 			id: "6A465BF497661001"
 			rewards: [{
@@ -147,17 +147,17 @@
 					type: "item"
 				}
 			]
-			title: "Specialized Furniture"
+			title: "Специализированная мебель"
 			x: -3.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&eMacaw's Doors &radds numerous door variations and themes to craft."
+				"&eДвери Macaw's&r добавляет множество вариантов и стилей дверей для крафта."
 				""
-				"&eMacaw's Bridges&r adds bridges and bridge variants."
+				"&eМосты Macaw's&r добавляет мосты и их вариации."
 				""
-				"&eMacaw's Lights and Lamps&r adds numerous types of lamps and light sources."
+				"&eСвет и лампы Macaw's&r добавляет множество типов ламп и источников света."
 			]
 			id: "3C9F2AB674921503"
 			rewards: [{
@@ -170,7 +170,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Macaw's Decorations"
+			subtitle: "Декорации Macaw's"
 			tasks: [
 				{
 					id: "6B06D8650053E266"
@@ -188,12 +188,12 @@
 					type: "item"
 				}
 			]
-			title: "Enhanced Construction"
+			title: "Улучшенная конструкция"
 			x: -4.5d
 			y: -4.5d
 		}
 		{
-			description: ["&eFloral Enchantment&r adds flower bushes with which you can obtain the &evines&r of each flower. Flower vines are obtained from &ebushes.&r You can get &emossy cobblestone&r from each flower to decorate. It also adds some other floral themed &egear&r and decorations."]
+			description: ["&eFloral Enchantment&r добавляет цветущие кусты, с которых можно получить &eлианы&r соответствующего цветка. Цветочные лианы добываются с &eкустов.&r Также вы можете получить &eзамшелый булыжник&r для украшения в стиле каждого цветка. Мод также добавляет другую цветочную &eэкипировку&r и декоративные элементы."]
 			id: "32823645E2FE4F43"
 			rewards: [{
 				auto: "enabled"
@@ -211,28 +211,28 @@
 				item: "floralench:floral_basket"
 				type: "item"
 			}]
-			title: "Gardener+"
+			title: "Садовник+"
 			x: 3.0d
 			y: -4.5d
 		}
 		{
 			dependencies: ["5E71DC1D9E7A83BB"]
 			description: [
-				"Chipped adds workbenches that allow you to craft variations of blocks. &eChipped is compatible with FramedBlocks!&r"
+				"Chipped добавляет верстаки, которые позволяют создавать вариации блоков. &eChipped совместим с FramedBlocks!&r"
 				""
-				"The &eAlchemy Bench&r allows you to craft variations of obsidian, glowstone, sea lanterns, and soul sand."
+				"&eАлхимическая лаборатория&r позволяет создавать вариации обсидиана, светокамня, морских фонарей и песка душ."
 				""
-				"The &eBotanist's Workbench&r allows you to craft variations of plant based blocks."
+				"&eВерстак ьотаника&r позволяет создавать вариации растительных блоков."
 				""
-				"The &eCarpenter's Table&r allows you to craft variations of planks and torches."
+				"&eСтол плотника&r позволяет создавать вариации досок и факелов."
 				""
-				"The &eGlassblower&r allows you to craft variations of glass blocks and panes."
+				"&eСтеклодув&r позволяет создавать вариации стеклянных блоков и панелей."
 				""
-				"The &eLoom&r allows you to craft variations of wool blocks and carpet."
+				"&eТкацкий станок&r позволяет создавать вариации шерсти и ковров."
 				""
-				"The &eMason's Table&r allows you to craft variations of stone-like blocks."
+				"&eКамнетёсный стол&r позволяет создавать вариации каменных блоков."
 				""
-				"The &eTinkering Table&r allows you to craft variations of redstone lamps, torches and lanterns."
+				"&eСтол мастера&r позволяет создавать вариации редстоун-ламп, факелов и фонарей."
 			]
 			id: "3A66909746F7E06D"
 			rewards: [
@@ -291,22 +291,29 @@
 					type: "item"
 				}
 			]
-			title: "Chipped With Options"
+			title: "Chipped с опциями"
 			x: 6.0d
 			y: -4.5d
 		}
 		{
 			description: [
-				"&eMCA: Reborn&r brings an immersive experience to players. Some of features are listed below:"
+				"&eMCA: Reborn&r предлагает захватывающий игровой опыт. Некоторые из его особенностей перечислены ниже:"
 				""
-				"- No more squid-people, they are now human and interactable!"
-				"- There are many interaction options with villagers such as gifting, chatting, and much more!"
-				"- You can build relationships by interacting with villagers, each having their own personality and moods."
-				"- Once you have enough hearts, you can marry them!"
-				"- After marriage, you can have children who can do chores such as farming, cutting trees, and more!"
-				"- Your children will eventually grow up and live their own lives."
-				"- You can marry other players in a LAN or SMP server."
-				"- Help to extend a village and increase your rank, eventually becoming a king!"
+				"Больше никаких человекообразных кальмаров — теперь это люди, с которыми можно взаимодействовать!"
+				""
+				"Множество вариантов взаимодействия с жителями: дарите подарки, болтайте и многое другое!"
+				""
+				"Вы можете выстраивать отношения с жителями, у каждого из них своя личность и настроение."
+				""
+				"Когда вы получите достаточно сердечек, сможете на них жениться!"
+				""
+				"После свадьбы у вас могут появиться дети, которые будут помогать вам — заниматься фермерством, рубить деревья и не только!"
+				""
+				"Ваши дети со временем вырастут и начнут жить своей жизнью."
+				""
+				"Вы можете жениться на других игроках в локальной сети или на SMP-сервере."
+				""
+				"Помогайте развивать деревню и повышайте свой ранг — в итоге вы сможете стать королём!"
 			]
 			id: "5DEC625AAF61ADAE"
 			rewards: [{
@@ -330,7 +337,7 @@
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["Ever dreamed of becoming a king? You can manage your village and make it prosper! Read the book for more information."]
+			description: ["Мечтали стать королём? Вы можете управлять своей деревней и делать её процветающей! Прочитайте книгу для получения дополнительной информации."]
 			id: "57B5209F6744960D"
 			rewards: [{
 				auto: "enabled"
@@ -342,7 +349,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "1B52B998DACA2A94"
 				item: "mca:book_blueprint"
@@ -354,13 +361,13 @@
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
 			description: [
-				"In MCA, you can choose your appearance by initiating your &eDestiny.&r"
+				"В MCA вы можете выбрать свою внешность, запустив &eСудьбу.&r"
 				""
-				"Your &eDestiny&r will let you customize your characters appearance - &cbut note you can only do this ONCE per world!&r"
+				"Ваша &eСудьба&r позволит настроить внешний вид персонажа — &cно учтите, что это можно сделать ТОЛЬКО ОДИН РАЗ на мир!&r"
 				""
-				"Command: /mca destiny"
+				"Команда: /mca destiny"
 				""
-				"&b&oNote that crafting the potions require some skill in the Alchemy Profession.&r&r"
+				"&b&oОбратите внимание, что для создания зелий требуется определённое мастерство в профессии Алхимии.&r&r"
 			]
 			id: "405A63031F2B3DD4"
 			rewards: [
@@ -384,7 +391,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Destiny"
+			subtitle: "Судьба"
 			tasks: [
 				{
 					id: "18B7CA6CFEC6E3A0"
@@ -397,13 +404,13 @@
 					type: "item"
 				}
 			]
-			title: "Grooming"
+			title: "Уход за собой"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["&eRose Gold&r is used to craft relationship-specific items. Read the book to find out!"]
+			description: ["&eРозовое Золото&r используется для создания предметов, связанных с отношениями. Прочитайте книгу, чтобы узнать больше!"]
 			id: "6B0990886F0D079E"
 			rewards: [{
 				auto: "enabled"
@@ -415,7 +422,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "Отношения"
 			tasks: [{
 				id: "5E26B808ED87038B"
 				item: "mca:book_rose_gold"
@@ -426,7 +433,7 @@
 		}
 		{
 			dependencies: ["6B0990886F0D079E"]
-			description: ["Learn how to manage your family with this new edition!"]
+			description: ["Научитесь управлять своей семьёй с этим новым изданием!"]
 			id: "17AF31897E44E881"
 			rewards: [{
 				auto: "enabled"
@@ -438,7 +445,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "Отношения"
 			tasks: [{
 				id: "73C366ABDCFD9554"
 				item: "mca:book_family"
@@ -449,7 +456,7 @@
 		}
 		{
 			dependencies: ["6B0990886F0D079E"]
-			description: ["You can craft &eRose Gold&r using &eRaw Gold&r and &eRaw Copper&r."]
+			description: ["Вы можете создать &eРозовое золото&r, используя &eрудное золото&r и &eрудную медь&r."]
 			id: "5610D44E742948CC"
 			rewards: [{
 				auto: "enabled"
@@ -461,13 +468,13 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "Отношения"
 			tasks: [{
 				id: "156DCFFEED6DD7D6"
 				item: "mca:rose_gold_dust"
 				type: "item"
 			}]
-			title: "Expensive Materials"
+			title: "Дорогие материалы"
 			x: 3.0d
 			y: -3.0d
 		}
@@ -484,19 +491,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Relationships"
+			subtitle: "Отношения"
 			tasks: [{
 				id: "7E892780F9050184"
 				item: "mca:bouquet"
 				type: "item"
 			}]
-			title: "A Gift"
+			title: "Подарок"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["You can view the village history with this book!"]
+			description: ["С помощью этой книги вы можете просмотреть историю деревни!"]
 			id: "3366932C88556127"
 			rewards: [{
 				auto: "enabled"
@@ -508,7 +515,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "2D10ACB81E6A6877"
 				item: "mca:civil_registry"
@@ -519,7 +526,7 @@
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["Use the &eBlueprint&r in a village to manage it."]
+			description: ["Используйте &eЧертёж&r в деревне для управления ею."]
 			id: "6E074D0EF3EC5B70"
 			rewards: [{
 				auto: "enabled"
@@ -531,19 +538,19 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "0C15C2D4DB69840D"
 				item: "mca:blueprint"
 				type: "item"
 			}]
-			title: "A Blueprint For Progress"
+			title: "План прогресса"
 			x: -3.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["57B5209F6744960D"]
-			description: ["In rare cases, villagers can become infected - resulting in possible death. Read up on the ailments and how to cure them to prevent this from happening!"]
+			description: ["В редких случаях жители могут заразиться — что может привести к их смерти. Изучите болезни и способы их лечения, чтобы этого избежать!"]
 			id: "6AEF98877F6AF6CA"
 			rewards: [
 				{
@@ -562,7 +569,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "1A7691EF79F81ED9"
 				item: "mca:book_infection"
@@ -573,7 +580,7 @@
 		}
 		{
 			dependencies: ["6AEF98877F6AF6CA"]
-			description: ["Sometimes our villagers will die (wether by accident or on purpose...). But with MCA, it's possible to bring them back to life! This tome illustrates how you can do that. But be prepared as it requires you to fight death itself."]
+			description: ["Иногда наши жители умирают (случайно или намеренно...). Но с MCA вы можете вернуть их к жизни! Эта книга расскажет, как это сделать. Но будьте готовы — для этого вам придётся сразиться со смертью лично."]
 			id: "009437C8BB7D9892"
 			rewards: [{
 				auto: "enabled"
@@ -585,7 +592,7 @@
 				title: "100 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "07B0F92FC4E41DE3"
 				item: "mca:book_death"
@@ -597,9 +604,9 @@
 		{
 			dependencies: ["5610D44E742948CC"]
 			description: [
-				"In MCA, you can marry villagers, or even other players. To marry a villager, you must first propose to them. Hopefully, your relationship status is in good standing and they accept!"
+				"В MCA вы можете жениться как на жителях деревни, так и на других игроках. Чтобы жениться на жителе, сначала нужно сделать ему предложение. Надеемся, что ваш уровень отношений достаточно высок, и он согласится!"
 				""
-				"To marry players, you can use the '/mca propose' command."
+				"Чтобы жениться на игроках, используйте команду '/mca propose'."
 			]
 			id: "03DAE0F3497FF661"
 			rewards: [
@@ -619,7 +626,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Relationships"
+			subtitle: "Отношения"
 			tasks: [{
 				id: "2FE89D39632D7B42"
 				item: "mca:engagement_ring_rg"
@@ -631,24 +638,23 @@
 		{
 			dependencies: ["009437C8BB7D9892"]
 			description: [
-				"Defeat the &eGrim Reaper&r to bring back your fallen villagers!"
+				"Победите &eЖнеца&r, чтобы вернуть своих павших жителей!"
 				""
-				"To summon the &eGrim Reaper&r you must build a \"&eAltar&r\""
-				"an &eAltar&r consists of 3 &bObsidian&r columns that are at lest &e2 blocks high&r."
-				"in the &eCentre&r of the columns you must place a \"&aEmerald Block&r\"."
-				"&eLight&r the &eTop&r of all 3 columns with flint and steel,"
-				"Then finally light the &aEmerald Block&r to summon the &eGrim Reaper&r"
+				"Для призыва &eЖнеца&r вы должны построить &eАлтарь&r."
+				"&eАлтарь&r состоит из 3 &bстолбов обсидиана&r высотой не менее &e2 блоков&r."
+				"В &eцентре&r столбов нужно поставить &eизумрудный блок&r."
+				"&eЗажгите&r &eверхушки&r всех 3 столбов с помощью кремня и огнива,"
+				"а затем зажгите &aизумрудный блок&r, чтобы призвать &eЖнеца&r."
 				""
 				"{image:cte2:textures/mca_grimreaper.png width:160 height:140 align:center}"
 				""
-				"&eGrim Reaper&r &4can only be summoned at &eNight&r&r"
+				"&eЖнец&r &4может быть призван только ночью&r."
 				""
+				"&cЖнец появляется при минимальном уровне 30.&r"
 				""
-				"&cThe Grim Reaper spawns at minimum level of 30.&r"
-				""
-				"The Grim Reaper Has:"
-				"&b+1% Lifesteal&r"
-				"&a10% Chance of Dropping Owd Rune&r"
+				"Жнец имеет:"
+				"&b+1% к вампиризму&r"
+				"&a10% шанс выпадения Руны Owd&r"
 			]
 			id: "564F958C07802B5B"
 			rewards: [
@@ -670,7 +676,7 @@
 			]
 			shape: "diamond"
 			size: 1.5d
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				entity: "mca:grim_reaper"
 				icon: {
@@ -684,13 +690,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Give and Take"
+			title: "Давай и бери"
 			x: 0.0d
 			y: -6.0d
 		}
 		{
 			dependencies: ["564F958C07802B5B"]
-			description: ["You can use the &eStaff of Life&r to bring dead villagers back to life!"]
+			description: ["Вы можете использовать &eПосох жизни&r, чтобы вернуть мёртвых жителей к жизни!"]
 			id: "171F2819791E3C2F"
 			rewards: [{
 				auto: "enabled"
@@ -702,7 +708,7 @@
 				title: "250 Experience x Lv."
 				type: "command"
 			}]
-			subtitle: "Village Management"
+			subtitle: "Управление деревней"
 			tasks: [{
 				id: "7194C831C004317D"
 				item: {
@@ -714,19 +720,20 @@
 				}
 				type: "item"
 			}]
-			title: "Resurrection"
+			title: "Воскрешение"
 			x: 0.0d
 			y: -7.5d
 		}
 		{
 			description: [
-				"With a Construction Wand you can place multiple blocks at once, extending your build on the side you're facing. If that's not enough: you can upgrade your wand with additional cores, allowing you to place a block behind the block you are facing, or conjure blocks in mid air."
+				"С помощью Строительного жезла вы можете размещать сразу несколько блоков, расширяя постройку в направлении, куда вы смотрите. И если этого недостаточно — вы можете улучшить жезл, добавив дополнительные ядра. Это позволит, например, размещать блоки позади того, на который вы смотрите, или даже вызывать блоки прямо в воздухе."
 				""
-				"Every wand comes with a Construction Core. You can make your wand even better by putting aditional cores into it. Put your new core together with your wand in a crafting grid to install it. To switch between cores, hold down OPTKEY (CTRL) and left click empty space with your wand. &cStone wands can't be upgraded.&r"
+				"Каждый жезл оснащён &eСтроительным ядром&r. Вы можете улучшить жезл, добавив в него новые ядра — просто совместите жезл и ядро в верстаке. Чтобы переключаться между установленными ядрами, зажмите OPTKEY (CTRL) и щёлкните ЛКМ по пустому месту с жезлом в руке."
+				"&cКаменные жезлы не поддаются улучшению.&r"
 				""
-				"&eConstruction Core&r"
+				"&eСтроительное Ядро&r"
 				""
-				"Extend your build on the side facing you. Maximum number of blocks depends on wand tier. Hold down OPTKEY (CTRL) and scroll to change placement restriction (Horizontal, Vertical, North/South, East/West, No lock)."
+				"Расширяет постройку с той стороны, куда вы смотрите. Максимальное количество размещаемых блоков зависит от уровня жезла. Удерживайте OPTKEY (CTRL) и прокручивайте колесо мыши, чтобы сменить режим размещения (Горизонтальный, Вертикальный, Север/Юг, Восток/Запад, Без фиксации)."
 			]
 			id: "130759BFC47D58DE"
 			rewards: [{
@@ -757,7 +764,7 @@
 		}
 		{
 			dependencies: ["130759BFC47D58DE"]
-			description: ["There are basic wands made from Stone, Iron and Diamond Wand. Wands from higher tiers are more powerful and last longer."]
+			description: ["Существуют базовые жезлы, сделанные из камня, железа и алмаза. Жезлы более высоких уровней обладают большей мощностью и сроком службы."]
 			id: "7DDC60601812FEA6"
 			rewards: [{
 				auto: "enabled"
@@ -788,9 +795,10 @@
 		{
 			dependencies: ["7DDC60601812FEA6"]
 			description: [
-				"&eAngel Core&r"
+				"&eАнгельское Ядро&r"
 				""
-				"Place a block on the opposite side of the block (or row of blocks) you are facing. Maximum distance depends on wand tier. Right click empty space to place a block in midair (similar to angel blocks, hence the name). To do that, you'll need to have the block you want to place in your offhand. You can't place a block in midair if you've fallen more than 10 blocks deep (no easy rescue tool from falling into the void)."
+				"Размещает блок с противоположной стороны от блока (или ряда блоков), на который вы смотрите. Максимальная дистанция зависит от уровня жезла. Щёлкните ПКМ по пустому месту, чтобы поставить блок в воздухе (похоже на ангельские блоки, отсюда и название). Для этого блок, который вы хотите поставить, должен находиться в вашей второй руке."
+				"Нельзя ставить блоки в воздухе, если вы упали глубже 10 блоков (то есть нет лёгкого способа спастись при падении в бездну)."
 			]
 			id: "13B7B1C35F13C86D"
 			rewards: [{
@@ -815,17 +823,17 @@
 		{
 			dependencies: ["7DDC60601812FEA6"]
 			description: [
-				"&eRestriction&r: if restriction is enabled the wand will only place blocks in one row or column (choose between North/South, East/West on a horizontal plane and Horizontal, Vertical on a vertical plane). If the direction lock is switched off, the wand will extend the entire face of the building it's pointed at. This option has no effect in Angel mode."
+				"&eОграничение&r: если ограничение включено, жезл будет ставить блоки только в одной строке или колонке (можно выбрать между Север/Юг, Восток/Запад на горизонтальной плоскости и Горизонтальный, Вертикальный на вертикальной плоскости). Если блокировка направления выключена, жезл расширит всю поверхность здания, на которую вы смотрите. Эта опция не действует в Ангельском режиме."
 				""
-				"&eDirection&r: if set to \"Player\" the wand places blocks in the same direction as if they were placed by yourself. Target mode places the blocks in the same direction as their supporting block."
+				"&eНаправление&r: если установлено значение «Игрок», жезл ставит блоки в том же направлении, как если бы вы ставили их сами. Режим «Цель» размещает блоки в том же направлении, что и поддерживающий их блок."
 				""
-				"&eReplacement&r: enables/disables the replacement of replaceable blocks (Fluids, snow, tallgrass)."
+				"&eЗамена&r: включает или отключает замену заменяемых блоков (жидкости, снег, высокая трава)."
 				""
-				"&eMatching&r: select which blocks are extended by the wand. If set to \"EXACT\" it will only extend blocks that are exactly the same as the selected block."
-				"\"SIMILAR\" will treat similar blocks equally (e.g. extend dirt and grass blocks)."
-				"\"ANY\" will extend any block on the face of the building you're looking at."
+				"&eСоответствие&r: выбирает, какие блоки будут расширяться жезлом. При значении «ТОЧНО» расширяются только блоки, точно совпадающие с выбранным."
+				"«ПОХОЖИЕ» считает похожие блоки одинаковыми (например, расширяет и грязь, и траву)."
+				"«ЛЮБЫЕ» расширяет любые блоки на поверхности здания, на которую вы смотрите."
 				""
-				"&eRandom&r: if random mode is enabled, the wand places random blocks from your hotbar."
+				"&eСлучайный&r: если включён случайный режим, жезл ставит случайные блоки из вашей горячей панели."
 			]
 			id: "619A04B3428907F1"
 			rewards: [{
@@ -856,9 +864,9 @@
 		}
 		{
 			description: [
-				"&eFramedBlocks&r adds blocks of various shapes that can be made to look like almost any other block in the game. You can do this by first crafting a basic &eFramed Block&r."
+				"&eFramedBlocks&r добавляет блоки разных форм, которые можно сделать похожими практически на любой другой блок в игре. Для начала создайте базовый &eКаркасный блок&r."
 				""
-				"Craft a &eFraming Saw&r, which acts as a Stonecutter but for Framed Blocks. It lets you easily manage what Framed Block shape you want."
+				"Создайте &eКаркасную пилу&r — она работает как камнерез, но для каркасных ьлоков. С её помощью вы можете легко выбирать нужную форму каркасного блока."
 			]
 			id: "03D703094F2DC94A"
 			rewards: [{
@@ -877,13 +885,13 @@
 				item: "framedblocks:framing_saw"
 				type: "item"
 			}]
-			title: "Getting Started with Framed!"
+			title: "Начинаем работу с Framed!"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["03D703094F2DC94A"]
-			description: ["Using the &eFraming Saw&r, craft a &eFramed Slope&r."]
+			description: ["С помощью &eкаркасной пилы&r создайте &eкаркасный склон&r."]
 			id: "7D4D72D4B936240C"
 			rewards: [{
 				auto: "enabled"
@@ -907,15 +915,15 @@
 		{
 			dependencies: ["7D4D72D4B936240C"]
 			description: [
-				"The &eFramed Wrench&r can be used to rotate a Framed Block. On most blocks, the rotation behaviour is dependent on the face that was clicked."
+				"&eКаркасный гаечный ключ&r позволяет поворачивать каркасные блоки. В большинстве случаев направление поворота зависит от грани, по которой вы кликнули."
 				""
-				"The &eFramed Hammer&r lets you take blocks out of the frame and set them back to their default state."
+				"&eКаркасный молот&r позволяет извлечь блок из каркаса и вернуть его в исходное состояние."
 				""
-				"The &eFramed Screwdriver&r can be used to cycle through different states of the camo block."
+				"&eКаркасная отвёртка&r позволяет переключать различные состояния замаскированного блока."
 				""
-				"The &eFramed Key&r allows locking certain Framed Blocks in their current shape to suppress neighbor updates. This allows placing blocks in configurations that would not be possible with the desired neighbors (placing Framed Stairs in the corner shape without keeping the necessary neighbors to force that shape)."
+				"&eКаркасный ключ&r позволяет зафиксировать некоторые каркасные блоки в текущей форме, подавляя обновления от соседних блоков. Это позволяет размещать блоки в конфигурациях, которые были бы невозможны при наличии определённых соседей (например, установить каркасные лестницы в угловой форме без необходимости сохранять соседние блоки для этой формы)."
 				""
-				"There are other FramedBlock tools available, check them out in &eJEI&r!"
+				"Существуют и другие инструменты для FramedBlocks — ознакомьтесь с ними в &eJEI&r!"
 			]
 			id: "5E71DC1D9E7A83BB"
 			rewards: [{
@@ -956,7 +964,7 @@
 		}
 		{
 			dependencies: ["7D4D72D4B936240C"]
-			description: ["&eFramed Reinforcements&r allow you to give any Framed Block you insert them into the hardness and properties of &eObsidian&r!"]
+			description: ["&eКаркасные усиления&r позволяют придать любому каркасному ьлоку, в который вы их вставите, прочность и свойства &eобсидиана&r!"]
 			id: "49ED3E0B2E317DF6"
 			rewards: [{
 				auto: "enabled"
@@ -979,7 +987,7 @@
 		}
 		{
 			dependencies: ["5DEC625AAF61ADAE"]
-			description: ["If you've encountered an empty village, or just want to populate your village more through the power of coin, you can access a &eTrading Terminal&r to buy villager eggs!"]
+			description: ["Если вы наткнулись на пустую деревню или просто хотите заселить свою деревню с помощью силы монет, вы можете получить доступ к &eТорговому терминалу&r, чтобы купить яйца жителей!"]
 			id: "20AB86BF7E21FD3B"
 			rewards: [
 				{
@@ -999,7 +1007,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Trading Terminal"
+			subtitle: "Торговый терминал"
 			tasks: [
 				{
 					id: "7590F368349C7E55"
@@ -1012,12 +1020,12 @@
 					type: "item"
 				}
 			]
-			title: "Ghost Town"
+			title: "Город-призрак"
 			x: -1.5d
 			y: 0.0d
 		}
 		{
-			description: ["The &eMega Torch&r is a base builders dream as it prevents all hostile monster spawns in a massive &964 block radius&r! Right click with an empty hand to show its exact area of effect, shift right click to hide it."]
+			description: ["&eМегаФакел&r — мечта любого строителя базы, ведь он предотвращает спавн всех враждебных мобов в радиусе &964 блока&r! Щёлкните ПКМ с пустой рукой, чтобы отобразить точную зону действия, или Shift + ПКМ, чтобы скрыть её."]
 			id: "25A4EFCBB5F8AC31"
 			rewards: [{
 				auto: "enabled"
@@ -1035,10 +1043,10 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			title: "Light Up The World"
+			title: "Освети мир"
 			x: 3.0d
 			y: -6.0d
 		}
 	]
-	title: "Homestead"
+	title: "Поместье"
 }

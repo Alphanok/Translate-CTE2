@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["It seems like &eRotlings&r are not the only rotten creatures. There are many different breeds of them."]
+			description: ["Похоже, &eгниюшие&r — не единственные гнилые создания. Существует множество их разновидностей."]
 			icon: "minecraft:rotten_flesh"
 			id: "5E98541EEB25174A"
 			rewards: [
@@ -32,7 +32,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					entity: "undergarden:rotbeast"
@@ -49,13 +49,13 @@
 					value: 12L
 				}
 			]
-			title: "Rotting Creatures"
+			title: "Гниющие существа"
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18D44E8B9226FB02"]
-			description: ["You were told this dimension was dank and moist, but you did not expect it to be rotting. Kill the pesky &eRotlings&r that keep attacking you, they seem to be the cause of the rot."]
+			description: ["Тебя предупреждали, что это измерение сырое и влажное, но ты точно не ожидал, что оно будет гнить. Убей надоедливых &eГнильчонков&r, которые постоянно на тебя нападают — похоже, именно они являются причиной гнили."]
 			icon: "alexsmobs:cockroach_wing_fragment"
 			id: "2AFB98683E249B7D"
 			rewards: [
@@ -78,7 +78,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "undergarden:rotling"
 				icon: "ftb_ph:rotling"
@@ -86,22 +86,22 @@
 				type: "kill"
 				value: 6L
 			}]
-			title: "Foreign Enemies"
+			title: "Иные захватчики"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Now that you're geared up, it's time to see what's causing these abnormalities in the ocean. You've noticed some activity in the &eOverworld Ice Maze biomes&r... It might be worth checking out. You can find these Ice Maze biomes on the &esurface near Deep Frozen Oceans&r. "
+				"Теперь, когда ты экипирован, пора выяснить, что вызывает эти аномалии в океане. Ты заметил активность в биоме &eIce Mazes&r который находится в Верхнем мире... Возможно, стоит заглянуть туда. Эти Ледяные лабиринты находятся на &eповерхности рядом с Deep Frozen Oceans&r."
 				""
-				"They say a rare plant called &eOxygelium&r can be found at the &ebottom of these Ice Mazes&r in the ocean. Alternatively, you can find them from &eTortured Souls&r. If you're having trouble finding &eTortured Souls&r, you can try challenging the &eGateway of the Ice Maze&r!"
+				"Говорят, редкое растение под названием &eКислородник&r можно найти на &eдне этих Ледяных лабиринтов&r в океане. Также его можно получить с &eИзмученых душ&r. Если сложно найти &eИзмученые души&r, попробуй пройти испытание через &eGateway of the Ice Maze&r!"
 				""
-				"You'll need &eBolt Armor&r to survive the cold. It can be crafted."
+				"Чтобы выжить на холоде, понадобится &eТрёхболтовая броня&r. Её можно скрафтить."
 				""
-				"&cMobs from Aquamirae spawn at a minimum of level 35!&r"
+				"&cМобы из Aquamirae появляются минимум 35 уровня!&r"
 				""
-				"&eRequires ALL dependencies to be completed.&r"
+				"&eТребуется выполнить ВСЕ зависимости.&r"
 			]
 			icon: "minecraft:ice"
 			id: "217637D12CF3011E"
@@ -124,33 +124,33 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [
 				{
 					id: "66A2C43CB2DC02D9"
-					title: "Click Once Read"
+					title: "Нажмите, чтобы прочитать"
 					type: "checkmark"
 				}
 				{
 					biome: "#aquamirae:ice_maze"
 					icon: "minecraft:blue_ice"
 					id: "2934F7FA5AB1C69F"
-					title: "Find an Ice Maze"
+					title: "Найти Ice Maze"
 					type: "biome"
 				}
 			]
-			title: "The Hidden Depths"
+			title: "Скрытые глубины"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5E98541EEB25174A"]
 			description: [
-				"You spoke with a village local who claimed to once live in the Undergarden. According to that local, there were once powerful entities in temples throughout the land that protected civilization from creeping Rot. You'll need to find an Undergarden &eCatacombs&r to complete this quest."
+				"Ты поговорил с жителем деревни, который утверждал, что когда-то жил в Undergarden. По его словам, в храмах по всей земле когда-то обитали могущественные существа, защищавшие цивилизацию от распространяющейся гнили. Тебе нужно найти &eКатакомбы Undergarden (Catacombs)&r, чтобы завершить этот квест."
 				""
-				"However, it seems that was all in the past. New investigations hint at some new creatures haunting the Overworld depths."
+				"Однако, похоже, это осталось в прошлом. Новые исследования указывают на появление новых существ, обитающих в глубинах Верхнего мира."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
 			]
 			id: "775A13E1924D6C9A"
 			rewards: [
@@ -185,7 +185,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "undergarden:forgotten"
 				icon: {
@@ -199,13 +199,13 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Civilization from the Past"
+			title: "Цивилизация из прошлого"
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["You've heard from an elderly local from the village that they were originally from the Undergarden! According to the local, there are no longer any villages in the Undergarden due to the creeping Rot. However, there may still be resident &eStoneborn&r creatures willing to do trade."]
+			description: ["Ты услышал от пожилого жителя деревни, что он родом из Undergarden! По его словам, в Undergarden больше нет деревень из-за распространяющейся гнили. Тем не менее, там всё ещё могут обитать &eКамнераждённые&r — существа, готовые к торговле."]
 			id: "34AE4F64C6DCC76B"
 			rewards: [
 				{
@@ -237,20 +237,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "Delegation"
+			subtitle: "Делегация"
 			tasks: [{
 				advancement: "undergarden:undergarden/stoneborn_trade"
 				criterion: ""
 				id: "41919A014FCB8BFF"
 				type: "advancement"
 			}]
-			title: "Foreign Friends"
+			title: "Потусторонние друзья"
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
-			description: ["Explore the depths of the Undergarden and you'll find some useful resources that can be turned into gear!"]
+			description: ["Исследуй глубины Undergarden, и ты найдёшь полезные ресурсы, из которых можно создать снаряжение!"]
 			id: "73CB23341BA13CD0"
 			rewards: [
 				{
@@ -271,20 +271,20 @@
 					type: "command"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "Добывай и уничтожай"
 			tasks: [{
 				advancement: "undergarden:undergarden/mine_ore"
 				criterion: ""
 				id: "5E1546F833807E4F"
 				type: "advancement"
 			}]
-			title: "New Resources"
+			title: "Новые ресурсы"
 			x: 1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["If you're having trouble finding an &eEnd Portal Frame&r and running out of &eEye of Enders&r, perhaps it's time for you to craft an &eEndolocator&r, which is functionally the same as an Eye of Ender, but has unlimited uses!"]
+			description: ["Если у тебя возникают трудности с поиском &eпортала в край&r и заканчиваются &eглаза эндера&r, возможно, пора создать &eЭндалокатор&r — он работает как глаз эндера, но с неограниченным количеством использований!"]
 			id: "2E0F302F9BBF7E36"
 			rewards: [
 				{
@@ -305,7 +305,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "Эхолокация"
 			tasks: [{
 				id: "40F07F24ADE9D1A4"
 				item: {
@@ -317,7 +317,7 @@
 				}
 				type: "item"
 			}]
-			title: "Structure-Finding Help"
+			title: "Помощь в поиске структуры"
 			x: 6.0d
 			y: -1.5d
 		}
@@ -353,7 +353,7 @@
 				"45501F3F04639DB1"
 				"5FEC85CF65C29ED6"
 			]
-			description: ["Complete all of the quests in Act III to complete this achievement. Then show it off with your new hat!"]
+			description: ["Выполни все квесты Акта III, чтобы получить это достижение. А потом похвастайся своим новым головным убором!"]
 			hide_dependency_lines: true
 			icon: "simplehats:babydolphin"
 			id: "6852C249CA093735"
@@ -372,19 +372,19 @@
 				}
 			]
 			shape: "hexagon"
-			subtitle: "Achievement"
+			subtitle: "Достижения"
 			tasks: [{
 				id: "7F4620276B50AC30"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Complete All Act III Quests!"
+			title: "Завершите все задания акта III!"
 			x: 10.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2E0F302F9BBF7E36"]
-			description: ["The &eStrange Fish Finder&r will locate nearby Devil's Hole chunks which contain &eunique fish and loot&r."]
+			description: ["&eРыбоискатель&r поможет найти рядом чанки Devil's Hole, где обитают &eуникальные рыбы и добыча&r."]
 			id: "58F782F592F2ADEB"
 			rewards: [
 				{
@@ -410,7 +410,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Echo Location"
+			subtitle: "Эхолокация"
 			tasks: [{
 				id: "0B89633D93313B67"
 				item: {
@@ -428,7 +428,7 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			dependency_requirement: "one_completed"
-			description: ["This set of &earmor&r allows you to easily &emine and fight&r underwater. You can craft &eOxygen Tanks with Oxygelium&r found underwater in an &eIce Maze&r or from the &eTortured Souls&r also in that area. You can also consider using &eNeptunium&r gear from fishing to fight underwater!"]
+			description: ["Этот набор &eброни&r позволяет легко &eдышать и сражаться&r под водой. Ты можешь скрафтить &eкислородные баллоны с помощью кислородника&r, которое находится под водой в &eледяном лабиринте&r или получить с &eизмученой души&r в этой же зоне. Также можно использовать &eНептуновое&r снаряжение, добытое рыбалкой, чтобы сражаться под водой!"]
 			id: "43D444B5C1395F3E"
 			rewards: [{
 				auto: "enabled"
@@ -441,7 +441,7 @@
 				type: "command"
 			}]
 			shape: "circle"
-			subtitle: "Diving Kit"
+			subtitle: "Комплект для дайвинга"
 			tasks: [
 				{
 					id: "7B1370680492A67F"
@@ -472,9 +472,9 @@
 		{
 			dependencies: ["217637D12CF3011E"]
 			description: [
-				"These undead creatures have been spotted roaming the &eIce Mazes in the Shelter underground, near the Deep Frozen Ocean&r."
+				"Эти неживые существа были замечены в &eЛедяных лабиринтах под убежищем(shelter), рядом с Deep Frozen Ocean&r."
 				""
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&o&7Завершение разблокирует повторяемый квест в главе «Повторяемые»!&r&r"
 			]
 			id: "60A18C940B623CDA"
 			rewards: [
@@ -502,7 +502,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				entity: "aquamirae:tortured_soul"
 				icon: {
@@ -516,13 +516,13 @@
 				type: "kill"
 				value: 16L
 			}]
-			title: "The Restless Dead"
+			title: "Беспокойные мертвецы"
 			x: 7.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["These fish definitely look fishy... and they're on land! These creatures can be found in &eIce Mazes near the Deep Frozen Ocean&r."]
+			description: ["Эти рыбы определённо выглядят подозрительно... и при этом находятся на суше! Эти создания обитают в &eЛедяных лабиринтах рядом с Deep Frozen Ocean&r."]
 			id: "3054F5AA249874B1"
 			rewards: [
 				{
@@ -543,7 +543,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				entity: "aquamirae:maw"
 				icon: "alexsmobs:flying_fish"
@@ -551,13 +551,13 @@
 				type: "kill"
 				value: 12L
 			}]
-			title: "Terrestrial Terrors"
+			title: "Земные ужасы"
 			x: 7.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["217637D12CF3011E"]
-			description: ["The &eAnglerfish&r in the water of the &eIce Maze&r seem normal enough..."]
+			description: ["&eУдильшик&r в водах &eледяного лабиринта&r кажутся вполне обычными..."]
 			id: "59A29FC72CB20EB7"
 			rewards: [
 				{
@@ -588,7 +588,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				entity: "aquamirae:anglerfish"
 				icon: "aquamirae:anglers_fang"
@@ -596,20 +596,20 @@
 				type: "kill"
 				value: 8L
 			}]
-			title: "Deep-Sea Creatures"
+			title: "Глубоководные существа"
 			x: 7.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
 			description: [
-				"This slippery, slithery creature can be found in &eShelters&r by the &eIce Maze&r. Alternatively, you can find one in a &eGateway of the Ice Maze&r."
+				"Это скользкое, извивающееся существо можно найти в &eУкрытии (Shelter)&r у &eЛедяного лабиринта&r. Также его можно встретить через &eGateway of the Ice Maze&r."
 				""
-				"&cThe Eel spawns at minimum level of 35.&r"
+				"&cУгорь появляется минимум 35 уровня.&r"
 				""
-				"The Eel Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a15% Chance of Dropping Und Rune&r"
+				"Угорь обладает:"
+				"&b+50% физического урона в ледянной урон&r"
+				"&a15% шанс выпадения Руны Und&r"
 			]
 			id: "46DB9530C236A4AD"
 			rewards: [
@@ -640,12 +640,12 @@
 					auto: "enabled"
 					icon: "ftb_ph:ascend"
 					id: "61E1F9C240855D16"
-					title: "Cruel Ascendancy"
+					title: "Жестокое господство"
 					type: "custom"
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				entity: "aquamirae:eel"
 				icon: "alexsmobs:shed_snake_skin"
@@ -653,20 +653,20 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Slippery Swimmer"
+			title: "Скользкий пловец"
 			x: 9.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3054F5AA249874B1"]
 			description: [
-				"Never actually seen by any living being, the myth of the &eMother of the Ice Maze&r is that it's a powerful creature that roams the seas, attacking sailors and pirates alike. If you want to find it, it's said that it has a chance of &espawning with Anglerfish&r (&75.0% chance to spawn when an Anglerfish dies&r). It's also rumored that inside the gut of the creature, you'll find rare ancient pirate treasure..."
+				"Никогда не видимая живыми существами, легенда о &eМатери лабиринта&r гласит, что это могущественное существо, которое бродит по морям, нападая на моряков и пиратов. Если хочешь найти её, говорят, что она может &eпоявляться вместе с Удильщиком&r (&75.0% шанс спавна при смерти удильщика&r). Также ходят слухи, что внутри её желудка можно найти редкие древние пиратские сокровища..."
 				""
-				"&cThe Mother of the Ice Maze spawns at minimum level of 35.&r"
+				"&cМать лабиринта появляется минимум 35 уровня.&r"
 				""
-				"The Mother of the Ice Maze Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&a50% Chance of Dropping Und Rune&r"
+				"Матерь лабиринта обладает:"
+				"&b+50% физического урона в ледянной урон&r"
+				"&a50% шанс выпадения Руны Und&r"
 			]
 			id: "18B4B295493669DD"
 			rewards: [
@@ -708,7 +708,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				entity: "aquamirae:maze_mother"
 				icon: {
@@ -732,7 +732,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Mother of the Deep Sea"
+			title: "Мать глубин моря"
 			x: 9.0d
 			y: 1.5d
 		}
@@ -743,23 +743,22 @@
 			]
 			dependency_requirement: "one_completed"
 			description: [
-				"The &eGhost of Captain Cornelia&r appears when a certain sound is played from a &ehorn&r..."
+				"&eПризрак капитана Корнелии&r появляется, когда звучит определённый &eрог&r..."
 				""
-				"Some say the &ehorn&r can be found in a &elarge mother-like creature&r that lurks in the &eDeep Frozen Ocean&r, or can be earned through the completion of a &eGateway of the Ice Maze&r."
+				"Говорят, что &eрог&r можно найти у &eбольшого существа, похожего на мать&r, обитающего в &eDeep Frozen Ocean&r, или получить за выполнение &eGateway of the Ice Maze&r."
 				""
-				"The &eGhost of Captain Cornelia&r is resilient to death... She'll start &cregenerating her Health rapidly at once she's low&r. You can use a &eSplash Potion of Weakness&r to combat this."
+				"&eПризрак капитана Корнелии&r неуступчив к смерти… Как только её здоровье опускается низко, она начинает &cбыстро восстанавливать здоровье&r. Чтобы с этим бороться, можно использовать &eвзрывное зелье слабости&r."
 				""
-				"&cThe Ghost of Captain Cornelia spawns at minimum level of 40.&r"
+				"&cПризрак капитана Корнелии появляется минимум 40 уровня.&r"
 				""
-				"The Ghost of Captain Cornelia Has:"
-				"&b+50% Physical to Cold Damage&r"
-				"&b+25% Critical Hit&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"Призрак капитана Корнелии обладает:"
+				"&b+50% физического урона в ледяной урон&r"
+				"&b+25% шанс критического удара&r"
+				"&a10% шанс выпадения Руны Und&r"
 				""
-				"&eRequires 1 dependency to be completed.&r"
+				"&eТребуется выполнить 1 зависимость.&r"
 				""
-				"&6This Quest Unlocks New Shops In the Campaign Shop."
-				"&o&7Completion unlocks a Repeatable Quest in the Repeatables Chapter!&r&r"
+				"&6Завершение этого квеста открывает новые покупки в \"Магазин кампании\"."
 			]
 			id: "55F9F418C4CA3B3A"
 			rewards: [
@@ -789,7 +788,7 @@
 			]
 			shape: "rsquare"
 			size: 1.0d
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "aquamirae:captain_cornelia"
 				icon: "aquamirae:pirate_pouch"
@@ -797,13 +796,13 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Captain Cornelia's Locker"
+			title: "Сундук капитана Корнелии"
 			x: 9.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["73CB23341BA13CD0"]
-			description: ["These &ecold ingots&r can be used to craft some powerful &eFroststeel&r gear. They can be found in &eCold Underground Biomes&r such as the &eFrostfields, Frosty Smogstem Forest&r and &eIcy Sea&r biomes&r."]
+			description: ["Эти &eхолодные слитки&r можно использовать для создания мощного снаряжения из &eморозостали&r. Их можно найти в &eхолодных подземных биомах&r, таких как &eМорозные степи, Frosty Smogstem Forest&r и &eЛедяное море&r."]
 			id: "0AFF7911E9C10C1B"
 			rewards: [
 				{
@@ -830,25 +829,25 @@
 					type: "custom"
 				}
 			]
-			subtitle: "MINE and Slash"
+			subtitle: "Добывай и уничтожай"
 			tasks: [{
 				count: 8L
 				id: "154C7E9E60887877"
 				item: "undergarden:froststeel_ingot"
 				type: "item"
 			}]
-			title: "Cold Ingots"
+			title: "Холодные слитки"
 			x: 1.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"It's time for you to visit the Villager scholar. They might know something about alternate dimensions containing powerful creatures."
+				"Пора навестить учёного жителя. Возможно, он что-то знает об альтернативных измерениях с мощными существами."
 				""
-				"You can find the &eGatekeeper&r in &eGatekeeper Houses&r which can spawn in the &emountains, and plains or snowy villages&r."
+				"&eПривратника&r можно найти в &eДомах хранителей врат (Gatekeeper)&r, которые могут появляться в &eгорах, равнинах или снежных деревнях&r."
 				""
-				"You might need some way to coerce them to giving the information however... Perhaps some &aEmeralds&r?"
+				"Однако, чтобы выведать у них информацию, возможно, придётся чем-то их угостить... Например, &aизумрудами&r?"
 			]
 			id: "0998037F5701A2D7"
 			rewards: [{
@@ -862,7 +861,7 @@
 				type: "command"
 			}]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				icon: "blue_skies:blinding_key"
 				id: "0C15001804C8AF74"
@@ -870,7 +869,7 @@
 				title: "Find a Gatekeeper"
 				type: "structure"
 			}]
-			title: "The Gatekeepers"
+			title: "Привратники"
 			x: 10.5d
 			y: 0.0d
 		}
@@ -878,15 +877,15 @@
 			dependencies: ["775A13E1924D6C9A"]
 			dependency_requirement: "one_completed"
 			description: [
-				"Deep in the &eCatacombs&r, you may rarely find deactivated guardians. They say these guardians once protected the people from Rot creatures, but have long since lost their magic. Of course, that's just what they say..."
+				"Глубоко в &eКатакомбах&r можно редко встретить неактивных стражей. Говорят, эти стражи когда-то защищали людей от существ Гнили, но давно утратили свою магию. Конечно, это только слухи..."
 				""
-				"If you cannot find these guardians, you may have better luck forcing a portal to the past with a &eGateway of the Labyrinth&r."
+				"Если не удаётся найти этих стражей, возможно, тебе повезёт больше, если вызвать портал в прошлое с помощью &eGateway of the Labyrinth&r."
 				""
-				"&cThe Forgotten Guardian spawns at minimum level of 35.&r"
+				"&cЗабвенный страж появляется минимум 35 уровня.&r"
 				""
-				"The Forgotten Guardian Has:"
-				"&b+50% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"Забвенный стража обладает:"
+				"&b+50% сопротивления всем стихиям&r"
+				"&a10% шанс выпадения Руны Und&r"
 			]
 			icon: {
 				Count: 1
@@ -926,7 +925,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Main Quest"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "undergarden:forgotten_guardian"
 				icon: "ftb_ph:forgotten_guardian"
@@ -934,16 +933,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Hidden Secrets"
+			title: "Скрытые секреты"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5C25A5681CC704B8"]
 			description: [
-				"Having difficulty with some mobs? You can power yourself up using the Mine and Slash &eInfusing Profession&r. &eScrolls&r can be used on your Gear to &erandomly apply a beneficial stat&r. This stat can be upgraded by using subsequent Infusion Scrolls."
+				"Трудно справляться с некоторыми мобами? Ты можешь усилить себя с помощью профессии Mine and Slash — &eЗачарование&r. &eСвитки&r можно использовать на своём снаряжении, чтобы &eслучайным образом применить полезную характеристику&r. Эту характеристику можно улучшать, используя последующие свитки зачарования."
 				""
-				"See the &eM\\&S Professions&r chapter for more information on how to use this system!"
+				"Больше информации о том, как пользоваться этой системой, смотри в главе &eM\\&S Профессии&r!"
 			]
 			icon: "minecraft:paper"
 			id: "360C736C3975B377"
@@ -975,31 +974,31 @@
 					type: "item"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "1CF415B71E5C7734"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Not Vanilla Enchantments"
+			title: "Не ванильные чары"
 			x: 4.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"In CTE2, some Vanilla stats have compatibility with Mine and Slash!"
+				"В CTE2 некоторые ванильные характеристики совместимы с Mine and Slash!"
 				""
-				"Vanilla : &aMine and Slash&r"
-				"Health : &b+0.5% Magic Shield&r"
-				"Armor : &b+0.1% Gear Defense&r"
-				"Armor Toughness : &b+0.1% Gear Defense&r"
-				"Attack Damage : &b+0.5% Total Damage&r"
-				"Luck : &b+3% Magic Find&r"
+				"Ваниль : &aMine and Slash&r"
+				"Здоровье : &b+0.5% Магического щита&r"
+				"Броня : &b+0.1% Защиты снаряжения&r"
+				"Прочность Брони : &b+0.1% Защиты снаряжения&r&r"
+				"Атака : &b+0.5% Общего урона&r"
+				"Удача : &b+3% Магического поиска&r"
 				""
-				"Additionally, Enchantment compatibility is included. You can see how the Enchantment affects Mine and Slash stats in the &bEnchantment description in blue&r."
+				"Кроме того, включена совместимость с зачарованиями. Ты можешь увидеть, как зачарование влияет на характеристики Mine and Slash в &bописании зачарования синим цветом&r."
 				""
-				"Enchantment stat bonuses cap out per item equal to the Max Enchantment level + 1. For example, Protection gives +2% Armor, but each item with this enchantment can only give +12%, even if you somehow get a Protection VIII item. However, there is also a global cap of the item cap x3. If you equipped 4 Protection VI items, you would receive only +36% Armor."
+				"Бонусы от зачарований ограничены для каждого предмета значением Макс. уровень зачарования + 1. Например, «Защита» даёт +2% к броне, но каждый предмет с этим зачарованием может дать не более +12%, даже если у вас каким-то образом окажется предмет с Защитой VIII. Однако также существует глобальное ограничение в виде ограничения предмета ×3. Если вы наденете 4 предмета с Защитой VI, вы получите только +36% к броне."
 			]
 			icon: "minecraft:paper"
 			id: "11DB53435CA1D59E"
@@ -1017,22 +1016,22 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "28690175BDCF5B11"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Stat and Enchantment Compatibility"
+			title: "Совместимость характеристик и чар"
 			x: 3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["34AE4F64C6DCC76B"]
 			description: [
-				"The &eImbuing Table&r allows you to &ecombine max level&r enchantments. You can use the table to raise a max level enchantment on an item by &e1&r. For example, using a &eFortune III&r book to upgrade a pickaxe that already has &eFortune III&r will result in a pickaxe with &eFortune IV&r."
+				"&eСтол наполнени&r позволяет &eсовмещать зачарования максимального уровня&r. Ты можешь использовать стол, чтобы повысить максимальное зачарование на предмете на &e1&r. Например, использование книги &eУдача III&r для улучшения кирки, которая уже имеет &eУдача III&r, приведёт к появлению кирки с &eУдача IV&r."
 				""
-				"&oNote that not all enchantments support this system."
+				"&oОбрати внимание, что не все зачарования поддерживают эту систему."
 			]
 			id: "6BA03D598BD6C2AD"
 			rewards: [{
@@ -1045,7 +1044,7 @@
 				title: "5500 Experience"
 				type: "command"
 			}]
-			subtitle: "Craft an Imbuing Table"
+			subtitle: "Создайте стол наполнения"
 			tasks: [{
 				id: "50C250274B0E7598"
 				item: "illagerinvasion:imbuing_table"
@@ -1056,7 +1055,7 @@
 		}
 		{
 			dependencies: ["60A18C940B623CDA"]
-			description: ["&eAquamarine&r drop from &eDrowned, Squids, and Guardians&r and can be used to trade with &eSea Dwellers&r! Sea Dwellers are merfolk found in the &edepths of the ocean&r. You can usually find them congregated in &eunderwater villages&r."]
+			description: ["&eАквамарин&r выпадает с &eутоплеников, кальмаров и защитников&r и может использоваться для торговли с &eМорские обитателями&r! Морские обитатели — это русалки, обитающие в &eглубинах океана&r. Обычно их можно встретить в &eподводных деревнях&r."]
 			id: "2A8673F98F14484D"
 			rewards: [
 				{
@@ -1081,29 +1080,30 @@
 					type: "command"
 				}
 			]
-			subtitle: "Undersea Adventure"
+			subtitle: "Подводные приключения"
 			tasks: [{
 				id: "59C725105DC08072"
 				item: "seadwellers:aquamarine"
 				type: "item"
 			}]
-			title: "Sea Dwellers"
+			title: "Морские обитатели"
 			x: 9.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["2AFB98683E249B7D"]
 			description: [
-				"Resistances play an important role in keeping yourself alive. There are 3 Elements: &cFire&r, &bCold&r, and &eLightning&r. There are also &7Physical&r and &5Chaos&r damage types."
+				"Сопротивления играют важную роль в твоём выживании. Существует 3 элемента: &cОгонь&r, &bХолод&r и &eМолния&r. Также есть &7Физический&r и &5Хаос&r тип урона."
 				""
-				"&6Elemental Damage&r becomes prominent from this point on, with most mobs having some form of Elemental Damage (whether innately, or from affixes). It is &evital&r that you maintain your &6Elemental Resistances&r! &5Chaos Resistance&r is also pivotal, albeit more elusive to obtain."
+				"&6Стихийный урон&r становится особенно заметен с этого момента — большинство мобов наносят какой-либо стихийный урон (либо изначально, либо через аффиксы). Поддерживать &6стихийные сопротивления&r — &eжизненно важно!&r &5Сопротивление к хаосу&r тоже крайне важно, хоть его и сложнее получить."
 				""
-				"As you become stronger, the mobs also become stronger. &l&cEvery 25 levels, your resists permanently drop by 25%!&r&r"
+				"По мере того как ты становишься сильнее, мобы тоже усиливаются."
+				"&l&cКаждые 25 уровней твои сопротивления навсегда снижаются на 25%!&r&r"
 				""
-				"&eLv. 1-24:&r &b+25% Ele/Chaos Resistance&r"
-				"&eLv. 25-49:&r +0% Ele/Chaos Resistance"
-				"&eLv. 50-74:&r &c-25% Ele/Chaos Resistance&r"
-				"&eLv. 75+:&r &c-50% Ele/Chaos Resistance&r"
+				"&eУр. 1–24:&r &b+25% к стихиям/хаосу&r"
+				"&eУр. 25–49:&r +0% к стихиям/хаосу"
+				"&eУр. 50–74:&r &c-25% к стихиям/хаосу&r"
+				"&eУр. 75+:&r &c-50% к стихиям/хаосу&rы"
 			]
 			icon: "minecraft:paper"
 			id: "45EA60D4FE6CFFAC"
@@ -1129,19 +1129,19 @@
 					type: "command"
 				}
 			]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "3C2F08373F7EA7F7"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Resistances"
+			title: "Сопротивления"
 			x: 0.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["360C736C3975B377"]
-			description: ["Try crafting your own Infusion Scroll at a higher rarity! Boot Infusions are particularly powerful as you can get special stats only found on Boot Infusions!"]
+			description: ["Попробуй создать свиток зачарования более высокого редкого уровня! Зачарование для обуви особенно мощные — они дают уникальные характеристики, которые встречаются только у зачарования для обуви!"]
 			id: "713FE37BCF17FA27"
 			rewards: [{
 				auto: "enabled"
@@ -1153,7 +1153,7 @@
 				title: "7500 Experience"
 				type: "command"
 			}]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "3909083DF06CD4CE"
 				item: {
@@ -1166,19 +1166,19 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Protecting the Feets"
+			title: "Защита ног"
 			x: 4.5d
 			y: -3.0d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"The &eNaga&r are flying creatures found all around the &eUndergarden&r."
+				"&eНага&r — летающие существа, обитающие по всему &eUndergarden&r."
 				""
-				"The Naga Has:"
-				"&b+75% Physical to Chaos Damage&r"
-				"&b+50% Poison Chance&r"
-				"&b+50% Poison Damage&r"
+				"У Наги есть:"
+				"&b+75% физического урона в хаос урон&r"
+				"&b+50% шанс отравления&r"
+				"&b+50% урон от отравления&r"
 			]
 			icon: "mowziesmobs:naga_fang"
 			id: "4F6C1721D3A47BFC"
@@ -1200,27 +1200,27 @@
 				type: "kill"
 				value: 4L
 			}]
-			title: "Under the.. Undergarden?"
+			title: "Под... Подсадом?"
 			x: 3.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eUmvuthi, the Sunbird&r is a large neutral boss mob - a heliomacer who serves as the creator of the Abavuthana."
+				"&eЛюдопепелка, нектарка&r — большой нейтральный босс, которого можно найти в Umvuthana Grove. Он гелиомейсер и служит создателем Abavuthana."
 				""
-				"Umvuthi can be found in a &eGateway of the Depths&r."
+				"Людопепелку можно найти через &eGateway of the Depths&r."
 				""
-				"If approached by a player wearing a Umvuthana Mask, that player will be able to trade with Umvuthi."
+				"Если к нему подойдёт игрок в маске людопелки, то он сможет торговать с Людопепелка."
 				""
-				"&cThe Umvuthi spawns at minimum level of 35.&r"
+				"&cЛюдопепелка появляется минимум 35 уровня.&r"
 				""
-				"The Umvuthi Has:"
-				"&b+100% Physical to Fire Damage&r"
-				"&b+50% Burn Chance&r"
-				"&b+50% Fire Resistance&r"
-				"&b+50% Lightning Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"Людопепелка обладает:"
+				"&b+100% физического урона в огненный урон&r"
+				"&b+50% шанс ожога&r"
+				"&b+50% сопротивления огню&r"
+				"&b+50% сопротивления молнии&r"
+				"&a10% шанс выпадения Руны Und&r"
 			]
 			icon: "mowziesmobs:grant_suns_blessing"
 			id: "3242634F49140F5F"
@@ -1251,26 +1251,26 @@
 				title: "Kill: 1x Umvuthi, the Sunbird"
 				type: "advancement"
 			}]
-			title: "The Sun Chief"
+			title: "Вождь cолнца"
 			x: 3.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["4F6C1721D3A47BFC"]
 			description: [
-				"&eFerrous Wroughtnauts&r start standing still, with their arms resting on their axe. When a player comes nearby or they are attacked, they ready themselves and start attacking. When not in combat Wroughtnauts will quickly regenerate their health."
+				"&eЖелезнокованные&r стоят неподвижно, опираясь руками на свои топоры. Когда рядом появляется игрок или их атакуют, они готовятся к бою и начинают атаковать. Вне боя Железнокованные быстро восстанавливают здоровье."
 				""
-				"&c&lWarning! Ferrous Wroughtnauts can break your shield. Proceed with caution!&r&r"
+				"&c&lВнимание! Железнокованный могут сломать твой щит. Будь осторожен!&r&r"
 				""
-				"You can find them in their Arenas throughout the Undergarden."
+				"Ты можешь встретить их на аренах по всему Undergarden."
 				""
-				"&cThe Ferrous Wroughtnaut spawns at minimum level of 35.&r"
+				"&cЖелезнокованные появляется минимум 35 уровня.&r"
 				""
-				"The Ferrous Wroughtnaut Has:"
-				"&b+50% Bleed Chance&r"
-				"&b+50% Armor&r"
-				"&b+40% Elemental Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"Железнокованный обладает:"
+				"&b+50% шанс кровотечения&r"
+				"&b+50% брони&r"
+				"&b+40% сопротивления всем стихиям&r"
+				"&a10% шанс выпадения Руны Und&r"
 			]
 			icon: {
 				Count: 1
@@ -1311,13 +1311,13 @@
 				}
 				type: "item"
 			}]
-			title: "Steely Resolve"
+			title: "Стальная решимость"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["59A29FC72CB20EB7"]
-			description: ["Need a bit of an EXP boost? Consider eating &eExperience Gain Seafood&r crafted through Professions!"]
+			description: ["Нужен небольшой прирост опыта? Попробуй съесть &eРедкий Дополнительный опыт Морепродукты&r, приготовленную через Профессии!"]
 			id: "0E47D45B630AF684"
 			rewards: [
 				{
@@ -1336,7 +1336,7 @@
 					type: "command"
 				}
 			]
-			subtitle: "M\\&S Professions"
+			subtitle: "M\\&S Профессии"
 			tasks: [{
 				id: "16B63C712B862DD3"
 				item: {
@@ -1349,23 +1349,23 @@
 				match_nbt: true
 				type: "item"
 			}]
-			title: "Feeling A Bit Starved"
+			title: "Чувствую себя немного голодным"
 			x: 7.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["55F9F418C4CA3B3A"]
 			description: [
-				"Ever wanted to go back to the Overworld to explore, but find the levels too low to make it an enjoyable experience? At certain breakpoint levels, past Dimensions will \"enrage\", increasing their level ranges for players to potentially go back and enjoy past Dimensions!"
+				"Когда-нибудь хотел вернуться в Верхний мир для исследований, но уровни там слишком низкие, чтобы получить удовольствие? При достижении определённых пороговых уровней прошлые измерения «разъяряются», повышая диапазон уровней, чтобы игроки могли снова вернуться и насладиться ими!"
 				""
 				"&c------------------------------&r"
 				""
-				"&eOverworld&r - Lv. &b50-70&r"
-				"&eNether&r - Lv. &b55-75&r"
-				"&eUndergarden&r - Lv. &b60-80&r"
-				"&eEverbright/Everdawn&r - Lv. &b65-85&r"
-				"&eThe End&r - Lv. &b70-90&r"
-				"&eThe Otherside&r - Lv. &b75-95&r"
+				"&eВерхний мир&r — ур. &b50-70&r"
+				"&eНезер&r — ур. &b55-75&r"
+				"&eПодземный сад&r — ур. &b60-80&r"
+				"&eЭвербрайт/Эвердоун&r — ур. &b65-85&r"
+				"&eКрай&r — ур. &b70-90&r"
+				"&eДругая сторона&r — ур. &b75-95&r"
 			]
 			icon: "minecraft:paper"
 			id: "45501F3F04639DB1"
@@ -1374,31 +1374,31 @@
 				item: "mmorpg:currency/enchant_reroll"
 				type: "item"
 			}]
-			subtitle: "Lost Page"
+			subtitle: "Потерянная страница"
 			tasks: [{
 				id: "69D1987CC32E4D4C"
-				title: "Click Once Read"
+				title: "Нажмите, чтобы прочитать"
 				type: "checkmark"
 			}]
-			title: "Travelling Backwards"
+			title: "Путешествие назад"
 			x: 10.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["775A13E1924D6C9A"]
 			description: [
-				"&eTongbi, the Sculptor&r is a powerful geomancer mob that can be found in the &eMonastery&r."
+				"&eТонгби, скульптор&r — мощный геоман, которого можно найти в &eМонастыре (Monastery)&r."
 				""
-				"Tongbi, the Sculptor can be found in a &eGateway of the Depths&r."
+				"Тонгби, скульптор встречается через &eGateway of the Depths&r."
 				""
-				"&cTongbi, the Sculptor spawns at minimum level of 35.&r"
+				"&cТонгби, скульптор появляется минимум на уровне 35.&r"
 				""
-				"Tongbi, the Sculptor Has:"
-				"&b+25% Physical to Cold Damage&r"
-				"&b+25% Physical to Chaos Damage&r"
-				"&b+40% Cold Resistance&r"
-				"&b+40% Chaos Resistance&r"
-				"&a10% Chance of Dropping Und Rune&r"
+				"У Тонгби, скульптора есть:"
+				"&b+25% физического урона в ледянной урон&r"
+				"&b+25% физического урона в хаос урон&r"
+				"&b+40% сопротивления холоду&r"
+				"&b+40% сопротивления хаосу&r"
+				"&a10% шанс выпадения Руны Und&r"
 			]
 			id: "5FEC85CF65C29ED6"
 			rewards: [{
@@ -1425,11 +1425,11 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "The Sculptor"
+			title: "Скульптор"
 			x: 4.5d
 			y: 1.5d
 		}
 	]
 	subtitle: ["Lv. 25-40"]
-	title: "Act III"
+	title: "Акт III"
 }
