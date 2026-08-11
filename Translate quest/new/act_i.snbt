@@ -1274,12 +1274,12 @@
 			id: "44B1B924A5A4D16F"
 			rewards: [{
 				auto: "enabled"
-				command: "/mine_and_slash give exp @p 250"
+				command: "/mine_and_slash give exp @p 750"
 				elevate_perms: true
 				icon: "ftb_ph:exp"
 				id: "20F3E066F9F557B2"
 				silent: true
-				title: "250 Experience"
+				title: "750 Experience"
 				type: "command"
 			}]
 			subtitle: "The Extras"
@@ -1678,7 +1678,7 @@
 			}]
 			title: "Bestiary II"
 			x: 3.0d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
@@ -1715,7 +1715,7 @@
 			}]
 			title: "Bestiary III"
 			x: 4.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
@@ -1761,7 +1761,7 @@
 			]
 			title: "Bestiary IV"
 			x: 6.0d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
@@ -1796,7 +1796,7 @@
 			}]
 			title: "Bestiary V"
 			x: 7.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["75454F0A3C4C3596"]
@@ -1838,7 +1838,7 @@
 			}]
 			title: "Bestiary VII"
 			x: 10.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["313921A7833269CF"]
@@ -1874,7 +1874,7 @@
 			}]
 			title: "Bestiary I"
 			x: 1.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4956C0B5633CE91E"]
@@ -1989,7 +1989,7 @@
 			}]
 			title: "Bestiary VI"
 			x: 9.0d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0D04908025368D7B"]
@@ -2027,7 +2027,7 @@
 			}]
 			title: "Bestiary VIb"
 			x: 9.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DEC808C04130184"]
@@ -2060,7 +2060,7 @@
 			}]
 			title: "Bestiary IIb"
 			x: 3.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["472D5441B6FCD6EC"]
@@ -2148,7 +2148,7 @@
 			}]
 			title: "Bestiary Ib"
 			x: 1.5d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["761BC90863C35627"]
@@ -2181,7 +2181,7 @@
 			}]
 			title: "Bestiary IVb"
 			x: 6.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["472D5441B6FCD6EC"]
@@ -2267,44 +2267,6 @@
 			title: "Bountiful Boards"
 			x: 4.5d
 			y: -3.0d
-		}
-		{
-			dependencies: ["6FF06A68E8DA88F2"]
-			description: [
-				"Trims provide modifiers if used on your armor. There are different trims to be found and each can provide different benefits. You will need a &eSmithing Table&r to apply a trim."
-				""
-				"&eKobold Smithing Templates&r can provide the following bonuses to armor, for example:"
-				""
-				"&e#Helmet&r: more vanilla experience from killing mobs."
-				"&e#Chestplate&r: faster block breaking speed when using an incorrect or no tool."
-				"&e#Leggings&r: slower hunger drain when performing actions."
-				"&e#Boots&r: farmland can no longer be trampled."
-				""
-				"Find other trims and customize your gear!"
-			]
-			id: "40803605D59A3AE1"
-			rewards: [
-				{
-					count: 4
-					id: "7DEF1F37A42B4449"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					id: "60D76996779B5FEE"
-					item: "minecraft:wayfinder_armor_trim_smithing_template"
-					type: "item"
-				}
-			]
-			subtitle: "The Underground"
-			tasks: [{
-				id: "3002A87574C474C4"
-				item: "kobolds:kobold_template"
-				type: "item"
-			}]
-			title: "Free Trimming"
-			x: 3.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["727ADA9C4F420BDC"]

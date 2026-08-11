@@ -1092,8 +1092,6 @@
 		{
 			dependencies: ["4D0073E78182BB97"]
 			description: [
-				"You can fillet &eGwibling&r meat and cook it to get &eCooked Gwiblin Fillets&r!"
-				""
 				"&eShimmerpearls&r can be harvested from &eTall Shimmerweed&r on a &eCutting Board&r."
 				""
 				"&eGloomgourd Pie&r can be made from various &eUndergarden&r ingredients!"
@@ -1113,12 +1111,6 @@
 			tasks: [
 				{
 					count: 4L
-					id: "08DF0C1DFEDC9A79"
-					item: "undergardendelight:cooked_gwibling_fillet"
-					type: "item"
-				}
-				{
-					count: 4L
 					id: "7789DCA36ADE14B3"
 					item: { Count: 3, id: "undergardendelight:shimmerpearl" }
 					type: "item"
@@ -1127,6 +1119,12 @@
 					count: 4L
 					id: "401618CF60A9128C"
 					item: "undergarden:gloomgourd_pie"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "20E255725EFEA3FC"
+					item: { Count: 4, id: "undergardendelight:cooked_gwibsteak" }
 					type: "item"
 				}
 			]
@@ -1429,12 +1427,6 @@
 					count: 64L
 					id: "5D81B1BC4FB61116"
 					item: { Count: 64, id: "farmersrespite:coffee_cake_slice" }
-					type: "item"
-				}
-				{
-					count: 16L
-					id: "57A07ACE4834656C"
-					item: { Count: 16, id: "farmersrespite:long_purulent_tea" }
 					type: "item"
 				}
 				{

@@ -20,20 +20,7 @@
 ----------------------------------------------------------------------
 
 ИЗМЕНЕНО:
-  "library_of_exile.item_requirement.is_gear_slot_boots": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_chest": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_helmet": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_necklace": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_pants": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_ring": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "library_of_exile.item_requirement.is_gear_slot_weapon_family": "Must be the correct Gear Slot"  ->  "Must be Gear Slot: %1$s"
-  "mmorpg.chat.character_load_info": "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n\nIt does not save your gear, gems jewels etc.\n\nEach Character starts from Level 1"  ->  "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n- Your equipped Armor, Offhand, Rings, Necklace and Omen\n\nEquipped gear is stored with the character and comes back when you load it.\n\nIt does not save your inventory, weapon, backpack, gems or jewels.\n\nEach Character starts from Level 1"
-
-ДОБАВЛЕНО (новые ключи):
-  + "library_of_exile.item_modification.increment_uses_codex_rarity_uses": "Increments Uses"
-  + "library_of_exile.item_requirement.max_uses_codex_rarity_uses": "Maximum %1$s uses of: %2$s"
-  + "mmorpg.chat.character_gear_returned": "Returned %1$s items that character had equipped."
-  + "mmorpg.chat.character_switched_gear": "Stored %1$s equipped items, and equipped %2$s items belonging to this character."
+  "mmorpg.chat.character_load_info": "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n- Your equipped Armor, Offhand, Rings, Necklace and Omen\n\nEquipped gear is stored with the character and comes back when you load it.\n\nIt does not save your inventory, weapon, backpack, gems or jewels.\n\nEach Character starts from Level 1"  ->  "Character Feature saves:\n- Your level and exp\n- Your spells, stats, talents, hotbar setup\n- Your equipped Armor, Offhand, Rings, Necklace and Omen\n- Your socketed Support Gems, Aura Gems and Jewels\n\nEquipped gear and socketed gems are stored with the character and come back when you load it.\n\nIt does not save your inventory, weapon or backpack.\n\nEach Character starts from Level 1"
 
 ######################################################################
 # НОВЫЕ ФАЙЛЫ (появились в новой версии)

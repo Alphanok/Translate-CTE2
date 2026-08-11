@@ -350,11 +350,13 @@
 			subtitle: "Shop"
 			tasks: [
 				{
+					consume_items: true
 					id: "1CE14A971D0BB892"
 					item: "minecraft:book"
 					type: "item"
 				}
 				{
+					consume_items: true
 					id: "1CB60534EFD1B159"
 					item: {
 						Count: 1
@@ -445,7 +447,13 @@
 				""
 				"&eThis shop unlocks once you complete \"Structures Beyond Reach\" in Act V.&r"
 			]
-			icon: "botania:quartz_lavender"
+			icon: {
+				Count: 1
+				id: "deeperdarker:soul_elytra"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "3CB546ABCA30127E"
 			rewards: [{
 				exclude_from_claim_all: true

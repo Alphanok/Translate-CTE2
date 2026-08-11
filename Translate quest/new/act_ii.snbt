@@ -765,13 +765,6 @@
 				}
 				{
 					auto: "enabled"
-					icon: "ftb_ph:talent"
-					id: "40EEEAB2C09C5FCA"
-					title: "3 Talent Points"
-					type: "custom"
-				}
-				{
-					auto: "enabled"
 					icon: "ftb_ph:ascend"
 					id: "0B062AF006F72FED"
 					title: "Novice Ascendancy"
@@ -1229,16 +1222,25 @@
 				"&a15% Chance of Dropping Net Rune&r"
 			]
 			id: "4343A66299F26319"
-			rewards: [{
-				auto: "enabled"
-				command: "/mine_and_slash give exp @p 5000"
-				elevate_perms: true
-				icon: "ftb_ph:exp"
-				id: "7E7FC3B9C75BC6F8"
-				silent: true
-				title: "5000 Experience"
-				type: "command"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/mine_and_slash give exp @p 5000"
+					elevate_perms: true
+					icon: "ftb_ph:exp"
+					id: "7E7FC3B9C75BC6F8"
+					silent: true
+					title: "5000 Experience"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "ftb_ph:talent"
+					id: "3FCC783499DC9ACE"
+					title: "1 Talent Point"
+					type: "custom"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Big Baddies"
 			tasks: [{
