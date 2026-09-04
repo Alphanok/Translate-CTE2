@@ -8,6 +8,7 @@
 	quest_links: [ ]
 	quests: [{
 		dependencies: [
+			"70DA25C53FFEB49F"
 			"5E95CED116D2C8F4"
 			"6EFCD443EA481BD4"
 			"6428AF7E62AC7FA9"

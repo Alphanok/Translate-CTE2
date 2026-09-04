@@ -1245,6 +1245,13 @@
 					type: "custom"
 				}
 			]
+			shape: "diamond"
+			subtitle: "Big Baddies"
+			tasks: [{
+				id: "02751A7FE39DD1D0"
+				item: "stalwart_dungeons:awful_crystal"
+				type: "item"
+			}]
 			title: "Защитники нижнего мира"
 			x: 7.5d
 			y: -1.5d

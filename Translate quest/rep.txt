@@ -1,0 +1,45 @@
+=== Ошибки загрузки файлов ===
+  ! Ошибка разбора файла '.\chapters\jolly_cooperation.snbt': Не удалось разобрать символ (строка 931, столбец 32): '"\n}'
+     929 | 		}
+     930 | 	]
+>>   931 | 	title: "Веселое сотрудничество"
+     932 | }
+
+=== Квесты отсутствуют в переводе (21) ===
+  - id 0152DC99C57C0731  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 06B577BB603F2F0A  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 070790DD12F2C9A6  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 082038507F4E98DF  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 13BFD3FE012DE2AE  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 193B377248414AFF  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 2BB4B6FE41F4CC58  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 309792D482119CAD  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 322F44860B462AEF  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 34D93634E3BD0A59  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 39CC9458268DAF56  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 41B73C0882D4CAA4  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 447144432E16E12F  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 4EB78B5D6F8061E9  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 64C7494796410D04  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 652C2A6786830558  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 659BC549DBEF88F7  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 6C57A4CBA635B27E  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 6E3023586AC43198  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 70DA25C53FFEB49F  (оригинал: .\new\jolly_cooperation.snbt)
+  - id 792587BFEA5FB382  (оригинал: .\new\jolly_cooperation.snbt)
+
+--- Квест 31B023681AC62535 ---
+    оригинал: .\new\act_0.snbt
+    перевод : .\chapters\act_0.snbt
+    * quest[31B023681AC62535].rewards[id=13CF773EDFCB3C2E].item.tag.display.Lore[0]: отличается значение (оригинал='{"text":"Right-click to set Claim Point","color":"light_purple","italic":false}', перевод='{"text":"Щёлкните правой кнопкой, чтобы установить точку захвата","color":"light_purple","italic":false}')
+    * quest[31B023681AC62535].rewards[id=13CF773EDFCB3C2E].item.tag.display.Lore[1]: отличается значение (оригинал='{"text":"Click separate corners of your Base/Home to setup claim","color":"green","italic":false}', перевод='{"text":"Укажите углы вашей базы/дома, чтобы установить территорию","color":"green","italic":false}')
+    * quest[31B023681AC62535].rewards[id=13CF773EDFCB3C2E].item.tag.display.Lore[2]: отличается значение (оригинал='{"text":"Edit claim permissions by using the command","color":"gold","italic":false}', перевод='{"text":"Используйте команду, чтобы изменить разрешения для территории","color":"gold","italic":false}')
+
+=== Сводка ===
+Квестов в оригинале: 624
+Квестов в переводе : 603
+Общих квестов      : 603
+Отсутствуют в переводе: 21
+Лишние в переводе     : 0
+Квестов с расхождениями структуры: 1
+Всего замечаний: 3

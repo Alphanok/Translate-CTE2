@@ -559,40 +559,49 @@
 			shape: "rsquare"
 			size: 1.25d
 			subtitle: "Основное задание"
-			tasks: [{
-				id: "646496939A074529"
-				item: {
-					Count: 1
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "blue_skies:poison_arc"
-								tag: {
-									ArcLevel: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "blue_skies:poison_arc"
-								tag: {
-									ArcLevel: 1
-								}
-							}
-							{
-								Count: 1b
-								id: "blue_skies:poison_arc"
-								tag: {
-									ArcLevel: 2
-								}
-							}
-						]
-					}
+			tasks: [
+				{
+					icon: "blue_skies:poison_key"
+					id: "7A4081191F33BB95"
+					structure: "blue_skies:poison_dungeon"
+					title: "Найдите ядовитое подземелье"
+					type: "structure"
 				}
-				title: "Poisonous Arc (Any Rarity)"
-				type: "item"
-			}]
+				{
+					id: "646496939A074529"
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 1
+									}
+								}
+								{
+									Count: 1b
+									id: "blue_skies:poison_arc"
+									tag: {
+										ArcLevel: 2
+									}
+								}
+							]
+						}
+					}
+					title: "Poisonous Arc (Any Rarity)"
+					type: "item"
+				}
+			]
 			title: "Пойман в паутину"
 			x: 9.0d
 			y: 1.5d

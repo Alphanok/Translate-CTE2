@@ -2043,7 +2043,7 @@
 			}]
 			title: "Бестиарий VIb"
 			x: 9.0d
-			y: 9.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["1DEC808C04130184"]

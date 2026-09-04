@@ -40,17 +40,6 @@
 					type: "item"
 				}
 				{
-					id: "4CEB9753CEE68DF0"
-					item: {
-						Count: 1
-						id: "customizableelytra:elytra_wing"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "748848F226B0215D"
 					item: "stalwart_dungeons:chorundum"
 					type: "item"
@@ -76,7 +65,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			title: "Драконий квест"
+			title: "Убить дракона"
 			x: 1.5d
 			y: 0.0d
 		}
@@ -294,7 +283,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Основной сюжет"
+			subtitle: "Основное задание"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_city"
 				criterion: ""
@@ -354,7 +343,7 @@
 			]
 			shape: "rsquare"
 			size: 1.25d
-			subtitle: "Основной сюжет"
+			subtitle: "Основное задание"
 			tasks: [{
 				entity: "minecraft:warden"
 				icon: "ftb_ph:warden"
@@ -401,7 +390,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Основной сюжет"
+			subtitle: "Основное задание"
 			tasks: [{
 				dimension: "deeperdarker:otherside"
 				icon: "deeperdarker:warden_carapace"
@@ -469,7 +458,7 @@
 				}
 			]
 			shape: "rsquare"
-			subtitle: "Основной сюжет"
+			subtitle: "Основное задание"
 			tasks: [{
 				advancement: "deeperdarker:main/find_ancient_temple"
 				criterion: ""
@@ -865,6 +854,7 @@
 				title: "25500 Experience"
 				type: "command"
 			}]
+			shape: "rsquare"
 			subtitle: "Глубже и темнее"
 			tasks: [{
 				entity: "deeperdarker:shriek_worm"
@@ -888,6 +878,7 @@
 				"081AD91A178C3A3F"
 				"0C894EBBB7C6F380"
 			]
+			dependency_requirement: "one_completed"
 			description: [
 				"&eПодражатели&r — зловещие и могущественные сущности, которых можно встретить на &eТой Стороне&r. Их привлекают резкие звуки, так что если хочешь найти одного — может, стоит &eпобить пару кувшинов&r?"
 				""
