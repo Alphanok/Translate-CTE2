@@ -30,7 +30,7 @@
 	"mmorpg.word.spell_stats": "Skill Stats:",
 	"mmorpg.word.support_gems_also_benefit": "Support Gems socketed to this Skill also benefit: %1$s",
 	"mmorpg.word.title_feature_cast_fail": "Skill-Cast Failure Messages",
-	"mmorpg.word.cast_fail_msgs": "Will print helpful messages when you fail to cast a skill.\nParticularly helpful for bew players!\nPlayers below level 15 can't disable this option.",
+	"mmorpg.word.cast_fail_msgs": "Will print helpful messages when you fail to cast a skill.\nParticularly helpful for new players!\nPlayers below level 15 can't disable this option.",
 	"mmorpg.one_of_a_kind.passive_spell": "Passive Skill",
 	"mmorpg.word.everyone_is_ally": "By default your skills only target your Mine and Slash team members and yourself.\n\nWith this enabled, your heals, buffs, etc., will target even un-teamed players!",
 	"mmorpg.word.hotbar": "Skill Hotbar",
@@ -1161,7 +1161,8 @@
 	"mmorpg.stat.spirit_cost": "Augment Capacity",
 	"mmorpg.stat_desc.aura_effect": "Increases stats your Augments give you.",
 	"mmorpg.stat_desc.spirit_cost": "Increases your capacity for Augments.",
-	"mmorpg.stat.double_attack_chance": "\u00A7a[VAL1]% \u00A72Double Attack Damage Chance",
+	"mmorpg.stat.double_attack_chance": "\u00A7a[VAL1]% \u00A72Double Damage Chance",
+	"mmorpg.stat_desc.double_attack_chance": "Chance to deal double damage on hits.",
 	"mmorpg.stat.dmg_when_target_near_full_hp": "Damage to Near Full Health Targets",
 	
 	"mmorpg.stat.water_resist_per_1_fire_resist": "\u00A7a[VAL1]% \u00A7b\u2600 Cold Resistance\u00A77 per 1% \u00A7c\u2600 Fire Resistance\u00A77",
@@ -1246,7 +1247,8 @@
 	"mmorpg.stat.critical_hit_per_10_strength": "\u00A7a[VAL1]% \u00A7e\u2694 Critical Hit\u00A77 per 10 \u00A7b\u2605 Strength\u00A77",
 	"mmorpg.stat.dmg_per_chain_lightning_lvl": "\u00A7a[VAL1]%\u00A7e Damage\u00A77 per\u00A7a Chain Lightning Level\u00A77",
 	
-	"mmorpg.stat.physical_weapon_damage_per_perc_of_energy": "§7Gain §a[VAL1]%§7 of your \u262F Energy\u00A77 as §6☀ Physical Damage§7",
+	"mmorpg.stat.physical_weapon_damage_per_perc_of_energy": "§7Gain §a[VAL1]%§7 of your \u262F Energy\u00A77 as §6☀ Elemental Attack Damage§7",
+	"mmorpg.stat.physical_weapon_damage_per_perc_of_mana": "§7Gain §a[VAL1]%§7 of your \u262F Mana\u00A77 as §5☀ Added Physical Damage§7",
 	"mmorpg.stat.total_damage_per_perc_of_health": "§7Gain §a[VAL1]%§7 of your \u2764 Health\u00A77 as §6☀ Weapon Damage§7",
 	"mmorpg.stat.total_damage_per_perc_of_strength": "§7Gain §a[VAL1]%§7 of your §b★ Strength§7 as §6☀ Weapon Damage§7",
 	"mmorpg.stat.total_damage_per_perc_of_intelligence": "§7Gain §a[VAL1]%§7 of your §b★ Intelligence§7 as §6☀ Weapon Damage§7",
@@ -1497,7 +1499,7 @@
 	"mmorpg.stat.exile_effect_to_source_ikou_on_heal": "\u00A77\u00A7a[VAL1]\u00A77 Stack of Ikou! on Skill Heal for 10s",
 	"mmorpg.stat.wrath_on_kill": "\u00A77\u00A7a[VAL1]%\u00A77 Chance to Gain a Wrath Stack on Kill for 10s",
 	"mmorpg.stat.wrath_when_hit": "\u00A77\u00A7a[VAL1]%\u00A77 Chance to Gain a Wrath Stack when Hit for 10s",
-	"mmorpg.stat.reckless_defender_when_phys_hit": "\u00A77\u00A7a[VAL1]\u00A77 Stack of Reckless Defender when Hit by Physical Damage, Granting \u00A77\u00A7a-7\u00A77% Physical Damage Received for 10s (Max 5)",
+	"mmorpg.stat.reckless_defender_when_phys_hit": "\u00A77\u00A7a[VAL1]\u00A77 Stack of Reckless Defender when Hit by Physical Damage, Granting \u00A77\u00A7a-5\u00A77% Physical Damage Received for 10s (Max 5)",
 	"mmorpg.stat.remove_holy_fire_when_very_low": "Holy Fire Deactivates when on Very Low Health",
 	"mmorpg.stat.proc_healing_aura_on_hit_vll": "\u00A77\u00A7a[VAL1]%\u00A77 Chance to Cast Healing Aria on Hit when on Very Low Health",
 	"mmorpg.stat.proc_fan_of_knives_on_hit": "\u00A77\u00A7a[VAL1]%\u00A77 Chance to Cast Fan of Knives on Hit",
@@ -2235,7 +2237,7 @@
 	
 	"mmorpg.stat.learn_asura": "Level to Asura",
 	"mmorpg.spell.asura": "Asura",
-	"spell.desc.asura": "§cRequires and consumes a Combo Extender stack.§7\n\nSurpass your limits to damage nearby enemies for [calc:asura] §6☀ Physical§7 Damage and yourself for [calc:asura_self] §6☀ Physical§7 Damage.\n\n§oIncreases to Damage and Critical Hits don't apply to Damage caused to self. You can still die from self-damage!§r",
+	"spell.desc.asura": "§cRequires and consumes a Combo Extender stack.§7\n\nSurpass your limits to damage nearby enemies for [calc:asura] §6☀ Physical§7 Damage and yourself for [calc:asura_self] §6☀ Physical§7 Damage. Because of the massive effort, you Stun yourself for 1s on use.\n\n§oIncreases to Damage and Critical Hits don't apply to Damage caused to self. You can still die from self-damage!§r",
 
 "_comment66": " [CATEGORY]: Crusader",
 	
@@ -2682,7 +2684,7 @@
 	
 	"mmorpg.stat.learn_cyclone": "Level to Cyclone",
 	"mmorpg.spell.cyclone": "Cyclone",
-	"spell.desc.cyclone": "Send out a torrential wind, dealing [calc:cyclone] §6☀ Physical§7 Damage in rapid succession to enemies caught in the tornado.\n\nHits against Thorned enemies pull them toward the Cyclone.",
+	"spell.desc.cyclone": "Send out a torrential wind which pulls in enemies, dealing [calc:cyclone] §6☀ Physical§7 Damage in rapid succession to enemies caught in the tornado. At the end of its path, the tornado remains stationary for 2s, continuing to pull in and deal damage to enemies.\n\nHits against Thorned enemies deals [calc:cyclone_thorned] §6☀ Physical§7 Damage instead.",
 	
 	"mmorpg.stat.learn_nature_balm": "Level to Nature's Balm",
 	"mmorpg.spell.nature_balm": "Nature's Balm",
@@ -3030,7 +3032,8 @@
 	"mmorpg.stat.blood_barrier_when_hit":"§7§a[VAL1]%§7 Chance to Gain Blood Barrier for 5s when Hit when on Low Health",
 	"mmorpg.stat.chaos_damage_per_perc_of_health": "§7Gain §a[VAL1]%§7 of your \u2764 Health\u00A77 as §5☀ Added Chaos Damage§7",
 	"mmorpg.stat.chaos_dmg_received":"§5Chaos§7 Damage Received§7",
-	"mmorpg.stat.double_attack_chance_when_low": "§7§a[VAL1]%§7 Double Attack Damage Chance when on Low Health",
+	"mmorpg.stat.double_attack_chance_when_low": "§7§a[VAL1]%§7 Double Damage Chance when on Low Health",
+	"mmorpg.stat_desc.double_attack_chance": "Chance to deal double damage on hits when on Low Health. Low Health is 50% or less.",
 	"mmorpg.stat.extend_reaper_form_on_hit":"§7§a[VAL1]%§7 Chance to Reset Reaper Form Duration on Scythe Basic Hit",
 	"mmorpg.stat.give_death_mark_on_hit": "§7§a[VAL1]%§7 Chance to Apply Death Mark for 15s on Hit§7",
 	"mmorpg.stat.ms_per_blood":"§7Gain §a[VAL1]%§7 of your §4\u2764 Blood§7 as \u2764 Magic Shield\u00A77",
@@ -3043,7 +3046,7 @@
 	"mmorpg.stat.freeze_chance_per_perc_of_ailment_damage":"§7Gain §a[VAL1]%§7 of your §6☀ Ailment Damage§7 as §6☀ Freeze Chance§7",
 	"mmorpg.stat.electrify_chance_per_perc_of_ailment_damage":"§7Gain §a[VAL1]%§7 of your §6☀ Ailment Damage§7 as §6☀ Electriy Chance§7",
 	"mmorpg.stat.bleed_chance_per_perc_of_ailment_damage":"§7Gain §a[VAL1]%§7 of your §6☀ Ailment Damage§7 as §6☀ Bleed Chance§7",
-	"mmorpg.stat.proc_cataclysm_on_hit":"§7§a[VAL1]%§7 Chance to Cast Cataclysm on Hit",
+	"mmorpg.stat.proc_cataclysm_on_hit":"§7§a[VAL1]%§7 Chance to Cast Cataclysm on non-DOT Hit",
 	"mmorpg.stat.proc_contamination_on_kill":"§7§a[VAL1]%§7 Chance to Cast Contamination on Kill",
 	"mmorpg.stat.proc_corrupted_blood_on_bleed":"§7§a[VAL1]%§7 Chance to Cast Corrupted Blood on Initial Bleed for 10s",
 	"mmorpg.stat.proc_death_mark_on_hit": "§7§a[VAL1]%§7 Chance to Consume Death Mark to Deal \u00A75\u2600 Chaos§7 Damage",
@@ -3118,7 +3121,7 @@
 
 	"mmorpg.stat.learn_soul_siphon": "Level to Siphon",
 	"mmorpg.spell.soul_siphon": "Siphon",
-	"spell.desc.soul_siphon": "Send a homing shadow sphere towards an enemy, dealing [calc:soul_siphon] §5☀ Chaos§7 Damage. Additionally, damage from this skill ALWAYS applies Drain (regardless of what Aura you have active), which deals [calc:drain] §5☀ Chaos§7 Damage every 1s for 5s.\n\n§aConsume 3 Sacrifice Stacks§7: the sphere explodes on impact, damaging enemies in an area.\n\n§eDepending on your active Aura, this Skill is modified. Sacrifice Stack effects are in §agreen§e:§7\n\n§2Plague§7: The sphere pierces through enemies and and deals §6Physical§7 Damage instead. §aThe sphere shatters on impact or after a short delay, dealing [calc:soul_siphon_cloud] §6☀ Physical§7§a Damage every 0.5s for 3s in an area.§7\n\n§4Sanguine§7: Fire a blood orb that chains up to 2 times, dealing §6Physical§7 Damage instead. §aInstead of chaining, the blood orb moves slowly, firing homing orbs every 0.75s that chain up to 2 times.§7\n\n§5Abyssal§7: Fire a slow-moving abyssal vortex that deals [calc:soul_siphon] §5☀ Chaos§7 Damage in an area every 0.25s.§a Send out an abyssal orb that explodes, firing 5 abyssal vortexes in a nova.§7",
+	"spell.desc.soul_siphon": "Send a homing shadow sphere towards an enemy, dealing [calc:soul_siphon] §5☀ Chaos§7 Damage. Additionally, damage from this skill ALWAYS applies Drain (regardless of what Aura you have active), which deals [calc:drain] §5☀ Chaos§7 Damage every 1s for 5s.\n\n§aConsume 3 Sacrifice Stacks§7: the sphere explodes on impact, damaging enemies in an area.\n\n§eDepending on your active Aura, this Skill is modified. Sacrifice Stack effects are in §agreen§e:§7\n\n§2Plague§7: The sphere pierces through enemies and and deals §6Physical§7 Damage instead. §aThe sphere shatters on impact or after a short delay, dealing [calc:soul_siphon_cloud] §6☀ Physical§7§a Damage every 0.5s for 3s in an area.§7\n\n§4Sanguine§7: Fire a blood orb that chains up to 2 times, dealing [calc:soul_siphon_blood] §6Physical§7 Damage instead. §aInstead of chaining, the blood orb moves slowly, firing homing orbs every 0.5s that chain up to 2 times.§7\n\n§5Abyssal§7: Fire a slow-moving abyssal vortex that deals [calc:soul_siphon] §5☀ Chaos§7 Damage in an area every 0.25s.§a Send out an abyssal orb that explodes, firing 5 abyssal vortexes in a nova.§7",
 
 	"mmorpg.stat.learn_drain": "Level to Drain",
 	"mmorpg.spell.drain": "Drain",
@@ -3170,7 +3173,7 @@
 
 	"mmorpg.stat.learn_plague_aura": "Level to Plague Aura",
 	"mmorpg.spell.plague_aura": "Plague Aura",
-	"spell.desc.plague_aura": "Become a plague bearer, applying the Plague Aura to nearby enemies. While active, you have a chance to gain a Sacrifice Stack when hit (including self-damage), and take [calc:plague_aura_self] §6☀ Physical§7 Damage every 3s. Nearby enemies gain increased chance to receive ailments. If damage is dealt to yourself while below 25% Health, the Aura will remove itself.\n\n§cYou can only have ONE Aura active at a time.§7\n\n§oIncreases to Damage and Critical Hits don't apply to Damage caused to self. You can still die from self-damage!§r",	
+	"spell.desc.plague_aura": "Become a plague bearer, applying the Plague Aura to nearby enemies. While active, you have a chance to gain a Sacrifice Stack when hit (including self-damage), and take [calc:plague_aura_self] §6☀ Physical§7 Damage every 0.5s. Nearby enemies gain increased chance to receive ailments. If damage is dealt to yourself while below 25% Health, the Aura will remove itself.\n\n§cYou can only have ONE Aura active at a time.§7\n\n§oIncreases to Damage and Critical Hits don't apply to Damage caused to self. You can still die from self-damage!§r",	
 
     "mmorpg.stat.learn_abyssal_aura": "Level to Abyssal Aura",
 	"mmorpg.spell.abyssal_aura": "Abyssal Aura",

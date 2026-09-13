@@ -719,7 +719,7 @@
 			icon: "ftbquests:book"
 			id: "19319F327C09E772"
 			rewards: [{
-					id: "2E41AC8DDD4E46D7"
+				id: "2E41AC8DDD4E46D7"
 				item: {
 					Count: 1
 					id: "waystones:warp_stone"

@@ -223,16 +223,16 @@
 			}
 			title: "Камень поддержки: фокус"
 		}
- 		{
+		{
 			item: {
- 				Count: 1
- 				id: "mmorpg:skill_gems/support/int"
- 				tag: {
- 					mmorpg_skill_gem: "{\"id\":\"targeted_hate\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
- 				}
- 			}
- 			title: "Камень поддержки: направленная ненависть"
- 		}
+				Count: 1
+				id: "mmorpg:skill_gems/support/int"
+				tag: {
+					mmorpg_skill_gem: "{\"id\":\"targeted_hate\",\"type\":\"SUPPORT\",\"perc\":17,\"rar\":\"common\",\"links\":1,\"sal\":true}"
+				}
+			}
+			title: "Камень поддержки: направленная ненависть"
+		}
 	]
 	title: "Support Gem Shop II"
 }
