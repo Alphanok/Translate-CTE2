@@ -359,7 +359,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Нужен сервер? Получите скидку 20% по этой партнёрской ссылке! У Akliz также доступны серверы в Европе и Океании!
+  description = Нужен сервер? Получите скидку 20% по нашей партнёрской ссылке! У Akliz также есть серверы в регионах Европы и Океании.
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = eaf7d4ea-d7d2-4479-b8ff-23041717b070-1734081328542
@@ -441,7 +441,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Поддержите меня на Patreon и получите крутые бонусы!
+  description = Поддержите меня на Patreon и получите приятные бонусы!
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = f01ce4c6-31e0-45e9-bf59-5d87013280a5-1734081328542
@@ -523,7 +523,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Присоединяйтесь к нам в Discord и общайтесь с сообществом!
+  description = Присоединяйтесь к нашему Discord и общайтесь с сообществом!
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 25793bd7-4aff-43d5-ae18-8f9795487a22-1734081328542
@@ -605,7 +605,7 @@ element {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Посетите Вики, чтобы получить подробную информацию.
+  description = Посетите Wiki, чтобы узнать подробную информацию.
   label = 
   navigatable = true
   widget_active_state_requirement_container_identifier = 42d699a5-95b7-48db-9944-ad1309dc8cb3-1734081328542
@@ -805,7 +805,7 @@ element {
 
 element {
   interactable = true
-  source = ## [2.0.0] - 2026-08-02%n%%n%Please view the changelog [here](https://github.com/mahjerion/Craft-to-Exile-2/blob/main/CHANGELOG.md).
+  source = ## Welcome to Craft to Exile 2!%n%%n%Please view the latest changelog [here](https://github.com/mahjerion/Craft-to-Exile-2/blob/main/CHANGELOG.md). For any other questions, reach out to us on Discord!
   source_mode = direct
   shadow = true
   enable_scrolling = true
@@ -1334,7 +1334,7 @@ vanilla_button {
   transparent_background = false
   restartbackgroundanimations = true
   nine_slice_custom_background = false
-  description = Окно Minecraft ДОЛЖНО быть активным!
+  description = Окно Minecraft ДОЛЖНО быть активно!
   navigatable = true
   widget_active_state_requirement_container_identifier = 9aba26b3-2ee3-49dd-841d-40c40831e817-1737702975378
   [loading_requirement_container_meta:9aba26b3-2ee3-49dd-841d-40c40831e817-1737702975378] = [groups:][instances:]

@@ -2971,7 +2971,7 @@
 	"spell.desc.thorn_bush": "Summon a prickly bush that deals [calc:thorn_bush] \u00A76\u2600 [Physical](physical_damage)\u00A77 Damage in an area each second and applies Thorns. Casting Thorn Bush also gives you Inner Calm for 3s which restores [calc:inner_calm] [Energy](energy)/s.\n\nThorned enemies consume a stack of Thorns every time they are basic attacked to deal [calc:thorn_consume] \u00A76\u2600 [Physical](physical_damage)\u00A77 Damage.",
 
 	
-	"mmorpg.stat.learn_boss_cc_resist": "Level to Boss Spell - Crowd Control [Resistance](resistances)",
+	"mmorpg.stat.learn_boss_cc_resist": "Уровень к заклинаниям боссов — [Сопротивление](resistances) контролю",
 	"mmorpg.spell.boss_cc_resist": "Boss Spell - Crowd Control Resistance",
 	"spell.desc.boss_cc_resist": "Removes all negative effects on the boss.",
 	

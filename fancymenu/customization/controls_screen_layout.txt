@@ -152,7 +152,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
-  description = Вид от третьего лица с контроллерами НЕ поддерживается!
+  description = Игра от третьего лица с контроллерами НЕ поддерживается!
   navigatable = true
   widget_active_state_requirement_container_identifier = ade39896-1281-4f39-910b-581cc3069a71-1752566216859
   [loading_requirement_container_meta:ade39896-1281-4f39-910b-581cc3069a71-1752566216859] = [groups:][instances:]

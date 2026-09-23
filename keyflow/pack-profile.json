@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "profileId": "default_pack",
+  "profileVersion": 1,
+  "displayName": "CTE2 Pack Default Profile",
+  "featuredActions": [],
+  "aliases": {},
+  "displayNameOverrides": {
+      "keyflow:key/mmorpg.key.hub_screen": "Главное меню",
+      "keyflow:key/key.ftbquests.quests": "Задания",
+      "keyflow:key/key.ftbteams.open_gui": "Команды FTB",
+      "keyflow:key/key.mns_extras.open_profession_shop": "Магазин профессий",
+      "keyflow:key/key.solonion.open_food_book": "Книга рецептов",
+      "keyflow:key/key.jade.config": "Настройки Jade",
+      "keyflow:key/key.exile_overlay.hud_config": "Настройки интерфейса",
+      "keyflow:key/key.exile_overlay.toggle_dmg_tracker": "Переключить DPS-метр",
+      "keyflow:key/key.lightmanscurrency.open_wallet": "Кошелёк",
+      "keyflow:key/gui.xaero_open_map": "Карта",
+      "keyflow:key/key.teams.toggle_hud": "Переключить интерфейс группы",
+      "keyflow:key/key.elytrautilities.toggle.desc": "Переключить полёт на элитрах"
+  },
+  "modIdOverrides": {},
+  "iconOverrides": {
+    "keyflow:key/mmorpg.key.hub_screen": "mmorpg:textures/gui/main_hub/icons/chars.png",
+    "keyflow:key/key.ftbquests.quests": "ftbquests:textures/item/book.png",
+    "keyflow:key/key.ftbteams.open_gui": "ftblibrary:textures/icons/friends.png",
+    "keyflow:key/key.mns_extras.open_profession_shop": "mmorpg:textures/gui/profession/button.png",
+    "keyflow:key/key.solonion.open_food_book": "solonion:textures/item/food_book.png",
+    "keyflow:key/key.jade.config": "mmorpg:textures/item/gems/emerald/3.png",
+    "keyflow:key/key.exile_overlay.hud_config": "mmorpg:textures/gui/main_hub/icons/configs.png",
+    "keyflow:key/key.exile_overlay.toggle_dmg_tracker": "textures/item/clock_34.png",
+    "keyflow:key/key.lightmanscurrency.open_wallet": "lightmanscurrency:textures/item/wallet_leather.png",
+    "keyflow:key/gui.xaero_open_map": "waystones:textures/item/warp_stone.png",
+    "keyflow:key/key.teams.toggle_hud": "ftblibrary:textures/icons/player.png",
+    "keyflow:key/key.elytrautilities.toggle.desc": "textures/item/elytra.png"
+  },
+  "hiddenActions": [],
+  "protectedActions": [],
+  "executionOverrides": {
+    "keyflow:key/mmorpg.key.hub_screen": "PULSE",
+    "keyflow:key/key.lightmanscurrency.open_wallet": "PULSE",
+    "keyflow:key/key.solonion.open_food_book": "PULSE"
+  },
+  "recommendedBindings": {},
+  "wheelDefaults": [
+    "keyflow:key/mmorpg.key.hub_screen",
+    "keyflow:key/key.exile_overlay.hud_config",
+    "keyflow:key/gui.xaero_open_map",
+    "keyflow:key/key.elytrautilities.toggle.desc",
+    "keyflow:key/key.teams.toggle_hud",
+    "keyflow:key/key.exile_overlay.toggle_dmg_tracker",
+    "keyflow:key/key.solonion.open_food_book",
+    "keyflow:key/key.mns_extras.open_profession_shop",
+    "keyflow:key/key.ftbteams.open_gui",
+    "keyflow:key/key.ftbquests.quests"
+  ],
+  "wheelQuickSlot": 0
+}

@@ -1,0 +1,1358 @@
+Поиск строки: Available
+Папка: C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft
+
+jars_scanned=399 jars_failed=0 lang_files_found=2226 resourcepack_files_found=1 config_files_scanned=7854
+
+[JAR] Advanced Team-forge-1.20.1-1.4.6.jar
+      файл внутри архива: assets/teams/lang/en_us.json
+      -> "teams.menu.team_header": "Available Team"
+      -> "teams.menu.invite.no_available_players": "No available players"
+      -> "teams.menu.apply.no_available_application": "No available applications"
+
+[JAR] ApothicAttributes-1.20.1-1.3.7.jar
+      файл внутри архива: assets/attributeslib/lang/es_es.json
+      -> "tooltip.enchlib.unavailable": "Siguiente nivel no disponible"
+      -> "info.apotheosis.all_available": "Ver todos los encantamientos disponibles"
+
+[JAR] blueprint-1.20.1-7.1.5.jar
+      файл внутри архива: assets/blueprint/lang/en_us.json
+      -> "blueprint.config.slabfish_hat.enabled.tooltip": "Toggles the Slabfish hat. Available to Tier 2+ patrons."
+      -> "blueprint.config.slabfish_hat.sweater.tooltip": "Toggles the Slabfish hat's sweater. Available to Tier 2+ patrons."
+      -> "blueprint.config.slabfish_hat.backpack.tooltip": "Toggles the Slabfish hat's backpack. Available to Tier 3+ patrons."
+      -> "blueprint.config.slabfish_hat.type.tooltip": "Toggles the Slabfish hat's type. Available to Tier 4+ patrons."
+
+[JAR] born_in_chaos_[Forge]1.20.1_1.7.5.jar
+      файл внутри архива: assets/born_in_chaos_v1/lang/en_us.json
+      -> "item.born_in_chaos_v1.supreme_measure.description_0": "§8Available only in creative"
+
+[JAR] Botania-1.20.1-455-FORGE.jar
+      файл внутри архива: assets/botania/lang/en_gb.json
+      -> "botania.page.luminizerTransport10": "The $(item)Fork Luminiser$(0) can still be bound like any other style of Luminiser, but it'll only use its binding if no $(l:devices/animated_torch)$(item)Animated Torch$(0)$(/l) is available to tell it where to go (or if there aren't any $(item)Luminisers$(0) in the direction the Torch points)."
+
+[JAR] Botania-1.20.1-455-FORGE.jar
+      файл внутри архива: assets/botania/lang/en_us.json
+      -> "botania.page.dandelifeon0": "The $(item)Dandelifeon$(0) is not recommended for the faint of heart.$(p)While it's likely the most efficient available generating flower in the botanist's toolbox, it's also one of the least straightforward to use."
+      -> "botania.page.craftingHalo1": "As long as the item is kept in-inventory, it'll remember its last recipe.$(p)Right-clicking an empty slot of the halo will save the last-used recipe to that slot, and right-clicking a slot with a recipe saved will attempt to craft it from available items. Sneak-punching a saved recipe will delete it."
+      -> "botania.page.corporeaFunnel0": "A block that uses the $(thing)Corporea Network$(0) more simply than the Index is the $(item)Corporea Funnel$(0). When given a redstone signal, it'll request an item from the network of the $(l:ender/corporea)$(item)Corporea Spark$(0)$(/l) above it.$(p)Said item will be pushed into an inventory a block or two below the funnel, or just dropped into the world above the Funnel if no such inventory is available."
+      -> "botania.page.luminizerTransport10": "The $(item)Fork Luminizer$(0) can still be bound like any other style of Luminizer, but it'll only use its binding if no $(l:devices/animated_torch)$(item)Animated Torch$(0)$(/l) is available to tell it where to go (or if there aren't any $(item)Luminizers$(0) in the direction the Torch points)."
+      -> "botania.page.cosmeticBaubles0": "Many $(item)Cosmetic Trinkets$(0) are available to change the looks of any $(thing)Trinkets$(0) a player has equipped. These can be worn by themselves, but can also craft with another $(thing)Trinket$(0); in that case, the latter $(thing)Trinket$(0) will function as usual, but take on the appearance of the $(item)Cosmetic Trinket$(0). $(thing)Cosmetic Overrides$(0) can be removed by putting the overridden $(thing)Trinket$(0) back in the grid."
+      -> "botania.page.banners0": "$(thing)Botania$(0) adds $(thing)15$(0) new icons to banners, which can be mixed and matched with vanilla patterns and icons.$(p)The following items can be used alongside a dye in a $(item)Loom$(0) to add an icon to a $(item)Banner$(0): $(l:mana/spark_upgrades)$(item)Spark Augments$(0)$(/l), $(item)Livingwood and Dreamwood Twigs$(0), the $(l:basics/lexicon)$(item)Lexica Botania$(0)$(/l), $(l:basics/terrasteel)$(item)Terrasteel$(0)$(/l), and the $(l:misc/tiny_potato)$(item)Tiny Potato$(0)$(/l). Additionally, patterns for fish and the base tools are available without requiring a pattern item."
+
+[JAR] BrewinAndChewin-1.20.1-3.2.1.jar
+      файл внутри архива: assets/brewinandchewin/lang/en_us.json
+      -> "brewinandchewin.advancement.chef_of_the_ages.desc": "Eat a course of every Brewin' and Chewin' meal available!"
+
+[JAR] catalogue-forge-1.20.1-1.8.0.jar
+      файл внутри архива: assets/catalogue/lang/en_us.json
+      -> "catalogue.gui.update_available": "Update: %s"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/de_de.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/en_us.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/es_es.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/hu_hu.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/pt_br.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chococraft-1.20.1-forge-0.9.12.jar
+      файл внутри архива: assets/chococraft/lang/pt_pt.json
+      -> "gui.chocobook.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+      -> "info.chococraft.book.legacy.page14": "of Chocobos in a domesticated flock, breeding is the only way to obtain the different varieties of Chocobos available. There is a slight chance of mutation, which can be in- creased with the use of Golden Gysahls. The following combinations of parents can cause"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/en_us.json
+      -> "chunkloaders.gui.chunk.available": "Click to load"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/ja_jp.json
+      -> "chunkloaders.gui.chunk.available": "クリックでロードします"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/ko_kr.json
+      -> "chunkloaders.gui.chunk.available": "클릭하여 로드"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/ru_ru.json
+      -> "chunkloaders.gui.chunk.available": "Нажмите, чтобы загрузить"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/tr_tr.json
+      -> "chunkloaders.gui.chunk.available": "Yüklemek için tıkla"
+
+[JAR] chunkloaders-1.2.9-forge-mc1.20.1.jar
+      файл внутри архива: assets/chunkloaders/lang/uk_ua.json
+      -> "chunkloaders.gui.chunk.available": "Натисніть щоб провантажувати"
+
+[JAR] collective-1.20.1-8.39.jar
+      файл внутри архива: assets/collective/lang/en_us.json
+      -> "collective.configurableextramobdrops.message.availableentitynames": "Available entity names:"
+      -> "collective.configurableextramobdrops.message.listsavailableentities": "Lists available entities to add drops to."
+      -> "collective.seaworthyboats.shipyard.available": "Available upgrades:"
+      -> "collective.starterkit.message.availablekits": "Available kits: %s"
+      -> "collective.starterkit.message.kitcount": "There are %s starter kit(s) available."
+      -> "collective.starterkit.message.kitcountnow": "There are now %s starter kit(s) available."
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/de_de.json
+      -> "options.availableKeys": "Verfügbare Tasten"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/en_ca.json
+      -> "options.availableKeys": "Available Keys"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/en_pt.json
+      -> "options.availableKeys": "Untethered Keys"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/en_ud.json
+      -> "options.availableKeys": "sʎǝꞰ ǝlqɐlᴉɐʌ∀"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/en_us.json
+      -> "options.availableKeys": "Available Keys"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/es_es.json
+      -> "options.availableKeys": "Teclas Disponibles"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/fi_fi.json
+      -> "options.availableKeys": "Vapaat näppäimet"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/fr_fr.json
+      -> "options.availableKeys": "Touches disp."
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/hi_in.json
+      -> "options.availableKeys": "उपलब्ध कुंजियाँ"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/it_it.json
+      -> "options.availableKeys": "Tasti disponibili"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/ja_jp.json
+      -> "options.availableKeys": "利用可能なキー"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/kk_kz.json
+      -> "options.availableKeys": "Қолжетімді перне"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/ko_kr.json
+      -> "options.availableKeys": "사용 가능한 키"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/lzh.json
+      -> "options.availableKeys": "可用按鍵"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/pl_pl.json
+      -> "options.availableKeys": "Dostępne klawisze"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/pt_br.json
+      -> "options.availableKeys": "Teclas disponíveis"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/ru_ru.json
+      -> "options.availableKeys": "Доступные клавиши"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/ta_in.json
+      -> "options.availableKeys": "இலவச விசைகள்"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/tr_tr.json
+      -> "options.availableKeys": "Boşta Anahtarlar"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/uk_ua.json
+      -> "options.availableKeys": "Доступні клавіші"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/zh_cn.json
+      -> "options.availableKeys": "可用的快捷键"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/zh_hk.json
+      -> "options.availableKeys": "可用按鍵"
+
+[JAR] Controlling-forge-1.20.1-12.0.2.jar
+      файл внутри архива: assets/controlling/lang/zh_tw.json
+      -> "options.availableKeys": "可用按鍵"
+
+[JAR] CraftPresence-2.7.1+1.20.1-forge.jar
+      файл внутри архива: assets/craftpresence/lang/en_us.json
+      -> "craftpresence.command.request.none": "§6§lYou do not have any available join requests!"
+      -> "craftpresence.command.usage.main": "§lCraftPresence - Sub-Commands:\n §rSyntax: §6/<cp|craftpresence> <command>\n\n §6§lreboot §r- Reboot RPC\n §6§lshutdown §r- Shut down RPC\n §6§lcompile §r- Test the output of a placeholder expression, via Starscript\n §6§lsearch §r- Search for valid placeholders available to use with Rich Presence\n §6§lreload §r- Reloads CraftPresence data based on settings\n §6§lrequest §r- View join request info\n §6§lexport §r- View export commands for mod data\n §6§lview §r- View a variety of display data\n §6§lhelp §r- Views this page"
+      -> "craftpresence.command.usage.search": "§lCraftPresence - Search Usage:\n\n §6§l/cp search <searchTerm|type:name> to search for applicable placeholders available"
+      -> "craftpresence.command.usage.view": "§lCraftPresence - View Sub-Commands:\n\n §6§lcurrentData §r- Shows your current RPC data, in text\n §6§lassets §r- Displays all asset icons available\n §6§ldimensions §r- Displays available dimension names\n §6§lbiomes §r- Displays available biome names\n §6§lservers §r- Displays available server addresses\n §6§lscreens §r- Displays available Gui names\n §6§litems §r- Displays available item names\n §6§lentities §r- Displays available entity names\n §6§lplaceholders §r- Displays available placeholders"
+      -> "craftpresence.logger.info.discord.assets.load": "Checking Discord for available assets with Client Id: %1$s"
+      -> "craftpresence.placeholders.getFields.description": "Retrieve the available field names for a class object"
+      -> "craftpresence.placeholders.getMethods.description": "Retrieve the available method names for a class object"
+      -> "craftpresence.placeholders.randomAsset.description": "Attempts to retrieve a Random Icon Key from the available assets"
+      -> "craftpresence.placeholders.title": "Available placeholders"
+      -> "gui.config.title.selector.view.biomes": "CraftPresence - Available Biomes"
+      -> "gui.config.title.selector.view.dimensions": "CraftPresence - Available Dimensions"
+      -> "gui.config.title.selector.view.entities": "CraftPresence - Available Entities"
+      -> "gui.config.title.selector.view.guis": "CraftPresence - Available Guis"
+      -> "gui.config.title.selector.view.items": "CraftPresence - Available Items"
+
+[JAR] CraftTweaker-forge-1.20.1-14.0.60.jar
+      файл внутри архива: assets/crafttweaker/lang/en_us.json
+      -> "crafttweaker.command.description.dump": "Dumps available sub commands for the dump command"
+      -> "crafttweaker.command.description.dump.brackets": "Dumps available Bracket Expressions into the /ct_dumps folder"
+
+[JAR] deeperdarker-forge-1.20.1-1.3.3.jar
+      файл внутри архива: assets/deeperdarker/lang/en_us.json
+      -> "item.deeperdarker.soul_elytra.cooldown": "Boost available in %s"
+
+[JAR] DoggyTalentsNext-1.20.1-1.19.1.jar
+      файл внутри архива: assets/doggytalents/lang/en_us.json
+      -> "item.doggytalents.doggy_charm.description": "Sneak + Right-Click your dog to cycle between all available Classical Variants."
+      -> "item.doggytalents.whistle.8.help": "Command All Standing Dogs to go to and Sit on their Claimed Dog Beds if available and close by."
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/de_de.json
+      -> "emi.chess.multiplayer.unavailable": "%s kann kein Schach spielen"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/en_us.json
+      -> "emi.chess.multiplayer.unavailable": "%s can't play chess"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/es_ar.json
+      -> "emi.chess.multiplayer.unavailable": "%s no puede jugar al ajedrez"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/es_es.json
+      -> "emi.chess.multiplayer.unavailable": "%s no puede jugar al ajedrez"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/es_mx.json
+      -> "emi.chess.multiplayer.unavailable": "%s no puede jugar ajedrez"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/fi_fi.json
+      -> "emi.chess.multiplayer.unavailable": "%s ei voi pelata shakkia"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/fr_fr.json
+      -> "emi.chess.multiplayer.unavailable": "%s ne peut pas jouer actuellement"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/ja_jp.json
+      -> "emi.chess.multiplayer.unavailable": "%s はチェスができません"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/pl_pl.json
+      -> "emi.chess.multiplayer.unavailable": "Gracz %s nie może grać w szachy"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/pt_br.json
+      -> "emi.chess.multiplayer.unavailable": "%s não pode jogar xadrez"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/ru_ru.json
+      -> "emi.chess.multiplayer.unavailable": "%s не может играть в шахматы"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/zh_cn.json
+      -> "emi.chess.multiplayer.unavailable": "%s 不能玩棋"
+
+[JAR] emi-1.1.24+1.20.1+forge.jar
+      файл внутри архива: assets/emi/lang/zh_tw.json
+      -> "emi.chess.multiplayer.unavailable": "%s無法玩西洋棋"
+
+[JAR] emi_loot-0.7.9+1.20.1+forge.jar
+      файл внутри архива: assets/emi_loot/lang/en_us.json
+      -> "enchantment.emi_loot.random.desc": "Random enchantments applied are applied to this drop from the available list."
+
+[JAR] enchlibathome-1.0.2.jar
+      файл внутри архива: assets/enchlibathome/lang/en_us.json
+      -> "tooltip.enchlib.max_lvl": "Max Level Available: %s"
+      -> "tooltip.enchlib.unavailable": "Next Level Unavailable"
+      -> "info.enchlibathome.library": "The enchantment library is a block that stores enchantments.  Inserting an enchanted book will deposit it.  Left-clicking on a stored enchantment will extract one level of it.  Shift-clicking will extract the max level available."
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/de_de.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Verfügbare Aktionen"
+      -> "fancymenu.listeners.choose_type.available": "Verfügbare Listener"
+      -> "fancymenu.menu_background.choose.available_types": "Verfügbare Hintergrundtypen"
+      -> "fancymenu.panorama.choose.available_panoramas": "Verfügbare Panoramen"
+      -> "fancymenu.requirements.is_internet_connection_available": "Ist Internetverbindung verfügbar"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Gibt true zurück, wenn eine funktionierende Internetverbindung verfügbar ist."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Verfügbare Anforderungen"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Verfügbare Slideshows"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/el_gr.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Διαθέσιμες Ενέργειες"
+      -> "fancymenu.listeners.choose_type.available": "Διαθέσιμοι listeners"
+      -> "fancymenu.menu_background.choose.available_types": "Διαθέσιμοι τύποι φόντου"
+      -> "fancymenu.panorama.choose.available_panoramas": "Διαθέσιμα πανόραμα"
+      -> "fancymenu.requirements.is_internet_connection_available": "Υπάρχει Διαθέσιμη Σύνδεση στο Internet"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Επιστρέφει true όταν υπάρχει διαθέσιμη λειτουργική σύνδεση στο internet."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Διαθέσιμες Απαιτήσεις"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Διαθέσιμες Παρουσιάσεις"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/en_us.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Available Actions"
+      -> "fancymenu.actions.spawn_element_instance.edit.no_elements": "No element types are currently available."
+      -> "fancymenu.elements.item.nbt.desc": "This allows you to set custom NBT data to the item.
+It is basically the part the /give command that follows
+after the item name in curly brackets {}.
+
+§lFull example command:
+/give @a netherite_sword{display:{Name:'["",{"text":"Kinabra","italic":false}]'}}
+
+§lSet this as value for NBT:
+{display:{Name:'["",{"text":"Kinabra","italic":false}]'}}
+
+There are lots of Give Command Generators available online,
+so just ask Google about it and you will find something."
+      -> "fancymenu.listeners.choose_type.available": "Available Listeners"
+      -> "fancymenu.listeners.on_chat_message_received.desc": "Triggers whenever the client displays a normal player chat message.
+
+It provides the following variables for its actions and requirements:
+
+- §z$$chat_message_string §r= Plain text version of the received chat line
+- §z$$chat_message_component §r= Full component JSON of the received chat line
+- §z$$sender_uuid §r= UUID of the sender (or ERROR if unavailable)
+- §z$$sender_name §r= Plain name of the sender (or ERROR if unavailable)"
+      -> "fancymenu.listeners.on_damage_taken.desc": "This listener triggers once when the player takes damage.
+
+It provides the following variables for its actions and requirements:
+
+- §z$$damage_amount §r= The amount of health removed by the hit
+- §z$$damage_type §r= The resource location of the damage type
+- §z$$is_fatal_damage §r= TRUE when the hit reduced the player to zero health
+- §z$$damage_source §r= The resource location of the entity that caused the damage or NONE when unavailable"
+      -> "fancymenu.listeners.on_entity_died.desc": "§xRequires FancyMenu on the server.§r
+
+This listener triggers whenever an entity dies anywhere on the connected server/world (even if the player is far away or in another dimension).
+
+It provides the following variables for its actions and requirements:
+
+- §z$$entity_key §r= The resource location of the entity type that died
+- §z$$distance_to_player §r= The distance from the player to the death position (returns -1 when the entity died in another dimension)
+- §z$$death_pos_x §r= The X coordinate where the entity died
+- §z$$death_pos_y §r= The Y coordinate where the entity died
+- §z$$death_pos_z §r= The Z coordinate where the entity died
+- §z$$entity_uuid §r= The UUID of the entity that died
+- §z$$dimension_key §r= The dimension the entity died in
+- §z$$damage_type §r= The resource location of the damage type that caused the death
+- §z$$is_same_dimension_as_player §r= If TRUE, the entity died in the same dimension as the player
+- §z$$entity_killed_by_name §r= The plain text name of the killer or NONE when unavailable
+- §z$$entity_killed_by_key §r= The resource location of the killer's type (uses minecraft:player for players, NONE when unavailable)
+- §z$$entity_killed_by_uuid §r= The UUID of the killer or NONE when unavailable"
+      -> "fancymenu.listeners.on_item_used.desc": "This listener triggers once when the player uses an item.
+
+It provides the following variables for its actions and requirements:
+
+- §z$$item_key §r= The resource location of the item that was used
+- §z$$used_on_type §r= The interaction context (block, entity, self, none)
+- §z$$used_on_entity_key §r= The resource location of the entity type that was targeted, empty when none
+- §z$$used_on_block_key §r= The resource location of the block that was targeted, empty when none
+- §z$$target_pos_x §r= Target X position when available, otherwise -1
+- §z$$target_pos_y §r= Target Y position when available, otherwise -1
+- §z$$target_pos_z §r= Target Z position when available, otherwise -1"
+      -> "fancymenu.listeners.on_music_track_started.desc": "This listener triggers once when a new music track starts playing.
+
+It provides the following variables for its actions and requirements:
+
+- §z$$track_resource_location §r= The resolved resource location of the audio file that started
+- §z$$track_display_name §r= Human-readable track name when available, otherwise UNKNOWN
+- §z$$track_artist §r= Reported track artist when available, otherwise UNKNOWN
+- §z$$track_duration_ms §r= Track duration expressed in milliseconds (0 when unknown)"
+      -> "fancymenu.listeners.on_music_track_stopped.desc": "This listener triggers once when the current music track stops playing (naturally or because it was replaced).
+
+It provides the following variables for its actions and requirements:
+
+- §z$$track_resource_location §r= The resolved resource location of the audio file that stopped
+- §z$$track_display_name §r= Human-readable track name when available, otherwise UNKNOWN
+- §z$$track_artist §r= Reported track artist when available, otherwise UNKNOWN
+- §z$$track_duration_ms §r= Track duration expressed in milliseconds (0 when unknown)"
+      -> "fancymenu.listeners.on_world_sound_triggered.desc": "This listener triggers whenever a positional world sound starts playing near the player.
+
+It provides the following variables for its actions and requirements:
+
+- §z$$sound_resource_location §r= The resolved resource location of the sound file that started
+- §z$$sound_display_name §r= The localized display name shown in the subtitles overlay when available
+- §z$$sound_origin_pos_x §r= The X position of the sound's origin
+- §z$$sound_origin_pos_y §r= The Y position of the sound's origin
+- §z$$sound_origin_pos_z §r= The Z position of the sound's origin
+- §z$$sound_origin_distance_to_player §r= The distance between the player and the sound origin
+- §z$$sound_origin_direction_from_player §r= Direction in degrees (0-360) relative to where the player is facing when the sound started"
+      -> "fancymenu.menu_background.choose.available_types": "Available Background Types"
+      -> "fancymenu.menu_background.deprecated.details": "This background type is deprecated and gets
+removed or replaced in the future.
+It is also possible that there is already an
+alternative available."
+      -> "fancymenu.panorama.choose.available_panoramas": "Available Panoramas"
+      -> "fancymenu.placeholders.nbt_data_get.desc": "Gets NBT data from entities and blocks (similar to '/data get' command).
+Returns the value at the specified NBT path.
+
+§lTIP: §rUse the '/data get' command in-game without setting a path
+to easily get all available NBT paths for an entity or block!
+
+Required values:
+- source_type: The data source type ('entity' or 'block')
+- nbt_path: The NBT path to query (e.g. 'foodLevel', 'Pos[0]', 'Inventory[0].id')
+
+Conditional values:
+- entity_selector: Entity selector when source_type is 'entity'
+  Supports: @s (self), @p (nearest player), @e (nearest entity),
+  UUID, or entity name
+- block_pos: Block position when source_type is 'block'
+  Format: 'x y z' (e.g. '100 64 -200')
+
+Optional values:
+- scale: Scale factor for numeric values (default: 1.0)
+- return_type: How to return the data (default: 'value')
+  Options: 'value' (numeric/size), 'string' (text value),
+  'snbt' (formatted NBT), 'json' (JSON format)
+
+Returns empty string if data cannot be accessed or path is invalid."
+      -> "fancymenu.placeholders.world.current_world_seed.desc": "Returns the seed of the current world.
+Returns an empty value if no world is loaded or the seed is not available."
+      -> "fancymenu.placeholders.world.level_save_names.desc": "Returns a list of all available local world save names.
+
+Values:
+§eseparator§r = The separator text between world names. Default is ', '."
+      -> "fancymenu.requirements.is_internet_connection_available": "Is Internet Connection Available"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Returns true when there is a working internet connection available."
+      -> "fancymenu.requirements.is_mod_loaded.desc": "Check if a specific mod is loaded.
+
+You can find the IDs of mods in the 'Mods' menu.
+This menu is available by default
+on Forge. On Fabric, download
+the 'Mod Menu' mod."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Available Requirements"
+      -> "fancymenu.requirements.world.has_player_permission_level.desc": "Returns TRUE when the current player has at least the specified permission level (0-4). Level 4 is the default level set via the OP command. Works in singleplayer worlds and multiplayer servers where permission data is available."
+      -> "fancymenu.slideshow.choose.available_slideshows": "Available Slideshows"
+      -> "fancymenu.ui.filechooser.no_preview": "No preview available."
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/es_mx.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Acciones disponibles"
+      -> "fancymenu.listeners.choose_type.available": "Listeners disponibles"
+      -> "fancymenu.menu_background.choose.available_types": "Tipos de fondo disponibles"
+      -> "fancymenu.panorama.choose.available_panoramas": "Panoramas disponibles"
+      -> "fancymenu.requirements.is_internet_connection_available": "Hay conexión a internet disponible"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Devuelve true cuando hay una conexión a internet funcional disponible."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Requisitos disponibles"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Presentaciones de diapositivas disponibles"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/fr_fr.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Actions disponibles"
+      -> "fancymenu.listeners.choose_type.available": "Écouteurs disponibles"
+      -> "fancymenu.menu_background.choose.available_types": "Types d’arrière-plan disponibles"
+      -> "fancymenu.panorama.choose.available_panoramas": "Panoramas disponibles"
+      -> "fancymenu.requirements.is_internet_connection_available": "Connexion Internet disponible"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Renvoie true lorsqu'une connexion Internet fonctionnelle est disponible."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Conditions disponibles"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Diaporamas disponibles"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/ja_jp.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "利用可能なアクション"
+      -> "fancymenu.listeners.choose_type.available": "使えるリスナー"
+      -> "fancymenu.menu_background.choose.available_types": "使える背景タイプ"
+      -> "fancymenu.panorama.choose.available_panoramas": "選択可能なパノラマ"
+      -> "fancymenu.requirements.is_internet_connection_available": "インターネット接続あり"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "使えるインターネット接続があれば true を返します。"
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "使える要件"
+      -> "fancymenu.slideshow.choose.available_slideshows": "選択可能なスライドショー"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/ko_kr.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "사용 가능한 액션"
+      -> "fancymenu.listeners.choose_type.available": "사용 가능한 리스너"
+      -> "fancymenu.menu_background.choose.available_types": "사용 가능한 배경 유형"
+      -> "fancymenu.panorama.choose.available_panoramas": "사용 가능한 파노라마"
+      -> "fancymenu.requirements.is_internet_connection_available": "인터넷 연결 가능 여부"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "사용 가능한 작동하는 인터넷 연결이 있으면 true를 반환합니다."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "사용 가능한 요구사항"
+      -> "fancymenu.slideshow.choose.available_slideshows": "사용 가능한 슬라이드쇼"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/pl_pl.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Dostępne akcje"
+      -> "fancymenu.listeners.choose_type.available": "Dostępne listenery"
+      -> "fancymenu.menu_background.choose.available_types": "Dostępne typy tła"
+      -> "fancymenu.panorama.choose.available_panoramas": "Dostępne panoramy"
+      -> "fancymenu.requirements.is_internet_connection_available": "Czy połączenie z internetem jest dostępne"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Zwraca true, gdy dostępne jest działające połączenie z internetem."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Dostępne wymogi"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Dostępne pokazy slajdów"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/ru_ru.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "Доступные действия"
+      -> "fancymenu.listeners.choose_type.available": "Доступные слушатели"
+      -> "fancymenu.menu_background.choose.available_types": "Доступные типы фона"
+      -> "fancymenu.panorama.choose.available_panoramas": "Доступные панорамы"
+      -> "fancymenu.requirements.is_internet_connection_available": "Есть подключение к интернету"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "Возвращает true, если доступно рабочее подключение к интернету."
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "Доступные требования"
+      -> "fancymenu.slideshow.choose.available_slideshows": "Доступные слайд-шоу"
+
+[JAR] fancymenu_forge_3.9.12_MC_1.20.1.jar
+      файл внутри архива: assets/fancymenu/lang/zh_cn.json
+      -> "fancymenu.actions.screens.build_screen.available_actions": "可用动作"
+      -> "fancymenu.listeners.choose_type.available": "可用监听器"
+      -> "fancymenu.menu_background.choose.available_types": "可用背景类型"
+      -> "fancymenu.panorama.choose.available_panoramas": "可用的全景图"
+      -> "fancymenu.requirements.is_internet_connection_available": "是否有可用的互联网连接"
+      -> "fancymenu.requirements.is_internet_connection_available.desc": "如果当前有可用且正常工作的互联网连接，则返回 true。"
+      -> "fancymenu.requirements.screens.build_screen.available_requirements": "可用需求"
+      -> "fancymenu.slideshow.choose.available_slideshows": "可用幻灯片"
+
+[JAR] FarmersDelight-1.20.1-1.3.4.jar
+      файл внутри архива: assets/farmersdelight/lang/en_us.json
+      -> "advancements.farmersdelight.master_chef.description": "Eat a course of every meal available!"
+
+[JAR] flan-1.20.1-1.11.16-forge.jar
+      файл внутри архива: data/flan/lang/en_us.json
+      -> "flan.commands.helpHeader.1": "  Available Subcommands (Page %s)"
+      -> "flan.command.help.1": "Shows all available commands or info for the given command."
+
+[JAR] FramedBlocks-9.4.3.jar
+      файл внутри архива: assets/framedblocks/lang/en_us.json
+      -> "msg.framedblocks.frame_crafter.fail.material_value": "Insufficient input material available"
+
+[JAR] ftb-quests-forge-2001.4.22.jar
+      файл внутри архива: assets/ftbquests/lang/en_us.json
+      -> "ftbquests.quest.misc.exclusive.desc": "Completing this makes other branches unavailable"
+      -> "ftbquests.quest.dependencies.max_completable_dependents.tooltip": "If > 0, at most this number of dependents can be completed, and uncompleted dependents become unavailable
+Useful to have exclusive branches in a questline"
+
+[JAR] ftb-teams-forge-2001.3.2.jar
+      файл внутри архива: assets/ftbteams/lang/en_us.json
+      -> "ftbteams.gui.no_players": "No players available"
+
+[JAR] jupiter-2.3.7-1.20.1-forge.jar
+      файл внутри архива: assets/jupiter/lang/en_us.json
+      -> "jupiter.screen.unavailable": "Config is disabled or not provided"
+
+[JAR] jupiter-2.3.7-1.20.1-forge.jar
+      файл внутри архива: assets/jupiter/lang/zh_cn.json
+      -> "jupiter.screen.unavailable": "配置已禁用或者Mod未提供"
+
+[JAR] keyflow-forge-1.20.1-1.10.jar
+      файл внутри архива: assets/keyflow/lang/en_us.json
+      -> "marker.keyflow.unavailable": "Unavailable"
+      -> "key.keyflow.unavailable": "This action is currently unavailable"
+      -> "tooltip.config.keyflow.open_bind": "Also available under Options > Controls > Key Binds > KeyFlow. Left Alt is the default."
+
+[JAR] keyflow-forge-1.20.1-1.10.jar
+      файл внутри архива: assets/keyflow_wheel/lang/en_us.json
+      -> "message.keyflow.wheel_unavailable": "This action cannot be run safely from the Wheel"
+      -> "message.keyflow.command_unavailable": "This command cannot run right now"
+
+[JAR] Kiwi-1.20.1-Forge-11.10.3.jar
+      файл внутри архива: assets/kiwi/lang/en_us.json
+      -> "kiwi.config.cosmeticScreenKeybind.desc": "Opens the Kiwi Cosmetic Screen by holding K, if you have available cosmetics"
+
+[JAR] legendarytabs-1.20.1-2.0.jar
+      файл внутри архива: assets/legendarytabs/lang/en_us.json
+      -> "message.legendarytabs.tab_unavailable": "This menu is not linked anymore"
+
+[JAR] lightmanscurrency-1.20.1-2.3.0.5.jar
+      файл внутри архива: assets/lightmanscurrency/lang/en_us.json
+      -> "command.lightmanscurrency.lcclaims.info.claims": "You have bought %1$s of %2$s available claim chunks"
+      -> "command.lightmanscurrency.lcclaims.info.forceload": "You have bought %1$s of %2$s available forceload chunks"
+      -> "gui.lightmanscurrency.bank.salary.salary_info.insufficient_funds": "Not enough funds are currently available to pay the next salary!"
+      -> "gui.lightmanscurrency.ejection_menu.no_data": "No Ejection Data Available"
+      -> "gui.lightmanscurrency.notrades": "No Available Trades"
+      -> "tooltip.lightmanscurrency.terminal.info.auction_house": "%s auction(s) available"
+      -> "traderule.lightmanscurrency.demand_pricing.info": "Trade Price changes depending on available stock"
+
+[JAR] lightmanscurrency-1.20.1-2.3.0.5.jar
+      файл внутри архива: assets/lightmanscurrency/lang/es_es.json
+      -> "gui.lightmanscurrency.bank.noteamsavailable": "No tienes acceso a ninguna cuenta bancaria de los equipos."
+
+[JAR] lightmanscurrency-1.20.1-2.3.0.5.jar
+      файл внутри архива: assets/lightmanscurrency/lang/ko_kr.json
+      -> "gui.lightmanscurrency.bank.noteamsavailable": "팀 은행 계좌에 연결할 수 있는 권한이 없습니다"
+
+[JAR] lightmanscurrency-1.20.1-2.3.0.5.jar
+      файл внутри архива: assets/lightmanscurrency/lang/lol_us.json
+      -> "gui.lightmanscurrency.notrades": "No Available Trades"
+      -> "tooltip.lightmanscurrency.terminal.info.auction_house": "%s auction(s) available"
+      -> "gui.lightmanscurrency.bank.noteamsavailable": "You don't have access to any teams bank account."
+      -> "gui.lightmanscurrency.trader_recovery.nodata": "No Recovery Data available."
+      -> "command.lightmanscurrency.lcclaims.claims.info": "You have bought %1$s of %2$s available claim chunks."
+      -> "command.lightmanscurrency.lcclaims.forceload.info": "You have bought %1$s of %2$s available forceload chunks."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_flirty/lang/en_us.json
+      -> "flirty.dialogue.stay.no_space/2": "Oh, my heart flutters at the thought of staying, but alas, there are no cozy beds available for a charming individual like myself."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_lazy/lang/en_us.json
+      -> "lazy.dialogue.no_money/3": "Look, I may be available for hire, but I won't budge an inch until I see a lot more emeralds in your hand."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_gloomy/lang/en_us.json
+      -> "gloomy.dialogue.goaway/3": "Apologies, %1$s, I'm unavailable at the moment."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_confident/lang/en_us.json
+      -> "confident.dialogue.stay.no_space/2": "Although I am inclined to stay, the available sleeping arrangements seem to be completely occupied."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_sensitive/lang/en_us.json
+      -> "sensitive.dialogue.chat.taiga/5": "With the abundance of food available in our taiga, our wolves have become quite friendly and docile. It's truly remarkable how they've learned to coexist peacefully with us."
+      -> "sensitive.dialogue.stay.no_space/2": "I do have a slight inclination to remain here, but regrettably, there seems to be a shortage of available resting quarters."
+      -> "sensitive.dialogue.hire/1": "Absolutely, just give me a heads up whenever you require assistance. I shall make myself available for the agreed-upon remuneration."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_peppy/lang/en_us.json
+      -> "peppy.dialogue.chat.taiga/5": "Can you believe it? The wolves in these parts are practically like our best friends. With all the food available, they're practically domesticated!"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/be_by.json
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/id_id.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/hu_hu.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/ro_ro.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/el_el.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/en_pt.json
+      -> "gui.info.gift.line.1": "Gift available"
+      -> "gui.interact.label.gift": "Gift available. Skewer t' claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs be %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models nah available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/sv_se.json
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/ja_ja.json
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/ar_sa.json
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/pt_pt.json
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/mt_mt.json
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/fa_ir.json
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/el_gr.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/ko_ko.json
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/en_us.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/sr_sp.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/cs_cs.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/af_za.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/cs_cz.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/tr_tr.json
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/esan.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/zh_hk.json
+      -> "gui.info.gift.line.1": "Gift Available"
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/fi_fi.json
+      -> "gui.interact.label.gift": "Gift available. Click to claim."
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+      -> "gui.villager_editor.model_blacklist_hint": "(Custom models not available)"
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca/lang/uk_uk.json
+      -> "gui.villager_editor.list_of_ids": "Available UUIDs are %s$s."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/be_by.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/id_id.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/hu_hu.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/ro_ro.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/en_pt.json
+      -> "interaction.matchmaker.fail.engaged/5": "I be sorry, but I be nah available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/sv_se.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/ar_sa.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/mt_mt.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/fa_ir.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/el_gr.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/en_us.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/sr_sp.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/af_za.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/cs_cz.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/esan.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/zh_hk.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/ja_jp.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/fi_fi.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue/lang/th_th.json
+      -> "interaction.matchmaker.fail.engaged/5": "I'm sorry, but I'm not available..."
+
+[JAR] minecraft-comes-alive-7.6.26+1.20.1-universal.jar
+      файл внутри архива: assets/mca_dialogue_odd/lang/en_us.json
+      -> "odd.dialogue.chat.taiga/5": "You won't believe how chill the wolves are around here. With so much food available, they practically roll over and beg for treats. It's like having a pack of fluffy, loyal friends!"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/en_us.json
+      -> "mmorpg.gui.available_support_slots": "Support Slots: %1$s/5 Available"
+      -> "mmorpg.chat.prophecy_not_active_this_map": "You must find and use a Prophecy Altar in this Map (if available) before you can reroll Prophecy Rewards"
+      -> "mmorpg.word.jewel_socket_not_available": "Unlock on talent tree"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/es_ar.json
+      -> "mmorpg.gui.available_support_slots": "Engarces de Asistencia: %1$s/5 Disponible/s"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/es_es.json
+      -> "mmorpg.gui.available_support_slots": "Engarces de Asistencia: %1$s/5 Disponible/s"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/es_mx.json
+      -> "mmorpg.gui.available_support_slots": "Engarces de Asistencia: %1$s/5 Disponible/s"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/es_uy.json
+      -> "mmorpg.gui.available_support_slots": "Engarces de Asistencia: %1$s/5 Disponible/s"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/es_ve.json
+      -> "mmorpg.gui.available_support_slots": "Engarces de Asistencia: %1$s/5 Disponible/s"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/fr_fr.json
+      -> "mmorpg.gui.available_support_slots": "Emplacement de Supports: %1$s/5 Disponibles"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/ja_jp.json
+      -> "mmorpg.gui.available_support_slots": "サポート スロット: %1$s/5 が利用可能"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/ko_kr.json
+      -> "mmorpg.gui.available_support_slots": "보조 보석 슬롯: %1$s/5 사용가능"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/pt_br.json
+      -> "mmorpg.gui.available_support_slots": "Espaços de Suporte: %1$s/5 Disponíveis"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/ru_ru.json
+      -> "mmorpg.gui.available_support_slots": "Доступные слоты поддержки: %1$s/5"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/uk_ua.json
+      -> "mmorpg.gui.available_support_slots": "Слотів підтримки: %1$s/5 доступно"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/zh_cn.json
+      -> "mmorpg.gui.available_support_slots": "辅助宝石槽位可用：%1$s/5"
+
+[JAR] Mine_and_Slash-1.20.1-6.4.13.jar
+      файл внутри архива: assets/mmorpg/lang/zh_tw.json
+      -> "mmorpg.gui.available_support_slots": "輔助插槽: %1$s/5 可用"
+
+[JAR] modernfix-forge-5.27.83+mc1.20.1.jar
+      файл внутри архива: assets/modernfix/lang/en_us.json
+      -> "modernfix.option.mixin.bugfix.edge_chunk_not_saved": "This option is a port of SuperCoder's Chunk Saving Fix mod (because I didn't realize it was already available for Forge at the time)."
+
+[JAR] ModernUI-Forge-1.20.1-3.12.0.1-universal.jar
+      файл внутри архива: assets/modernui/lang/en_us.json
+      -> "error.modernui.gl_caps.tooltip": "The graphics engine of Modern UI has been disabled due to the failure of OpenGL 4.5 core or ARB capability test. This means that all GUIs provided by Modern UI will not be rendered or drawn. However, the text engine, smooth scrolling, GUI scale slider option, blur background, game loading ding sound, inventory screen pause and other functions provided by Modern UI Forge extension are still available.
+GPU: %s, OpenGL: %s. The following ARB extensions are required: %s
+For Windows and Linux, first update your GPU drivers. If you have integrated GPU, run Java applications with dedicated GPU. For macOS or in other cases, click OK for help."
+
+[JAR] ModernUI-Forge-1.20.1-3.12.0.1-universal.jar
+      файл внутри архива: assets/modernui/lang/ru_ru.json
+      -> "error.modernui.gl_caps.tooltip": "The graphics engine of Modern UI has been disabled due to the failure of OpenGL 4.5 core or ARB capability test. This means that all GUIs provided by Modern UI will not be rendered or drawn. However, the text engine, smooth scrolling, GUI scale slider option, blur background, game loading ding sound, inventory screen pause and other functions provided by Modern UI Forge extension are still available.
+GPU: %s, OpenGL: %s. The following ARB extensions are required: %s
+For Windows and Linux, first update your GPU drivers. If you have integrated GPU, run Java applications with dedicated GPU. For macOS or in other cases, click OK for help."
+
+[JAR] MoogsStructureLib-forge-1.20-3.1.2.jar
+      файл внутри архива: assets/moogs_structures/lang/en_us.json
+      -> "moogs_structures.config.preview.unavailable": "No preview: this mod hasn't set a preview link (mod_slug)."
+
+[JAR] Paraglider-forge-20.1.3.jar
+      файл внутри архива: assets/paraglider/lang/en_us.json
+      -> "commands.paraglider.bargain.start.no_bargain": "No bargain recipes are available to %s with bargain type %s and position %s"
+
+[JAR] Patchouli-1.20.1-85-FORGE.jar
+      файл внутри архива: assets/patchouli/lang/en_us.json
+      -> "patchouli.gui.lexicon.index.info": "An index of every chapter available in this book.$(br2)You may search through the index, or any other category, by simply typing in your query. A search bar will then appear to assist you."
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/de_de.json
+      -> "gui.refinedstorage.crafting_preview.available": "Verfügbar: %d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/en_us.json
+      -> "gui.refinedstorage.crafting_preview.available": "Available: %d"
+      -> "gui.refinedstorage.jei.transfer.autocrafting_available": "Autocrafting available"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/es_es.json
+      -> "gui.refinedstorage.crafting_preview.available": "Disponible: %d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/fr_fr.json
+      -> "gui.refinedstorage.crafting_preview.available": "Disponible: %d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/it_it.json
+      -> "gui.refinedstorage.crafting_preview.available": "Disponibile: %d"
+      -> "gui.refinedstorage.jei.transfer.autocrafting_available": "Fabbricazione automatica disponibile"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/ja_jp.json
+      -> "gui.refinedstorage.crafting_preview.available": "使用: %d"
+      -> "gui.refinedstorage.jei.transfer.autocrafting_available": "自動クラフトが出来る"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/ko_kr.json
+      -> "gui.refinedstorage.crafting_preview.available": "사용 가능: %d"
+      -> "gui.refinedstorage.jei.transfer.autocrafting_available": "자동 제작 사용 가능"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/pl_pl.json
+      -> "gui.refinedstorage.crafting_preview.available": "Dostępne: %d"
+      -> "gui.refinedstorage.jei.transfer.autocrafting_available": "Auto-wytwarzanie dostępne"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/pt_br.json
+      -> "gui.refinedstorage.crafting_preview.available": "Disponível: %d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/ru_ru.json
+      -> "gui.refinedstorage.crafting_preview.available": "Доступно: %d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/zh_cn.json
+      -> "gui.refinedstorage.crafting_preview.available": "可用：%d"
+
+[JAR] refinedstorage-1.12.4.jar
+      файл внутри архива: assets/refinedstorage/lang/zh_tw.json
+      -> "gui.refinedstorage.crafting_preview.available": "可用數量: %d"
+
+[JAR] sophisticatedbackpacks-1.20.1-3.26.3.2157.jar
+      файл внутри архива: assets/sophisticatedbackpacks/lang/en_us.json
+      -> "gui.sophisticatedbackpacks.status.mob_catcher_no_space": "No empty %sx%s slot area available"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/de_de.json
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r Update verfügbar: %s. Klicke für mehr Details."
+      -> "vivecraft.messages.serversettingsnotavailable": "§6Du spielst gerade auf einem Server. Servereinstellungen können nur auf dem Client geändert werden, welcher das Spiel hostet.§r
+§6Wenn du ein OP bist, kannst du mit dem Befehl '/vivecraft-server-config' Einstellungen auf Servern mit Vivecraft verändern.§r"
+      -> "vivecraft.messages.serversettingsnotavailablesingle": "§6Dies ist eine Servereinstellung, und kann nur im Einzelspielermodus geändert werden.§r
+§6Wenn du ein OP bist, kannst du sie mit dem Befehl '/vivecraft-server-config' auf Servern mit Vivecraft verändern.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/en_ca.json
+      -> "_comment72": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment95": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment261": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment294": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment317": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment318": "vivecraft.messages.updateTitle=New Update Available"
+      -> "_comment348": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment349": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/en_gb.json
+      -> "vivecraft.options.FREEMOVE_MODE.tooltip": "The source for free-move direction.
+
+  Controller: Off-hand controller pointing direction.
+  HMD: Headset look direction.
+  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your headset.
+  Room: Yaw is relative to your VR room forward. Pitch is your headset. This mode is best only for 180 setups.
+  Waist: Yaw is based on the waist FBT tracker. Pitch is your headset. If FBT is not available, this uses the body yaw estimation."
+      -> "vivecraft.messages.intelgraphics1": "Intel Graphics are not supported on Windows because of bad drivers.
+
+Currently used GPU: %s
+
+Available GPUs: %s
+
+%s"
+      -> "vivecraft.options.FREEMOVE_FLY_MODE.tooltip": "The source for free-move direction when flying.
+
+  Auto: uses the same direction as regular Free-move.
+  Controller: Off-hand controller pointing direction.
+  HMD: Headset look direction.
+  Waist: Yaw is based on the waist FBT tracker. Pitch is your headset. If FBT is not available, this uses the body yaw estimation."
+      -> "vivecraft.options.RADIAL_NUMBER.tooltip": "Number of buttons available in the radial menu."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r Update available: %s. Click for more details."
+      -> "vivecraft.messages.updateTitle": "New Update Available"
+      -> "vivecraft.messages.serversettingsnotavailable": "§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r
+§6If you are an OP you can use the '/vivecraft-server-config' command on servers with Vivecraft to change options.§r"
+      -> "vivecraft.messages.serversettingsnotavailablesingle": "§6This is a server setting and can only be adjusted in single-player.§r
+§6If you are an OP you can use the '/vivecraft-server-config' command on servers with Vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/en_us.json
+      -> "vivecraft.options.FREEMOVE_MODE.tooltip": "The source for freemove direction.
+
+  Controller: Offhand controller pointing direction.
+  HMD: Headset look direction.
+  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.
+  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.
+  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "vivecraft.messages.intelgraphics1": "Intel Graphics are not supported on Windows because of bad drivers.
+
+Currently used GPU: %s
+
+Available GPUs: %s
+
+%s"
+      -> "vivecraft.options.FREEMOVE_FLY_MODE.tooltip": "The source for freemove direction when flying.
+
+  Auto: uses the same direction as regular Freemove.
+  Controller: Offhand controller pointing direction.
+  HMD: Headset look direction.
+  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "vivecraft.options.RADIAL_NUMBER.tooltip": "Number of buttons available in the radial menu."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "vivecraft.messages.updateTitle": "New Update Available"
+      -> "vivecraft.messages.serversettingsnotavailable": "§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r
+§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "vivecraft.messages.serversettingsnotavailablesingle": "§6This is a server setting and can only be adjusted in singleplayer.§r
+§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/es_es.json
+      -> "_comment71": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment93": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment258": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment291": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment314": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment315": "vivecraft.messages.updateTitle=New Update Available"
+      -> "_comment345": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment346": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/fr_fr.json
+      -> "_comment20": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment66": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r Mise à jour disponible : %s. cliquez pour plus de détails."
+      -> "vivecraft.messages.serversettingsnotavailable": "§6Vous jouez actuellement sur un serveur. Les paramètres du serveur ne peuvent être modifiés que sur le client qui héberge la partie.§r 
+§6Si vous êtes OP, vous pouvez utiliser la commande '/vivecraft-server-config' sur les serveurs avec Vivecraft pour modifier les options.§r"
+      -> "vivecraft.messages.serversettingsnotavailablesingle": "§6Ceci est un paramètre serveur et ne peut être ajusté qu’en solo.§r 
+§6Si vous êtes OP, vous pouvez utiliser la commande '/vivecraft-server-config' sur les serveurs avec Vivecraft pour le modifier.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/ja_jp.json
+      -> "_comment44": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment174": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment198": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r 更新があります: %s。クリックして詳細を表示します。"
+      -> "_comment235": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment236": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/ko_kr.json
+      -> "_comment59": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment80": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment239": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment272": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment294": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment324": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment325": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/nl_nl.json
+      -> "_comment36": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment59": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment225": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment256": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment279": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment280": "vivecraft.messages.updateTitle=New Update Available"
+      -> "_comment310": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment311": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/pl_pl.json
+      -> "_comment70": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment92": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment258": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment291": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment314": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment315": "vivecraft.messages.updateTitle=New Update Available"
+      -> "_comment345": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment346": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/pt_pt.json
+      -> "_comment112": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment182": "vivecraft.messages.intelgraphics1=Intel Graphics are not supported on Windows because of bad drivers.\n\nCurrently used GPU: %s\n\nAvailable GPUs: %s\n\n%s"
+      -> "_comment327": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment360": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "_comment382": "vivecraft.messages.updateAvailable=§a[Vivecraft]§r Update available: %s. click for more details."
+      -> "_comment398": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment399": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/ru_ru.json
+      -> "_comment21": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r Доступно обновление: %s. Нажмите для деталей."
+      -> "_comment60": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment61": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/zh_cn.json
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r 有新版本: %s。 点击查看详情。"
+      -> "vivecraft.messages.serversettingsnotavailable": "§6你正在服务器上游玩。服务端设置只能在服务端上修改。§r
+§6如果你是管理员，可以使用命令 '/vivecraft-server-config' 来修改Vivecraft设置。§r"
+      -> "vivecraft.messages.serversettingsnotavailablesingle": "§6这是一个服务端设置，你只能在单人模式中修改。§r
+§6如果你是管理员，可以使用命令 '/vivecraft-server-config' 来修改Vivecraft设置。§r"
+
+[JAR] vivecraft-1.20.1-1.3.15-forge.jar
+      файл внутри архива: assets/vivecraft/lang/zh_tw.json
+      -> "_comment21": "vivecraft.options.FREEMOVE_MODE.tooltip=The source for freemove direction.\n\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Run-In-Place: Yaw is based on how controllers are swinging. Pitch is your Headset.\n  Room: Yaw is relative to your VR room forward. Pitch is your Headset. This mode is best only for 180 setups.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment120": "vivecraft.options.FREEMOVE_FLY_MODE.tooltip=The source for freemove direction when flying.\n\n  Auto: uses the same direction as regular Freemove.\n  Controller: Offhand controller pointing direction.\n  HMD: Headset look direction.\n  Waist: Yaw is based on the waist FBT tracker. Pitch is your Headset. If FBT is not available this uses the body yaw estimation."
+      -> "_comment136": "vivecraft.options.RADIAL_NUMBER.tooltip=Number of buttons available in the radial menu."
+      -> "vivecraft.messages.updateAvailable": "§a[Vivecraft]§r 更新可用：%s。點擊以查看更多詳細資訊。"
+      -> "_comment169": "vivecraft.messages.serversettingsnotavailable=§6You are currently playing on a server. Server settings can only be changed on the client that is hosting the game.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change options.§r"
+      -> "_comment170": "vivecraft.messages.serversettingsnotavailablesingle=§6This is a server setting and can only be adjusted in singleplayer.§r\n§6If you are an OP you can use the '/vivecraft-server-config' command on servers with vivecraft to change it.§r"
+
+[JAR] xaerominimap-forge-1.20.1-26.5.0.jar
+      файл внутри архива: assets/xaerominimap/lang/en_us.json
+      -> "gui.xaero_old_minecraft": "This feature is not available on this old version of Minecraft."
+
+[RESOURCEPACK zip] Redcap_LC_Retexture7.5.zip
+      файл внутри архива: assets/lightmanscurrency/lang/en_us.json
+      -> "gui.lightmanscurrency.notrades": "No Available Trades"
+      -> "gui.lightmanscurrency.bank.noteamsavailable": "You don't have access to any teams bank account."
+      -> "gui.lightmanscurrency.trader_recovery.nodata": "No Recovery Data available."
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\advancementplaques-common.toml
+      -> # Same options available as blacklist.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\airhop-server.toml
+      -> #Makes the enchantment unobtainable from enchanting tables. It is only available on items from loot chests, fishing and villager trading.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\attributeslib.cfg
+      -> # If the Attributes GUI is available.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\brewinandchewin-common.toml
+      -> #Should the Keg have a Recipe Book available on its interface?
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\crabbersdelight-common.toml
+      -> #Number of seashell variants available (must match textures/models/blockstates files)
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\explorerscompass-client.toml
+      -> #Attempts to translate structure names before fixing the unlocalized names. Translations may not be available for all structures.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\forge-client.toml
+      -> #Not recommended for computers without a significant number of cores available.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\jupiter.json
+      -> "configButtonReplacement": "UNAVAILABLE_ONLY",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\legendarytooltips-common.toml
+      -> # the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
+      -> # There are many options available for setting up which custom borders (also called frames) apply to which items.  Follow these steps:
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\moonlight-common.toml
+      -> #Enables multi-threaded generation for dynamic assets (if supported). This could improve performance on systems with more cores available.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\supplementaries-common.toml
+      -> #Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same type
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\watut-client.toml
+      -> #This is for the older non dynamic GUI only. If there isnt an exact Gui available for what the player is using, it will show the Chest Gui. If this is false, it will show nothing, lots of modded Guis will use this for now
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\watut-item-arm-adjustments.json
+      -> "comment4": "matchingHandX and matchingHandY are probably all you need, for watuts animations, X is the main up/down, and Y is left/right, Z is available but usually not needed",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\betterstrongholds\forge-1_20\README.txt
+      -> Common armor stands spawn in Armoury rooms, while Rare ones are only available in the rare Commander rooms.
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\biomeswevegone\world_generation.json
+      -> "comment": "Setting this to False will disable all vanilla additions, making the enabled_vanilla_additions section ignored.  (Only Available on Fabric and NeoForge)",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityFishingDrops\README.txt
+      -> - Available events: Easter, Winter, Summer, Halloween, Christmas
+      -> AVAILABLE EVENTS:
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityLootDrops\README.txt
+      -> /lootdrops listall - List all available events
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityLootDrops\Loot Drops\Event Drops\Easter\Global_Hostile_Drops.json
+      -> "_comment": "Complete example showing all available options",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityLootDrops\Loot Drops\Event Drops\Halloween\Global_Hostile_Drops.json
+      -> "_comment": "Complete example showing all available options",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityLootDrops\Loot Drops\Event Drops\Summer\Global_Hostile_Drops.json
+      -> "_comment": "Complete example showing all available options",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\EntityLootDrops\Loot Drops\Event Drops\Winter\Global_Hostile_Drops.json
+      -> "_comment": "Complete example showing all available options",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\flan\lang\en_us.json
+      -> "helpHeader": "Available subcommands are (page %d):",
+      -> "Shows all available commands or info for the given command."
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\openloader\resources\resources\assets\enlighten\lang\en_us.json
+      -> "enlighten.term.spell": "In CTE2, all learnable objects in Class screen will be considered as Skill.\n\nThe stat of Skill is determined by caster's stat and the inherent stat, Skill level only affects the available slots of [Support gem](support_gem).",
+      -> "enlighten.term.support_gem":"Support Gems can be inserted into sockets on a Skill Gem in order to modify the effects of that Skill. They only apply to the Skill Gem they are socketed into.\n\nYou cannot use multiple Support Gems of the same kind in one Skill.\n\nThe number of available Support Gem slot depends on the Skill's level.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\openloader\resources\resources\assets\flan\lang\en_us.json
+      -> "flan.helpHeader": "Available subcommands are (page %s):",
+      -> "flan.command.help.1": "Shows all available commands or info for the given command.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\config\openloader\resources\resources\assets\mmorpg\lang\en_us.json
+      -> "mmorpg.word.jewel_socket_not_available": "Jewel Socket Unavailable. Unlock this in the Talent Tree.",
+      -> "mmorpg.item_tips.rune_item_usage": "Socket into your gear in a specific combination to craft Runewords.\nRight-click while holding to view available Runewords.",
+      -> "spell.desc.prayer": "Harness the power of divinity, applying the Prayer [Aura](aura) on yourself. While active, nearby [allies](allies) heal for [calc:prayer] Health and [Magic Shield](magic_shield) each second. They also gain the Prayer Effect, which provides a bonus to Healing Received.\n\n§cYou can only have ONE [Aura](aura) active at a time. You can also view the Prayer Effect in the Mine and Slash Library, available through the HUB.§7",
+      -> "spell.desc.flicker_strike": "Teleport forward a small distance, stopping at the nearest enemy in front of you if available, and deal [calc:flicker_strike] §6☀ [Physical](physical_damage)§7 Damage in an area around you.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\de_de.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\en_us.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay have multiple mechanics active&r. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\es_es.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\fr_fr.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\ja_jp.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\ko_kr.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\zh_cn.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\zh_hk.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
+
+[CONFIG] C:\Users\Alphanok\AppData\Roaming\PrismLauncher\instances\Craft to Exile 2 - 2.1.4 Atlas Update\minecraft\kubejs\assets\ftbquestlocalizer\lang\zh_tw.json
+      -> "ftbquests.chapter.act_0.quest119B706F79F22360.description2": "One defensive option in combat is the ability to roll (default: Alt). This is available to everyone. However, if you equip a shield, you can also use it to block damage.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description1": "Gems and Runes can be socketed into gear that have available sockets. You can add sockets through some Mine and Slash currencies.",
+      -> "ftbquests.chapter.act_0.quest4C9F8B8F01189196.description4": "&eRight-click while holding a Rune to see available Runewords to craft!&r &eRunewords&r can only be created in &eRuned&r rarity items.",
+      -> "ftbquests.chapter.act_v.quest62656B385EA3960.description1": "Within Mine and Slash Maps, there are additional events that can occur. Each Map &emay only have one mechanic active&r, unless you have special modifiers that allow for more. You will have already seen two of them which were available to spawn starting at level 50.",
+      -> "ftbquests.chapter.homestead.quest5E71DC1D9E7A83BB.description5": "There are other FramedBlock tools available, check them out in &eJEI&r!",
+      -> "ftbquests.chapter.jolly_cooperation.quest2BB4B6FE41F4CC58.description1": "&eTrading Terminals&r allow you to trade with any other traders on the &eglobal network&r. You can also access the server's &eAuction House&r which isn't available to regular players.",
+      -> "ftbquests.chapter.jolly_cooperation.quest4EB78B5D6F8061E9.description2": "Full mod &einstructions&r are available in the &emod guide book.&r Some features like &emultiplayer instrument playing&r aren't discussed here.",
+      -> "ftbquests.chapter.jolly_cooperation.quest64C7494796410D04.description2": "Use a &eCash Register&r to &elink&r any placed traders with right click to &ebind&r it to the &eregister.&r Once the register is placed, all the trades available in the traders &ewill show up&r in the &eCash Register interface&r.",
