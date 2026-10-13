@@ -1,0 +1,7 @@
+{
+  "parent": "cte_essentials:custom/lantern_of_poe_(1)",
+  "textures": {
+    "1": "cte_essentials:block/lantern_of_poe",
+    "particle": "cte_essentials:item/l_helmet0"
+  }
+}

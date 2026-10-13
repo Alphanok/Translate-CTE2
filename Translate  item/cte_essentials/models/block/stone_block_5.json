@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "cte_essentials:block/ore_block5",
+    "particle": "cte_essentials:block/ore_block5"
+  },
+  "render_type": "solid"
+}
